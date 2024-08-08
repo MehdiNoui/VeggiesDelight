@@ -43,6 +43,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> WILD_BELLPEPPERS = registerBlock("wild_bellpeppers",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> WILD_CAULIFLOWERS = registerBlock("wild_cauliflowers",
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

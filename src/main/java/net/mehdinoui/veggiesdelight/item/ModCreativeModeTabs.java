@@ -41,6 +41,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());
 
                         pOutput.accept(ModBlocks.WILD_BELLPEPPERS.get());
+                        pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
                             }
                     ).build());
 

@@ -2,6 +2,7 @@ package net.mehdinoui.veggiesdelight.block;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.block.custom.BellpepperCropBlock;
+import net.mehdinoui.veggiesdelight.block.custom.CauliflowerCropBlock;
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -33,6 +34,10 @@ public class ModBlocks {
     //CROPS
     public static final RegistryObject<Block> BELLPEPPER_CROP = BLOCKS.register("bellpepper_crop",
             () -> new BellpepperCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> CAULIFLOWER_CROP = BLOCKS.register("cauliflower_crop",
+            () -> new CauliflowerCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+
 
     //WILD_CROPS
     public static final RegistryObject<Block> WILD_BELLPEPPERS = registerBlock("wild_bellpeppers",

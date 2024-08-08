@@ -24,6 +24,10 @@ public class ModItems {
     public static final RegistryObject<Item> BELLPEPPER_SEEDS = ITEMS.register("bellpepper_seeds",
             ()->new ItemNameBlockItem(ModBlocks.BELLPEPPER_CROP.get(),new Item.Properties()));
 
+    public static final RegistryObject<Item> CAULIFLOWER_SEEDS = ITEMS.register("cauliflower_seeds",
+            ()->new ItemNameBlockItem(ModBlocks.CAULIFLOWER_CROP.get(),new Item.Properties()));
+
+
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",
             ()->new Item(new Item.Properties().food(ModFoods.BELLPEPPER)));
     public static final RegistryObject<Item> SMOKED_BELLPEPPER = ITEMS.register("smoked_bellpepper",
@@ -35,9 +39,8 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.SHAKSHOUKA), true));
     public static final RegistryObject<Item> STUFFED_BELLPEPPERS= ITEMS.register("stuffed_bellpeppers",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.STUFFED_BELLPEPPERS), true));
+
     //CAULIFLOWER
-    public static final RegistryObject<Item> CAULIFLOWER_SEEDS = ITEMS.register("cauliflower_seeds",
-            ()->new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CAULIFLOWER = ITEMS.register("cauliflower",
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER)));

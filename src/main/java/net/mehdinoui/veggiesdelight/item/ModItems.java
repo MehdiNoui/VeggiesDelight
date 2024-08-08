@@ -28,6 +28,8 @@ public class ModItems {
             ()->new ItemNameBlockItem(ModBlocks.CAULIFLOWER_CROP.get(),new Item.Properties()));
 
 
+    //BELL PEPPER
+
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",
             ()->new Item(new Item.Properties().food(ModFoods.BELLPEPPER)));
     public static final RegistryObject<Item> SMOKED_BELLPEPPER = ITEMS.register("smoked_bellpepper",

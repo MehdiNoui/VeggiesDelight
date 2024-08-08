@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "veggiesdelight:bellpepper"
+    },
+    {
+      "item": "veggiesdelight:bellpepper"
+    },
+    {
+      "item": "veggiesdelight:bellpepper"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:stuffed_bellpeppers"
+  }
+}

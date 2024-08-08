@@ -1,0 +1,24 @@
+{
+  "item.veggiesdelight.bellpepper": "Bell Pepper",
+  "item.veggiesdelight.smoked_bellpepper": "Smoked Bell Pepper",
+  "item.veggiesdelight.cacciatore": "Cacciatore",
+  "item.veggiesdelight.shakshouka": "Shakshouka",
+  "item.veggiesdelight.stuffed_bellpeppers": "Stuffed Bell Peppers",
+  "item.veggiesdelight.bellpepper_seeds": "Bell Pepper Seeds",
+
+  "item.veggiesdelight.cauliflower": "Cauliflower",
+  "item.veggiesdelight.cauliflower_seeds":"Cauliflower Seeds",
+  "item.veggiesdelight.cauliflower_floret": "Cauliflower Floret",
+  "item.veggiesdelight.fried_cauliflower_floret": "Fried Cauliflower Floret",
+  "item.veggiesdelight.cauliflower_patty": "Cauliflower Patty",
+  "item.veggiesdelight.cooked_cauliflower_patty": "Cooked Cauliflower Patty",
+  "item.veggiesdelight.cauliflower_soup": "Cauliflower Soup",
+
+
+  "block.veggiesdelight.bellpepper_crate": "Bell Pepper Crate",
+  "block.veggiesdelight.cauliflower_crate": "Cauliflower Crate",
+
+  "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
+
+  "creativetab.veggiesdelight_tab": "Veggies' Delight"
+}

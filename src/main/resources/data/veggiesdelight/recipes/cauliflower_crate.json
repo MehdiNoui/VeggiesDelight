@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "veggiesdelight:cauliflower"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:cauliflower_crate",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AB",
+    "CD"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:crops/cabbage"
+    },
+    "B": {
+      "item": "farmersdelight:tomato"
+    },
+    "C": {
+      "item": "veggiesdelight:cauliflower_floret"
+    },
+    "D": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result":{
+    "item":"farmersdelight:mixed_salad",
+    "count": 1
+  }
+}

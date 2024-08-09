@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AB"
+  ],
+  "key": {
+    "A": {
+      "item": "veggiesdelight:cauliflower_floret"
+    },
+    "B": {
+      "tag": "forge:eggs"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:cauliflower_patty",
+    "count": 1
+  }
+}

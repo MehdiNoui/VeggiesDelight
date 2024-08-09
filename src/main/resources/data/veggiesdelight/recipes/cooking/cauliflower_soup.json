@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "veggiesdelight:cauliflower_floret"
+    },
+    {
+      "item": "veggiesdelight:cauliflower_floret"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:cauliflower_soup"
+  }
+}

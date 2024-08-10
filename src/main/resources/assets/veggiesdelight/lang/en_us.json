@@ -14,11 +14,15 @@
   "item.veggiesdelight.cooked_cauliflower_patty": "Cooked Cauliflower Patty",
   "item.veggiesdelight.cauliflower_soup": "Cauliflower Soup",
 
+  "item.veggiesdelight.sweet_potato": "Sweet Potato",
+
   "block.veggiesdelight.bellpepper_crate": "Bell Pepper Crate",
   "block.veggiesdelight.cauliflower_crate": "Cauliflower Crate",
+  "block.veggiesdelight.sweet_potato_crate": "Sweet Potato Crate",
 
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
+  "block.veggiesdelight.wild_sweet_potatoes": "Wild Sweet Potatoes",
 
   "creativetab.veggiesdelight_tab": "Veggies' Delight",
 

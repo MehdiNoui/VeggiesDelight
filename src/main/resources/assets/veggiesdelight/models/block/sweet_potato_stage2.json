@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "veggiesdelight:block/sweet_potato_stage2"
+  },
+  "render_type": "minecraft:cutout"
+}

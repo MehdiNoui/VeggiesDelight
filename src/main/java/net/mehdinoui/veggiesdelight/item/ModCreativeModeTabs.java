@@ -42,7 +42,10 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.WILD_BELLPEPPERS.get());
                         pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
-                            }
+
+                        pOutput.accept(ModItems.VEGAN_PIZZA.get());
+                        pOutput.accept(ModItems.VEGAN_PIZZA_SLICE.get());
+                    }
                     ).build());
 
     public static void register(IEventBus eventBus) {

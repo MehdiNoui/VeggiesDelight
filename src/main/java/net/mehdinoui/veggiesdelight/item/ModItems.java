@@ -35,6 +35,11 @@ public class ModItems {
     public static final RegistryObject<Item> SMOKED_BELLPEPPER = ITEMS.register("smoked_bellpepper",
             ()->new Item(new Item.Properties().food(ModFoods.SMOKED_BELLPEPPER)));
 
+    public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VEGAN_PIZZA_SLICE = ITEMS.register("vegan_pizza_slice",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.VEGAN_PIZZA_SLICE), true));
+
     public static final RegistryObject<Item> CACCIATORE = ITEMS.register("cacciatore",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CACCIATORE), true));
     public static final RegistryObject<Item> SHAKSHOUKA = ITEMS.register("shakshouka",
@@ -56,6 +61,7 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.COOKED_CAULIFLOWER_PATTY)));
     public static final RegistryObject<Item> CAULIFLOWER_SOUP = ITEMS.register("cauliflower_soup",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

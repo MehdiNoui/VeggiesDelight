@@ -35,4 +35,9 @@ public class ModFoods {
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
             nutrition(5).saturationMod(0.5f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
+
+    public static final FoodProperties VEGAN_PIZZA_SLICE = new FoodProperties.Builder().
+            nutrition(4).saturationMod(0.8f)
+            .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
+
 }

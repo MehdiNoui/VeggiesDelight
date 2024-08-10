@@ -20,6 +20,9 @@
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
 
-  "creativetab.veggiesdelight_tab": "Veggies' Delight"
+  "creativetab.veggiesdelight_tab": "Veggies' Delight",
+
+  "item.veggiesdelight.vegan_pizza": "Vegan Pizza",
+  "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice"
 
 }

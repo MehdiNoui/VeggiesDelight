@@ -56,6 +56,9 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.COOKED_CAULIFLOWER_PATTY)));
     public static final RegistryObject<Item> CAULIFLOWER_SOUP = ITEMS.register("cauliflower_soup",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
+    public static final RegistryObject<Item> CAULIFLOWER_BURGER = ITEMS.register("cauliflower_burger",
+            ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BURGER)));
+
 
     //SWEET POTATO
     public static final RegistryObject<Item> BAKED_SWEET_POTATO = ITEMS.register("baked_sweet_potato",

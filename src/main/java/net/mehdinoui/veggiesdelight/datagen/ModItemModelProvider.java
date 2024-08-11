@@ -31,6 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CAULIFLOWER_PATTY);
         simpleItem(ModItems.COOKED_CAULIFLOWER_PATTY);
         simpleItem(ModItems.CAULIFLOWER_SOUP);
+        simpleItem(ModItems.CAULIFLOWER_BURGER);
 
         simpleItem(ModItems.VEGAN_PIZZA);
         simpleItem(ModItems.VEGAN_PIZZA_SLICE);

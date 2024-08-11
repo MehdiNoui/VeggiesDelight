@@ -44,14 +44,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SHAKSHOUKA.get());
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());
 
-                        pOutput.accept(ModBlocks.WILD_BELLPEPPERS.get());
-                        pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
-                        pOutput.accept(ModBlocks.WILD_SWEET_POTATOES.get());
-
+                        pOutput.accept(ModItems.CAULIFLOWER_BURGER.get());
                         pOutput.accept(ModItems.SWEET_POTATO_PIE.get());
                         pOutput.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA_SLICE.get());
+
+
+                        pOutput.accept(ModBlocks.WILD_BELLPEPPERS.get());
+                        pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
+                        pOutput.accept(ModBlocks.WILD_SWEET_POTATOES.get());
                     }
                     ).build());
 

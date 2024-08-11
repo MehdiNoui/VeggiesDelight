@@ -70,11 +70,11 @@ public class ModItems {
     public static final RegistryObject<Item> SWEET_POTATO_PIE = ITEMS.register("sweet_potato_pie",
             ()->new Item(new Item.Properties()));
     public static final RegistryObject<Item> SWEET_POTATO_PIE_SLICE = ITEMS.register("sweet_potato_pie_slice",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.SWEET_POTATO_PIE_SLICE), true));
+            ()->new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_PIE_SLICE)));
     public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
             ()->new Item(new Item.Properties()));
     public static final RegistryObject<Item> VEGAN_PIZZA_SLICE = ITEMS.register("vegan_pizza_slice",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.VEGAN_PIZZA_SLICE), true));
+            ()->new Item(new Item.Properties().food(ModFoods.VEGAN_PIZZA_SLICE)));
 
 
     public static void register(IEventBus eventBus) {

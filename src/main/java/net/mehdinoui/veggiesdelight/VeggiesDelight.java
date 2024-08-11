@@ -76,12 +76,27 @@ public class VeggiesDelight
         public static void onVillagerTrades(VillagerTradesEvent event) {
             if (event.getType() == VillagerProfession.FARMER) {
                 List<VillagerTrades.ItemListing> level1Trades = event.getTrades().get(1);
+                List<VillagerTrades.ItemListing> level2Trades = event.getTrades().get(2);
 
                 level1Trades.add((entity, random) -> new MerchantOffer(
-                        new ItemStack(ModItems.BELLPEPPER.get(), 22), // Soybean in quantity
+                        new ItemStack(ModItems.BELLPEPPER.get(), 26), // Soybean in quantity
                         new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
                         12, // Max uses
                         3, // Villager XP
+                        0.05f // Price multiplier
+                ));
+                level1Trades.add((entity, random) -> new MerchantOffer(
+                        new ItemStack(ModItems.SWEET_POTATO.get(), 26), // Soybean in quantity
+                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                        12, // Max uses
+                        3, // Villager XP
+                        0.05f // Price multiplier
+                ));
+                level2Trades.add((entity, random) -> new MerchantOffer(
+                        new ItemStack(ModItems.CAULIFLOWER.get(), 18), // Soybean in quantity
+                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                        12, // Max uses
+                        7, // Villager XP
                         0.05f // Price multiplier
                 ));
             }

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:potatoes"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:vegetable_soup"
+  }
+}

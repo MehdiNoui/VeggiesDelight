@@ -42,5 +42,12 @@ public class ModFoods {
 
     public static final FoodProperties SWEET_POTATO = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.1F).build();
+    public static final FoodProperties BAKED_SWEET_POTATO = new FoodProperties.Builder().
+            nutrition(4).saturationMod(0.4f).build();
+    public static final FoodProperties MASHED_POTATOES = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.6f)
+            .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
+    public static final FoodProperties SWEET_POTATO_PIE_SLICE = new FoodProperties.Builder().
+            nutrition(5).build();
 
 }

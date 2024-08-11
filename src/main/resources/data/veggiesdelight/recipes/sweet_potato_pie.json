@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "B": {
+      "item": "veggiesdelight:baked_sweet_potato"
+    },
+    "C": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "veggiesdelight:sweet_potato_pie"
+  }
+}

@@ -35,12 +35,6 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.BELLPEPPER)));
     public static final RegistryObject<Item> SMOKED_BELLPEPPER = ITEMS.register("smoked_bellpepper",
             ()->new Item(new Item.Properties().food(ModFoods.SMOKED_BELLPEPPER)));
-
-    public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> VEGAN_PIZZA_SLICE = ITEMS.register("vegan_pizza_slice",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.VEGAN_PIZZA_SLICE), true));
-
     public static final RegistryObject<Item> CACCIATORE = ITEMS.register("cacciatore",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CACCIATORE), true));
     public static final RegistryObject<Item> SHAKSHOUKA = ITEMS.register("shakshouka",
@@ -63,9 +57,24 @@ public class ModItems {
     public static final RegistryObject<Item> CAULIFLOWER_SOUP = ITEMS.register("cauliflower_soup",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
 
+    //SWEET POTATO
+    public static final RegistryObject<Item> BAKED_SWEET_POTATO = ITEMS.register("baked_sweet_potato",
+            ()->new Item(new Item.Properties().food(ModFoods.BAKED_SWEET_POTATO)));
+    public static final RegistryObject<Item> MASHED_POTATOES = ITEMS.register("mashed_potatoes",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.MASHED_POTATOES), true));
+
+    //EXTRA
+    public static final RegistryObject<Item> SWEET_POTATO_PIE = ITEMS.register("sweet_potato_pie",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SWEET_POTATO_PIE_SLICE = ITEMS.register("sweet_potato_pie_slice",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.SWEET_POTATO_PIE_SLICE), true));
+    public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VEGAN_PIZZA_SLICE = ITEMS.register("vegan_pizza_slice",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.VEGAN_PIZZA_SLICE), true));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
-
 }

@@ -32,12 +32,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SMOKED_BELLPEPPER.get());
                         pOutput.accept(ModItems.CAULIFLOWER_FLORET.get());
                         pOutput.accept(ModItems.FRIED_CAULIFLOWER_FLORET.get());
+                        pOutput.accept(ModItems.BAKED_SWEET_POTATO.get());
 
                         pOutput.accept(ModItems.CAULIFLOWER_PATTY.get());
                         pOutput.accept(ModItems.COOKED_CAULIFLOWER_PATTY.get());
 
                         pOutput.accept(ModItems.CACCIATORE.get());
                         pOutput.accept(ModItems.CAULIFLOWER_SOUP.get());
+                        pOutput.accept(ModItems.MASHED_POTATOES.get());
 
                         pOutput.accept(ModItems.SHAKSHOUKA.get());
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());
@@ -46,6 +48,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
                         pOutput.accept(ModBlocks.WILD_SWEET_POTATOES.get());
 
+                        pOutput.accept(ModItems.SWEET_POTATO_PIE.get());
+                        pOutput.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA_SLICE.get());
                     }

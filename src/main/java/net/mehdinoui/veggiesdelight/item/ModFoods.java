@@ -38,7 +38,7 @@ public class ModFoods {
     public static final FoodProperties COOKED_CAULIFLOWER_PATTY = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.7f).build();
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
-            nutrition(6).saturationMod(0.5f).fast()
+            nutrition(7).saturationMod(0.5f).fast()
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CAULIFLOWER_BURGER = new FoodProperties.Builder().
             nutrition(11).saturationMod(0.8f)

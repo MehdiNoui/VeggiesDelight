@@ -11,7 +11,7 @@
       "item": "minecraft:bread"
     },
     "B": {
-      "tag": "forge:salad_ingredient"
+      "tag": "forge:crops/cabbage"
     },
     "C": {
       "item": "veggiesdelight:cooked_cauliflower_patty"

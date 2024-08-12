@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 300,
+  "experience": 3.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "veggiesdelight:potato_noodle"
+    },
+    {
+      "item": "veggiesdelight:potato_noodle"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:potato_noodles"
+  }
+}

@@ -21,6 +21,11 @@ public class ModFoods {
     public static final FoodProperties STUFFED_BELLPEPPERS = new FoodProperties.Builder().
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties UNCOOKED_MHADJEB = new FoodProperties.Builder().
+            nutrition(4).saturationMod(0.2F).build();
+    public static final FoodProperties MHADJEB= new FoodProperties.Builder().
+            nutrition(8).saturationMod(0.5f).fast().build();
+
 
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).build();
@@ -53,5 +58,12 @@ public class ModFoods {
     public static final FoodProperties SWEET_POTATO_PIE_SLICE = new FoodProperties.Builder().
             nutrition(5).saturationMod(0.4f)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
+    public static final FoodProperties POTATO_NOODLE = new FoodProperties.Builder().
+            nutrition(4).saturationMod(0.2f).build();
+    public static final FoodProperties POTATO_NOODLES = new FoodProperties.Builder().
+            nutrition(10).saturationMod(0.6f).fast()
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
+
+
 
 }

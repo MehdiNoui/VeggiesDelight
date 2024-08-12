@@ -34,12 +34,17 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FRIED_CAULIFLOWER_FLORET.get());
                         pOutput.accept(ModItems.BAKED_SWEET_POTATO.get());
 
+                        pOutput.accept(ModItems.POTATO_NOODLE.get());
                         pOutput.accept(ModItems.CAULIFLOWER_PATTY.get());
                         pOutput.accept(ModItems.COOKED_CAULIFLOWER_PATTY.get());
+                        pOutput.accept(ModItems.UNCOOKED_MHADJEB.get());
+                        pOutput.accept(ModItems.MHADJEB.get());
 
                         pOutput.accept(ModItems.CACCIATORE.get());
                         pOutput.accept(ModItems.CAULIFLOWER_SOUP.get());
                         pOutput.accept(ModItems.MASHED_POTATOES.get());
+                        pOutput.accept(ModItems.POTATO_NOODLES.get());
+
 
                         pOutput.accept(ModItems.SHAKSHOUKA.get());
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());

@@ -41,6 +41,10 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.SHAKSHOUKA), true));
     public static final RegistryObject<Item> STUFFED_BELLPEPPERS= ITEMS.register("stuffed_bellpeppers",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.STUFFED_BELLPEPPERS), true));
+    public static final RegistryObject<Item> UNCOOKED_MHADJEB = ITEMS.register("uncooked_mhadjeb",
+            ()->new Item(new Item.Properties().food(ModFoods.UNCOOKED_MHADJEB)));
+    public static final RegistryObject<Item> MHADJEB = ITEMS.register("mhadjeb",
+            ()->new Item(new Item.Properties().food(ModFoods.MHADJEB)));
 
     //CAULIFLOWER
 
@@ -65,6 +69,11 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.BAKED_SWEET_POTATO)));
     public static final RegistryObject<Item> MASHED_POTATOES = ITEMS.register("mashed_potatoes",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.MASHED_POTATOES), true));
+    public static final RegistryObject<Item> POTATO_NOODLE = ITEMS.register("potato_noodle",
+            ()->new Item(new Item.Properties().food(ModFoods.POTATO_NOODLE)));
+    public static final RegistryObject<Item> POTATO_NOODLES = ITEMS.register("potato_noodles",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.POTATO_NOODLES), true));
+
 
     //EXTRA
     public static final RegistryObject<Item> SWEET_POTATO_PIE = ITEMS.register("sweet_potato_pie",

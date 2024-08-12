@@ -23,6 +23,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SHAKSHOUKA);
         simpleItem(ModItems.SMOKED_BELLPEPPER);
         simpleItem(ModItems.STUFFED_BELLPEPPERS);
+        simpleItem(ModItems.UNCOOKED_MHADJEB);
+        simpleItem(ModItems.MHADJEB);
 
         simpleItem(ModItems.CAULIFLOWER);
         simpleItem(ModItems.CAULIFLOWER_SEEDS);
@@ -41,6 +43,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BAKED_SWEET_POTATO);
         simpleItem(ModItems.SWEET_POTATO_PIE);
         simpleItem(ModItems.SWEET_POTATO_PIE_SLICE);
+        simpleItem(ModItems.POTATO_NOODLE);
+        simpleItem(ModItems.POTATO_NOODLES);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

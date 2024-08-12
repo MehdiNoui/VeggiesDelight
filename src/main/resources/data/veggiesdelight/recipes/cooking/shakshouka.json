@@ -10,7 +10,7 @@
       "item": "veggiesdelight:bellpepper"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "forge:eggs"
     },
     {
       "item": "farmersdelight:tomato"

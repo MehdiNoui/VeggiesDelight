@@ -26,6 +26,7 @@ import org.slf4j.Logger;
 import java.util.List;
 
 // The value here should match an entry in the META-INF/mods.toml file
+//
 @Mod(VeggiesDelight.MOD_ID)
 public class VeggiesDelight
 {

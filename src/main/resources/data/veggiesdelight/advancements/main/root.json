@@ -1,0 +1,30 @@
+{
+  "display": {
+    "announce_to_chat": false,
+    "background": "veggiesdelight:textures/block/background.png",
+    "description": {
+      "translate": "veggiesdelight.advancement.root.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "veggiesdelight:bellpepper"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "veggiesdelight.advancement.root"
+    }
+  },
+  "criteria": {
+    "veggies": {
+      "conditions": {},
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "veggies"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

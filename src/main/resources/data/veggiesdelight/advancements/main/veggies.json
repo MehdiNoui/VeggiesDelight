@@ -1,0 +1,36 @@
+{
+  "parent": "veggiesdelight:main/root",
+  "display": {
+    "icon": {
+      "item": "veggiesdelight:bellpepper_seeds"
+    },
+    "title": {
+      "text": "Isn't this a fruit ?"
+    },
+    "description": {
+      "text": "An imposter among us"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:bellpepper","farmersdelight:tomato"]
+          }
+        ]
+      }
+    }
+  },
+  "fruit": [
+    ["fruit"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

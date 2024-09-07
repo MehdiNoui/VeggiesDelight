@@ -36,6 +36,12 @@
   "creativetab.veggiesdelight_tab": "Veggies Delight",
 
   "item.veggiesdelight.vegan_pizza": "Vegan Pizza",
-  "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice"
+  "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice",
+
+
+
+  "veggiesdelight.advancement.root": "Veggies Delight",
+  "veggiesdelight.advancement.root.desc": "Go get your veggies!"
+
 
 }

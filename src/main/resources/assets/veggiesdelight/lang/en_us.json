@@ -50,5 +50,17 @@
   "veggiesdelight.advancement.first.desc": "Collect your first vegetable",
 
   "veggiesdelight.advancement.all": "Gotta catch em all",
-  "veggiesdelight.advancement.all.desc": "Collect all of the veggies"
+  "veggiesdelight.advancement.all.desc": "Collect all of the veggies",
+
+  "veggiesdelight.advancement.pizza_time": "It's pizza time",
+  "veggiesdelight.advancement.pizza_time.desc": "Make your first Vegan Pizza",
+
+  "veggiesdelight.advancement.eat": "Eat any vegetable",
+  "veggiesdelight.advancement.eat.desc": "It's raw but it's still edible",
+
+  "veggiesdelight.advancement.burger": "I wouldn't call that a burger",
+  "veggiesdelight.advancement.burger.desc": "Make a cauliflower burger",
+
+  "veggiesdelight.advancement.cauliflower": "Vegan wings",
+  "veggiesdelight.advancement.cauliflower.desc": "Fry some cauliflower floret, the vegan fried chicken"
 }

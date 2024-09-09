@@ -29,8 +29,5 @@
   },
   "requirements":[
     ["fruit"]
-  ],
-  "rewards": {
-    "experience": 100
-  }
+  ]
 }

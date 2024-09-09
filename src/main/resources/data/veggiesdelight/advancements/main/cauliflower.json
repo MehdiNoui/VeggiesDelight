@@ -1,0 +1,33 @@
+{
+  "parent": "veggiesdelight:main/eat",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.cauliflower"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.cauliflower.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:fried_cauliflower_floret"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "floret": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:fried_cauliflower_floret"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["floret"]
+  ]
+}

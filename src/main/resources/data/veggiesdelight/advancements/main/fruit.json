@@ -1,14 +1,14 @@
 {
-  "parent": "veggiesdelight:main/root",
+  "parent": "veggiesdelight:main/first",
   "display": {
     "icon": {
-      "item": "veggiesdelight:bellpepper_seeds"
+      "item": "farmersdelight:tomato"
     },
     "title": {
-      "text": "Isn't this a fruit ?"
+      "translate": "veggiesdelight.advancement.fruit"
     },
     "description": {
-      "text": "An imposter among us"
+      "translate": "veggiesdelight.advancement.fruit.desc"
     },
     "frame": "task",
     "show_toast": true,
@@ -27,7 +27,7 @@
       }
     }
   },
-  "fruit": [
+  "requirements":[
     ["fruit"]
   ],
   "rewards": {

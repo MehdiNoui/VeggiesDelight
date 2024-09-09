@@ -1,0 +1,140 @@
+{
+  "parent": "veggiesdelight:main/first",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "veggiesdelight.advancement.all"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.all.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bellpepper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:bellpepper"
+            ]
+          }
+        ]
+      }
+    },
+    "sweet_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:sweet_potato"
+            ]
+          }
+        ]
+      }
+    },
+    "cauliflower": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "veggiesdelight:cauliflower"
+                ]
+              }
+            ]
+          }
+        },
+    "tomato": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "farmersdelight:tomato"
+                ]
+              }
+            ]
+          }
+    },
+    "onion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:onion"
+            ]
+          }
+        ]
+      }
+    },
+    "cabbage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:cabbage"
+            ]
+          }
+        ]
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potato"
+            ]
+          }
+        ]
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot"]
+          }
+        ]
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["bellpepper"],
+    ["sweet_potato"],
+    ["cauliflower"],
+    ["tomato"],
+    ["onion"],
+    ["cabbage"],
+    ["potato"],
+    ["carrot"],
+    ["beetroot"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

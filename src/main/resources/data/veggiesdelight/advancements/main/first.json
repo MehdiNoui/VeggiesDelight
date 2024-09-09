@@ -1,0 +1,45 @@
+{
+  "parent": "veggiesdelight:main/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_hoe"
+    },
+    "title": {
+      "translate": "veggiesdelight.advancement.first"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.first.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:bellpepper",
+              "veggiesdelight:sweet_potato",
+              "veggiesdelight:cauliflower",
+              "farmersdelight:tomato",
+              "farmersdelight:onion",
+              "farmersdelight:cabbage",
+              "minecraft:potato",
+              "minecraft:carrot",
+              "minecraft:beetroot"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements":[
+    ["first"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

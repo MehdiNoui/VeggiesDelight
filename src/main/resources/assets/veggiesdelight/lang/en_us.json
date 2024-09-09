@@ -41,7 +41,14 @@
 
 
   "veggiesdelight.advancement.root": "Veggies Delight",
-  "veggiesdelight.advancement.root.desc": "Go get your veggies!"
+  "veggiesdelight.advancement.root.desc": "Go get your veggies!",
 
+  "veggiesdelight.advancement.fruit": "Isn't this a fruit ?",
+  "veggiesdelight.advancement.fruit.desc": "A red spy is in the base",
 
+  "veggiesdelight.advancement.first": "Lettuce Begin",
+  "veggiesdelight.advancement.first.desc": "Collect your first vegetable",
+
+  "veggiesdelight.advancement.all": "Gotta catch em all",
+  "veggiesdelight.advancement.all.desc": "Collect all of the veggies"
 }

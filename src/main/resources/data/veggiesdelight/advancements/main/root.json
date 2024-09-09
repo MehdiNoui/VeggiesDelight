@@ -1,7 +1,7 @@
 {
   "display": {
     "announce_to_chat": false,
-    "background": "veggiesdelight:textures/block/background.png",
+    "background": "farmersdelight:textures/block/rich_soil.png",
     "description": {
       "translate": "veggiesdelight.advancement.root.desc"
     },

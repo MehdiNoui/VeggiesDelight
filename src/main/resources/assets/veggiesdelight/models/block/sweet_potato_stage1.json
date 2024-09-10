@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/generated",
+  "parent": "minecraft:block/crop",
   "textures": {
-    "cross": "veggiesdelight:block/sweet_potato_stage1"
+    "crop": "veggiesdelight:block/sweet_potato_stage1"
   },
   "render_type": "minecraft:cutout"
 }

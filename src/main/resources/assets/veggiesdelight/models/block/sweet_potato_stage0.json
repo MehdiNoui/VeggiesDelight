@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cross",
+  "parent": "minecraft:block/generated",
   "textures": {
     "cross": "veggiesdelight:block/sweet_potato_stage0"
   },

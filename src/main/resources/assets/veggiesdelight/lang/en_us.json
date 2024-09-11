@@ -43,24 +43,36 @@
   "veggiesdelight.advancement.root": "Veggies Delight",
   "veggiesdelight.advancement.root.desc": "Go get your veggies!",
 
-  "veggiesdelight.advancement.fruit": "Isn't this a fruit ?",
-  "veggiesdelight.advancement.fruit.desc": "A red spy is in the base",
+  "veggiesdelight.advancement.fruit": "Isn't this a fruit?",
+  "veggiesdelight.advancement.fruit.desc": "an Imposter among us",
 
   "veggiesdelight.advancement.first": "Lettuce Begin",
-  "veggiesdelight.advancement.first.desc": "Collect your first vegetable",
+  "veggiesdelight.advancement.first.desc": "Collect your first veggie",
 
-  "veggiesdelight.advancement.all": "Gotta catch em all",
+  "veggiesdelight.advancement.all": "Gotta catch 'em all",
   "veggiesdelight.advancement.all.desc": "Collect all of the veggies",
+
+  "veggiesdelight.advancement.eat": "It's raw but it's still edible",
+  "veggiesdelight.advancement.eat.desc": "Eat any kind of vegetable",
 
   "veggiesdelight.advancement.pizza_time": "It's pizza time",
   "veggiesdelight.advancement.pizza_time.desc": "Make your first Vegan Pizza",
 
-  "veggiesdelight.advancement.eat": "Eat any vegetable",
-  "veggiesdelight.advancement.eat.desc": "It's raw but it's still edible",
-
-  "veggiesdelight.advancement.burger": "I wouldn't call that a burger",
+  "veggiesdelight.advancement.burger": "Burger bloom",
   "veggiesdelight.advancement.burger.desc": "Make a cauliflower burger",
 
-  "veggiesdelight.advancement.cauliflower": "Vegan wings",
-  "veggiesdelight.advancement.cauliflower.desc": "Fry some cauliflower floret, the vegan fried chicken"
+  "veggiesdelight.advancement.cauliflower": "The vegan way",
+  "veggiesdelight.advancement.cauliflower.desc": "Fry some cauliflower florets, the vegan fried chicken",
+
+  "veggiesdelight.advancement.pie": "Sweet slice of life",
+  "veggiesdelight.advancement.pie.desc": "Bake a sweet potato pie",
+
+  "veggiesdelight.advancement.bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.bellpepper_master.desc": "Make every dish possible out of bell peppers",
+
+  "veggiesdelight.advancement.cauliflower_master": "Cauli-master",
+  "veggiesdelight.advancement.cauliflower_master.desc": "Make every dish possible out of cauliflowers",
+
+  "veggiesdelight.advancement.sweet_potato_master": "Sweet chef",
+  "veggiesdelight.advancement.sweet_potato_master.desc": "Make every dish possible out of sweet potatoes"
 }

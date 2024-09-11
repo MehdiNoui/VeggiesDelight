@@ -1,0 +1,56 @@
+{
+  "parent": "veggiesdelight:main/burger",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.cauliflower_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.cauliflower_master.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:cauliflower_soup"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:fried_cauliflower_floret"]
+          }
+        ]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:cauliflower_soup"]
+          }
+        ]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:cauliflower_burger"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["A"],["B"],["C"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

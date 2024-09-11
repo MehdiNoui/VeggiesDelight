@@ -1,0 +1,67 @@
+{
+  "parent": "veggiesdelight:main/pie",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.sweet_potato_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.sweet_potato_master.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:baked_sweet_potato"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:baked_sweet_potato"]
+          }
+        ]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:sweet_potato_pie"]
+          }
+        ]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:potato_noodles"]
+          }
+        ]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:mashed_potatoes"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["A"],["B"],["C"],["D"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}
+

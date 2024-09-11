@@ -1,5 +1,5 @@
 {
-  "parent": "veggiesdelight:main/fruit",
+  "parent": "veggiesdelight:main/fruit_veggie",
   "display": {
     "icon": {
       "item": "minecraft:netherite_hoe"

@@ -1,14 +1,14 @@
 {
-  "parent": "veggiesdelight:main/vegan_cauliflower",
+  "parent": "veggiesdelight:main/eat",
   "display": {
     "title": {
-      "translate": "veggiesdelight.advancement.burger"
+      "translate": "veggiesdelight.advancement.pie"
     },
     "description": {
-      "translate": "veggiesdelight.advancement.burger.desc"
+      "translate": "veggiesdelight.advancement.pie.desc"
     },
     "icon": {
-      "item": "veggiesdelight:cauliflower_burger"
+      "item": "veggiesdelight:sweet_potato_pie_slice"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:cauliflower_burger"]
+            "items": ["veggiesdelight:sweet_potato_pie"]
           }
         ]
       }

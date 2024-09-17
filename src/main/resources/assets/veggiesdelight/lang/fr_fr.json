@@ -1,0 +1,76 @@
+{
+  "item.veggiesdelight.bellpepper": "Poivron",
+  "item.veggiesdelight.smoked_bellpepper": "Poivron Fumé",
+  "item.veggiesdelight.cacciatore": "Cacciatore",
+  "item.veggiesdelight.shakshouka": "Shakshouka",
+  "item.veggiesdelight.stuffed_bellpeppers": "Poivrons Farcis",
+  "item.veggiesdelight.bellpepper_seeds": "Graines de Poivron",
+  "item.veggiesdelight.uncooked_mhadjeb": "Mhadjeb Non Cuit",
+  "item.veggiesdelight.mhadjeb": "Mhadjeb",
+
+  "item.veggiesdelight.cauliflower": "Chou-Fleur",
+  "item.veggiesdelight.cauliflower_seeds": "Graines de Chou-Fleur",
+  "item.veggiesdelight.cauliflower_floret": "Fleur de Chou-Fleur",
+  "item.veggiesdelight.fried_cauliflower_floret": "Fleur de Chou-Fleur Frite",
+  "item.veggiesdelight.cauliflower_patty": "Galette de Chou-Fleur",
+  "item.veggiesdelight.cooked_cauliflower_patty": "Galette de Chou-Fleur Cuite",
+  "item.veggiesdelight.cauliflower_soup": "Soupe de Chou-Fleur",
+  "item.veggiesdelight.cauliflower_burger": "Burger de Chou-Fleur",
+
+  "item.veggiesdelight.sweet_potato": "Patate Douce",
+  "item.veggiesdelight.baked_sweet_potato": "Patate Douce Rôtie",
+  "item.veggiesdelight.mashed_potatoes": "Purée de Pommes de Terre",
+  "item.veggiesdelight.sweet_potato_pie": "Tarte à la Patate Douce",
+  "item.veggiesdelight.sweet_potato_pie_slice": "Part de Tarte à la Patate Douce",
+  "item.veggiesdelight.potato_noodle": "Nouilles de Pommes de Terre",
+  "item.veggiesdelight.potato_noodles": "Nouilles de Pommes de Terre",
+
+  "block.veggiesdelight.bellpepper_crate": "Caisson de Poivrons",
+  "block.veggiesdelight.cauliflower_crate": "Caisson de Chou-Fleur",
+  "block.veggiesdelight.sweet_potato_crate": "Caisson de Patates Douces",
+
+  "block.veggiesdelight.wild_bellpeppers": "Poivrons Sauvages",
+  "block.veggiesdelight.wild_cauliflowers": "Choux-Fleurs Sauvages",
+  "block.veggiesdelight.wild_sweet_potatoes": "Patates Douces Sauvages",
+
+  "creativetab.veggiesdelight_tab": "Délices Végétariens",
+
+  "item.veggiesdelight.vegan_pizza": "Pizza Végétalienne",
+  "item.veggiesdelight.vegan_pizza_slice": "Part de Pizza Végétalienne",
+
+  "veggiesdelight.advancement.root": "Délices Végétariens",
+  "veggiesdelight.advancement.root.desc": "Allez chercher vos légumes !",
+
+  "veggiesdelight.advancement.fruit": "N'est-ce pas un fruit ?",
+  "veggiesdelight.advancement.fruit.desc": "Un imposteur parmi nous",
+
+  "veggiesdelight.advancement.first": "Commençons",
+  "veggiesdelight.advancement.first.desc": "Collectez votre premier légume",
+
+  "veggiesdelight.advancement.all": "Il faut tous les attraper",
+  "veggiesdelight.advancement.all.desc": "Collectionnez tous les légumes",
+
+  "veggiesdelight.advancement.eat": "C'est cru mais c'est encore comestible",
+  "veggiesdelight.advancement.eat.desc": "Mangez tout type de légume",
+
+  "veggiesdelight.advancement.pizza_time": "C'est l'heure de la pizza",
+  "veggiesdelight.advancement.pizza_time.desc": "Préparez votre première Pizza Végétalienne",
+
+  "veggiesdelight.advancement.burger": "Fleur de Burger",
+  "veggiesdelight.advancement.burger.desc": "Préparez un burger de chou-fleur",
+
+  "veggiesdelight.advancement.cauliflower": "Végétarisme",
+  "veggiesdelight.advancement.cauliflower.desc": "Faites frire des fleurs de chou-fleur, le poulet frit végétalien",
+
+  "veggiesdelight.advancement.pie": "Tranche sucrée de la vie",
+  "veggiesdelight.advancement.pie.desc": "Préparez une tarte à la patate douce",
+
+  "veggiesdelight.advancement.bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.bellpepper_master.desc": "Préparez tous les plats possibles à partir de poivrons",
+
+  "veggiesdelight.advancement.cauliflower_master": "Maître du Chou-Fleur",
+  "veggiesdelight.advancement.cauliflower_master.desc": "Préparez tous les plats possibles à partir de choux-fleurs",
+
+  "veggiesdelight.advancement.sweet_potato_master": "Chef Sucré",
+  "veggiesdelight.advancement.sweet_potato_master.desc": "Préparez tous les plats possibles à partir de patates douces"
+}

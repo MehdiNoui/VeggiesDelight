@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "veggiesdelight:block/garlic_crate_top",
+    "down": "veggiesdelight:block/crate_bottom",
+    "north": "veggiesdelight:block/garlic_crate_side",
+    "south":"veggiesdelight:block/garlic_crate_side",
+    "east": "veggiesdelight:block/garlic_crate_side",
+    "west": "veggiesdelight:block/garlic_crate_side",
+    "particle": "veggiesdelight:block/garlic_crate_top"
+  }
+}

@@ -7,6 +7,8 @@
   "item.veggiesdelight.bellpepper_seeds": "Bell Pepper Seeds",
   "item.veggiesdelight.uncooked_mhadjeb": "Uncooked Mhadjeb",
   "item.veggiesdelight.mhadjeb": "Mhadjeb",
+  "item.veggiesdelight.vegan_pizza": "Vegan Pizza",
+  "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice",
 
   "item.veggiesdelight.cauliflower": "Cauliflower",
   "item.veggiesdelight.cauliflower_seeds":"Cauliflower Seeds",
@@ -25,19 +27,21 @@
   "item.veggiesdelight.potato_noodle": "Potato Noodle",
   "item.veggiesdelight.potato_noodles": "Potato Noodles",
 
+  "block.veggiesdelight.garlic": "Garlic",
+  "block.veggiesdelight.garlic_clove": "Garlic Clove",
+
   "block.veggiesdelight.bellpepper_crate": "Bell Pepper Crate",
   "block.veggiesdelight.cauliflower_crate": "Cauliflower Crate",
+  "block.veggiesdelight.garlic_crate": "Garlic Crate",
   "block.veggiesdelight.sweet_potato_crate": "Sweet Potato Crate",
+
 
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
+  "block.veggiesdelight.wild_garlic": "Wild Garlic",
   "block.veggiesdelight.wild_sweet_potatoes": "Wild Sweet Potatoes",
 
   "creativetab.veggiesdelight_tab": "Veggies Delight",
-
-  "item.veggiesdelight.vegan_pizza": "Vegan Pizza",
-  "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice",
-
 
 
   "veggiesdelight.advancement.root": "Veggies Delight",

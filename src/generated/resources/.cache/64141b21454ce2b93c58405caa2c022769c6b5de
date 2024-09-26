@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-12T17:34:39.7132615	Item Models: veggiesdelight
+// 1.20.1	2024-09-26T16:00:56.9034044	Item Models: veggiesdelight
 c21ba6e55af2ad5ce7f5d8ed6186f170bf5449de assets/veggiesdelight/models/item/baked_sweet_potato.json
 f9d86b6dc358bf30077661dc70f9eb12b2e71a7c assets/veggiesdelight/models/item/bellpepper.json
 75acfc629808cbdd7dd77eb7f06dbe5eef1267b1 assets/veggiesdelight/models/item/bellpepper_seeds.json
@@ -11,6 +11,9 @@ bcc182dfdfa1c5ea06d433788fe8db095cc12388 assets/veggiesdelight/models/item/cauli
 53cf28bfa7d2006b591d9e090f2e96d1c8494bd9 assets/veggiesdelight/models/item/cauliflower_soup.json
 1a4fa64551c97e45f6aa44d7fb628540cd07eda5 assets/veggiesdelight/models/item/cooked_cauliflower_patty.json
 99b0d7e8d5c9cbc6b35ce5a8b30507053f550b35 assets/veggiesdelight/models/item/fried_cauliflower_floret.json
+d5f40fed8acce3213074a3e9f3ed4742b4cd1e06 assets/veggiesdelight/models/item/garlic.json
+e3e63b1379da635e616bc3e8babca33c08d20db0 assets/veggiesdelight/models/item/garlic_clove.json
+a6460148a1977bd463de332cc9589954aec4e92c assets/veggiesdelight/models/item/garlic_seeds.json
 a2ae9f8e6ad918be40a37f78c3fe3658dc0e89f5 assets/veggiesdelight/models/item/mashed_potatoes.json
 6affd644bb6a34bc36d497ec7c7ce636beee2992 assets/veggiesdelight/models/item/mhadjeb.json
 4907ebc3fa24fc935e55576a21d0a8e309b22731 assets/veggiesdelight/models/item/potato_noodle.json

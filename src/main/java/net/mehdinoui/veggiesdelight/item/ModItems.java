@@ -30,6 +30,9 @@ public class ModItems {
             ()->new ItemNameBlockItem(ModBlocks.CAULIFLOWER_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> SWEET_POTATO = ITEMS.register("sweet_potato",
             ()->new ItemNameBlockItem(ModBlocks.SWEET_POTATO_CROP.get(),new Item.Properties().food(ModFoods.SWEET_POTATO)));
+    public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",
+            ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),new Item.Properties()));
+
 
     //BELL PEPPER
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",

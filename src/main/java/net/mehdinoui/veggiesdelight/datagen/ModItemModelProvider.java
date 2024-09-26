@@ -47,6 +47,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.GARLIC);
         simpleItem(ModItems.GARLIC_CLOVE);
+        simpleItem(ModItems.GARLIC_SEEDS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

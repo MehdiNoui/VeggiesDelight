@@ -3,6 +3,7 @@ package net.mehdinoui.veggiesdelight.block;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.block.custom.BellpepperCropBlock;
 import net.mehdinoui.veggiesdelight.block.custom.CauliflowerCropBlock;
+import net.mehdinoui.veggiesdelight.block.custom.GarlicCropBlock;
 import net.mehdinoui.veggiesdelight.block.custom.SweetPotatoCropBlock;
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.world.effect.MobEffects;
@@ -13,6 +14,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.levelgen.structure.templatesystem.BlockAgeProcessor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -41,6 +43,8 @@ public class ModBlocks {
             () -> new CauliflowerCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
     public static final RegistryObject<Block> SWEET_POTATO_CROP = BLOCKS.register("sweet_potato_crop",
             () -> new SweetPotatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> GARLIC_CROP = BLOCKS.register("garlic_crop",
+            () -> new GarlicCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
     //WILD_CROPS

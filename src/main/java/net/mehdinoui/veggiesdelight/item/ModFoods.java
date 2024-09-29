@@ -66,5 +66,21 @@ public class ModFoods {
 
     public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.1f).fast().build();
+    public static final FoodProperties ROASTED_GARLIC_CLOVE = new FoodProperties.Builder().
+            nutrition(2).saturationMod(0.2f).fast().build();
+    public static final FoodProperties GARLIC_BREAD = new FoodProperties.Builder().
+            nutrition(5).saturationMod(0.4f).fast().build();
+    public static final FoodProperties GARLIC_CHICKEN_STEW = new FoodProperties.Builder().
+            nutrition(9).saturationMod(0.5f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
+    public static final FoodProperties GARLIC_BAKED_COD = new FoodProperties.Builder().
+            nutrition(14).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties GARLIC_RICE_WITH_CAULIFLOWER = new FoodProperties.Builder().
+            nutrition(14).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
+            nutrition(10).saturationMod(0.7f)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), BRIEF_DURATION, 0), 1.0F).build();
 
 }

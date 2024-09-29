@@ -90,6 +90,18 @@ public class ModItems {
             ()->new Item(new Item.Properties()));
     public static final RegistryObject<Item> GARLIC_CLOVE = ITEMS.register("garlic_clove",
             ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_CLOVE)));
+    public static final RegistryObject<Item> ROASTED_GARLIC_CLOVE = ITEMS.register("roasted_garlic_clove",
+            ()-> new Item(new Item.Properties().food(ModFoods.ROASTED_GARLIC_CLOVE)));
+    public static final RegistryObject<Item> GARLIC_BREAD = ITEMS.register("garlic_bread",
+            ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_BREAD)));
+    public static final RegistryObject<Item> GARLIC_CHICKEN_STEW = ITEMS.register("garlic_chicken_stew",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_CHICKEN_STEW), true));
+    public static final RegistryObject<Item> GARLIC_BAKED_COD = ITEMS.register("garlic_baked_cod",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_BAKED_COD), true));
+    public static final RegistryObject<Item> GARLIC_RICE_WITH_CAULIFLOWER= ITEMS.register("garlic_rice_with_cauliflower",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_RICE_WITH_CAULIFLOWER), true));
+    public static final RegistryObject<Item> CESAR_SALAD = ITEMS.register("cesar_salad",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.CESAR_SALAD), true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

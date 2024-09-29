@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BAD",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:cooked_fishes/cod"
+    },
+    "B": {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    "C": {
+      "item": "minecraft:bowl"
+    },
+    "D": {
+      "item": "farmersdelight:onion"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:garlic_baked_cod"
+  }
+}

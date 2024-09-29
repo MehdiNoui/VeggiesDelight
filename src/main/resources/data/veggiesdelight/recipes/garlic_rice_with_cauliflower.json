@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAB",
+    "CDB"
+  ],
+  "key": {
+    "A": {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    "B": {
+      "item": "veggiesdelight:fried_cauliflower_floret"
+    },
+    "C": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "D": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:garlic_rice_with_cauliflower",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:crops/cabbage"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "C": {
+      "item": "farmersdelight:onion"
+    },
+    "D": {
+      "item": "veggiesdelight:garlic_clove"
+    },
+    "E": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:cesar_salad"
+  }
+}

@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 public class ModItems {
     //long list of ITEMS
@@ -20,6 +21,7 @@ public class ModItems {
     public static Item.Properties bowlFoodItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.BOWL).stacksTo(16);
     }
+
     public static Item.Properties bottleItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.GLASS_BOTTLE).stacksTo(32);
     }
@@ -105,7 +107,7 @@ public class ModItems {
     public static final RegistryObject<Item> CESAR_SALAD = ITEMS.register("cesar_salad",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CESAR_SALAD), true));
     public static final RegistryObject<Item> FERMENTED_GARLIC_HONEY = ITEMS.register("fermented_garlic_honey",
-            ()->new ConsumableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
+            ()->new DrinkableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

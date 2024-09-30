@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "veggiesdelight:garlic_clove"
+    },
+    "B": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:fermented_garlic_honey",
+    "count": 1
+  }
+}

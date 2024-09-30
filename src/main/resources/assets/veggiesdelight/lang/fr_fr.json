@@ -46,6 +46,16 @@
   "block.veggiesdelight.wild_sweet_potatoes": "Patates Douces Sauvages",
   "block.veggiesdelight.wild_garlic": "Ails Sauvages",
 
+  "item.veggiesdelight.beetroot_pouch": "Poche de Graines de Betterave",
+  "item.veggiesdelight.bellpepper_pouch": "Poche de Graines de Poivron",
+  "item.veggiesdelight.cabbage_pouch": "Poche de Graines de Chou",
+  "item.veggiesdelight.cauliflower_pouch": "Poche de Graines de Chou-fleur",
+  "item.veggiesdelight.garlic_pouch": "Poche de Graines d'Ail",
+  "item.veggiesdelight.pumpkin_pouch": "Poche de Graines de Citrouille",
+  "item.veggiesdelight.tomato_pouch": "Poche de Graines de Tomate",
+  "item.veggiesdelight.melon_pouch": "Poche de Graines de Melon",
+  "item.veggiesdelight.wheat_pouch": "Poche de Graines de Blé",
+
   "creativetab.veggiesdelight_tab": "Veggies Delight",
 
   "item.veggiesdelight.vegan_pizza": "Pizza Végétalienne",

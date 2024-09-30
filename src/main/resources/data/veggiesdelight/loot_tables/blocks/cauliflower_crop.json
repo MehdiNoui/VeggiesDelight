@@ -1,8 +1,24 @@
 {
   "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
   "pools": [
     {
-      "name": "pool1",
+      "name": "seeds",
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "veggiesdelight:cauliflower_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "cauliflower",
       "rolls": 1.0,
       "entries": [
         {
@@ -20,56 +36,10 @@
                 }
               ],
               "name": "veggiesdelight:cauliflower"
-            },
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "veggiesdelight:cauliflower_crop",
-                  "properties": {
-                    "age": "0-6"
-                  }
-                }
-              ],
-              "name": "veggiesdelight:cauliflower_seeds"
             }
           ]
         }
       ]
-    },
-    {
-      "name": "pool2",
-      "rolls": 1.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "veggiesdelight:cauliflower_crop",
-                  "properties": {
-                    "age": "7"
-                  }
-                }
-              ],
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ],
-          "name": "veggiesdelight:cauliflower_seeds"
-        }
-      ]
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:explosion_decay"
     }
   ]
 }

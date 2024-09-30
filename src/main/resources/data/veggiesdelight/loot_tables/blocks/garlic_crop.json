@@ -1,9 +1,13 @@
 {
   "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
   "pools": [
     {
-      "name": "pool1",
-      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -12,68 +16,53 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "veggiesdelight:garlic_crop",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "5"
                   }
                 }
               ],
-              "count": {
-                "min": 2,
-                "max": 3
-              },
               "name": "veggiesdelight:garlic"
             },
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "veggiesdelight:garlic_crop",
-                  "properties": {
-                    "age": "0-4"
-                  }
-                }
-              ],
               "name": "veggiesdelight:garlic_seeds"
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "name": "pool2",
-      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "veggiesdelight:garlic_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "5"
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "veggiesdelight:garlic_crop",
-                  "properties": {
-                    "age": "5"
-                  }
-                }
-              ],
-              "count": {
-                "min": 1,
-                "max": 2
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "function": "minecraft:apply_bonus",
+              "parameters": {
+                "extra": 2,
+                "probability": 0.5714286
               }
             }
           ],
-          "name": "veggiesdelight:garlic_seeds"
+          "name": "veggiesdelight:garlic"
         }
-      ]
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:explosion_decay"
+      ],
+      "rolls": 1.0
     }
   ]
 }

@@ -25,12 +25,14 @@
               "veggiesdelight:bellpepper",
               "veggiesdelight:sweet_potato",
               "veggiesdelight:cauliflower",
+              "veggiesdelight:garlic",
               "farmersdelight:tomato",
               "farmersdelight:onion",
               "farmersdelight:cabbage",
               "minecraft:potato",
               "minecraft:carrot",
-              "minecraft:beetroot"]
+              "minecraft:beetroot"
+              ]
           }
         ]
       }

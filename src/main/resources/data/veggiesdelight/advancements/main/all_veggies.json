@@ -52,6 +52,18 @@
             ]
           }
         },
+    "garlic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:garlic"
+            ]
+          }
+        ]
+      }
+    },
     "tomato": {
           "trigger": "minecraft:inventory_changed",
           "conditions": {
@@ -127,6 +139,7 @@
     ["bellpepper"],
     ["sweet_potato"],
     ["cauliflower"],
+    ["garlic"],
     ["tomato"],
     ["onion"],
     ["cabbage"],

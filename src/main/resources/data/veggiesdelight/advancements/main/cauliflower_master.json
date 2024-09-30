@@ -45,10 +45,20 @@
           }
         ]
       }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:garlic_rice_with_cauliflower"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["A"],["B"],["C"]
+    ["A"],["B"],["C"],["D"]
   ],
   "rewards": {
     "experience": 300

@@ -39,7 +39,7 @@
   "item.veggiesdelight.garlic_chicken_stew": "Ragoût de Poulet à l'Ail",
   "item.veggiesdelight.garlic_baked_cod": "Morue à l'Ail au Four",
   "item.veggiesdelight.cesar_salad": "Salade César",
-  "item.veggiesdelight.fermented_garlic_honey": "Miel à l'Ail Fermenté",
+  "item.veggiesdelight.fermented_garlic_honey": "Ail Fermenté Au Miel",
 
   "block.veggiesdelight.wild_bellpeppers": "Poivrons Sauvages",
   "block.veggiesdelight.wild_cauliflowers": "Choux-Fleurs Sauvages",
@@ -78,12 +78,22 @@
   "veggiesdelight.advancement.pie": "Slice Of Life",
   "veggiesdelight.advancement.pie.desc": "Préparez une tarte à la patate douce",
 
+  "veggiesdelight.advancement.med": "La Nature Qui Soigne",
+  "veggiesdleight.advancement.med.desc": "Préparez une Ail Fermenté Au Miel ",
+
+  "veggiesdelight.advancement.cesar": "CAEEEEEEESAAAAAR",
+  "veggiesdelight.advancement.cesar.desc": "Préparez une Salade César",
+
+
   "veggiesdelight.advancement.bellpepper_master": "Dr. Pepper",
-  "veggiesdelight.advancement.bellpepper_master.desc": "Préparez tous les plats possibles à partir de poivrons",
+  "veggiesdelight.advancement.bellpepper_master.desc": "Préparez toutes sortes de plats en utilisant des poivrons",
 
   "veggiesdelight.advancement.cauliflower_master": "Chou-master",
-  "veggiesdelight.advancement.cauliflower_master.desc": "Préparez tous les plats possibles à partir de choux-fleurs",
+  "veggiesdelight.advancement.cauliflower_master.desc": "Préparez toutes sortes de plats en utilisant des choux-fleurs",
 
   "veggiesdelight.advancement.sweet_potato_master": "Sweet chef",
-  "veggiesdelight.advancement.sweet_potato_master.desc": "Préparez tous les plats possibles à partir de patates douces"
+  "veggiesdelight.advancement.sweet_potato_master.desc": "Préparez toutes sortes de plats en utilisant des patates douces",
+
+  "veggiesdelight.advancement.garlic_master": "Garlic Jr.",
+  "veggiesdelight.advancement.garlic_master.desc": "Préparez toutes sortes de plats en utilisant des ails."
 }

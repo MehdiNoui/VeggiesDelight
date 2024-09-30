@@ -1,0 +1,33 @@
+{
+  "parent": "veggiesdelight:main/eat",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.med"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.med.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:fermented_garlic_honey"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "med": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:fermented_garlic_honey"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["med"]
+  ]
+}

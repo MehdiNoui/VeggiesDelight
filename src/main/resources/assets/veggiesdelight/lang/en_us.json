@@ -78,6 +78,13 @@
   "veggiesdelight.advancement.pie": "Slice Of Life",
   "veggiesdelight.advancement.pie.desc": "Bake a sweet potato pie",
 
+  "veggiesdelight.advancement.med": "Nature's Remedy",
+  "veggiesdleight.advancement.med.desc": "Make a fermented garlic honey",
+
+  "veggiesdelight.advancement.cesar": "CAEEEEEEESAAAAAR",
+  "veggiesdelight.advancement.cesar.desc": "Make a cesar salad",
+
+
   "veggiesdelight.advancement.bellpepper_master": "Dr. Pepper",
   "veggiesdelight.advancement.bellpepper_master.desc": "Make every dish possible out of bell peppers",
 
@@ -85,5 +92,8 @@
   "veggiesdelight.advancement.cauliflower_master.desc": "Make every dish possible out of cauliflowers",
 
   "veggiesdelight.advancement.sweet_potato_master": "Sweet chef",
-  "veggiesdelight.advancement.sweet_potato_master.desc": "Make every dish possible out of sweet potatoes"
+  "veggiesdelight.advancement.sweet_potato_master.desc": "Make every dish possible out of sweet potatoes",
+
+  "veggiesdelight.advancement.garlic_master": "Garlic Jr.",
+  "veggiesdelight.advancement.garlic_master.desc": "Make every dish possible out of garlics"
 }

@@ -1,0 +1,33 @@
+{
+  "parent": "veggiesdelight:main/medicine",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.cesar"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.cesar.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:cesar_salad"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cesar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:cesar_salad"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cesar"]
+  ]
+}

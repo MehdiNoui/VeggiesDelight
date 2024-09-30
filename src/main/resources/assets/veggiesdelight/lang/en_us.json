@@ -43,13 +43,22 @@
   "block.veggiesdelight.garlic_crate": "Garlic Crate",
   "block.veggiesdelight.sweet_potato_crate": "Sweet Potato Crate",
 
+  "item.veggiesdelight.beetroot_pouch": "Beetroot Seeds Pouch",
+  "item.veggiesdelight.bellpepper_pouch": "Bell Pepper Seeds Pouch",
+  "item.veggiesdelight.cabbage_pouch": "Cabbage Seeds Pouch",
+  "item.veggiesdelight.cauliflower_pouch": "Cauliflower Seeds Pouch",
+  "item.veggiesdelight.garlic_pouch": "Garlic Seeds Pouch",
+  "item.veggiesdelight.pumpkin_pouch": "Pumpkin Seeds Pouch",
+  "item.veggiesdelight.tomato_pouch": "Tomato Seeds Pouch",
+  "item.veggiesdelight.melon_pouch": "Melon Seeds Pouch",
+  "item.veggiesdelight.wheat_pouch": "Wheat Seeds Pouch",
+
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
   "block.veggiesdelight.wild_garlic": "Wild Garlic",
   "block.veggiesdelight.wild_sweet_potatoes": "Wild Sweet Potatoes",
 
   "creativetab.veggiesdelight_tab": "Veggies Delight",
-
 
   "veggiesdelight.advancement.root": "Veggies Delight",
   "veggiesdelight.advancement.root.desc": "Go get your veggies!",

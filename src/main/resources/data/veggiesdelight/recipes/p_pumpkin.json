@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pumpkin_seeds"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:pumpkin_pouch",
+    "count": 1
+  }
+}

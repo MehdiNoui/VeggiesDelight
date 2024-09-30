@@ -23,10 +23,19 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GARLIC.get());
                         pOutput.accept(ModItems.SWEET_POTATO.get());
 
-
                         pOutput.accept(ModItems.BELLPEPPER_SEEDS.get());
                         pOutput.accept(ModItems.CAULIFLOWER_SEEDS.get());
                         pOutput.accept(ModItems.GARLIC_SEEDS.get());
+
+                        pOutput.accept(ModItems.BEETROOT_POUCH.get());
+                        pOutput.accept(ModItems.BELLPEPPER_POUCH.get());
+                        pOutput.accept(ModItems.CABBAGE_POUCH.get());
+                        pOutput.accept(ModItems.CAULIFLOWER_POUCH.get());
+                        pOutput.accept(ModItems.GARLIC_POUCH.get());
+                        pOutput.accept(ModItems.PUMPKIN_POUCH.get());
+                        pOutput.accept(ModItems.TOMATO_POUCH.get());
+                        pOutput.accept(ModItems.MELON_POUCH.get());
+                        pOutput.accept(ModItems.WHEAT_POUCH.get());
 
                         pOutput.accept(ModBlocks.BELLPEPPER_CRATE.get());
                         pOutput.accept(ModBlocks.CAULIFLOWER_CRATE.get());

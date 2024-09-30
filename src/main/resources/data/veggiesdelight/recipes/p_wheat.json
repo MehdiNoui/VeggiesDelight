@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:wheat_pouch",
+    "count": 1
+  }
+}

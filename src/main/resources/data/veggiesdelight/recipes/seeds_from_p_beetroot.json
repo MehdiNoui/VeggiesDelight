@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"veggiesdelight:beetroot_pouch"
+    }
+  ],
+  "result":{
+    "item": "minecraft:beetroot_seeds",
+    "count": 9
+  }
+}

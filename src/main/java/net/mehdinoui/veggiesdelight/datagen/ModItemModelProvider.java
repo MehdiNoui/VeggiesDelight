@@ -17,6 +17,17 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        simpleItem(ModItems.BEETROOT_POUCH);
+        simpleItem(ModItems.BELLPEPPER_POUCH);
+        simpleItem(ModItems.CABBAGE_POUCH);
+        simpleItem(ModItems.CAULIFLOWER_POUCH);
+        simpleItem(ModItems.GARLIC_POUCH);
+        simpleItem(ModItems.PUMPKIN_POUCH);
+        simpleItem(ModItems.TOMATO_POUCH);
+        simpleItem(ModItems.MELON_POUCH);
+        simpleItem(ModItems.WHEAT_POUCH);
+
+
         simpleItem(ModItems.BELLPEPPER);
         simpleItem(ModItems.BELLPEPPER_SEEDS);
         simpleItem(ModItems.CACCIATORE);

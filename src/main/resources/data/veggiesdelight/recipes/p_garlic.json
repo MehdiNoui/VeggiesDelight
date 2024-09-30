@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "veggiesdelight:garlic_seeds"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:garlic_pouch",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "veggiesdelight:cauliflower_seeds"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:cauliflower_pouch",
+    "count": 1
+  }
+}

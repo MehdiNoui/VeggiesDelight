@@ -56,6 +56,9 @@ public class VeggiesDelight
             ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_FLORET.get(), 0.3F);
             ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
             ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.6F);
+            ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.4F);
+            ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_SEEDS.get(),0.2F);
         });
     }
 

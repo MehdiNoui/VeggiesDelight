@@ -20,7 +20,9 @@ public class ModItems {
     public static Item.Properties bowlFoodItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.BOWL).stacksTo(16);
     }
-
+    public static Item.Properties bottleItem(FoodProperties food) {
+        return new Item.Properties().food(food).craftRemainder(Items.GLASS_BOTTLE).stacksTo(32);
+    }
 
 
     //SEEDS
@@ -102,6 +104,8 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_RICE_WITH_CAULIFLOWER), true));
     public static final RegistryObject<Item> CESAR_SALAD = ITEMS.register("cesar_salad",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CESAR_SALAD), true));
+    public static final RegistryObject<Item> FERMENTED_GARLIC_HONEY = ITEMS.register("fermented_garlic_honey",
+            ()->new ConsumableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

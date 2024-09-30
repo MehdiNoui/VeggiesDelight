@@ -28,10 +28,23 @@
   "block.veggiesdelight.bellpepper_crate": "Caisse de Poivrons",
   "block.veggiesdelight.cauliflower_crate": "Caisee de Choux-Fleurs",
   "block.veggiesdelight.sweet_potato_crate": "Caisee de Patates Douces",
+  "block.veggiesdelight.garlic_crate": "Caisse d'ails",
+
+  "item.veggiesdelight.garlic": "Ail",
+  "item.veggiesdelight.garlic_clove": "Gousse d'Ail",
+  "item.veggiesdelight.garlic_seeds": "Graines d'Ail",
+  "item.veggiesdelight.roasted_garlic_clove": "Gousse d'Ail Rôtie",
+  "item.veggiesdelight.garlic_bread": "Pain à l'Ail",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "Riz à l'Ail avec Chou-fleur",
+  "item.veggiesdelight.garlic_chicken_stew": "Ragoût de Poulet à l'Ail",
+  "item.veggiesdelight.garlic_baked_cod": "Morue à l'Ail au Four",
+  "item.veggiesdelight.cesar_salad": "Salade César",
+  "item.veggiesdelight.fermented_garlic_honey": "Miel à l'Ail Fermenté",
 
   "block.veggiesdelight.wild_bellpeppers": "Poivrons Sauvages",
   "block.veggiesdelight.wild_cauliflowers": "Choux-Fleurs Sauvages",
   "block.veggiesdelight.wild_sweet_potatoes": "Patates Douces Sauvages",
+  "block.veggiesdelight.wild_garlic": "Ails Sauvages",
 
   "creativetab.veggiesdelight_tab": "Veggies Delight",
 

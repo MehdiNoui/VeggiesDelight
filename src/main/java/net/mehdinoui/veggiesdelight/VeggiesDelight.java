@@ -98,6 +98,14 @@ public class VeggiesDelight
                         3, // Villager XP
                         0.05f // Price multiplier
                 ));
+
+                level1Trades.add((entity, random) -> new MerchantOffer(
+                        new ItemStack(ModItems.GARLIC.get(), 26), // Soybean in quantity
+                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                        12, // Max uses
+                        3, // Villager XP
+                        0.05f // Price multiplier
+                ));
                 level1Trades.add((entity, random) -> new MerchantOffer(
                         new ItemStack(ModItems.SWEET_POTATO.get(), 26), // Soybean in quantity
                         new ItemStack(Items.EMERALD, 1), // Resulting Emeralds

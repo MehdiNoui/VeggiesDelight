@@ -54,6 +54,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MASHED_POTATOES.get());
                         pOutput.accept(ModItems.POTATO_NOODLES.get());
 
+                        pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
                         pOutput.accept(ModItems.GARLIC_BAKED_COD.get());
                         pOutput.accept(ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get());
                         pOutput.accept(ModItems.SHAKSHOUKA.get());

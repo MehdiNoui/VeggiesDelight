@@ -1,6 +1,8 @@
 package net.mehdinoui.veggiesdelight.item;
 
+import com.mojang.blaze3d.shaders.Effect;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
@@ -82,5 +84,7 @@ public class ModFoods {
     public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), BRIEF_DURATION, 0), 1.0F).build();
-
+    public static final FoodProperties FERMENTED_GARLIC_HONEY = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 2), 1.0F).build();
 }

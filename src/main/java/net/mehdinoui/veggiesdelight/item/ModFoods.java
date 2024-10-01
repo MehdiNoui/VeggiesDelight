@@ -1,6 +1,5 @@
 package net.mehdinoui.veggiesdelight.item;
 
-import com.mojang.blaze3d.shaders.Effect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -10,6 +9,8 @@ import static vectorwing.farmersdelight.common.FoodValues.*;
 
 public class ModFoods {
 
+
+    //bellpepper
     public static final FoodProperties BELLPEPPER = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.1F).build();
     public static final FoodProperties SMOKED_BELLPEPPER = new FoodProperties.Builder().
@@ -31,7 +32,7 @@ public class ModFoods {
             nutrition(4).saturationMod(0.7f)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
 
-
+    //cauliflower
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties CAULIFLOWER_FLORET = new FoodProperties.Builder().
@@ -49,7 +50,7 @@ public class ModFoods {
             nutrition(11).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
 
-
+    //sweet poatoes
     public static final FoodProperties SWEET_POTATO = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.1f).build();
     public static final FoodProperties BAKED_SWEET_POTATO = new FoodProperties.Builder().
@@ -66,6 +67,7 @@ public class ModFoods {
             nutrition(10).saturationMod(0.6f).fast()
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
 
+    //garlic
     public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.1f).fast().build();
     public static final FoodProperties ROASTED_GARLIC_CLOVE = new FoodProperties.Builder().
@@ -87,4 +89,13 @@ public class ModFoods {
     public static final FoodProperties FERMENTED_GARLIC_HONEY = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 2), 1.0F).build();
+
+    //misc
+    public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2), 1.0F).build();
+    public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.5f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400,0), 1.0F).build();
+
 }

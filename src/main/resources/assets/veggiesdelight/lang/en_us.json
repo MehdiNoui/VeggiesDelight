@@ -53,6 +53,9 @@
   "item.veggiesdelight.melon_pouch": "Melon Seeds Pouch",
   "item.veggiesdelight.wheat_pouch": "Wheat Seeds Pouch",
 
+  "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
+  "item.veggiesdelight.carrot_juice": "Carrot Juice",
+
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
   "block.veggiesdelight.wild_garlic": "Wild Garlic",
@@ -88,7 +91,7 @@
   "veggiesdelight.advancement.pie.desc": "Bake a sweet potato pie",
 
   "veggiesdelight.advancement.med": "Nature's Remedy",
-  "veggiesdleight.advancement.med.desc": "Make a fermented garlic honey",
+  "veggiesdelight.advancement.med.desc": "Make a fermented garlic honey",
 
   "veggiesdelight.advancement.cesar": "CAEEEEEEESAAAAAR",
   "veggiesdelight.advancement.cesar.desc": "Make a cesar salad",

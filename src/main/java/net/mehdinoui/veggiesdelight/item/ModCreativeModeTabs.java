@@ -56,22 +56,25 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MHADJEB.get());
                         pOutput.accept(ModItems.GARLIC_BREAD.get());
 
-                        pOutput.accept(ModItems.CESAR_SALAD.get());
                         pOutput.accept(ModItems.CACCIATORE.get());
                         pOutput.accept(ModItems.CAULIFLOWER_SOUP.get());
                         pOutput.accept(ModItems.GARLIC_CHICKEN_STEW.get());
                         pOutput.accept(ModItems.MASHED_POTATOES.get());
                         pOutput.accept(ModItems.POTATO_NOODLES.get());
 
+                        pOutput.accept(ModItems.CARROT_JUICE.get());
                         pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
+                        pOutput.accept(ModItems.SWEET_POTATO_PIE.get());
+                        pOutput.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
+                        pOutput.accept(ModItems.BEETROOT_BROWNIE.get());
+
                         pOutput.accept(ModItems.GARLIC_BAKED_COD.get());
                         pOutput.accept(ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get());
                         pOutput.accept(ModItems.SHAKSHOUKA.get());
+                        pOutput.accept(ModItems.CESAR_SALAD.get());
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());
 
                         pOutput.accept(ModItems.CAULIFLOWER_BURGER.get());
-                        pOutput.accept(ModItems.SWEET_POTATO_PIE.get());
-                        pOutput.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA_SLICE.get());
 

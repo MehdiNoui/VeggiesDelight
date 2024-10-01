@@ -130,6 +130,13 @@ public class ModItems {
     public static final RegistryObject<Item> FERMENTED_GARLIC_HONEY = ITEMS.register("fermented_garlic_honey",
             ()->new DrinkableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
 
+    //MISC
+    public static final RegistryObject<Item> BEETROOT_BROWNIE = ITEMS.register("beetroot_brownie",
+            ()-> new Item(new Item.Properties().food(ModFoods.BEETROOT_BROWNIE)));
+    public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",
+            ()->new DrinkableItem(bottleItem(ModFoods.CARROT_JUICE),true));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -8,7 +8,6 @@ import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -22,21 +21,17 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraft.world.entity.animal.Pig;
 import org.slf4j.Logger;
 
-import java.util.Arrays;
 import java.util.List;
 
-// The value here should match an entry in the META-INF/mods.toml file
-//testing
 
 @Mod(VeggiesDelight.MOD_ID)
 public class VeggiesDelight
 {
     public static final String MOD_ID = "veggiesdelight";
     private static final Logger LOGGER = LogUtils.getLogger();
-    
+
     public VeggiesDelight()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -59,13 +54,11 @@ public class VeggiesDelight
             ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_SEEDS.get(),0.3F);
             ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
             ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.3F);
-
             //65%
             ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
             ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
             ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
             ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.6F);
-
             // 85%
             ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);
@@ -73,7 +66,6 @@ public class VeggiesDelight
             ComposterBlock.COMPOSTABLES.put(ModItems.POTATO_NOODLE.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_PATTY.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.UNCOOKED_MHADJEB.get(), 0.85F);
-
             //100%
             ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA.get(), 1F);
             ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE.get(), 1F);
@@ -81,22 +73,16 @@ public class VeggiesDelight
         });
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
-    }
+    public void onServerStarting(ServerStartingEvent event) {}
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-        }
+        public static void onClientSetup(FMLClientSetupEvent event) {}
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID)

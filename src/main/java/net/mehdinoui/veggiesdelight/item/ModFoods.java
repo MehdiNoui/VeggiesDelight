@@ -10,7 +10,7 @@ import static vectorwing.farmersdelight.common.FoodValues.*;
 public class ModFoods {
 
 
-    //bellpepper
+    //bell_pepper
     public static final FoodProperties BELLPEPPER = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.1F).build();
     public static final FoodProperties SMOKED_BELLPEPPER = new FoodProperties.Builder().
@@ -29,8 +29,7 @@ public class ModFoods {
     public static final FoodProperties MHADJEB= new FoodProperties.Builder().
             nutrition(8).saturationMod(0.5f).fast().build();
     public static final FoodProperties VEGAN_PIZZA_SLICE = new FoodProperties.Builder().
-            nutrition(4).saturationMod(0.7f)
-            .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
+            nutrition(4).saturationMod(0.7f).build();
 
     //cauliflower
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().
@@ -59,13 +58,12 @@ public class ModFoods {
             nutrition(7).saturationMod(0.6f)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
     public static final FoodProperties SWEET_POTATO_PIE_SLICE = new FoodProperties.Builder().
-            nutrition(5).saturationMod(0.4f)
-            .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
+            nutrition(5).saturationMod(0.4f).build();
     public static final FoodProperties POTATO_NOODLE = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.2f).build();
     public static final FoodProperties POTATO_NOODLES = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.6f).fast()
-            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, BRIEF_DURATION, 0), 1.0F).build();
 
     //garlic
     public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
@@ -76,7 +74,7 @@ public class ModFoods {
             nutrition(5).saturationMod(0.4f).fast().build();
     public static final FoodProperties GARLIC_CHICKEN_STEW = new FoodProperties.Builder().
             nutrition(9).saturationMod(0.5f)
-            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties GARLIC_BAKED_COD = new FoodProperties.Builder().
             nutrition(14).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
@@ -85,17 +83,19 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f)
-            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), BRIEF_DURATION, 0), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties FERMENTED_GARLIC_HONEY = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f)
-            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 2), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
+            .build();
 
     //misc
     public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f)
-            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0), 1.0F).build();
     public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().
-            nutrition(6).saturationMod(0.5f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400,0), 1.0F).build();
+            nutrition(6).saturationMod(0.5f).alwaysEat()
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F).build();
 
 }

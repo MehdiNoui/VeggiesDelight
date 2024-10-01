@@ -76,10 +76,10 @@ public class ModFoods {
             nutrition(9).saturationMod(0.5f)
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties GARLIC_BAKED_COD = new FoodProperties.Builder().
-            nutrition(14).saturationMod(0.8f)
+            nutrition(10).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties GARLIC_RICE_WITH_CAULIFLOWER = new FoodProperties.Builder().
-            nutrition(14).saturationMod(0.6f)
+            nutrition(12).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f)

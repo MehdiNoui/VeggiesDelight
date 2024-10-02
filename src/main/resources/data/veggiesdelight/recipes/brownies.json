@@ -1,27 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ABA",
-    "CDE"
-  ],
-  "key": {
-    "A": {
+  "ingredients": [
+    {
       "item": "minecraft:beetroot"
     },
-    "B": {
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
       "item": "minecraft:cocoa_beans"
     },
-    "C": {
+    {
       "item": "minecraft:sugar"
     },
-    "D": {
+    {
       "tag": "forge:dough"
     },
-    "E": {
+    {
       "tag": "forge:eggs"
     }
-  },
+  ],
   "result":{
     "item":"veggiesdelight:beetroot_brownie",
     "count": 2

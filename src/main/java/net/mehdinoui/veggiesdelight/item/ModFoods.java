@@ -16,7 +16,7 @@ public class ModFoods {
     public static final FoodProperties SMOKED_BELLPEPPER = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).fast().build();
     public static final FoodProperties CACCIATORE = new FoodProperties.Builder().
-            nutrition(12).saturationMod(0.9f)
+            nutrition(10).saturationMod(0.9f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties SHAKSHOUKA = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.8f)
@@ -41,12 +41,12 @@ public class ModFoods {
     public static final FoodProperties CAULIFLOWER_PATTY = new FoodProperties.Builder().
             nutrition(3).saturationMod(0.2f).build();
     public static final FoodProperties COOKED_CAULIFLOWER_PATTY = new FoodProperties.Builder().
-            nutrition(4).saturationMod(0.7f).build();
+            nutrition(4).saturationMod(0.6f).build();
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
-            nutrition(7).saturationMod(0.5f).fast()
+            nutrition(7).saturationMod(0.7f).fast()
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CAULIFLOWER_BURGER = new FoodProperties.Builder().
-            nutrition(11).saturationMod(0.8f)
+            nutrition(9).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
 
     //sweet poatoes
@@ -62,9 +62,8 @@ public class ModFoods {
     public static final FoodProperties POTATO_NOODLE = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.2f).build();
     public static final FoodProperties POTATO_NOODLES = new FoodProperties.Builder().
-            nutrition(10).saturationMod(0.6f).fast()
+            nutrition(12).saturationMod(0.8f).fast()
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, BRIEF_DURATION, 0), 1.0F).build();
-
     //garlic
     public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.1f).fast().build();
@@ -73,13 +72,13 @@ public class ModFoods {
     public static final FoodProperties GARLIC_BREAD = new FoodProperties.Builder().
             nutrition(5).saturationMod(0.4f).fast().build();
     public static final FoodProperties GARLIC_CHICKEN_STEW = new FoodProperties.Builder().
-            nutrition(9).saturationMod(0.5f)
+            nutrition(10).saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties GARLIC_BAKED_COD = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties GARLIC_RICE_WITH_CAULIFLOWER = new FoodProperties.Builder().
-            nutrition(12).saturationMod(0.6f)
+            nutrition(12).saturationMod(0.9f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f)

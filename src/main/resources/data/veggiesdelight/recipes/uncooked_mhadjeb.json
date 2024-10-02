@@ -1,26 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "AAA",
-    "BCD"
-  ],
-  "key": {
-    "A": {
+  "ingredients": [
+    {
       "tag": "forge:dough"
     },
-    "B": {
+    {
       "item": "farmersdelight:tomato_sauce"
     },
-    "C": {
+    {
       "item": "farmersdelight:onion"
     },
-    "D": {
+    {
       "item": "veggiesdelight:bellpepper"
     }
-  },
+  ],
   "result": {
     "item": "veggiesdelight:uncooked_mhadjeb",
-    "count": 3
+    "count": 2
   }
 }

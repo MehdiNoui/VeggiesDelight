@@ -1,21 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    " A ",
-    "ABA",
-    " A "
-  ],
-  "key": {
-    "A": {
+  "ingredients": [
+    {
       "item": "veggiesdelight:garlic_clove"
     },
-    "B": {
+    {
+      "item": "veggiesdelight:garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:garlic_clove"
+    },
+    {
       "item": "minecraft:honey_bottle"
     }
-  },
+  ],
   "result":{
-    "item":"veggiesdelight:fermented_garlic_honey",
-    "count": 1
+    "item":"veggiesdelight:fermented_garlic_honey"
   }
 }

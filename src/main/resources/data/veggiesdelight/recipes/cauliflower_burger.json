@@ -1,27 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    " A ",
-    "BCD",
-    " A "
-  ],
-  "key": {
-    "A": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:bread"
     },
-    "B": {
+    {
       "tag": "forge:crops/cabbage"
     },
-    "C": {
+    {
       "item": "veggiesdelight:cooked_cauliflower_patty"
     },
-    "D": {
+    {
       "item": "farmersdelight:tomato"
     }
-  },
+  ],
   "result":{
-    "item":"veggiesdelight:cauliflower_burger",
-    "count": 1
+    "item":"veggiesdelight:cauliflower_burger"
   }
 }

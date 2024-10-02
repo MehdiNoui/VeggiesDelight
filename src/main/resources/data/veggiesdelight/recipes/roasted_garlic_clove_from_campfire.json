@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "food",
-  "cookingtime": 200,
+  "cookingtime": 300,
   "experience": 0.15,
   "ingredient": {
     "item": "veggiesdelight:garlic_clove"

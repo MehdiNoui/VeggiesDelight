@@ -1,0 +1,9 @@
+{
+  "items": [
+    "veggiesdelight:cauliflower"
+  ],
+  "damage": 7,
+  "reload_ticks": 20,
+  "knockback": 0.5,
+  "sound_pitch": 0.8
+}

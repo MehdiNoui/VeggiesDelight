@@ -58,7 +58,11 @@ public class VeggiesDelight
             ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
             ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
             ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.6F);
+            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.65F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_BELLPEPPERS.get(), 0.65F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get(), 0.65F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get(), 0.65F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get(), 0.65F);
             // 85%
             ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);

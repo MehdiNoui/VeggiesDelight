@@ -11,15 +11,18 @@
       "item": "veggiesdelight:wild_sweet_potatoes"
     }
   ],
-  "result": [
+  "results": [
     {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:orange_dye",
+      "count": 1
     },
     {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:lime_dye",
+      "count": 1
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:light_grey_dye",
+      "count": 1
     }
   ],
   "processingTime": 50

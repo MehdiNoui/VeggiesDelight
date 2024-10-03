@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_cauliflowers"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiesdelight:cauliflower_seeds"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "processingTime": 50
+}

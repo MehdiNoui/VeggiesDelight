@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_sweet_potatoes"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "processingTime": 50
+}

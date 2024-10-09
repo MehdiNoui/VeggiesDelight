@@ -13,9 +13,8 @@ public class SweetPotatoCropBlock extends CropBlock {
 
     public static final int MAX_AGE = 5;
     public static final IntegerProperty AGE = BlockStateProperties.AGE_5;
-
-    public SweetPotatoCropBlock(Properties pProperties) {
-        super(pProperties);
+    public SweetPotatoCropBlock(Properties properties) {
+        super(properties);
     }
 
     @Override

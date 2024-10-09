@@ -9,7 +9,9 @@ import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -43,48 +45,46 @@ public class VeggiesDelight
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(() -> {
-            //30%
-            ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER_SEEDS.get(), 0.3F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_FLORET.get(), 0.3F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_SEEDS.get(),0.3F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.3F);
-            //65%
-            ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.65F);
-
-            // 85%
-            ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE_SLICE.get(), 0.85F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.POTATO_NOODLE.get(), 0.85F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_PATTY.get(), 0.85F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.UNCOOKED_MHADJEB.get(), 0.85F);
-            //100%
-            ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA.get(), 1F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE.get(), 1F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.MHADJEB.get(), 1F);
-        });
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {}
-
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
+    private void commonSetup(final FMLCommonSetupEvent event)
     {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {}
+        event.enqueueWork(() -> {});
     }
+
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class ModEventSubscriber {
+        @SubscribeEvent
+        public static void onCommonSetup(FMLCommonSetupEvent event) {
+            event.enqueueWork(() -> {
+                    //30%
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER_SEEDS.get(), 0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_FLORET.get(), 0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_SEEDS.get(),0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.3F);
+                    //65%
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.65F);
+                    // 85%
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE_SLICE.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.POTATO_NOODLE.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_PATTY.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.UNCOOKED_MHADJEB.get(), 0.85F);
+                    //100%
+                    ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA.get(), 1F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE.get(), 1F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.MHADJEB.get(), 1F);
+            });
+        }
+    }
+
+
+
 
     @Mod.EventBusSubscriber(modid = MOD_ID)
     public static class newSubscriber {

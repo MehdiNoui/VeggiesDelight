@@ -10,12 +10,10 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class CauliflowerCropBlock extends CropBlock {
-
     public static final int MAX_AGE = 7;
     public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
-
-    public CauliflowerCropBlock(Properties pProperties) {
-        super(pProperties);
+    public CauliflowerCropBlock(Properties properties) {
+        super(properties);
     }
 
     @Override

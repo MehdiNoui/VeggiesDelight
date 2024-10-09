@@ -33,7 +33,11 @@ public class ModItems {
     public static final RegistryObject<Item> CAULIFLOWER_SEEDS = ITEMS.register("cauliflower_seeds",
             ()->new ItemNameBlockItem(ModBlocks.CAULIFLOWER_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> SWEET_POTATO = ITEMS.register("sweet_potato",
-            ()->new ItemNameBlockItem(ModBlocks.SWEET_POTATO_CROP.get(),new Item.Properties().food(ModFoods.SWEET_POTATO)));
+            () -> new ItemNameBlockItem(ModBlocks.SWEET_POTATO_CROP.get(),
+                    new Item.Properties().food(new FoodProperties.Builder()
+                            .nutrition(1)
+                            .saturationMod(0.1f)
+                            .build())));
     public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",
             ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),new Item.Properties()));
 

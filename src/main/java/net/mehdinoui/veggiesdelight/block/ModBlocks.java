@@ -1,10 +1,7 @@
 package net.mehdinoui.veggiesdelight.block;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.block.custom.BellpepperCropBlock;
-import net.mehdinoui.veggiesdelight.block.custom.CauliflowerCropBlock;
-import net.mehdinoui.veggiesdelight.block.custom.GarlicCropBlock;
-import net.mehdinoui.veggiesdelight.block.custom.SweetPotatoCropBlock;
+import net.mehdinoui.veggiesdelight.block.custom.*;
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -60,6 +57,9 @@ public class ModBlocks {
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
 
+    //Misc
+    public static final RegistryObject<Block> VEGAN_PIZZA = BLOCKS.register("vegan_pizza",
+            () -> new PizzaBlock(Block.Properties.copy(Blocks.CAKE), ModItems.VEGAN_PIZZA_SLICE));
 
 
 

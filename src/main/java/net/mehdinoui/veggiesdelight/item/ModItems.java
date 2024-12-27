@@ -3,6 +3,7 @@ package net.mehdinoui.veggiesdelight.item;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.block.ModBlocks;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Items;
@@ -12,6 +13,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
+
+import static vectorwing.farmersdelight.common.registry.ModItems.basicItem;
 
 public class ModItems {
     //long list of ITEMS
@@ -79,7 +82,7 @@ public class ModItems {
     public static final RegistryObject<Item> MHADJEB = ITEMS.register("mhadjeb",
             ()->new Item(new Item.Properties().food(ModFoods.MHADJEB)));
     public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
-            ()->new Item(new Item.Properties()));
+            () -> new BlockItem(ModBlocks.VEGAN_PIZZA.get(), basicItem()));
     public static final RegistryObject<Item> VEGAN_PIZZA_SLICE = ITEMS.register("vegan_pizza_slice",
             ()->new Item(new Item.Properties().food(ModFoods.VEGAN_PIZZA_SLICE)));
 

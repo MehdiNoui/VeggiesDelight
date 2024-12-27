@@ -7,7 +7,6 @@
   "item.veggiesdelight.bellpepper_seeds": "Bell Pepper Seeds",
   "item.veggiesdelight.uncooked_mhadjeb": "Uncooked Mhadjeb",
   "item.veggiesdelight.mhadjeb": "Mhadjeb",
-  "item.veggiesdelight.vegan_pizza": "Vegan Pizza",
   "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice",
 
   "item.veggiesdelight.cauliflower": "Cauliflower",
@@ -55,6 +54,8 @@
 
   "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
   "item.veggiesdelight.carrot_juice": "Carrot Juice",
+
+  "block.veggiesdelight.vegan_pizza": "Vegan Pizza",
 
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",

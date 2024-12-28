@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "veggiesdelight:block/pie_bottom",
+		"1": "veggiesdelight:block/pie_side",
+		"3": "veggiesdelight:block/sweet_potato_pie_top",
+		"particle": "veggiesdelight:block/sweet_potato_pie_top"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [2, 12, 14, 16], "texture": "#1"},
+				"east": {"uv": [2, 12, 14, 16], "texture": "#1"},
+				"south": {"uv": [2, 12, 14, 16], "texture": "#1"},
+				"west": {"uv": [2, 12, 14, 16], "texture": "#1"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

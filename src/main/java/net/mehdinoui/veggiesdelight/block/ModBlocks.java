@@ -15,6 +15,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.block.PieBlock;
 
 import java.util.function.Supplier;
 
@@ -60,7 +61,8 @@ public class ModBlocks {
     //Misc
     public static final RegistryObject<Block> VEGAN_PIZZA = BLOCKS.register("vegan_pizza",
             () -> new PizzaBlock(Block.Properties.copy(Blocks.CAKE), ModItems.VEGAN_PIZZA_SLICE));
-
+    public static final RegistryObject<Block> SWEET_POTATO_PIE = BLOCKS.register("sweet_potato_pie",
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SWEET_POTATO_PIE));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

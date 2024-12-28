@@ -113,7 +113,7 @@ public class ModItems {
     public static final RegistryObject<Item> POTATO_NOODLES = ITEMS.register("potato_noodles",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.POTATO_NOODLES), true));
     public static final RegistryObject<Item> SWEET_POTATO_PIE = ITEMS.register("sweet_potato_pie",
-            ()->new Item(new Item.Properties()));
+            () -> new BlockItem(ModBlocks.SWEET_POTATO_PIE.get(), basicItem()));
     public static final RegistryObject<Item> SWEET_POTATO_PIE_SLICE = ITEMS.register("sweet_potato_pie_slice",
             ()->new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_PIE_SLICE)));
 

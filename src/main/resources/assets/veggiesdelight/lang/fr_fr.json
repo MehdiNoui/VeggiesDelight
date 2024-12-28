@@ -20,7 +20,6 @@
   "item.veggiesdelight.sweet_potato": "Patate Douce",
   "item.veggiesdelight.baked_sweet_potato": "Patate Douce Rôtie",
   "item.veggiesdelight.mashed_potatoes": "Purée de Pommes de Terre",
-  "item.veggiesdelight.sweet_potato_pie": "Tarte à la Patate Douce",
   "item.veggiesdelight.sweet_potato_pie_slice": "Part de Tarte à la Patate Douce",
   "item.veggiesdelight.potato_noodle": "Nouilles de Pommes de Terre",
   "item.veggiesdelight.potato_noodles": "Nouilles de Pommes de Terre",
@@ -62,7 +61,7 @@
   "creativetab.veggiesdelight_tab": "Veggies Delight",
 
   "block.veggiesdelight.vegan_pizza": "Pizza Végétalienne",
-  "item.veggiesdelight.vegan_pizza_slice": "Tranche de Pizza Végétalienne",
+  "block.veggiesdelight.sweet_potato_pie": "Tarte à la Patate Douce",
 
   "veggiesdelight.advancement.root": "Veggies Delight",
   "veggiesdelight.advancement.root.desc": "Allez chercher vos légumes !",

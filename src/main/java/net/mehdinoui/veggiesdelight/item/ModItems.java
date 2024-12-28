@@ -38,7 +38,7 @@ public class ModItems {
     public static final RegistryObject<Item> SWEET_POTATO = ITEMS.register("sweet_potato",
             () -> new ItemNameBlockItem(ModBlocks.SWEET_POTATO_CROP.get(),
                     new Item.Properties().food(new FoodProperties.Builder()
-                            .nutrition(1)
+                            .nutrition(2)
                             .saturationMod(0.1f)
                             .build())));
     public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",

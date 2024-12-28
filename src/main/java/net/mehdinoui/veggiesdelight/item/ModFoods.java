@@ -49,9 +49,7 @@ public class ModFoods {
             nutrition(9).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
 
-    //sweet poatoes
-    public static final FoodProperties SWEET_POTATO = new FoodProperties.Builder().
-            nutrition(2).saturationMod(0.1f).build();
+    //sweet potatoes
     public static final FoodProperties BAKED_SWEET_POTATO = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties MASHED_POTATOES = new FoodProperties.Builder().
@@ -87,12 +85,13 @@ public class ModFoods {
             nutrition(6).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
             .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
-            .build();
+            .alwaysEat().build();
 
     //misc
     public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f)
-            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0), 1.0F)
+            .alwaysEat().build();
     public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.5f).alwaysEat()
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F).build();

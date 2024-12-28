@@ -9,20 +9,28 @@
       "item": "minecraft:beetroot"
     },
     {
+      "item": "minecraft:beetroot"
+    },
+    {
       "item": "minecraft:cocoa_beans"
     },
     {
       "item": "minecraft:sugar"
     },
     {
-      "tag": "forge:dough"
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
     },
     {
       "tag": "forge:eggs"
     }
   ],
   "result":{
-    "item":"veggiesdelight:beetroot_brownie",
-    "count": 2
+    "item":"veggiesdelight:beetroot_brownie_tray"
   }
 }

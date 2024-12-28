@@ -62,7 +62,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> VEGAN_PIZZA = BLOCKS.register("vegan_pizza",
             () -> new PizzaBlock(Block.Properties.copy(Blocks.CAKE), ModItems.VEGAN_PIZZA_SLICE));
     public static final RegistryObject<Block> SWEET_POTATO_PIE = BLOCKS.register("sweet_potato_pie",
-            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SWEET_POTATO_PIE));
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SWEET_POTATO_PIE_SLICE));
+    public static final RegistryObject<Block> BEETROOT_BROWNIE_TRAY = BLOCKS.register("beetroot_brownie_tray",
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.BEETROOT_BROWNIE));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

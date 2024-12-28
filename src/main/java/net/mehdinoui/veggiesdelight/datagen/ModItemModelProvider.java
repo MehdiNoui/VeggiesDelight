@@ -67,6 +67,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CESAR_SALAD);
         simpleItem(ModItems.FERMENTED_GARLIC_HONEY);
 
+        simpleItem(ModItems.BEETROOT_BROWNIE_TRAY);
         simpleItem(ModItems.BEETROOT_BROWNIE);
         simpleItem(ModItems.CARROT_JUICE);
     }

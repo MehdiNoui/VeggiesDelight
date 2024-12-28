@@ -117,6 +117,8 @@ public class ModItems {
     public static final RegistryObject<Item> SWEET_POTATO_PIE_SLICE = ITEMS.register("sweet_potato_pie_slice",
             ()->new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_PIE_SLICE)));
 
+
+
     //GARLIC
     public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
             ()->new Item(new Item.Properties()));
@@ -138,6 +140,8 @@ public class ModItems {
             ()->new DrinkableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
 
     //MISC
+    public static final RegistryObject<Item> BEETROOT_BROWNIE_TRAY = ITEMS.register("beetroot_brownie_tray",
+            () -> new BlockItem(ModBlocks.BEETROOT_BROWNIE_TRAY.get(), basicItem()));
     public static final RegistryObject<Item> BEETROOT_BROWNIE = ITEMS.register("beetroot_brownie",
             ()-> new Item(new Item.Properties().food(ModFoods.BEETROOT_BROWNIE)));
     public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",

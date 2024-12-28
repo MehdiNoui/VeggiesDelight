@@ -63,6 +63,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.CARROT_JUICE.get());
                         pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
+                        pOutput.accept(ModItems.BEETROOT_BROWNIE_TRAY.get());
                         pOutput.accept(ModItems.BEETROOT_BROWNIE.get());
 
                         pOutput.accept(ModItems.CACCIATORE.get());

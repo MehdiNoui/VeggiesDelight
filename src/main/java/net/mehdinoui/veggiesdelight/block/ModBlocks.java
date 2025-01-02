@@ -57,6 +57,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> WILD_GARLIC = registerBlock("wild_garlic",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> MATURE_DANDELION = registerBlock("mature_dandelion",
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
 
     //Misc
     public static final RegistryObject<Block> VEGAN_PIZZA = BLOCKS.register("vegan_pizza",

@@ -146,7 +146,10 @@ public class ModItems {
             ()-> new Item(new Item.Properties().food(ModFoods.BEETROOT_BROWNIE)));
     public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",
             ()->new DrinkableItem(bottleItem(ModFoods.CARROT_JUICE),true));
-
+    public static final RegistryObject<Item> DANDELION_JUICE = ITEMS.register("dandelion_juice",
+            ()->new DrinkableItem(bottleItem(ModFoods.DANDELION_JUICE),true));
+    public static final RegistryObject<Item> DANDELION_LEAF = ITEMS.register("dandelion_leaf",
+            ()->new Item(new Item.Properties().food(ModFoods.DANDELION_LEAF)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

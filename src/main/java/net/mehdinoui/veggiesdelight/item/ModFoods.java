@@ -88,9 +88,17 @@ public class ModFoods {
             .alwaysEat().build();
 
     //misc
+    public static final FoodProperties DANDELION_LEAF = new FoodProperties.Builder().
+            nutrition(1).saturationMod(0.1F).
+            effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F)
+            .fast().build();
     public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0), 1.0F)
+            .alwaysEat().build();
+    public static final FoodProperties DANDELION_JUICE = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
             .alwaysEat().build();
     public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.5f).alwaysEat()

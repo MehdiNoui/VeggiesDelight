@@ -53,11 +53,15 @@
 
   "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
   "item.veggiesdelight.carrot_juice": "Carrot Juice",
+  "item.veggiesdelight.dandelion_juice": "Dandelion Juice",
+  "item.veggiesdelight.dandelion_leaf": "Dandelion Leaf",
 
   "block.veggiesdelight.vegan_pizza": "Vegan Pizza",
   "block.veggiesdelight.sweet_potato_pie": "Sweet Potato Pie",
   "block.veggiesdelight.beetroot_brownie_tray": "Beetroot Brownie Tray",
 
+
+  "block.veggiesdelight.mature_dandelion": "Mature Dandelion",
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
   "block.veggiesdelight.wild_garlic": "Wild Garlic",

@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) ->{
                         pOutput.accept(ModItems.BELLPEPPER.get());
                         pOutput.accept(ModItems.CAULIFLOWER.get());
+                        pOutput.accept(ModItems.DANDELION_LEAF.get());
                         pOutput.accept(ModItems.GARLIC.get());
                         pOutput.accept(ModItems.SWEET_POTATO.get());
 
@@ -62,6 +63,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CAULIFLOWER_BURGER.get());
 
                         pOutput.accept(ModItems.CARROT_JUICE.get());
+                        pOutput.accept(ModItems.DANDELION_JUICE.get());
                         pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
                         pOutput.accept(ModItems.BEETROOT_BROWNIE_TRAY.get());
                         pOutput.accept(ModItems.BEETROOT_BROWNIE.get());
@@ -78,6 +80,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CESAR_SALAD.get());
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());
 
+                        pOutput.accept(ModBlocks.MATURE_DANDELION.get());
                         pOutput.accept(ModBlocks.WILD_BELLPEPPERS.get());
                         pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
                         pOutput.accept(ModBlocks.WILD_GARLIC.get());

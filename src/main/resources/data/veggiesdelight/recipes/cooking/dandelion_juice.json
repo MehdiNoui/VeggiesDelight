@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dandelion_leaf"
+    },
+    {
+      "item": "minecraft:dandelion_leaf"
+    },
+    {
+      "item": "minecraft:dandelion_leaf"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:dandelion_juice"
+  }
+}

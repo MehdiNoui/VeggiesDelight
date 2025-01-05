@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:mature_dandelion"
+    }
+  ],
+  "results": [
+    {
+      "item": "veggiesdelight:dandelion_leaf",
+      "count": 3
+    },
+    {
+      "item": "minecraft:yellow_dye",
+      "count" : 3
+    }
+  ],
+  "processingTime": 50
+}

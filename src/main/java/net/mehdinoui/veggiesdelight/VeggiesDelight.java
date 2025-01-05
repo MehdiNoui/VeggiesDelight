@@ -12,8 +12,6 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.entity.animal.Pig;
 import net.minecraft.world.entity.animal.Chicken;
-import net.minecraft.world.entity.animal.Cow;
-import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -83,26 +81,10 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModItems.MHADJEB.get(), 1F);
 
                 Ingredient newPigFood = Ingredient.of(ModItems.BELLPEPPER.get(), ModItems.SWEET_POTATO.get());
-                Pig.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Pig.FOOD_ITEMS, newPigFood))
-                {
-                };
+                Pig.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Pig.FOOD_ITEMS, newPigFood)) {};
 
                 Ingredient newChickenFood = Ingredient.of(ModItems.BELLPEPPER_SEEDS.get(), ModItems.CAULIFLOWER_SEEDS.get(), ModItems.GARLIC_SEEDS.get());
-                Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood))
-                {
-                };
-
-                /*
-                Ingredient newCowFood = Ingredient.of(ModItems.DANDELION_LEAF.get());
-                Cow.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Cow.FOOD_ITEMS, newCowFood))
-                {
-                };
-
-                Ingredient newSheepFood = Ingredient.of(ModItems.DANDELION_LEAF.get());
-                Sheep.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Sheep.FOOD_ITEMS, newSheepFood))
-                {
-                };
-                */
+                Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood)) {};
             });
         }
     }

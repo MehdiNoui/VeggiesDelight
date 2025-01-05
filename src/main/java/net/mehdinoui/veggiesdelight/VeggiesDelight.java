@@ -11,19 +11,17 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.entity.animal.Pig;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.entity.animal.Chicken;
+import net.minecraft.world.entity.animal.Cow;
+import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.crafting.CompoundIngredient;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
@@ -88,6 +86,23 @@ public class VeggiesDelight
                 Pig.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Pig.FOOD_ITEMS, newPigFood))
                 {
                 };
+
+                Ingredient newChickenFood = Ingredient.of(ModItems.BELLPEPPER_SEEDS.get(), ModItems.CAULIFLOWER_SEEDS.get(), ModItems.GARLIC_SEEDS.get());
+                Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood))
+                {
+                };
+
+                /*
+                Ingredient newCowFood = Ingredient.of(ModItems.DANDELION_LEAF.get());
+                Cow.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Cow.FOOD_ITEMS, newCowFood))
+                {
+                };
+
+                Ingredient newSheepFood = Ingredient.of(ModItems.DANDELION_LEAF.get());
+                Sheep.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Sheep.FOOD_ITEMS, newSheepFood))
+                {
+                };
+                */
             });
         }
     }

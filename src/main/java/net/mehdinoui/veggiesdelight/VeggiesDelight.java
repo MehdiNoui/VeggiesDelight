@@ -44,6 +44,7 @@ public class VeggiesDelight
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+
         MinecraftForge.EVENT_BUS.addListener(VillageStructures::addNewVillageBuilding);
         MinecraftForge.EVENT_BUS.register(this);
     }

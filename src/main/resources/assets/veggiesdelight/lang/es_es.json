@@ -1,0 +1,115 @@
+{
+  "item.veggiesdelight.bellpepper": "Pimiento",
+  "item.veggiesdelight.smoked_bellpepper": "Pimiento Ahumado",
+  "item.veggiesdelight.cacciatore": "Cazador",
+  "item.veggiesdelight.shakshouka": "Shakshouka",
+  "item.veggiesdelight.stuffed_bellpeppers": "Pimientos Rellenos",
+  "item.veggiesdelight.bellpepper_seeds": "Semillas de Pimiento",
+  "item.veggiesdelight.uncooked_mhadjeb": "Mhadjeb Crudo",
+  "item.veggiesdelight.mhadjeb": "Mhadjeb",
+  "item.veggiesdelight.vegan_pizza_slice": "Porción de Pizza Vegana",
+
+  "item.veggiesdelight.cauliflower": "Coliflor",
+  "item.veggiesdelight.cauliflower_seeds": "Semillas de Coliflor",
+  "item.veggiesdelight.cauliflower_floret": "Ramillete de Coliflor",
+  "item.veggiesdelight.fried_cauliflower_floret": "Ramillete de Coliflor Frito",
+  "item.veggiesdelight.cauliflower_patty": "Hamburguesa de Coliflor",
+  "item.veggiesdelight.cooked_cauliflower_patty": "Hamburguesa de Coliflor Cocida",
+  "item.veggiesdelight.cauliflower_soup": "Sopa de Coliflor",
+  "item.veggiesdelight.cauliflower_burger": "Hamburguesa de Coliflor",
+
+  "item.veggiesdelight.sweet_potato": "Batata",
+  "item.veggiesdelight.baked_sweet_potato": "Batata Horneada",
+  "item.veggiesdelight.mashed_potatoes": "Puré de Patatas",
+  "item.veggiesdelight.sweet_potato_pie_slice": "Porción de Tarta de Batata",
+  "item.veggiesdelight.potato_noodle": "Fideo de Patata",
+  "item.veggiesdelight.potato_noodles": "Fideos de Patata",
+
+  "item.veggiesdelight.garlic": "Ajo",
+  "item.veggiesdelight.garlic_clove": "Diente de Ajo",
+  "item.veggiesdelight.garlic_seeds": "Semillas de Ajo",
+  "item.veggiesdelight.roasted_garlic_clove": "Diente de Ajo Asado",
+  "item.veggiesdelight.garlic_bread": "Pan de Ajo",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "Arroz con Ajo y Coliflor",
+  "item.veggiesdelight.garlic_chicken_stew": "Estofado de Pollo con Ajo",
+  "item.veggiesdelight.garlic_baked_cod": "Bacalao al Horno con Ajo",
+  "item.veggiesdelight.cesar_salad": "Ensalada César",
+  "item.veggiesdelight.fermented_garlic_honey": "Miel de Ajo Fermentada",
+
+  "block.veggiesdelight.bellpepper_crate": "Caja de Pimientos",
+  "block.veggiesdelight.cauliflower_crate": "Caja de Coliflor",
+  "block.veggiesdelight.garlic_crate": "Caja de Ajo",
+  "block.veggiesdelight.sweet_potato_crate": "Caja de Batata",
+
+  "item.veggiesdelight.beetroot_pouch": "Bolsa de Semillas de Remolacha",
+  "item.veggiesdelight.bellpepper_pouch": "Bolsa de Semillas de Pimiento",
+  "item.veggiesdelight.cabbage_pouch": "Bolsa de Semillas de Repollo",
+  "item.veggiesdelight.cauliflower_pouch": "Bolsa de Semillas de Coliflor",
+  "item.veggiesdelight.garlic_pouch": "Bolsa de Semillas de Ajo",
+  "item.veggiesdelight.pumpkin_pouch": "Bolsa de Semillas de Calabaza",
+  "item.veggiesdelight.tomato_pouch": "Bolsa de Semillas de Tomate",
+  "item.veggiesdelight.melon_pouch": "Bolsa de Semillas de Melón",
+  "item.veggiesdelight.wheat_pouch": "Bolsa de Semillas de Trigo",
+
+  "item.veggiesdelight.beetroot_brownie": "Brownie de Remolacha",
+  "item.veggiesdelight.carrot_juice": "Zumo de Zanahoria",
+  "item.veggiesdelight.dandelion_juice": "Zumo de Diente de León",
+  "item.veggiesdelight.dandelion_leaf": "Hoja de Diente de León",
+
+  "block.veggiesdelight.vegan_pizza": "Pizza Vegana",
+  "block.veggiesdelight.sweet_potato_pie": "Tarta de Batata",
+  "block.veggiesdelight.beetroot_brownie_tray": "Bandeja de Brownie de Remolacha",
+
+  "block.veggiesdelight.mature_dandelion": "Diente de León Maduro",
+  "block.veggiesdelight.wild_bellpeppers": "Pimientos Silvestres",
+  "block.veggiesdelight.wild_cauliflowers": "Coliflores Silvestres",
+  "block.veggiesdelight.wild_garlic": "Ajo Silvestre",
+  "block.veggiesdelight.wild_sweet_potatoes": "Batatas Silvestres",
+
+  "creativetab.veggiesdelight_tab": "Delicia Vegetal",
+
+  "veggiesdelight.advancement.root": "Delicia Vegetal",
+  "veggiesdelight.advancement.root.desc": "¡Ve a por tus verduras!",
+
+  "veggiesdelight.advancement.fruit": "¿Esto no es una fruta?",
+  "veggiesdelight.advancement.fruit.desc": "un impostor entre nosotros",
+
+  "veggiesdelight.advancement.first": "Empecemos",
+  "veggiesdelight.advancement.first.desc": "Recoge tu primera verdura",
+
+  "veggiesdelight.advancement.all": "¡Atrápalos todos!",
+  "veggiesdelight.advancement.all.desc": "Recoge todas las verduras",
+
+  "veggiesdelight.advancement.eat": "Es crudo pero comestible",
+  "veggiesdelight.advancement.eat.desc": "Come cualquier verdura cruda",
+
+  "veggiesdelight.advancement.pizza_time": "Hora de pizza",
+  "veggiesdelight.advancement.pizza_time.desc": "Haz tu primera Pizza Vegana",
+
+  "veggiesdelight.advancement.burger": "Hamburguesa floreciente",
+  "veggiesdelight.advancement.burger.desc": "Haz una hamburguesa de coliflor",
+
+  "veggiesdelight.advancement.cauliflower": "La forma vegana",
+  "veggiesdelight.advancement.cauliflower.desc": "Fríe un ramillete de coliflor, el pollo frito vegano",
+
+  "veggiesdelight.advancement.pie": "Porción de vida",
+  "veggiesdelight.advancement.pie.desc": "Hornea una tarta de batata",
+
+  "veggiesdelight.advancement.med": "Remedio natural",
+  "veggiesdelight.advancement.med.desc": "Prepara miel de ajo fermentada",
+
+  "veggiesdelight.advancement.cesar": "¡CESAAAAAAR!",
+  "veggiesdelight.advancement.cesar.desc": "Prepara una ensalada César",
+
+  "veggiesdelight.advancement.bellpepper_master": "Dr. Pimiento",
+  "veggiesdelight.advancement.bellpepper_master.desc": "Prepara todos los platos posibles con pimientos",
+
+  "veggiesdelight.advancement.cauliflower_master": "Maestro de la Coliflor",
+  "veggiesdelight.advancement.cauliflower_master.desc": "Prepara todos los platos posibles con coliflor",
+
+  "veggiesdelight.advancement.sweet_potato_master": "Chef Dulce",
+  "veggiesdelight.advancement.sweet_potato_master.desc": "Prepara todos los platos posibles con batatas",
+
+  "veggiesdelight.advancement.garlic_master": "Ajo Jr.",
+  "veggiesdelight.advancement.garlic_master.desc": "Prepara todos los platos posibles con ajo"
+}

@@ -87,6 +87,8 @@ public class VeggiesDelight
 
                 Ingredient newChickenFood = Ingredient.of(ModItems.BELLPEPPER_SEEDS.get(), ModItems.CAULIFLOWER_SEEDS.get(), ModItems.GARLIC_SEEDS.get());
                 Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood)) {};
+
+
             });
         }
     }

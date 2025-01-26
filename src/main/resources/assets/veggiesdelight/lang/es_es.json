@@ -61,10 +61,10 @@
   "block.veggiesdelight.beetroot_brownie_tray": "Bandeja de Brownie de Remolacha",
 
   "block.veggiesdelight.mature_dandelion": "Diente de León Maduro",
-  "block.veggiesdelight.wild_bellpeppers": "Pimientos Silvestres",
-  "block.veggiesdelight.wild_cauliflowers": "Coliflores Silvestres",
-  "block.veggiesdelight.wild_garlic": "Ajo Silvestre",
-  "block.veggiesdelight.wild_sweet_potatoes": "Batatas Silvestres",
+  "block.veggiesdelight.wild_bellpeppers": "Pimientos silvestre",
+  "block.veggiesdelight.wild_cauliflowers": "Coliflores silvestre",
+  "block.veggiesdelight.wild_garlic": "Ajo silvestre",
+  "block.veggiesdelight.wild_sweet_potatoes": "Batatas silvestre",
 
   "creativetab.veggiesdelight_tab": "Delicia Vegetal",
 
@@ -77,13 +77,13 @@
   "veggiesdelight.advancement.first": "Empecemos",
   "veggiesdelight.advancement.first.desc": "Recoge tu primera verdura",
 
-  "veggiesdelight.advancement.all": "¡Atrápalos todos!",
+  "veggiesdelight.advancement.all": "¡Atrápalos Ya!",
   "veggiesdelight.advancement.all.desc": "Recoge todas las verduras",
 
   "veggiesdelight.advancement.eat": "Es crudo pero comestible",
   "veggiesdelight.advancement.eat.desc": "Come cualquier verdura cruda",
 
-  "veggiesdelight.advancement.pizza_time": "Hora de pizza",
+  "veggiesdelight.advancement.pizza_time": "¡Es hora de pizza!",
   "veggiesdelight.advancement.pizza_time.desc": "Haz tu primera Pizza Vegana",
 
   "veggiesdelight.advancement.burger": "Hamburguesa floreciente",

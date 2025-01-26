@@ -14,7 +14,6 @@ import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.entity.animal.Pig;
 import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.level.block.ComposterBlock;
-import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.crafting.CompoundIngredient;
 import net.minecraftforge.event.village.VillagerTradesEvent;

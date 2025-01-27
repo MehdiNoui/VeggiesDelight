@@ -3,7 +3,7 @@ package net.mehdinoui.veggiesdelight;
 import com.mojang.logging.LogUtils;
 import net.mehdinoui.veggiesdelight.block.ModBlocks;
 import net.mehdinoui.veggiesdelight.item.ModItems;
-import net.mehdinoui.veggiesdelight.item.ModCreativeModeTabs;
+import net.mehdinoui.veggiesdelight.registry.ModCreativeModeTabs;
 import net.mehdinoui.veggiesdelight.world.VillageStructures;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;

@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "veggiesdelight:bellpepper",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "veggiesdelight:bellpepper_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "veggiesdelight:bellpepper_crop"
+  }
+}

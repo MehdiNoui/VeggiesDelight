@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "veggiesdelight:cauliflower",
+      "count": 2
+    },
+    {
+      "item": "veggiesdelight:cauliflower_seeds"
+    }
+  ],
+  "input": {
+    "item": "veggiesdelight:cauliflower_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "veggiesdelight:cauliflower_crop"
+  }
+}

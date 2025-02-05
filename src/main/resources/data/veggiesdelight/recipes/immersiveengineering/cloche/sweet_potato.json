@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "veggiesdelight:sweet_potato",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "veggiesdelight:sweet_potato"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "veggiesdelight:sweet_potato_crop"
+  }
+}

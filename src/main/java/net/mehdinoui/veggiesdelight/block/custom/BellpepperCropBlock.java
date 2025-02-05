@@ -22,8 +22,6 @@ public class BellpepperCropBlock extends CropBlock {
     public static final int MAX_AGE = 7;
     public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
 
-    //TESTING
-
     public BellpepperCropBlock(Properties pProperties) {
         super(pProperties);
     }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "cookingtime": 100,
-  "experience": 0.15,
+  "cookingtime": 50,
+  "experience": 0.1,
   "ingredient": {
     "item": "veggiesdelight:garlic_clove"
   },

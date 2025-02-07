@@ -1,12 +1,11 @@
-**Veggies Delight :**
-Veggies Delight is a lightweight mod for Minecraft that adds four new vegetables, seed pouches, a variety of new food recipes and expanded compatibility with Farmer's Delight.
+**📜About**
+Veggies Delight is an add-on for Farmer's Delight that introduces a variety of new vegetables and dishes to the game.
 
-**Features :**
-- Three New Vegetables: Bell Pepper, Cauliflwoer, Garlic and Sweet Potato.
-- Expanded Food Recipes: Use the new vegetables to craft a variety of new dishes.
-- Seed pouches : A new mechanic for managing seed storage. (just like vegetables crates but for seeds)
-- Farmer's Delight Integration: Expanded recipe options and integration with the Farmer's Delight mod.
-- Mod Compatibility: Fully compatible with popular mods like Botany pots, Create, CreateAddition, Diet and Serene's Season. 
+**🌾Features**
+Adds 4 new vegetables: Bell Peppers 🫑, Cauliflowers 🥦, Garlic 🧄, and Sweet Potatoes 🍠. 
+Adds Dandelion Leaf (Foraging food).
+Seed Pouches  : a convenient new way to store your seeds (basically like crates).
+Adds Depot Houses to village: a new structure where it serves as a storage area for various goods.
 
 **Contributing :**
 We welcome contributions! If you'd like to contribute, please fork the repository and create a pull request. Be sure to follow the project's coding standards and provide detailed information on the changes you've made.

@@ -58,17 +58,26 @@ public class VeggiesDelight
         @SubscribeEvent
         public static void onCommonSetup(FMLCommonSetupEvent event) {
             event.enqueueWork(() -> {
+                    //10%
+                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.1F);
+
                     //30%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER_SEEDS.get(), 0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_FLORET.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_SEEDS.get(),0.3F);
-                    ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.DANDELION_LEAF.get(),0.3F);
+
                     //65%
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_BELLPEPPERS.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get(), 0.65F);
                     // 85%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);
@@ -79,6 +88,7 @@ public class VeggiesDelight
                     //100%
                     ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE.get(), 1F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE_TRAY.get(), 0.1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.MHADJEB.get(), 1F);
 
                 Ingredient newPigFood = Ingredient.of(ModItems.BELLPEPPER.get(), ModItems.SWEET_POTATO.get());

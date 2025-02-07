@@ -1,7 +1,7 @@
 {
   "values": [
-    "#forge:crops/bellpepper",
-    "#forge:crops/cauliflower",
-    "#forge:crops/garlic"
+    "#forge:seeds/bellpepper",
+    "#forge:seeds/cauliflower",
+    "#forge:seeds/garlic"
   ]
 }

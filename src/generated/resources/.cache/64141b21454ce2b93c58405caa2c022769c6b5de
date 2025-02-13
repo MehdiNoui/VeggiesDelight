@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-13T02:08:25.7546025	Item Models: veggiesdelight
+// 1.20.1	2025-02-13T14:52:28.4405753	Item Models: veggiesdelight
 c21ba6e55af2ad5ce7f5d8ed6186f170bf5449de assets/veggiesdelight/models/item/baked_sweet_potato.json
 5bcc7524e18d93afff2f7bdbe7cc5fa9861756fb assets/veggiesdelight/models/item/beetroot_brownie.json
 ad031358037a4ae0cae5d9c6dc654cdfcbbd7895 assets/veggiesdelight/models/item/beetroot_brownie_tray.json
@@ -8,6 +8,8 @@ f9d86b6dc358bf30077661dc70f9eb12b2e71a7c assets/veggiesdelight/models/item/bellp
 75acfc629808cbdd7dd77eb7f06dbe5eef1267b1 assets/veggiesdelight/models/item/bellpepper_seeds.json
 f1ffa090a5c16a2db96b7d5e17a85940f3ff973c assets/veggiesdelight/models/item/cabbage_pouch.json
 f04cf58dd7a85a4b84f402b87044568a18c9f0ee assets/veggiesdelight/models/item/cacciatore.json
+39a4e239b1cf453afcdad0111a8ec29285350ba1 assets/veggiesdelight/models/item/carrot_cake.json
+7ae641d8f8b9469e8a1336f5d43a3652c72f1869 assets/veggiesdelight/models/item/carrot_cake_slice.json
 6e32452220ab641cbaa7db589bfab35f4ecf730c assets/veggiesdelight/models/item/carrot_juice.json
 fe618f431fba2bc81dd6cf867066b68198a17eea assets/veggiesdelight/models/item/cauliflower.json
 a554b7c29ce3552b235aa736f112346190e41d71 assets/veggiesdelight/models/item/cauliflower_burger.json
@@ -18,6 +20,7 @@ bcc182dfdfa1c5ea06d433788fe8db095cc12388 assets/veggiesdelight/models/item/cauli
 53cf28bfa7d2006b591d9e090f2e96d1c8494bd9 assets/veggiesdelight/models/item/cauliflower_soup.json
 ce30f08146b8b7560ce3f4179e428714b145aa08 assets/veggiesdelight/models/item/cesar_salad.json
 1a4fa64551c97e45f6aa44d7fb628540cd07eda5 assets/veggiesdelight/models/item/cooked_cauliflower_patty.json
+bb8fd449ffed931b7accfe2b5ac4c2d41bd43783 assets/veggiesdelight/models/item/dandelion_and_eggs.json
 327ec964e609780ad7fb0de356218955ec50c0b6 assets/veggiesdelight/models/item/dandelion_juice.json
 732311a0453e2d03bb19652b5e6b67b1ca50a5a1 assets/veggiesdelight/models/item/dandelion_leaf.json
 b4dd547a6529d892b982ec9980b2ed78daed7e5b assets/veggiesdelight/models/item/fermented_garlic_honey.json

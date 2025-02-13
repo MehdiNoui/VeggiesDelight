@@ -3,8 +3,7 @@
     "particle": "veggiesdelight:block/carrot_cake_side",
     "bottom": "veggiesdelight:block/carrot_cake_bottom",
     "top": "veggiesdelight:block/carrot_cake_top",
-    "side": "veggiesdelight:block/carrot_cake_side",
-    "inside": "veggiesdelight:block/carrot_cake_inner"
+    "side": "veggiesdelight:block/carrot_cake_side"
   },
   "elements": [
     {   "from": [ 1, 0, 1 ],
@@ -14,7 +13,7 @@
         "up":    { "texture": "#top" },
         "north": { "texture": "#side" },
         "south": { "texture": "#side" },
-        "west":  { "texture": "#inside" },
+        "west":  { "texture": "#side" },
         "east":  { "texture": "#side" }
       }
     }

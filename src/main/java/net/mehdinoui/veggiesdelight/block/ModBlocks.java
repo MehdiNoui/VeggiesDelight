@@ -5,11 +5,8 @@ import net.mehdinoui.veggiesdelight.block.custom.*;
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -68,7 +65,8 @@ public class ModBlocks {
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SWEET_POTATO_PIE_SLICE));
     public static final RegistryObject<Block> BEETROOT_BROWNIE_TRAY = BLOCKS.register("beetroot_brownie_tray",
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.BEETROOT_BROWNIE));
-
+    public static final RegistryObject<Block> CARROT_CAKE = BLOCKS.register("carrot_cake",
+            () -> new CakeBlock(Block.Properties.copy(Blocks.CAKE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

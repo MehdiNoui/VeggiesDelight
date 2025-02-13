@@ -50,7 +50,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CAULIFLOWER_BURGER);
         simpleItem(ModItems.WHOLE_ROASTED_CAULIFLOWER);
 
-        //test github
         simpleItem(ModItems.SWEET_POTATO);
         simpleItem(ModItems.MASHED_POTATOES);
         simpleItem(ModItems.BAKED_SWEET_POTATO);

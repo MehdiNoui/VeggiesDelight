@@ -59,18 +59,21 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GARLIC_STUFFED_MUSHROOMS.get());
                         pOutput.accept(ModItems.UNCOOKED_MHADJEB.get());
                         pOutput.accept(ModItems.MHADJEB.get());
+
+                        pOutput.accept(ModItems.CAULIFLOWER_BURGER.get());
+                        pOutput.accept(ModItems.CARROT_JUICE.get());
+                        pOutput.accept(ModItems.DANDELION_JUICE.get());
+                        pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
+
                         pOutput.accept(ModItems.SWEET_POTATO_CUPCAKE.get());
                         pOutput.accept(ModItems.SWEET_POTATO_PIE.get());
                         pOutput.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA.get());
                         pOutput.accept(ModItems.VEGAN_PIZZA_SLICE.get());
-                        pOutput.accept(ModItems.CAULIFLOWER_BURGER.get());
-
-                        pOutput.accept(ModItems.CARROT_JUICE.get());
-                        pOutput.accept(ModItems.DANDELION_JUICE.get());
-                        pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
                         pOutput.accept(ModItems.BEETROOT_BROWNIE_TRAY.get());
                         pOutput.accept(ModItems.BEETROOT_BROWNIE.get());
+                        pOutput.accept(ModItems.CARROT_CAKE.get());
+                        pOutput.accept(ModItems.CARROT_CAKE_SLICE.get());
 
                         pOutput.accept(ModItems.CACCIATORE.get());
                         pOutput.accept(ModItems.CAULIFLOWER_SOUP.get());
@@ -78,11 +81,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MASHED_POTATOES.get());
                         pOutput.accept(ModItems.POTATO_NOODLES.get());
 
+                        pOutput.accept(ModItems.CESAR_SALAD.get());
+                        pOutput.accept(ModItems.FISH_AND_CHIPS.get());
+                        pOutput.accept(ModItems.DANDELION_AND_EGGS.get());
                         pOutput.accept(ModItems.GARLIC_BAKED_COD.get());
                         pOutput.accept(ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get());
                         pOutput.accept(ModItems.SHAKSHOUKA.get());
-                        pOutput.accept(ModItems.CESAR_SALAD.get());
-                        pOutput.accept(ModItems.FISH_AND_CHIPS.get());
                         pOutput.accept(ModItems.ROASTED_VEGETABLES.get());
                         pOutput.accept(ModItems.STEAK_FAJITAS.get());
                         pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());

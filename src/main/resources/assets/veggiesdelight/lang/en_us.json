@@ -57,10 +57,14 @@
   "item.veggiesdelight.melon_pouch": "Melon Seeds Pouch",
   "item.veggiesdelight.wheat_pouch": "Wheat Seeds Pouch",
 
-  "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
-  "item.veggiesdelight.carrot_juice": "Carrot Juice",
   "item.veggiesdelight.dandelion_juice": "Dandelion Juice",
   "item.veggiesdelight.dandelion_leaf": "Dandelion Leaf",
+  "item.veggiesdelight.dandelion_and_eggs": "Dandelion Greens And Eggs",
+
+  "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
+  "item.veggiesdelight.carrot_juice": "Carrot Juice",
+  "item.veggiesdelight.carrot_cake": "Carrot Cake",
+  "item.veggiesdelight.carrot_cake_slice": "Carrot Cake",
   "item.veggiesdelight.fish_and_chips": "Fish And Chips",
   "item.veggiesdelight.roasted_vegetables": "Roasted Vegetables",
 

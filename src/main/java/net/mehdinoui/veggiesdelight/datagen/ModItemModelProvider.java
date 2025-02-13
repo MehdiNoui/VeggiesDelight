@@ -80,6 +80,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DANDELION_LEAF);
         simpleItem(ModItems.FISH_AND_CHIPS);
         simpleItem(ModItems.ROASTED_VEGETABLES);
+        simpleItem(ModItems.DANDELION_AND_EGGS);
+        simpleItem(ModItems.CARROT_CAKE);
+        simpleItem(ModItems.CARROT_CAKE_SLICE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

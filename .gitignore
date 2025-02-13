@@ -13,6 +13,7 @@ out
 *.iml
 .idea
 run
+run-data/logs
 run-data
 src/generated
 

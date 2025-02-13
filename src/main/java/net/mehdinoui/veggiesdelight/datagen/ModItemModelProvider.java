@@ -38,6 +38,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MHADJEB);
         simpleItem(ModItems.VEGAN_PIZZA);
         simpleItem(ModItems.VEGAN_PIZZA_SLICE);
+        simpleItem(ModItems.STEAK_FAJITAS);
 
         simpleItem(ModItems.CAULIFLOWER);
         simpleItem(ModItems.CAULIFLOWER_SEEDS);
@@ -47,6 +48,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.COOKED_CAULIFLOWER_PATTY);
         simpleItem(ModItems.CAULIFLOWER_SOUP);
         simpleItem(ModItems.CAULIFLOWER_BURGER);
+        simpleItem(ModItems.WHOLE_ROASTED_CAULIFLOWER);
 
         simpleItem(ModItems.SWEET_POTATO);
         simpleItem(ModItems.MASHED_POTATOES);
@@ -55,6 +57,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SWEET_POTATO_PIE_SLICE);
         simpleItem(ModItems.POTATO_NOODLE);
         simpleItem(ModItems.POTATO_NOODLES);
+        simpleItem(ModItems.SWEET_POTATO_CUPCAKE);
+        simpleItem(ModItems.SWEET_POTATO_DOUGH);
+        simpleItem(ModItems.SWEET_POTATO_MOCHI);
 
         simpleItem(ModItems.GARLIC);
         simpleItem(ModItems.GARLIC_CLOVE);
@@ -66,12 +71,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GARLIC_BREAD);
         simpleItem(ModItems.CESAR_SALAD);
         simpleItem(ModItems.FERMENTED_GARLIC_HONEY);
+        simpleItem(ModItems.GARLIC_STUFFED_MUSHROOMS);
 
         simpleItem(ModItems.BEETROOT_BROWNIE_TRAY);
         simpleItem(ModItems.BEETROOT_BROWNIE);
         simpleItem(ModItems.CARROT_JUICE);
         simpleItem(ModItems.DANDELION_JUICE);
         simpleItem(ModItems.DANDELION_LEAF);
+        simpleItem(ModItems.FISH_AND_CHIPS);
+        simpleItem(ModItems.ROASTED_VEGETABLES);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -15,94 +15,109 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, VeggiesDelight.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> VEGGIESDELIGHT_TAB = CREATIVE_MODE_TABS.register("veggiesdelight_tab",
-            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.BELLPEPPER.get()))
+    public static final RegistryObject<CreativeModeTab> VEGGIESDELIGHT_TAB = CREATIVE_MODE_TABS.register(
+            "veggiesdelight_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.BELLPEPPER.get()))
                     .title(Component.translatable("creativetab.veggiesdelight_tab"))
-                    .displayItems((pParameters, pOutput) ->{
-                        pOutput.accept(ModItems.BELLPEPPER.get());
-                        pOutput.accept(ModItems.CAULIFLOWER.get());
-                        pOutput.accept(ModItems.DANDELION_LEAF.get());
-                        pOutput.accept(ModItems.GARLIC.get());
-                        pOutput.accept(ModItems.SWEET_POTATO.get());
+                    .displayItems((params, output) -> {
 
-                        pOutput.accept(ModItems.BELLPEPPER_SEEDS.get());
-                        pOutput.accept(ModItems.CAULIFLOWER_SEEDS.get());
-                        pOutput.accept(ModItems.GARLIC_SEEDS.get());
+                        // Crops
+                        output.accept(ModItems.BELLPEPPER.get());
+                        output.accept(ModItems.CAULIFLOWER.get());
+                        output.accept(ModItems.DANDELION_LEAF.get());
+                        output.accept(ModItems.GARLIC.get());
+                        output.accept(ModItems.SWEET_POTATO.get());
 
-                        pOutput.accept(ModItems.BEETROOT_POUCH.get());
-                        pOutput.accept(ModItems.BELLPEPPER_POUCH.get());
-                        pOutput.accept(ModItems.CABBAGE_POUCH.get());
-                        pOutput.accept(ModItems.CAULIFLOWER_POUCH.get());
-                        pOutput.accept(ModItems.GARLIC_POUCH.get());
-                        pOutput.accept(ModItems.PUMPKIN_POUCH.get());
-                        pOutput.accept(ModItems.TOMATO_POUCH.get());
-                        pOutput.accept(ModItems.MELON_POUCH.get());
-                        pOutput.accept(ModItems.WHEAT_POUCH.get());
+                        // Seeds
+                        output.accept(ModItems.BELLPEPPER_SEEDS.get());
+                        output.accept(ModItems.CAULIFLOWER_SEEDS.get());
+                        output.accept(ModItems.GARLIC_SEEDS.get());
 
-                        pOutput.accept(ModBlocks.BELLPEPPER_CRATE.get());
-                        pOutput.accept(ModBlocks.CAULIFLOWER_CRATE.get());
-                        pOutput.accept(ModBlocks.GARLIC_CRATE.get());
-                        pOutput.accept(ModBlocks.SWEET_POTATO_CRATE.get());
+                        // Seed Pouches
+                        output.accept(ModItems.BEETROOT_POUCH.get());
+                        output.accept(ModItems.BELLPEPPER_POUCH.get());
+                        output.accept(ModItems.CABBAGE_POUCH.get());
+                        output.accept(ModItems.CAULIFLOWER_POUCH.get());
+                        output.accept(ModItems.GARLIC_POUCH.get());
+                        output.accept(ModItems.PUMPKIN_POUCH.get());
+                        output.accept(ModItems.TOMATO_POUCH.get());
+                        output.accept(ModItems.MELON_POUCH.get());
+                        output.accept(ModItems.WHEAT_POUCH.get());
 
-                        pOutput.accept(ModItems.GARLIC_CLOVE.get());
-                        pOutput.accept(ModItems.ROASTED_GARLIC_CLOVE.get());
-                        pOutput.accept(ModItems.SMOKED_BELLPEPPER.get());
-                        pOutput.accept(ModItems.CAULIFLOWER_FLORET.get());
-                        pOutput.accept(ModItems.FRIED_CAULIFLOWER_FLORET.get());
-                        pOutput.accept(ModItems.BAKED_SWEET_POTATO.get());
+                        // Storage Crates
+                        output.accept(ModBlocks.BELLPEPPER_CRATE.get());
+                        output.accept(ModBlocks.CAULIFLOWER_CRATE.get());
+                        output.accept(ModBlocks.GARLIC_CRATE.get());
+                        output.accept(ModBlocks.SWEET_POTATO_CRATE.get());
 
-                        pOutput.accept(ModItems.SWEET_POTATO_DOUGH.get());
-                        pOutput.accept(ModItems.POTATO_NOODLE.get());
-                        pOutput.accept(ModItems.CAULIFLOWER_PATTY.get());
-                        pOutput.accept(ModItems.COOKED_CAULIFLOWER_PATTY.get());
-                        pOutput.accept(ModItems.GARLIC_BREAD.get());
-                        pOutput.accept(ModItems.GARLIC_STUFFED_MUSHROOMS.get());
-                        pOutput.accept(ModItems.UNCOOKED_MHADJEB.get());
-                        pOutput.accept(ModItems.MHADJEB.get());
+                        // Basic Ingredients
+                        output.accept(ModItems.GARLIC_CLOVE.get());
+                        output.accept(ModItems.ROASTED_GARLIC_CLOVE.get());
+                        output.accept(ModItems.SMOKED_BELLPEPPER.get());
+                        output.accept(ModItems.CAULIFLOWER_FLORET.get());
+                        output.accept(ModItems.FRIED_CAULIFLOWER_FLORET.get());
+                        output.accept(ModItems.BAKED_SWEET_POTATO.get());
 
-                        pOutput.accept(ModItems.CAULIFLOWER_BURGER.get());
-                        pOutput.accept(ModItems.CARROT_JUICE.get());
-                        pOutput.accept(ModItems.DANDELION_JUICE.get());
-                        pOutput.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
+                        // Dough & Noodles
+                        output.accept(ModItems.SWEET_POTATO_DOUGH.get());
+                        output.accept(ModItems.POTATO_NOODLE.get());
 
-                        pOutput.accept(ModItems.SWEET_POTATO_CUPCAKE.get());
-                        pOutput.accept(ModItems.SWEET_POTATO_PIE.get());
-                        pOutput.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
-                        pOutput.accept(ModItems.VEGAN_PIZZA.get());
-                        pOutput.accept(ModItems.VEGAN_PIZZA_SLICE.get());
-                        pOutput.accept(ModItems.BEETROOT_BROWNIE_TRAY.get());
-                        pOutput.accept(ModItems.BEETROOT_BROWNIE.get());
-                        pOutput.accept(ModItems.CARROT_CAKE.get());
-                        pOutput.accept(ModItems.CARROT_CAKE_SLICE.get());
+                        // Snacks & Baked Goods
+                        output.accept(ModItems.CAULIFLOWER_PATTY.get());
+                        output.accept(ModItems.COOKED_CAULIFLOWER_PATTY.get());
+                        output.accept(ModItems.GARLIC_BREAD.get());
+                        output.accept(ModItems.GARLIC_STUFFED_MUSHROOMS.get());
+                        output.accept(ModItems.UNCOOKED_MHADJEB.get());
+                        output.accept(ModItems.MHADJEB.get());
 
-                        pOutput.accept(ModItems.CACCIATORE.get());
-                        pOutput.accept(ModItems.CAULIFLOWER_SOUP.get());
-                        pOutput.accept(ModItems.GARLIC_CHICKEN_STEW.get());
-                        pOutput.accept(ModItems.MASHED_POTATOES.get());
-                        pOutput.accept(ModItems.POTATO_NOODLES.get());
+                        // Drinks
+                        output.accept(ModItems.CARROT_JUICE.get());
+                        output.accept(ModItems.DANDELION_JUICE.get());
+                        output.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
 
-                        pOutput.accept(ModItems.CESAR_SALAD.get());
-                        pOutput.accept(ModItems.FISH_AND_CHIPS.get());
-                        pOutput.accept(ModItems.DANDELION_AND_EGGS.get());
-                        pOutput.accept(ModItems.GARLIC_BAKED_COD.get());
-                        pOutput.accept(ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get());
-                        pOutput.accept(ModItems.SHAKSHOUKA.get());
-                        pOutput.accept(ModItems.ROASTED_VEGETABLES.get());
-                        pOutput.accept(ModItems.STEAK_FAJITAS.get());
-                        pOutput.accept(ModItems.STUFFED_BELLPEPPERS.get());
-                        pOutput.accept(ModItems.SWEET_POTATO_MOCHI.get());
-                        pOutput.accept(ModItems.WHOLE_ROASTED_CAULIFLOWER.get());
+                        // Desserts
+                        output.accept(ModItems.SWEET_POTATO_CUPCAKE.get());
+                        output.accept(ModItems.SWEET_POTATO_PIE.get());
+                        output.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
+                        output.accept(ModItems.VEGAN_PIZZA.get());
+                        output.accept(ModItems.VEGAN_PIZZA_SLICE.get());
+                        output.accept(ModItems.BEETROOT_BROWNIE_TRAY.get());
+                        output.accept(ModItems.BEETROOT_BROWNIE.get());
+                        output.accept(ModItems.CARROT_CAKE.get());
+                        output.accept(ModItems.CARROT_CAKE_SLICE.get());
 
-                        pOutput.accept(ModBlocks.MATURE_DANDELION.get());
-                        pOutput.accept(ModBlocks.WILD_BELLPEPPERS.get());
-                        pOutput.accept(ModBlocks.WILD_CAULIFLOWERS.get());
-                        pOutput.accept(ModBlocks.WILD_GARLIC.get());
-                        pOutput.accept(ModBlocks.WILD_SWEET_POTATOES.get());
-                    }
-                    ).build());
+                        // Soups & Stews
+                        output.accept(ModItems.CACCIATORE.get());
+                        output.accept(ModItems.CAULIFLOWER_SOUP.get());
+                        output.accept(ModItems.GARLIC_CHICKEN_STEW.get());
+                        output.accept(ModItems.MASHED_POTATOES.get());
+                        output.accept(ModItems.POTATO_NOODLES.get());
+
+                        // Meals
+                        output.accept(ModItems.CESAR_SALAD.get());
+                        output.accept(ModItems.FISH_AND_CHIPS.get());
+                        output.accept(ModItems.DANDELION_AND_EGGS.get());
+                        output.accept(ModItems.GARLIC_BAKED_COD.get());
+                        output.accept(ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get());
+                        output.accept(ModItems.SHAKSHOUKA.get());
+                        output.accept(ModItems.ROASTED_VEGETABLES.get());
+                        output.accept(ModItems.STEAK_FAJITAS.get());
+                        output.accept(ModItems.STUFFED_BELLPEPPERS.get());
+                        output.accept(ModItems.SWEET_POTATO_MOCHI.get());
+                        output.accept(ModItems.WHOLE_ROASTED_CAULIFLOWER.get());
+
+                        // Wild Plants
+                        output.accept(ModBlocks.MATURE_DANDELION.get());
+                        output.accept(ModBlocks.WILD_BELLPEPPERS.get());
+                        output.accept(ModBlocks.WILD_CAULIFLOWERS.get());
+                        output.accept(ModBlocks.WILD_GARLIC.get());
+                        output.accept(ModBlocks.WILD_SWEET_POTATOES.get());
+                    })
+                    .build()
+    );
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
-
 }

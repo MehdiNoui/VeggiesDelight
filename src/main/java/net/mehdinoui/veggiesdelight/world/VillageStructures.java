@@ -1,6 +1,7 @@
 package net.mehdinoui.veggiesdelight.world;
 
 import com.mojang.datafixers.util.Pair;
+import net.mehdinoui.veggiesdelight.Configuration;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
@@ -14,10 +15,14 @@ import net.minecraftforge.event.server.ServerAboutToStartEvent;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class VillageStructures
 {
     public static void addNewVillageBuilding(final ServerAboutToStartEvent event) {
+        if (!Configuration.GENERATE_VILLAGE_STRUCTURES.get()) {
+            return;
+        }
 
         Registry<StructureTemplatePool> templatePools = event.getServer().registryAccess().registry(Registries.TEMPLATE_POOL).get();
         Registry<StructureProcessorList> processorLists = event.getServer().registryAccess().registry(Registries.PROCESSOR_LIST).get();

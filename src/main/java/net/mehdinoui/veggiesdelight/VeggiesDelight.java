@@ -19,7 +19,9 @@ import net.minecraftforge.common.crafting.CompoundIngredient;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
@@ -43,6 +45,7 @@ public class VeggiesDelight
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Configuration.CONFIG);
 
         MinecraftForge.EVENT_BUS.addListener(VillageStructures::addNewVillageBuilding);
         MinecraftForge.EVENT_BUS.register(this);
@@ -110,41 +113,43 @@ public class VeggiesDelight
 
         @SubscribeEvent
         public static void onVillagerTrades(VillagerTradesEvent event) {
-            if (event.getType() == VillagerProfession.FARMER) {
-                List<VillagerTrades.ItemListing> level1Trades = event.getTrades().get(1);
-                List<VillagerTrades.ItemListing> level2Trades = event.getTrades().get(2);
+            if (Configuration.ENABLE_VILLAGER_TRADES.get()) {
 
-                level1Trades.add((entity, random) -> new MerchantOffer(
-                        new ItemStack(ModItems.BELLPEPPER.get(), 26), // Soybean in quantity
-                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
-                        12, // Max uses
-                        3, // Villager XP
-                        0.05f // Price multiplier
-                ));
+                if (event.getType() == VillagerProfession.FARMER) {
+                    List<VillagerTrades.ItemListing> level1Trades = event.getTrades().get(1);
+                    List<VillagerTrades.ItemListing> level2Trades = event.getTrades().get(2);
 
-                level1Trades.add((entity, random) -> new MerchantOffer(
-                        new ItemStack(ModItems.GARLIC.get(), 26), // Soybean in quantity
-                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
-                        12, // Max uses
-                        3, // Villager XP
-                        0.05f // Price multiplier
-                ));
-                level1Trades.add((entity, random) -> new MerchantOffer(
-                        new ItemStack(ModItems.SWEET_POTATO.get(), 26), // Soybean in quantity
-                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
-                        12, // Max uses
-                        3, // Villager XP
-                        0.05f // Price multiplier
-                ));
-                level2Trades.add((entity, random) -> new MerchantOffer(
-                        new ItemStack(ModItems.CAULIFLOWER.get(), 18), // Soybean in quantity
-                        new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
-                        12, // Max uses
-                        7, // Villager XP
-                        0.05f // Price multiplier
-                ));
+                    level1Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.BELLPEPPER.get(), 26), // Soybean in quantity
+                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            12, // Max uses
+                            3, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+
+                    level1Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.GARLIC.get(), 26), // Soybean in quantity
+                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            12, // Max uses
+                            3, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+                    level1Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.SWEET_POTATO.get(), 26), // Soybean in quantity
+                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            12, // Max uses
+                            3, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+                    level2Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.CAULIFLOWER.get(), 18), // Soybean in quantity
+                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            12, // Max uses
+                            7, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+                }
             }
         }
     }
-
 }

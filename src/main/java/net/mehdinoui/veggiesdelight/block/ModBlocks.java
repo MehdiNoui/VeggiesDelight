@@ -66,7 +66,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> BEETROOT_BROWNIE_TRAY = BLOCKS.register("beetroot_brownie_tray",
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.BEETROOT_BROWNIE));
     public static final RegistryObject<Block> CARROT_CAKE = BLOCKS.register("carrot_cake",
-            () -> new CakeBlock(Block.Properties.copy(Blocks.CAKE)));
+            () -> new CarrotCakeBlock(Block.Properties.copy(Blocks.CAKE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -138,7 +138,7 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties DANDELION_JUICE = new FoodProperties.Builder().
-            nutrition(6).saturationMod(0.6f)
+            nutrition(8).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
             .alwaysEat().build();
     public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().

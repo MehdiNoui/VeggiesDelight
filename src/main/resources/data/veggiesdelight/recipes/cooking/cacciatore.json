@@ -7,7 +7,7 @@
   },
   "ingredients": [
     {
-      "tag": "forge:crops/pepper"
+      "item": "veggiesdelight:bellpepper"
     },
     {
       "tag": "forge:cooked_chicken"

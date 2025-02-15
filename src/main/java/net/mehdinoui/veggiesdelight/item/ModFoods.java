@@ -93,7 +93,7 @@ public class ModFoods {
     public static final FoodProperties ROASTED_GARLIC_CLOVE = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.2f).fast().build();
     public static final FoodProperties GARLIC_BREAD = new FoodProperties.Builder().
-            nutrition(6).saturationMod(0.4f).fast().build();
+            nutrition(5).saturationMod(0.4f).fast().build();
     public static final FoodProperties GARLIC_STUFFED_MUSHROOMS = new FoodProperties.Builder().
             nutrition(7).saturationMod(0.5f).build();
     public static final FoodProperties GARLIC_CHICKEN_STEW = new FoodProperties.Builder().

@@ -27,7 +27,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MELON_POUCH);
         simpleItem(ModItems.WHEAT_POUCH);
 
-
         simpleItem(ModItems.BELLPEPPER);
         simpleItem(ModItems.BELLPEPPER_SEEDS);
         simpleItem(ModItems.CACCIATORE);
@@ -44,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CAULIFLOWER_SEEDS);
         simpleItem(ModItems.CAULIFLOWER_FLORET);
         simpleItem(ModItems.FRIED_CAULIFLOWER_FLORET);
+        simpleItem(ModItems.CAULIFLOWER_BREAD);
         simpleItem(ModItems.CAULIFLOWER_PATTY);
         simpleItem(ModItems.COOKED_CAULIFLOWER_PATTY);
         simpleItem(ModItems.CAULIFLOWER_SOUP);

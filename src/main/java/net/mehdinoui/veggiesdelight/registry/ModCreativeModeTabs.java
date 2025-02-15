@@ -64,6 +64,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POTATO_NOODLE.get());
 
                         // Snacks & Baked Goods
+                        output.accept(ModItems.CAULIFLOWER_BREAD.get());
                         output.accept(ModItems.CAULIFLOWER_PATTY.get());
                         output.accept(ModItems.COOKED_CAULIFLOWER_PATTY.get());
                         output.accept(ModItems.GARLIC_BREAD.get());

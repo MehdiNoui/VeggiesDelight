@@ -96,6 +96,8 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_FLORET)));
     public static final RegistryObject<Item> FRIED_CAULIFLOWER_FLORET = ITEMS.register("fried_cauliflower_floret",
             ()->new Item(new Item.Properties().food(ModFoods.FRIED_CAULIFLOWER_FLORET)));
+    public static final RegistryObject<Item> CAULIFLOWER_BREAD = ITEMS.register("cauliflower_bread",
+            ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BREAD)));
     public static final RegistryObject<Item> CAULIFLOWER_PATTY = ITEMS.register("cauliflower_patty",
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_PATTY)));
     public static final RegistryObject<Item> COOKED_CAULIFLOWER_PATTY = ITEMS.register("cooked_cauliflower_patty",

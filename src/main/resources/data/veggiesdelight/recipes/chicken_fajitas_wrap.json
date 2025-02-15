@@ -2,9 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "forge:dough"
-    },
+    [
+      {
+        "tag": "forge:dough"
+      },
+      {
+        "item": "culturaldelights:tortilla"
+      },
+      {
+      "tag": "forge:tortilla"
+      }
+    ],
     {
       "tag": "forge:crops/onion"
     },

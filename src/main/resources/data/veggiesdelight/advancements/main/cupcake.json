@@ -2,13 +2,13 @@
   "parent": "veggiesdelight:main/eat",
   "display": {
     "title": {
-      "translate": "veggiesdelight.advancement.cauliflower"
+      "translate": "veggiesdelight.advancement.cupcake"
     },
     "description": {
-      "translate": "veggiesdelight.advancement.cauliflower.desc"
+      "translate": "veggiesdelight.advancement.cupcake.desc"
     },
     "icon": {
-      "item": "veggiesdelight:cauliflower_bread"
+      "item": "veggiesdelight:sweet_potato_cupcake"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,18 +16,18 @@
     "hidden": false
   },
   "criteria": {
-    "bread": {
+    "cup": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:cauliflower_bread"]
+            "items": ["veggiesdelight:sweet_potato_cupcake"]
           }
         ]
       }
     }
   },
   "requirements": [
-    ["bread"]
+    ["cup"]
   ]
 }

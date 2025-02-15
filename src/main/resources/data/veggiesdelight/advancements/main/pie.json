@@ -1,5 +1,5 @@
 {
-  "parent": "veggiesdelight:main/eat",
+  "parent": "veggiesdelight:main/cupcake",
   "display": {
     "title": {
       "translate": "veggiesdelight.advancement.pie"

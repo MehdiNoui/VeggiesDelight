@@ -55,10 +55,30 @@
           }
         ]
       }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:sweet_potato_cupcake"]
+          }
+        ]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:sweet_potato_mochi"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["A"],["B"],["C"],["D"]
+    ["A"],["B"],["C"],["D"],["E"],["F"]
   ],
   "rewards": {
     "experience": 300

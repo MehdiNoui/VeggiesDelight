@@ -55,10 +55,30 @@
           }
         ]
       }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:whole_roasted_cauliflower"]
+          }
+        ]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:cauliflower_bread"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["A"],["B"],["C"],["D"]
+    ["A"],["B"],["C"],["D"],["E"],["F"]
   ],
   "rewards": {
     "experience": 300

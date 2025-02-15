@@ -75,10 +75,20 @@
           }
         ]
       }
+    },
+    "G": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:chicken_fajitas_wrap"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["A"],["B"],["C"],["D"],["E"],["F"]
+    ["A"],["B"],["C"],["D"],["E"],["F"],["G"]
   ],
   "rewards": {
     "experience": 300

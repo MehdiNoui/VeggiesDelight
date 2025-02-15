@@ -103,8 +103,11 @@
   "veggiesdelight.advancement.burger": "Burger bloom",
   "veggiesdelight.advancement.burger.desc": "Make a cauliflower burger",
 
-  "veggiesdelight.advancement.cauliflower": "The vegan way",
-  "veggiesdelight.advancement.cauliflower.desc": "Fry some cauliflower floret, the vegan fried chicken",
+  "veggiesdelight.advancement.cauliflower": "I Teleported Bread",
+  "veggiesdelight.advancement.cauliflower.desc": "Make bread out of cauliflower",
+
+  "veggiesdelight.advancement.cupcake": "I Came Here Just To Get A Cupcake",
+  "veggiesdelight.advancement.cupcake.desc":"Make a cupcake out of sweet potatoes",
 
   "veggiesdelight.advancement.pie": "Slice Of Life",
   "veggiesdelight.advancement.pie.desc": "Bake a sweet potato pie",
@@ -121,7 +124,7 @@
   "veggiesdelight.advancement.cauliflower_master": "Cauli-master",
   "veggiesdelight.advancement.cauliflower_master.desc": "Make every dish possible out of cauliflowers",
 
-  "veggiesdelight.advancement.sweet_potato_master": "Sweet chef",
+  "veggiesdelight.advancement.sweet_potato_master": "Sweet Victory",
   "veggiesdelight.advancement.sweet_potato_master.desc": "Make every dish possible out of sweet potatoes",
 
   "veggiesdelight.advancement.garlic_master": "Garlic Jr.",

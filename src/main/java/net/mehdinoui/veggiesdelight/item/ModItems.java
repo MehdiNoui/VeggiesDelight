@@ -108,7 +108,6 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
     public static final RegistryObject<Item> CAULIFLOWER_BURGER = ITEMS.register("cauliflower_burger",
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BURGER)));
-
     public static final RegistryObject<Item> WHOLE_ROASTED_CAULIFLOWER = ITEMS.register("whole_roasted_cauliflower",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.WHOLE_CAULIFLOWER), true));
 
@@ -126,7 +125,6 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.SWEET_POTATO_PIE.get(), basicItem()));
     public static final RegistryObject<Item> SWEET_POTATO_PIE_SLICE = ITEMS.register("sweet_potato_pie_slice",
             ()->new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_PIE_SLICE)));
-
     public static final RegistryObject<Item> SWEET_POTATO_DOUGH = ITEMS.register("sweet_potato_dough",
             ()-> new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_DOUGH)));
     public static final RegistryObject<Item> SWEET_POTATO_CUPCAKE = ITEMS.register("sweet_potato_cupcake",
@@ -154,7 +152,6 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CESAR_SALAD), true));
     public static final RegistryObject<Item> FERMENTED_GARLIC_HONEY = ITEMS.register("fermented_garlic_honey",
             ()->new DrinkableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
-
     public static final RegistryObject<Item> GARLIC_STUFFED_MUSHROOMS = ITEMS.register("garlic_stuffed_mushrooms",
             ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_STUFFED_MUSHROOMS)));
 
@@ -171,7 +168,6 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.DANDELION_LEAF)));
     public static final RegistryObject<Item> DANDELION_AND_EGGS = ITEMS.register("dandelion_and_eggs",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.DANDELION_WITH_EGGS), true));
-
     public static final RegistryObject<Item> FISH_AND_CHIPS = ITEMS.register("fish_and_chips",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.FISH_AND_CHIPS), true));
     public static final RegistryObject<Item> ROASTED_VEGETABLES = ITEMS.register("roasted_vegetables",

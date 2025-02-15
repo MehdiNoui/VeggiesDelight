@@ -13,13 +13,13 @@ public class Configuration {
     static {
         BUILDER.push("Villager Settings");
         ENABLE_VILLAGER_TRADES = BUILDER
-                .comment("Enable custom villager trades (default: true)")
+                .comment("Enable Veggies delight villager trades")
                 .define("enableVillagerTrades", true);
         BUILDER.pop();
 
-        BUILDER.push("Structures");
+        BUILDER.push("Village Settings");
         GENERATE_VILLAGE_STRUCTURES = BUILDER
-                .comment("Enable or disable Veggies Delight village structures.")
+                .comment("Enable or disable Veggies Delight village structures")
                 .define("generateVillageStructures", true);
         BUILDER.pop();
 

@@ -1,9 +1,8 @@
 {
   "values": [
-    "veggiesdelight:cauliflower",
-    "veggiesdelight:bellpepper",
-    "veggiesdelight:sweet_potato",
-    "veggiesdelight:garlic_clove",
-    "veggiesdelight:dandelion_leaf"
+    "#forge:vegetables/bellpepper",
+    "#forge:vegetables/cauliflower",
+    "#forge:vegetables/garlic",
+    "#forge:vegetables/sweet_potato"
   ]
 }

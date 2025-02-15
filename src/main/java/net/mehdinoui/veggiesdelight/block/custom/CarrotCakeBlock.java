@@ -41,8 +41,7 @@ public class CarrotCakeBlock extends CakeBlock {
         } else {
             player.awardStat(Stats.EAT_CAKE_SLICE);
 
-            player.getFoodData().eat(6, 0.6F); // More hunger & saturation than vanilla cake
-            player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, BRIEF_DURATION, 0)); // Regeneration for 5s
+            player.getFoodData().eat(3, 0.2F); // More hunger & saturation than vanilla cake
 
             int bites = state.getValue(BITES);
             world.gameEvent(player, GameEvent.EAT, pos);

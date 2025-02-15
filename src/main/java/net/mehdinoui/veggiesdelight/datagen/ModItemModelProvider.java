@@ -37,7 +37,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MHADJEB);
         simpleItem(ModItems.VEGAN_PIZZA);
         simpleItem(ModItems.VEGAN_PIZZA_SLICE);
-        simpleItem(ModItems.STEAK_FAJITAS);
+        //simpleItem(ModItems.STEAK_FAJITAS);
+        simpleItem(ModItems.CHICKEN_FAJITAS_WRAP);
 
         simpleItem(ModItems.CAULIFLOWER);
         simpleItem(ModItems.CAULIFLOWER_SEEDS);

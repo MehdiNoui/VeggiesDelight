@@ -85,9 +85,11 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.VEGAN_PIZZA.get(), basicItem()));
     public static final RegistryObject<Item> VEGAN_PIZZA_SLICE = ITEMS.register("vegan_pizza_slice",
             ()->new Item(new Item.Properties().food(ModFoods.VEGAN_PIZZA_SLICE)));
+    public static final RegistryObject<Item> CHICKEN_FAJITAS_WRAP = ITEMS.register("chicken_fajitas_wrap",
+            ()->new Item(new Item.Properties().food(ModFoods.CHICKEN_FAJITAS_WRAP)));
+    /*public static final RegistryObject<Item> STEAK_FAJITAS = ITEMS.register("steak_fajitas",
+           ()-> new Item(new Item.Properties().food(ModFoods.STEAK_FAJITAS)));*/
 
-    public static final RegistryObject<Item> STEAK_FAJITAS = ITEMS.register("steak_fajitas",
-            ()-> new Item(new Item.Properties().food(ModFoods.STEAK_FAJITAS)));
 
     //CAULIFLOWER
     public static final RegistryObject<Item> CAULIFLOWER = ITEMS.register("cauliflower",

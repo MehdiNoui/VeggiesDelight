@@ -27,7 +27,9 @@ public class ModFoods {
     public static final FoodProperties UNCOOKED_MHADJEB = new FoodProperties.Builder().
             nutrition(5).saturationMod(0.3F).build();
     public static final FoodProperties MHADJEB= new FoodProperties.Builder().
-            nutrition(12).saturationMod(0.7f).fast().build();
+            nutrition(12).saturationMod(0.7f).build();
+    public static final FoodProperties CHICKEN_FAJITAS_WRAP = new FoodProperties.Builder().
+            nutrition(10).saturationMod(0.7f).build();
     public static final FoodProperties VEGAN_PIZZA_SLICE = new FoodProperties.Builder().
             nutrition(5).saturationMod(0.7f).build();
     public static final FoodProperties STEAK_FAJITAS = new FoodProperties.Builder().

@@ -1,22 +1,22 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 2.0,
+  "experience": 3.0,
   "container": {
     "item": "minecraft:bowl"
   },
   "ingredients": [
     {
-      "tag": "forge:crops/pepper"
+      "item": "veggiesdelight:sweet_potato_dough"
     },
     {
-      "tag": "forge:cooked_chicken"
+      "item": "minecraft:honey_bottle"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "forge:milk"
     }
   ],
   "result": {
-    "item": "veggiesdelight:cacciatore"
+    "item": "veggiesdelight:sweet_potato_mochi"
   }
 }

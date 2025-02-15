@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:carrot_cake"
+    }
+  ],
+  "result": [
+    {
+      "count": 7,
+      "item": "veggiesdelight:carrot_cake_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

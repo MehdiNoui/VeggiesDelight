@@ -9,10 +9,10 @@
       "item": "farmersdelight:tomato_sauce"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "forge:crops/onion"
     },
     {
-      "item": "veggiesdelight:bellpepper"
+      "tag": "forge:crops/pepper"
     }
   ],
   "result": {

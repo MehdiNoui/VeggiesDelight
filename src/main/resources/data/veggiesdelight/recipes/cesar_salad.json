@@ -6,13 +6,13 @@
       "tag": "forge:crops/cabbage"
     },
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "forge:crops/onion"
     },
     {
-      "item": "veggiesdelight:garlic_clove"
+      "tag": "forge:crops/garlic"
     },
     {
       "item": "minecraft:bowl"

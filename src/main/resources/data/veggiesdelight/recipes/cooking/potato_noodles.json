@@ -13,7 +13,7 @@
       "item": "veggiesdelight:potato_noodle"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "forge:crops/onion"
     }
   ],
   "result": {

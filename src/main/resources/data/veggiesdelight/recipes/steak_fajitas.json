@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:smoked_bellpepper"
+    },
+    {
+      "item": "veggiesdelight:smoked_bellpepper"
+    },
+    {
+      "tag": "forge:cooked_beef"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result":{
+    "item":"veggiesdelight:steak_fajitas"
+  }
+}

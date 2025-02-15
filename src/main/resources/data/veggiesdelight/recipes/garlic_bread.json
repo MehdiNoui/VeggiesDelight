@@ -6,7 +6,7 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bread"
+      "tag": "forge:bread"
     },
     "B": {
       "item": "veggiesdelight:roasted_garlic_clove"

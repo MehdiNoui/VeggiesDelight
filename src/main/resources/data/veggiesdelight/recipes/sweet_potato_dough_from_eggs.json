@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "veggiesdelight:sweet_potato"
+    },
+    {
+      "item": "veggiesdelight:sweet_potato"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "veggiesdelight:sweet_potato_dough"
+  }
+}

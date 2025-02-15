@@ -7,7 +7,7 @@
   },
   "ingredients": [
     {
-      "item": "veggiesdelight:bellpepper"
+      "tag": "forge:crops/pepper"
     },
     {
       "tag": "forge:eggs"

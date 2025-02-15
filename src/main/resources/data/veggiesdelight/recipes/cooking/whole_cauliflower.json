@@ -1,25 +1,22 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 2.0,
+  "cookingtime": 800,
+  "experience": 8.0,
   "container": {
     "item": "minecraft:bowl"
   },
   "ingredients": [
     {
-      "tag": "forge:crops/garlic"
+      "item": "veggiesdelight:cauliflower"
     },
     {
-      "tag": "forge:milk"
-    },
-    {
-      "tag": "forge:cooked_chicken"
+      "tag": "forge:crops/onion"
     },
     {
       "tag": "forge:vegetables"
     }
   ],
   "result": {
-    "item": "veggiesdelight:garlic_chicken_stew"
+    "item": "veggiesdelight:whole_roasted_cauliflower"
   }
 }

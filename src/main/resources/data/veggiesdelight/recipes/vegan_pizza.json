@@ -16,10 +16,10 @@
       "tag": "forge:vegetables"
     },
     "B": {
-      "item": "farmersdelight:onion"
+      "tag": "forge:crops/onion"
     },
     "D": {
-      "item": "veggiesdelight:bellpepper"
+      "tag": "forge:crops/pepper"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   },
   "ingredients": [
     {
-      "item": "veggiesdelight:cauliflower_floret"
+      "tag": "forge:crops/cauliflower"
     },
     {
-      "item": "veggiesdelight:cauliflower_floret"
+      "tag": "forge:crops/cauliflower"
     },
     {
       "tag": "forge:vegetables"

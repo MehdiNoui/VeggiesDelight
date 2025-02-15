@@ -7,19 +7,16 @@
   },
   "ingredients": [
     {
-      "tag": "forge:crops/garlic"
+      "tag": "forge:potatoes"
     },
     {
-      "tag": "forge:milk"
+      "tag": "forge:raw_fishes"
     },
     {
-      "tag": "forge:cooked_chicken"
-    },
-    {
-      "tag": "forge:vegetables"
+      "tag": "forge:eggs"
     }
   ],
   "result": {
-    "item": "veggiesdelight:garlic_chicken_stew"
+    "item": "veggiesdelight:fish_and_chips"
   }
 }

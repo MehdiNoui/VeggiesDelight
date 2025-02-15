@@ -81,25 +81,31 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get(), 0.65F);
+
                     // 85%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE_SLICE.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CARROT_CAKE_SLICE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.POTATO_NOODLE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_PATTY.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.UNCOOKED_MHADJEB.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_DOUGH.get(), 0.85F);
+
                     //100%
                     ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE.get(), 1F);
-                    ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE_TRAY.get(), 0.1F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE_TRAY.get(), 1F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.CARROT_CAKE.get(), 1F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_CUPCAKE.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.MHADJEB.get(), 1F);
+
 
                 Ingredient newPigFood = Ingredient.of(ModItems.BELLPEPPER.get(), ModItems.SWEET_POTATO.get());
                 Pig.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Pig.FOOD_ITEMS, newPigFood)) {};
 
                 Ingredient newChickenFood = Ingredient.of(ModItems.BELLPEPPER_SEEDS.get(), ModItems.CAULIFLOWER_SEEDS.get(), ModItems.GARLIC_SEEDS.get());
                 Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood)) {};
-
 
             });
         }

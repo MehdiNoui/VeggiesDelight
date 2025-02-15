@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-15T02:27:44.8245166	Item Models: veggiesdelight
+// 1.20.1	2025-02-15T15:35:39.6325022	Item Models: veggiesdelight
 c21ba6e55af2ad5ce7f5d8ed6186f170bf5449de assets/veggiesdelight/models/item/baked_sweet_potato.json
 5bcc7524e18d93afff2f7bdbe7cc5fa9861756fb assets/veggiesdelight/models/item/beetroot_brownie.json
 ad031358037a4ae0cae5d9c6dc654cdfcbbd7895 assets/veggiesdelight/models/item/beetroot_brownie_tray.json
@@ -20,6 +20,7 @@ a554b7c29ce3552b235aa736f112346190e41d71 assets/veggiesdelight/models/item/cauli
 bcc182dfdfa1c5ea06d433788fe8db095cc12388 assets/veggiesdelight/models/item/cauliflower_seeds.json
 53cf28bfa7d2006b591d9e090f2e96d1c8494bd9 assets/veggiesdelight/models/item/cauliflower_soup.json
 ce30f08146b8b7560ce3f4179e428714b145aa08 assets/veggiesdelight/models/item/cesar_salad.json
+6b11811127ad0b6a7a0888fa4a41f455a91e9d4a assets/veggiesdelight/models/item/chicken_fajitas_wrap.json
 1a4fa64551c97e45f6aa44d7fb628540cd07eda5 assets/veggiesdelight/models/item/cooked_cauliflower_patty.json
 bb8fd449ffed931b7accfe2b5ac4c2d41bd43783 assets/veggiesdelight/models/item/dandelion_and_eggs.json
 327ec964e609780ad7fb0de356218955ec50c0b6 assets/veggiesdelight/models/item/dandelion_juice.json
@@ -46,7 +47,6 @@ aafe645d1dbee7136da0f343e3cf3ddc4c9a08ef assets/veggiesdelight/models/item/roast
 7655bf9cc6f5e52ea71fb3e1bd2aec1ae31d2df8 assets/veggiesdelight/models/item/roasted_vegetables.json
 cb3c1ad15c6550d9632b83ab4668cd37c0cb2ea2 assets/veggiesdelight/models/item/shakshouka.json
 ea6659c8ecaed9dc2973034efa2c0db26002e254 assets/veggiesdelight/models/item/smoked_bellpepper.json
-9b6f77c104f52d65277300477d2a72ff1d769c57 assets/veggiesdelight/models/item/steak_fajitas.json
 29d97a470904a715307b66bb1f1158d88a2234c6 assets/veggiesdelight/models/item/stuffed_bellpeppers.json
 8b9b8c68fc10797dec33115767db3eaebb21c825 assets/veggiesdelight/models/item/sweet_potato.json
 b24eecde2df64d1092e80d06720da95d5ca3f7f8 assets/veggiesdelight/models/item/sweet_potato_cupcake.json

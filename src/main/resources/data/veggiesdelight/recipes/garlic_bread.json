@@ -1,19 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "BAB"
-  ],
-  "key": {
-    "A": {
+  "ingredients": [
+    {
       "tag": "forge:bread"
     },
-    "B": {
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
       "item": "veggiesdelight:roasted_garlic_clove"
     }
-  },
+  ],
   "result":{
     "item":"veggiesdelight:garlic_bread",
-    "count": 2
+    "count": 4
   }
 }

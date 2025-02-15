@@ -7,16 +7,19 @@
   },
   "ingredients": [
     {
-      "tag": "forge:potatoes"
-    },
-    {
-      "tag": "forge:raw_fishes"
+      "item": "vintagedelight:ghost_pepper"
     },
     {
       "tag": "forge:eggs"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
     }
   ],
   "result": {
-    "item": "veggiesdelight:fish_and_chips"
+    "item": "veggiesdelight:shakshouka"
   }
 }

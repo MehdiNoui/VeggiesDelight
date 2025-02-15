@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:dough"
+        "item": "culturaldelights:tortilla"
     },
     {
       "tag": "forge:crops/onion"

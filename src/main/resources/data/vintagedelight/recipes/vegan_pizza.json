@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BAD",
+    "CEC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:dough"
+    },
+    "E": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "A": {
+      "tag": "forge:vegetables"
+    },
+    "B": {
+      "tag": "forge:crops/onion"
+    },
+    "D": {
+      "item": "vintagedelight:ghost_pepper"
+    }
+  },
+  "result": {
+    "item": "veggiesdelight:vegan_pizza"
+  }
+}

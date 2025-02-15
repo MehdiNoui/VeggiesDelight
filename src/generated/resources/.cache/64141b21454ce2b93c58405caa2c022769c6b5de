@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-13T14:52:28.4405753	Item Models: veggiesdelight
+// 1.20.1	2025-02-15T02:27:44.8245166	Item Models: veggiesdelight
 c21ba6e55af2ad5ce7f5d8ed6186f170bf5449de assets/veggiesdelight/models/item/baked_sweet_potato.json
 5bcc7524e18d93afff2f7bdbe7cc5fa9861756fb assets/veggiesdelight/models/item/beetroot_brownie.json
 ad031358037a4ae0cae5d9c6dc654cdfcbbd7895 assets/veggiesdelight/models/item/beetroot_brownie_tray.json
@@ -12,6 +12,7 @@ f04cf58dd7a85a4b84f402b87044568a18c9f0ee assets/veggiesdelight/models/item/cacci
 7ae641d8f8b9469e8a1336f5d43a3652c72f1869 assets/veggiesdelight/models/item/carrot_cake_slice.json
 6e32452220ab641cbaa7db589bfab35f4ecf730c assets/veggiesdelight/models/item/carrot_juice.json
 fe618f431fba2bc81dd6cf867066b68198a17eea assets/veggiesdelight/models/item/cauliflower.json
+efdd67e4da1fac27cc3ae52a2e58ffe349a3c296 assets/veggiesdelight/models/item/cauliflower_bread.json
 a554b7c29ce3552b235aa736f112346190e41d71 assets/veggiesdelight/models/item/cauliflower_burger.json
 765b72fd793d8a2fdeaef5aef0c6646e4ce73911 assets/veggiesdelight/models/item/cauliflower_floret.json
 67990d4f81bb10c5d8790b1fc31149e8a60688f5 assets/veggiesdelight/models/item/cauliflower_patty.json

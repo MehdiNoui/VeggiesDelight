@@ -69,7 +69,6 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_FLORET.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_SEEDS.get(),0.3F);
-                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC_CLOVE.get(),0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.DANDELION_LEAF.get(),0.3F);
 
                     //65%
@@ -77,10 +76,10 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.65F);
-                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_BELLPEPPERS.get(), 0.65F);
-                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get(), 0.65F);
-                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get(), 0.65F);
-                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_BELLPEPPERS.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get().asItem(), 0.65F);
 
                     // 85%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
@@ -91,14 +90,14 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_PATTY.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.UNCOOKED_MHADJEB.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_DOUGH.get(), 0.85F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_CUPCAKE.get(), 0.85F);
 
                     //100%
                     ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE_TRAY.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CARROT_CAKE.get(), 1F);
-                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_CUPCAKE.get(), 1F);
-                    ComposterBlock.COMPOSTABLES.put(ModItems.MHADJEB.get(), 1F);
+
 
 
                 Ingredient newPigFood = Ingredient.of(ModItems.BELLPEPPER.get(), ModItems.SWEET_POTATO.get());
@@ -126,30 +125,30 @@ public class VeggiesDelight
                     List<VillagerTrades.ItemListing> level2Trades = event.getTrades().get(2);
 
                     level1Trades.add((entity, random) -> new MerchantOffer(
-                            new ItemStack(ModItems.BELLPEPPER.get(), 26), // Soybean in quantity
-                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            new ItemStack(ModItems.BELLPEPPER.get(), 26),
+                            new ItemStack(Items.EMERALD, 1),
                             12, // Max uses
                             3, // Villager XP
                             0.05f // Price multiplier
                     ));
 
                     level1Trades.add((entity, random) -> new MerchantOffer(
-                            new ItemStack(ModItems.GARLIC.get(), 26), // Soybean in quantity
-                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            new ItemStack(ModItems.GARLIC.get(), 26),
+                            new ItemStack(Items.EMERALD, 1),
                             12, // Max uses
                             3, // Villager XP
                             0.05f // Price multiplier
                     ));
                     level1Trades.add((entity, random) -> new MerchantOffer(
-                            new ItemStack(ModItems.SWEET_POTATO.get(), 26), // Soybean in quantity
-                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            new ItemStack(ModItems.SWEET_POTATO.get(), 26),
+                            new ItemStack(Items.EMERALD, 1),
                             12, // Max uses
                             3, // Villager XP
                             0.05f // Price multiplier
                     ));
                     level2Trades.add((entity, random) -> new MerchantOffer(
-                            new ItemStack(ModItems.CAULIFLOWER.get(), 18), // Soybean in quantity
-                            new ItemStack(Items.EMERALD, 1), // Resulting Emeralds
+                            new ItemStack(ModItems.CAULIFLOWER.get(), 18),
+                            new ItemStack(Items.EMERALD, 1),
                             12, // Max uses
                             7, // Villager XP
                             0.05f // Price multiplier

@@ -173,7 +173,7 @@ public class ModItems {
     public static final RegistryObject<Item> ROASTED_VEGETABLES = ITEMS.register("roasted_vegetables",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.ROASTED_VEGETABLES), true));
     public static final RegistryObject<Item> CARROT_CAKE = ITEMS.register("carrot_cake",
-            ()->new BlockItem(ModBlocks.CARROT_CAKE.get(), basicItem()));
+            ()->new BlockItem(ModBlocks.CARROT_CAKE.get(), basicItem().stacksTo(1)));
     public static final RegistryObject<Item> CARROT_CAKE_SLICE = ITEMS.register("carrot_cake_slice",
             ()-> new Item(new Item.Properties().food(ModFoods.CARROT_CAKE_SLICE)));
 

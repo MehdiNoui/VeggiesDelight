@@ -3,7 +3,7 @@
   "allowed_biomes": "#minecraft:is_overworld",
   "denied_biomes": "#forge:is_underground",
   "min_temperature": 1,
-  "max_temperature": 1.2,
+  "max_temperature": 2,
   "features": "veggiesdelight:patch_wild_bellpeppers",
   "step": "vegetal_decoration"
 }

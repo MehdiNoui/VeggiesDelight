@@ -130,7 +130,6 @@ public class VeggiesDelight
                             2, // Villager XP
                             0.05f // Price multiplier
                     ));
-
                     level1Trades.add((entity, random) -> new MerchantOffer(
                             new ItemStack(ModItems.GARLIC.get(), 26),
                             new ItemStack(Items.EMERALD, 1),
@@ -157,7 +156,7 @@ public class VeggiesDelight
         }
         @SubscribeEvent
         public static void onWandererTrades(WandererTradesEvent event) {
-            if (Configuration.ENABLE_VILLAGER_TRADES.get()) {
+            if (Configuration.ENABLE_WANDERING_TRADER_SELLS.get()) {
                 List<VillagerTrades.ItemListing> trades = event.getGenericTrades();
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.BELLPEPPER_SEEDS.get()), 1, 12, 0.05f));
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.CAULIFLOWER_SEEDS.get()), 1, 12, 0.05f));

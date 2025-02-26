@@ -83,6 +83,7 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.MATURE_DANDELION.get().asItem(), 0.65F);
 
                     // 85%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
@@ -140,7 +141,7 @@ public class VeggiesDelight
                     level1Trades.add((entity, random) -> new MerchantOffer(
                             new ItemStack(ModItems.SWEET_POTATO.get(), 26),
                             new ItemStack(Items.EMERALD, 1),
-                            16, // Max uses
+                            12, // Max uses
                             2, // Villager XP
                             0.05f // Price multiplier
                     ));

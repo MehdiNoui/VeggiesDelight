@@ -159,9 +159,11 @@ public class VeggiesDelight
         public static void onWandererTrades(WandererTradesEvent event) {
             if (Configuration.ENABLE_WANDERING_TRADER_SELLS.get()) {
                 List<VillagerTrades.ItemListing> trades = event.getGenericTrades();
-                trades.add(new BasicItemListing(1, new ItemStack(ModItems.BELLPEPPER_SEEDS.get()), 1, 12, 0.05f));
-                trades.add(new BasicItemListing(1, new ItemStack(ModItems.CAULIFLOWER_SEEDS.get()), 1, 12, 0.05f));
-                trades.add(new BasicItemListing(1, new ItemStack(ModItems.GARLIC_SEEDS.get()), 1, 12, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.BELLPEPPER_SEEDS.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.CAULIFLOWER_SEEDS.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.GARLIC_SEEDS.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.SWEET_POTATO.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.DANDELION_LEAF.get()), 12, 1, 0.05f));
             }
         }
     }

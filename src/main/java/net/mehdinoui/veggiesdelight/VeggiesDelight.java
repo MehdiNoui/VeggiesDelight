@@ -35,6 +35,7 @@ import java.util.List;
 
 @Mod(VeggiesDelight.MOD_ID)
 public class VeggiesDelight
+
 {
     public static final String MOD_ID = "veggiesdelight";
     private static final Logger LOGGER = LogUtils.getLogger();

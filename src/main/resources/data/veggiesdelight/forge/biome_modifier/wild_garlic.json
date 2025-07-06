@@ -3,7 +3,7 @@
   "allowed_biomes": "#minecraft:is_overworld",
   "denied_biomes": "#forge:is_underground",
   "min_temperature": 0.5,
-  "max_temperature": 0.95,
+  "max_temperature": 0.89,
   "features": "veggiesdelight:patch_wild_garlic",
   "step": "vegetal_decoration"
 }

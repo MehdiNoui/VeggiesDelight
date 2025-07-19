@@ -19,7 +19,7 @@
       "tag": "forge:crops/onion"
     },
     "D": {
-      "tag": "forge:crops/pepper"
+      "item": "veggiesdelight:bellpepper"
     }
   },
   "result": {

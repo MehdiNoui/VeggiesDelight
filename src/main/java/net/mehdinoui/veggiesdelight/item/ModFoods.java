@@ -8,9 +8,7 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 import static vectorwing.farmersdelight.common.FoodValues.*;
 
 public class ModFoods {
-
-
-    //Bell pepper
+    //BELL PEPPER
     public static final FoodProperties BELLPEPPER = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.3F).build();
     public static final FoodProperties SMOKED_BELLPEPPER = new FoodProperties.Builder().
@@ -37,7 +35,7 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
 
 
-    //cauliflower
+    //CAULIFLOWER
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.3f).build();
     public static final FoodProperties CAULIFLOWER_FLORET = new FoodProperties.Builder().
@@ -60,8 +58,7 @@ public class ModFoods {
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
 
-
-    //sweet potatoes
+    //SWEET POTATOES
     public static final FoodProperties BAKED_SWEET_POTATO = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties MASHED_POTATOES = new FoodProperties.Builder().
@@ -88,8 +85,7 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F)
             .build();
 
-
-    //garlic
+    //GARLIC
     public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.1f).fast().build();
     public static final FoodProperties ROASTED_GARLIC_CLOVE = new FoodProperties.Builder().
@@ -116,8 +112,7 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
             .alwaysEat().build();
 
-
-    //misc
+    //MISC
     public static final FoodProperties DANDELION_LEAF = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.1F).
             effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F)
@@ -147,6 +142,4 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CARROT_CAKE_SLICE = new FoodProperties.Builder().
             nutrition(3).saturationMod(0.2f).build();
-
-
 }

@@ -17,18 +17,17 @@ import vectorwing.farmersdelight.common.item.DrinkableItem;
 import static vectorwing.farmersdelight.common.registry.ModItems.basicItem;
 
 public class ModItems {
-    //long list of ITEMS
     public final static DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, VeggiesDelight.MOD_ID);
-
     public static Item.Properties bowlFoodItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.BOWL).stacksTo(16);
     }
-
     public static Item.Properties bottleItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.GLASS_BOTTLE).stacksTo(32);
     }
-
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 
     //SEEDS
     public static final RegistryObject<Item> BELLPEPPER_SEEDS = ITEMS.register("bellpepper_seeds",
@@ -44,7 +43,6 @@ public class ModItems {
     public static final RegistryObject<Item> GARLIC_CLOVE = ITEMS.register("garlic_clove",
             ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),
                     new Item.Properties().food(ModFoods.GARLIC_CLOVE)));
-
 
     //BELL PEPPER
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",
@@ -67,9 +65,6 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.VEGAN_PIZZA_SLICE)));
     public static final RegistryObject<Item> CHICKEN_FAJITAS_WRAP = ITEMS.register("chicken_fajitas_wrap",
             ()->new Item(new Item.Properties().food(ModFoods.CHICKEN_FAJITAS_WRAP)));
-    /*public static final RegistryObject<Item> STEAK_FAJITAS = ITEMS.register("steak_fajitas",
-           ()-> new Item(new Item.Properties().food(ModFoods.STEAK_FAJITAS)));*/
-
 
     //CAULIFLOWER
     public static final RegistryObject<Item> CAULIFLOWER = ITEMS.register("cauliflower",
@@ -91,7 +86,6 @@ public class ModItems {
     public static final RegistryObject<Item> WHOLE_ROASTED_CAULIFLOWER = ITEMS.register("whole_roasted_cauliflower",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.WHOLE_CAULIFLOWER), true));
 
-
     //SWEET POTATO
     public static final RegistryObject<Item> BAKED_SWEET_POTATO = ITEMS.register("baked_sweet_potato",
             ()->new Item(new Item.Properties().food(ModFoods.BAKED_SWEET_POTATO)));
@@ -111,7 +105,6 @@ public class ModItems {
             ()-> new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_CUPCAKE)));
     public static final RegistryObject<Item> SWEET_POTATO_MOCHI = ITEMS.register("sweet_potato_mochi",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.SWEET_POTATO_MOCHI), true));
-
 
     //GARLIC
     public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
@@ -154,8 +147,4 @@ public class ModItems {
             ()->new BlockItem(ModBlocks.CARROT_CAKE.get(), basicItem().stacksTo(1)));
     public static final RegistryObject<Item> CARROT_CAKE_SLICE = ITEMS.register("carrot_cake_slice",
             ()-> new Item(new Item.Properties().food(ModFoods.CARROT_CAKE_SLICE)));
-
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
-    }
 }

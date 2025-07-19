@@ -19,6 +19,17 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, VeggiesDelight.MOD_ID);
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    }
+    public static void register(IEventBus eventBus) {
+        BLOCKS.register(eventBus);
+    }
 
     //CRATES
     public static final RegistryObject<Block> BELLPEPPER_CRATE = registerBlock("bellpepper_crate",
@@ -41,7 +52,7 @@ public class ModBlocks {
             () -> new GarlicCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
-    //WILD_CROPS
+    //WILD CROPS
     public static final RegistryObject<Block> WILD_BELLPEPPERS = registerBlock("wild_bellpeppers",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
@@ -58,7 +69,7 @@ public class ModBlocks {
             () -> new DandelionBlock(BlockBehaviour.Properties.copy(Blocks.DANDELION)
                     .noCollission().noOcclusion()));
 
-    //Misc
+    //MISC
     public static final RegistryObject<Block> VEGAN_PIZZA = BLOCKS.register("vegan_pizza",
             () -> new PizzaBlock(Block.Properties.copy(Blocks.CAKE), ModItems.VEGAN_PIZZA_SLICE));
     public static final RegistryObject<Block> SWEET_POTATO_PIE = BLOCKS.register("sweet_potato_pie",
@@ -67,17 +78,4 @@ public class ModBlocks {
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.BEETROOT_BROWNIE));
     public static final RegistryObject<Block> CARROT_CAKE = BLOCKS.register("carrot_cake",
             () -> new CarrotCakeBlock(Block.Properties.copy(Blocks.CAKE)));
-
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn);
-        return toReturn;
-    }
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
-    }
-
-    public static void register(IEventBus eventBus) {
-        BLOCKS.register(eventBus);
-    }
 }

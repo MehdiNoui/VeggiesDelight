@@ -44,28 +44,6 @@ public class ModItems {
     public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",
             ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),new Item.Properties()));
 
-
-    //POUCHES
-    public static final RegistryObject<Item> BELLPEPPER_POUCH = ITEMS.register("bellpepper_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BEETROOT_POUCH = ITEMS.register("beetroot_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CABBAGE_POUCH = ITEMS.register("cabbage_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CAULIFLOWER_POUCH = ITEMS.register("cauliflower_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GARLIC_POUCH = ITEMS.register("garlic_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PUMPKIN_POUCH = ITEMS.register("pumpkin_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> TOMATO_POUCH = ITEMS.register("tomato_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MELON_POUCH = ITEMS.register("melon_pouch",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> WHEAT_POUCH = ITEMS.register("wheat_pouch",
-            ()->new Item(new Item.Properties()));
-
-
     //BELL PEPPER
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",
             ()->new Item(new Item.Properties().food(ModFoods.BELLPEPPER)));

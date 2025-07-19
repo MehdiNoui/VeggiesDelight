@@ -34,17 +34,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CAULIFLOWER_SEEDS.get());
                         output.accept(ModItems.GARLIC_SEEDS.get());
 
-                        // Seed Pouches
-                        output.accept(ModItems.BEETROOT_POUCH.get());
-                        output.accept(ModItems.BELLPEPPER_POUCH.get());
-                        output.accept(ModItems.CABBAGE_POUCH.get());
-                        output.accept(ModItems.CAULIFLOWER_POUCH.get());
-                        output.accept(ModItems.GARLIC_POUCH.get());
-                        output.accept(ModItems.PUMPKIN_POUCH.get());
-                        output.accept(ModItems.TOMATO_POUCH.get());
-                        output.accept(ModItems.MELON_POUCH.get());
-                        output.accept(ModItems.WHEAT_POUCH.get());
-
                         // Storage Crates
                         output.accept(ModBlocks.BELLPEPPER_CRATE.get());
                         output.accept(ModBlocks.CAULIFLOWER_CRATE.get());

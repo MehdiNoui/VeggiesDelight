@@ -41,8 +41,10 @@ public class ModItems {
                             .nutrition(2)
                             .saturationMod(0.1f)
                             .build())));
-    public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",
-            ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> GARLIC_CLOVE = ITEMS.register("garlic_clove",
+            ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),
+                    new Item.Properties().food(ModFoods.GARLIC_CLOVE)));
+
 
     //BELL PEPPER
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",
@@ -114,8 +116,6 @@ public class ModItems {
     //GARLIC
     public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
             ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GARLIC_CLOVE = ITEMS.register("garlic_clove",
-            ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_CLOVE)));
     public static final RegistryObject<Item> ROASTED_GARLIC_CLOVE = ITEMS.register("roasted_garlic_clove",
             ()-> new Item(new Item.Properties().food(ModFoods.ROASTED_GARLIC_CLOVE)));
     public static final RegistryObject<Item> GARLIC_BREAD = ITEMS.register("garlic_bread",

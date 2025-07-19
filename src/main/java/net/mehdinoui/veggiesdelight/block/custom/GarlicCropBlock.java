@@ -20,7 +20,7 @@ public class GarlicCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return ModItems.GARLIC_SEEDS.get();
+        return ModItems.GARLIC_CLOVE.get();
     }
 
     @Override

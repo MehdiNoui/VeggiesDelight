@@ -7,11 +7,8 @@
   ],
   "result": [
     {
-      "count": 6,
+      "count": 4,
       "item": "veggiesdelight:garlic_clove"
-    },
-    {
-      "item": "veggiesdelight:garlic_seeds"
     }
   ],
   "tool": {

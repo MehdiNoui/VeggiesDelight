@@ -7,15 +7,11 @@
   ],
   "result": [
     {
-      "item": "veggiesdelight:garlic_seeds"
+      "count": 2,
+      "item": "veggiesdelight:garlic_clove"
     },
     {
       "item": "minecraft:white_dye"
-    },
-    {
-      "chance": 0.3,
-      "count": 2,
-      "item": "veggiesdelight:garlic_clove"
     }
   ],
   "tool": {

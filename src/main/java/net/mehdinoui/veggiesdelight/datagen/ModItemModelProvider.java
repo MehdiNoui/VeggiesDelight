@@ -28,7 +28,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MHADJEB);
         simpleItem(ModItems.VEGAN_PIZZA);
         simpleItem(ModItems.VEGAN_PIZZA_SLICE);
-        //simpleItem(ModItems.STEAK_FAJITAS);
         simpleItem(ModItems.CHICKEN_FAJITAS_WRAP);
 
         simpleItem(ModItems.CAULIFLOWER);
@@ -55,7 +54,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.GARLIC);
         simpleItem(ModItems.GARLIC_CLOVE);
-        simpleItem(ModItems.GARLIC_SEEDS);
         simpleItem(ModItems.ROASTED_GARLIC_CLOVE);
         simpleItem(ModItems.GARLIC_BAKED_COD);
         simpleItem(ModItems.GARLIC_CHICKEN_STEW);

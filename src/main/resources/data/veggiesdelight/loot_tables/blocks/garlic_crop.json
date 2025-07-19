@@ -37,7 +37,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "veggiesdelight:garlic_seeds",
+              "name": "veggiesdelight:garlic_clove",
               "functions": [
                 {
                   "function": "minecraft:explosion_decay"

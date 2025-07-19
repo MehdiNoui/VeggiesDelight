@@ -32,7 +32,6 @@ public class ModCreativeModeTabs {
                         // Seeds
                         output.accept(ModItems.BELLPEPPER_SEEDS.get());
                         output.accept(ModItems.CAULIFLOWER_SEEDS.get());
-                        output.accept(ModItems.GARLIC_SEEDS.get());
 
                         // Storage Crates
                         output.accept(ModBlocks.BELLPEPPER_CRATE.get());

@@ -3,14 +3,14 @@
     {
       "type": "bookshelf:item_exists",
       "values": [
-        "veggiesdelight:garlic_seeds",
+        "veggiesdelight:garlic_clove",
         "veggiesdelight:garlic"
       ]
     }
   ],
   "type": "botanypots:crop",
   "seed": {
-    "item": "veggiesdelight:garlic_seeds"
+    "item": "veggiesdelight:garlic_clove"
   },
   "categories": [
     "dirt"
@@ -33,14 +33,6 @@
       "chance": 0.05,
       "output": {
         "item": "veggiesdelight:garlic"
-      },
-      "minRolls": 1,
-      "maxRolls": 2
-    },
-    {
-      "chance": 0.05,
-      "output": {
-        "item": "veggiesdelight:garlic_seeds"
       },
       "minRolls": 1,
       "maxRolls": 2

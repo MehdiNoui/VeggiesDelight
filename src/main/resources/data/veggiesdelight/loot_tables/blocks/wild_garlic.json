@@ -22,7 +22,7 @@
               }
             }
           ],
-          "name": "veggiesdelight:garlic_seeds"
+          "name": "veggiesdelight:garlic_clove"
         }
       ]
     },
@@ -60,7 +60,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "veggiesdelight:garlic_seeds"
+              "name": "veggiesdelight:garlic_clove"
             }
           ]
         }

@@ -13,16 +13,16 @@
       "model": "veggiesdelight:block/cauliflower_stage3"
     },
     "age=4": {
-      "model": "veggiesdelight:block/cauliflower_stage4"
+      "model": "veggiesdelight:block/cauliflower_stage3"
     },
     "age=5": {
-      "model": "veggiesdelight:block/cauliflower_stage5"
+      "model": "veggiesdelight:block/cauliflower_stage4"
     },
     "age=6": {
-      "model": "veggiesdelight:block/cauliflower_stage6"
+      "model": "veggiesdelight:block/cauliflower_stage4"
     },
     "age=7": {
-      "model": "veggiesdelight:block/cauliflower_stage7"
+      "model": "veggiesdelight:block/cauliflower_stage5"
     }
   }
 }

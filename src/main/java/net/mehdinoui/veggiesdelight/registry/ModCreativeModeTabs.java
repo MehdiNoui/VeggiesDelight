@@ -41,9 +41,12 @@ public class ModCreativeModeTabs {
 
                         // Storage Crates
                         output.accept(ModBlocks.BELLPEPPER_CRATE.get());
+                        output.accept(ModBlocks.BROCCOLI_CRATE.get());
                         output.accept(ModBlocks.CAULIFLOWER_CRATE.get());
                         output.accept(ModBlocks.GARLIC_CRATE.get());
                         output.accept(ModBlocks.SWEET_POTATO_CRATE.get());
+                        output.accept(ModBlocks.TURNIP_CRATE.get());
+                        output.accept(ModBlocks.ZUCCHINI_CRATE.get());
 
                         // Basic Ingredients
                         output.accept(ModItems.GARLIC_CLOVE.get());

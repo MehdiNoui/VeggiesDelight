@@ -35,11 +35,17 @@ public class ModBlocks {
     //CRATES
     public static final RegistryObject<Block> BELLPEPPER_CRATE = registerBlock("bellpepper_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BROCCOLI_CRATE = registerBlock("broccoli_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CAULIFLOWER_CRATE = registerBlock("cauliflower_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GARLIC_CRATE = registerBlock("garlic_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> SWEET_POTATO_CRATE = registerBlock("sweet_potato_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> GARLIC_CRATE = registerBlock("garlic_crate",
+    public static final RegistryObject<Block> TURNIP_CRATE = registerBlock("turnip_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ZUCCHINI_CRATE = registerBlock("zucchini_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     //CROPS

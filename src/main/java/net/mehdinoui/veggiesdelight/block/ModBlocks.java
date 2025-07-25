@@ -2,6 +2,7 @@ package net.mehdinoui.veggiesdelight.block;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.block.custom.*;
+import net.mehdinoui.veggiesdelight.block.custom.crops.*;
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -44,13 +45,18 @@ public class ModBlocks {
     //CROPS
     public static final RegistryObject<Block> BELLPEPPER_CROP = BLOCKS.register("bellpepper_crop",
             () -> new BellpepperCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> BROCCOLI_CROP = BLOCKS.register("broccoli_crop",
+            () -> new BroccoliCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
     public static final RegistryObject<Block> CAULIFLOWER_CROP = BLOCKS.register("cauliflower_crop",
             () -> new CauliflowerCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
-    public static final RegistryObject<Block> SWEET_POTATO_CROP = BLOCKS.register("sweet_potato_crop",
-            () -> new SweetPotatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
     public static final RegistryObject<Block> GARLIC_CROP = BLOCKS.register("garlic_crop",
             () -> new GarlicCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
-
+    public static final RegistryObject<Block> SWEET_POTATO_CROP = BLOCKS.register("sweet_potato_crop",
+            () -> new SweetPotatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+     public static final RegistryObject<Block> TURNIP_CROP = BLOCKS.register("turnip_crop",
+            () -> new TurnipCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> ZUCCHINI_CROP = BLOCKS.register("zucchini_crop",
+            () -> new ZucchiniCropBlock(Block.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     //WILD CROPS
     public static final RegistryObject<Block> WILD_BELLPEPPERS = registerBlock("wild_bellpeppers",
@@ -68,6 +74,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> MATURE_DANDELION = registerBlock("mature_dandelion",
             () -> new DandelionBlock(BlockBehaviour.Properties.copy(Blocks.DANDELION)
                     .noCollission().noOcclusion()));
+
 
     //MISC
     public static final RegistryObject<Block> VEGAN_PIZZA = BLOCKS.register("vegan_pizza",

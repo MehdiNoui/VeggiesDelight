@@ -30,6 +30,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.VEGAN_PIZZA_SLICE);
         simpleItem(ModItems.CHICKEN_FAJITAS_WRAP);
 
+        simpleItem(ModItems.BROCCOLI);
+        simpleItem(ModItems.BROCCOLI_SEEDS);
+
         simpleItem(ModItems.CAULIFLOWER);
         simpleItem(ModItems.CAULIFLOWER_SEEDS);
         simpleItem(ModItems.CAULIFLOWER_FLORET);
@@ -40,6 +43,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CAULIFLOWER_SOUP);
         simpleItem(ModItems.CAULIFLOWER_BURGER);
         simpleItem(ModItems.WHOLE_ROASTED_CAULIFLOWER);
+
+        simpleItem(ModItems.GARLIC);
+        simpleItem(ModItems.GARLIC_CLOVE);
+        simpleItem(ModItems.ROASTED_GARLIC_CLOVE);
+        simpleItem(ModItems.GARLIC_BAKED_COD);
+        simpleItem(ModItems.GARLIC_CHICKEN_STEW);
+        simpleItem(ModItems.GARLIC_RICE_WITH_CAULIFLOWER);
+        simpleItem(ModItems.GARLIC_BREAD);
+        simpleItem(ModItems.CESAR_SALAD);
+        simpleItem(ModItems.FERMENTED_GARLIC_HONEY);
+        simpleItem(ModItems.GARLIC_STUFFED_MUSHROOMS);
 
         simpleItem(ModItems.SWEET_POTATO);
         simpleItem(ModItems.MASHED_POTATOES);
@@ -52,16 +66,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SWEET_POTATO_DOUGH);
         simpleItem(ModItems.SWEET_POTATO_MOCHI);
 
-        simpleItem(ModItems.GARLIC);
-        simpleItem(ModItems.GARLIC_CLOVE);
-        simpleItem(ModItems.ROASTED_GARLIC_CLOVE);
-        simpleItem(ModItems.GARLIC_BAKED_COD);
-        simpleItem(ModItems.GARLIC_CHICKEN_STEW);
-        simpleItem(ModItems.GARLIC_RICE_WITH_CAULIFLOWER);
-        simpleItem(ModItems.GARLIC_BREAD);
-        simpleItem(ModItems.CESAR_SALAD);
-        simpleItem(ModItems.FERMENTED_GARLIC_HONEY);
-        simpleItem(ModItems.GARLIC_STUFFED_MUSHROOMS);
+        simpleItem(ModItems.TURNIP);
+        simpleItem(ModItems.TURNIP_SEEDS);
+
+        simpleItem(ModItems.ZUCCHINI);
+        simpleItem(ModItems.ZUCCHINI_SEEDS);
 
         simpleItem(ModItems.BEETROOT_BROWNIE_TRAY);
         simpleItem(ModItems.BEETROOT_BROWNIE);

@@ -43,6 +43,12 @@ public class ModItems {
     public static final RegistryObject<Item> GARLIC_CLOVE = ITEMS.register("garlic_clove",
             ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),
                     new Item.Properties().food(ModFoods.GARLIC_CLOVE)));
+    public static final RegistryObject<Item> BROCCOLI_SEEDS = ITEMS.register("broccoli_seeds",
+            ()->new ItemNameBlockItem(ModBlocks.BROCCOLI_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> TURNIP_SEEDS = ITEMS.register("turnip_seeds",
+            ()->new ItemNameBlockItem(ModBlocks.TURNIP_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ZUCCHINI_SEEDS = ITEMS.register("zucchini_seeds",
+            ()->new ItemNameBlockItem(ModBlocks.ZUCCHINI_CROP.get(),new Item.Properties()));
 
     //BELL PEPPER
     public static final RegistryObject<Item> BELLPEPPER= ITEMS.register("bellpepper",
@@ -66,6 +72,10 @@ public class ModItems {
     public static final RegistryObject<Item> CHICKEN_FAJITAS_WRAP = ITEMS.register("chicken_fajitas_wrap",
             ()->new Item(new Item.Properties().food(ModFoods.CHICKEN_FAJITAS_WRAP)));
 
+    //BROCCOLI
+    public static final RegistryObject<Item> BROCCOLI = ITEMS.register("broccoli",
+            ()-> new Item(new Item.Properties().food(ModFoods.BROCCOLI)));
+
     //CAULIFLOWER
     public static final RegistryObject<Item> CAULIFLOWER = ITEMS.register("cauliflower",
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER)));
@@ -85,6 +95,26 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BURGER)));
     public static final RegistryObject<Item> WHOLE_ROASTED_CAULIFLOWER = ITEMS.register("whole_roasted_cauliflower",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.WHOLE_CAULIFLOWER), true));
+
+    //GARLIC
+    public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROASTED_GARLIC_CLOVE = ITEMS.register("roasted_garlic_clove",
+            ()-> new Item(new Item.Properties().food(ModFoods.ROASTED_GARLIC_CLOVE)));
+    public static final RegistryObject<Item> GARLIC_BREAD = ITEMS.register("garlic_bread",
+            ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_BREAD)));
+    public static final RegistryObject<Item> GARLIC_CHICKEN_STEW = ITEMS.register("garlic_chicken_stew",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_CHICKEN_STEW), true));
+    public static final RegistryObject<Item> GARLIC_BAKED_COD = ITEMS.register("garlic_baked_cod",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_BAKED_COD), true));
+    public static final RegistryObject<Item> GARLIC_RICE_WITH_CAULIFLOWER= ITEMS.register("garlic_rice_with_cauliflower",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_RICE_WITH_CAULIFLOWER), true));
+    public static final RegistryObject<Item> CESAR_SALAD = ITEMS.register("cesar_salad",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.CESAR_SALAD), true));
+    public static final RegistryObject<Item> FERMENTED_GARLIC_HONEY = ITEMS.register("fermented_garlic_honey",
+            ()->new DrinkableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
+    public static final RegistryObject<Item> GARLIC_STUFFED_MUSHROOMS = ITEMS.register("garlic_stuffed_mushrooms",
+            ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_STUFFED_MUSHROOMS)));
 
     //SWEET POTATO
     public static final RegistryObject<Item> BAKED_SWEET_POTATO = ITEMS.register("baked_sweet_potato",
@@ -106,25 +136,14 @@ public class ModItems {
     public static final RegistryObject<Item> SWEET_POTATO_MOCHI = ITEMS.register("sweet_potato_mochi",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.SWEET_POTATO_MOCHI), true));
 
-    //GARLIC
-    public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
-            ()->new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ROASTED_GARLIC_CLOVE = ITEMS.register("roasted_garlic_clove",
-            ()-> new Item(new Item.Properties().food(ModFoods.ROASTED_GARLIC_CLOVE)));
-    public static final RegistryObject<Item> GARLIC_BREAD = ITEMS.register("garlic_bread",
-            ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_BREAD)));
-    public static final RegistryObject<Item> GARLIC_CHICKEN_STEW = ITEMS.register("garlic_chicken_stew",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_CHICKEN_STEW), true));
-    public static final RegistryObject<Item> GARLIC_BAKED_COD = ITEMS.register("garlic_baked_cod",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_BAKED_COD), true));
-    public static final RegistryObject<Item> GARLIC_RICE_WITH_CAULIFLOWER= ITEMS.register("garlic_rice_with_cauliflower",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.GARLIC_RICE_WITH_CAULIFLOWER), true));
-    public static final RegistryObject<Item> CESAR_SALAD = ITEMS.register("cesar_salad",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.CESAR_SALAD), true));
-    public static final RegistryObject<Item> FERMENTED_GARLIC_HONEY = ITEMS.register("fermented_garlic_honey",
-            ()->new DrinkableItem(bottleItem(ModFoods.FERMENTED_GARLIC_HONEY),true));
-    public static final RegistryObject<Item> GARLIC_STUFFED_MUSHROOMS = ITEMS.register("garlic_stuffed_mushrooms",
-            ()-> new Item(new Item.Properties().food(ModFoods.GARLIC_STUFFED_MUSHROOMS)));
+    //TURNIP
+    public static final RegistryObject<Item> TURNIP = ITEMS.register("turnip",
+            ()->new Item(new Item.Properties().food(ModFoods.TURNIP)));
+
+    //ZUCCHINI
+    public static final RegistryObject<Item> ZUCCHINI = ITEMS.register("zucchini",
+            ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI)));
+
 
     //MISC
     public static final RegistryObject<Item> BEETROOT_BROWNIE_TRAY = ITEMS.register("beetroot_brownie_tray",

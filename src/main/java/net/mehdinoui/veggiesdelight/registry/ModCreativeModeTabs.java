@@ -24,14 +24,20 @@ public class ModCreativeModeTabs {
 
                         // Crops
                         output.accept(ModItems.BELLPEPPER.get());
+                        output.accept(ModItems.BROCCOLI.get());
                         output.accept(ModItems.CAULIFLOWER.get());
                         output.accept(ModItems.DANDELION_LEAF.get());
                         output.accept(ModItems.GARLIC.get());
                         output.accept(ModItems.SWEET_POTATO.get());
+                        output.accept(ModItems.TURNIP.get());
+                        output.accept(ModItems.ZUCCHINI.get());
 
                         // Seeds
                         output.accept(ModItems.BELLPEPPER_SEEDS.get());
+                        output.accept(ModItems.BROCCOLI_SEEDS.get());
                         output.accept(ModItems.CAULIFLOWER_SEEDS.get());
+                        output.accept(ModItems.TURNIP_SEEDS.get());
+                        output.accept(ModItems.ZUCCHINI_SEEDS.get());
 
                         // Storage Crates
                         output.accept(ModBlocks.BELLPEPPER_CRATE.get());

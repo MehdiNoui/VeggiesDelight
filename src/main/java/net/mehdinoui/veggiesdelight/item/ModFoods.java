@@ -34,6 +34,9 @@ public class ModFoods {
             nutrition(14).saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
 
+    //BROCCOLI
+    public static final FoodProperties BROCCOLI = new FoodProperties.Builder().
+            nutrition(3).saturationMod(0.4f).build();
 
     //CAULIFLOWER
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().
@@ -57,6 +60,33 @@ public class ModFoods {
     public static final FoodProperties WHOLE_CAULIFLOWER = new FoodProperties.Builder().
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
+
+    //GARLIC
+    public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
+            nutrition(1).saturationMod(0.1f).fast().build();
+    public static final FoodProperties ROASTED_GARLIC_CLOVE = new FoodProperties.Builder().
+            nutrition(2).saturationMod(0.2f).fast().build();
+    public static final FoodProperties GARLIC_BREAD = new FoodProperties.Builder().
+            nutrition(5).saturationMod(0.4f).fast().build();
+    public static final FoodProperties GARLIC_STUFFED_MUSHROOMS = new FoodProperties.Builder().
+            nutrition(7).saturationMod(0.5f).build();
+    public static final FoodProperties GARLIC_CHICKEN_STEW = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.7f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, BRIEF_DURATION, 0), 1.0F).build();
+    public static final FoodProperties GARLIC_BAKED_COD = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties GARLIC_RICE_WITH_CAULIFLOWER = new FoodProperties.Builder().
+            nutrition(14).saturationMod(0.9f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
+            nutrition(10).saturationMod(0.7f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties FERMENTED_GARLIC_HONEY = new FoodProperties.Builder().
+            nutrition(8).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
+            .alwaysEat().build();
 
     //SWEET POTATOES
     public static final FoodProperties BAKED_SWEET_POTATO = new FoodProperties.Builder().
@@ -85,32 +115,12 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F)
             .build();
 
-    //GARLIC
-    public static final FoodProperties GARLIC_CLOVE = new FoodProperties.Builder().
-            nutrition(1).saturationMod(0.1f).fast().build();
-    public static final FoodProperties ROASTED_GARLIC_CLOVE = new FoodProperties.Builder().
-            nutrition(2).saturationMod(0.2f).fast().build();
-    public static final FoodProperties GARLIC_BREAD = new FoodProperties.Builder().
-            nutrition(5).saturationMod(0.4f).fast().build();
-    public static final FoodProperties GARLIC_STUFFED_MUSHROOMS = new FoodProperties.Builder().
-            nutrition(7).saturationMod(0.5f).build();
-    public static final FoodProperties GARLIC_CHICKEN_STEW = new FoodProperties.Builder().
-            nutrition(12).saturationMod(0.7f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties GARLIC_BAKED_COD = new FoodProperties.Builder().
-            nutrition(12).saturationMod(0.8f)
-            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties GARLIC_RICE_WITH_CAULIFLOWER = new FoodProperties.Builder().
-            nutrition(14).saturationMod(0.9f)
-            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties CESAR_SALAD = new FoodProperties.Builder().
-            nutrition(10).saturationMod(0.7f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties FERMENTED_GARLIC_HONEY = new FoodProperties.Builder().
-            nutrition(8).saturationMod(0.6f)
-            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
-            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
-            .alwaysEat().build();
+    //TURNIP
+    public static final FoodProperties TURNIP = new FoodProperties.Builder().
+            nutrition(4).saturationMod(0.3f).build();
+    //ZUCCHINI
+    public static final FoodProperties ZUCCHINI = new FoodProperties.Builder().
+            nutrition(3).saturationMod(0.2f).build();
 
     //MISC
     public static final FoodProperties DANDELION_LEAF = new FoodProperties.Builder().

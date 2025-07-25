@@ -43,10 +43,23 @@
   "item.veggiesdelight.fermented_garlic_honey": "Fermented Garlic Honey",
   "item.veggiesdelight.garlic_stuffed_mushrooms": "Garlic Stuffed Mushrooms",
 
+  "item.veggiesdelight.broccoli": "Broccoli",
+  "item.veggiesdelight.broccoli_seeds": "Broccoli Seeds",
+
+  "item.veggiesdelight.turnip": "Turnip",
+  "item.veggiesdelight.turnip_seeds": "Turnip Seeds",
+
+  "item.veggiesdelight.zucchini": "Zucchini",
+  "item.veggiesdelight.zucchini_seeds": "Zucchini seeds",
+
+
   "block.veggiesdelight.bellpepper_crate": "Bell Pepper Crate",
+  "block.veggiesdelight.broccoli_crate": "Broccoli Crate",
   "block.veggiesdelight.cauliflower_crate": "Cauliflower Crate",
   "block.veggiesdelight.garlic_crate": "Garlic Crate",
   "block.veggiesdelight.sweet_potato_crate": "Sweet Potato Crate",
+  "block.veggiesdelight.turnip_crate": "Turnip Crate",
+  "block.veggiesdelight.zucchini_crate": "Zucchini Crate",
 
   "item.veggiesdelight.dandelion_juice": "Dandelion Juice",
   "item.veggiesdelight.dandelion_leaf": "Dandelion Leaf",
@@ -65,9 +78,12 @@
 
   "block.veggiesdelight.mature_dandelion": "Mature Dandelion",
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
+  "block.veggiesdelight.wild_broccoli": "Wild Broccoli",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
   "block.veggiesdelight.wild_garlic": "Wild Garlic",
   "block.veggiesdelight.wild_sweet_potatoes": "Wild Sweet Potatoes",
+  "block.veggiesdelight.wild_turnips": "Wild Turnips",
+  "block.veggiesdelight.wild_zucchinis": "Wild Zucchinis",
 
   "creativetab.veggiesdelight_tab": "Veggies Delight",
 

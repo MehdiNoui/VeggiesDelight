@@ -32,20 +32,17 @@ public class ModItems {
     //SEEDS
     public static final RegistryObject<Item> BELLPEPPER_SEEDS = ITEMS.register("bellpepper_seeds",
             ()->new ItemNameBlockItem(ModBlocks.BELLPEPPER_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> BROCCOLI_SEEDS = ITEMS.register("broccoli_seeds",
+            ()->new ItemNameBlockItem(ModBlocks.BROCCOLI_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> CAULIFLOWER_SEEDS = ITEMS.register("cauliflower_seeds",
             ()->new ItemNameBlockItem(ModBlocks.CAULIFLOWER_CROP.get(),new Item.Properties()));
-    public static final RegistryObject<Item> SWEET_POTATO = ITEMS.register("sweet_potato",
-            () -> new ItemNameBlockItem(ModBlocks.SWEET_POTATO_CROP.get(),
-                    new Item.Properties().food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.1f)
-                            .build())));
     public static final RegistryObject<Item> GARLIC_CLOVE = ITEMS.register("garlic_clove",
             ()->new ItemNameBlockItem(ModBlocks.GARLIC_CROP.get(),
                     new Item.Properties().food(ModFoods.GARLIC_CLOVE)));
-    public static final RegistryObject<Item> BROCCOLI_SEEDS = ITEMS.register("broccoli_seeds",
-            ()->new ItemNameBlockItem(ModBlocks.BROCCOLI_CROP.get(),new Item.Properties()));
-    public static final RegistryObject<Item> TURNIP_SEEDS = ITEMS.register("turnip_seeds",
+    public static final RegistryObject<Item> SWEET_POTATO = ITEMS.register("sweet_potato",
+            () -> new ItemNameBlockItem(ModBlocks.SWEET_POTATO_CROP.get(),
+                    new Item.Properties().food(ModFoods.SWEET_POTATO)));
+     public static final RegistryObject<Item> TURNIP_SEEDS = ITEMS.register("turnip_seeds",
             ()->new ItemNameBlockItem(ModBlocks.TURNIP_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> ZUCCHINI_SEEDS = ITEMS.register("zucchini_seeds",
             ()->new ItemNameBlockItem(ModBlocks.ZUCCHINI_CROP.get(),new Item.Properties()));

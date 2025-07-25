@@ -89,6 +89,8 @@ public class ModFoods {
             .alwaysEat().build();
 
     //SWEET POTATOES
+    public static final FoodProperties SWEET_POTATO = new FoodProperties.Builder().
+            nutrition(2).saturationMod(0.1f).build();
     public static final FoodProperties BAKED_SWEET_POTATO = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties MASHED_POTATOES = new FoodProperties.Builder().

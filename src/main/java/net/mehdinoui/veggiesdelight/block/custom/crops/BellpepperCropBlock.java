@@ -1,4 +1,4 @@
-package net.mehdinoui.veggiesdelight.block.custom;
+package net.mehdinoui.veggiesdelight.block.custom.crops;
 
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.core.BlockPos;

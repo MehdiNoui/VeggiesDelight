@@ -1,4 +1,4 @@
-package net.mehdinoui.veggiesdelight.block.custom;
+package net.mehdinoui.veggiesdelight.block.custom.crops;
 
 import net.mehdinoui.veggiesdelight.item.ModItems;
 import net.minecraft.world.level.ItemLike;
@@ -9,18 +9,16 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
-public class GarlicCropBlock extends CropBlock {
-
-    public static final int MAX_AGE = 5;
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_5;
-
-    public GarlicCropBlock(Properties pProperties) {
-        super(pProperties);
+public class CauliflowerCropBlock extends CropBlock {
+    public static final int MAX_AGE = 7;
+    public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
+    public CauliflowerCropBlock(Properties properties) {
+        super(properties);
     }
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return ModItems.GARLIC_CLOVE.get();
+        return ModItems.CAULIFLOWER_SEEDS.get();
     }
 
     @Override

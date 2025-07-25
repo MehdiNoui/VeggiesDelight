@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "veggiesdelight:block/wild_zucchinis"
+  },
+  "render_type": "minecraft:cutout"
+}

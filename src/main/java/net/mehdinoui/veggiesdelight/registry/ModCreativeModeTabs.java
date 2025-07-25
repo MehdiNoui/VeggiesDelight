@@ -106,9 +106,12 @@ public class ModCreativeModeTabs {
                         // Wild Plants
                         output.accept(ModBlocks.MATURE_DANDELION.get());
                         output.accept(ModBlocks.WILD_BELLPEPPERS.get());
+                        output.accept(ModBlocks.WILD_BROCCOLI.get());
                         output.accept(ModBlocks.WILD_CAULIFLOWERS.get());
                         output.accept(ModBlocks.WILD_GARLIC.get());
                         output.accept(ModBlocks.WILD_SWEET_POTATOES.get());
+                        output.accept(ModBlocks.WILD_TURNIPS.get());
+                        output.accept(ModBlocks.WILD_ZUCCHINIS.get());
                     })
                     .build()
     );

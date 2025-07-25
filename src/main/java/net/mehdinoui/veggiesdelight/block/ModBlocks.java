@@ -62,15 +62,25 @@ public class ModBlocks {
     public static final RegistryObject<Block> WILD_BELLPEPPERS = registerBlock("wild_bellpeppers",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
-    public static final RegistryObject<Block> WILD_CAULIFLOWERS = registerBlock("wild_cauliflowers",
+    public static final RegistryObject<Block> WILD_BROCCOLI = registerBlock("wild_broccoli",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
-    public static final RegistryObject<Block> WILD_SWEET_POTATOES = registerBlock("wild_sweet_potatoes",
+    public static final RegistryObject<Block> WILD_CAULIFLOWERS = registerBlock("wild_cauliflowers",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
     public static final RegistryObject<Block> WILD_GARLIC = registerBlock("wild_garlic",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> WILD_SWEET_POTATOES = registerBlock("wild_sweet_potatoes",
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> WILD_TURNIPS = registerBlock("wild_turnips",
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> WILD_ZUCCHINIS = registerBlock("wild_zucchinis",
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+
     public static final RegistryObject<Block> MATURE_DANDELION = registerBlock("mature_dandelion",
             () -> new DandelionBlock(BlockBehaviour.Properties.copy(Blocks.DANDELION)
                     .noCollission().noOcclusion()));

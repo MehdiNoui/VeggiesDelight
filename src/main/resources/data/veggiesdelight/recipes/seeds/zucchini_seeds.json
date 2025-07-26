@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "veggiesdelight:cauliflower"
+      "item": "veggiesdelight:zucchini"
     }
   ],
   "result":{
-    "item":"veggiesdelight:cauliflower_seeds",
-    "count": 2
+    "item":"veggiesdelight:zucchini_seeds",
+    "count": 1
   }
 }

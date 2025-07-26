@@ -1,0 +1,33 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "veggiesdelight:wild_broccoli",
+        "veggiesdelight:broccoli"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "veggiesdelight:wild_broccoli"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "veggiesdelight:wild_broccoli"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "veggiesdelight:broccoli"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

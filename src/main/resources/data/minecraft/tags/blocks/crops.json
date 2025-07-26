@@ -3,6 +3,9 @@
     "veggiesdelight:bellpepper_crop",
     "veggiesdelight:cauliflower_crop",
     "veggiesdelight:sweet_potato_crop",
-    "veggiesdelight:garlic_crop"
+    "veggiesdelight:garlic_crop",
+    "veggiesdelight:broccoli_crop",
+    "veggiesdelight:turnip_crop",
+    "veggiesdelight:zucchini_crop"
   ]
 }

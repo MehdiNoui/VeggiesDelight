@@ -1,9 +1,11 @@
-// 1.20.1	2025-07-19T18:06:09.7555114	Item Models: veggiesdelight
+// 1.20.1	2025-07-25T18:39:44.7097242	Item Models: veggiesdelight
 c21ba6e55af2ad5ce7f5d8ed6186f170bf5449de assets/veggiesdelight/models/item/baked_sweet_potato.json
 5bcc7524e18d93afff2f7bdbe7cc5fa9861756fb assets/veggiesdelight/models/item/beetroot_brownie.json
 ad031358037a4ae0cae5d9c6dc654cdfcbbd7895 assets/veggiesdelight/models/item/beetroot_brownie_tray.json
 f9d86b6dc358bf30077661dc70f9eb12b2e71a7c assets/veggiesdelight/models/item/bellpepper.json
 75acfc629808cbdd7dd77eb7f06dbe5eef1267b1 assets/veggiesdelight/models/item/bellpepper_seeds.json
+d4f1c47dbe29259e80a67e2181c503116b3c4e67 assets/veggiesdelight/models/item/broccoli.json
+6d8c0b378b6d686fbab320544e10c10353dd33f4 assets/veggiesdelight/models/item/broccoli_seeds.json
 f04cf58dd7a85a4b84f402b87044568a18c9f0ee assets/veggiesdelight/models/item/cacciatore.json
 39a4e239b1cf453afcdad0111a8ec29285350ba1 assets/veggiesdelight/models/item/carrot_cake.json
 7ae641d8f8b9469e8a1336f5d43a3652c72f1869 assets/veggiesdelight/models/item/carrot_cake_slice.json
@@ -46,7 +48,11 @@ abca17a2fc731b312b798c59e6a43170c7d1ce9f assets/veggiesdelight/models/item/sweet
 dc94b1f28b5dc9523a27d117f2d693b2aab6f5b6 assets/veggiesdelight/models/item/sweet_potato_mochi.json
 2d8c2c93385ee824b22385e768756225693730c1 assets/veggiesdelight/models/item/sweet_potato_pie.json
 5bea527d096051b428b563e22671a2a58762129b assets/veggiesdelight/models/item/sweet_potato_pie_slice.json
+bbf93447c14bcf24be0e3213ed03e3272e0dbf6e assets/veggiesdelight/models/item/turnip.json
+c019f95ff19e94263628ceba7d20782ac78b4f03 assets/veggiesdelight/models/item/turnip_seeds.json
 1e0c25f1b647639b68a7efdebc2cec33a6905ac4 assets/veggiesdelight/models/item/uncooked_mhadjeb.json
 da0ab80e3064d49719dd8c88b2d3f81fb0461539 assets/veggiesdelight/models/item/vegan_pizza.json
 6676ad77dcae089bbd91219f95d5a12f01bf465c assets/veggiesdelight/models/item/vegan_pizza_slice.json
 6074e26b9ddedf2309db3e90fc34f17743b20a04 assets/veggiesdelight/models/item/whole_roasted_cauliflower.json
+9b947b1d5d9d4a29bf21d3c49af549c49bf64c50 assets/veggiesdelight/models/item/zucchini.json
+08a906319365c43be188f3b3205e46484246e9ca assets/veggiesdelight/models/item/zucchini_seeds.json

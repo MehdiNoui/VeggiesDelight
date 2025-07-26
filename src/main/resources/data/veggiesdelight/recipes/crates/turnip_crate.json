@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "veggiesdelight:turnip"
+    }
+  },
+  "result":{
+    "item":"veggiesdelight:turnip_crate",
+    "count": 1
+  }
+}

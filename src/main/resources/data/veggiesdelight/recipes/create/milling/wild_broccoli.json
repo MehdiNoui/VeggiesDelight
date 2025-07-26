@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_broccoli"
+    }
+  ],
+  "results": [
+    {
+      "item": "veggiesdelight:broccoli_seeds",
+      "count": 1
+    },
+    {
+      "item": "minecraft:green_dye",
+      "count" : 1
+    }
+  ],
+  "processingTime": 50
+}

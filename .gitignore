@@ -13,7 +13,6 @@ out
 *.iml
 .idea
 run
-run-data/logs
 run-data
 src/generated
 
@@ -24,7 +23,6 @@ build
 
 # other
 eclipse
-run
 
 # Files from Forge MDK
 forge*changelog.txt

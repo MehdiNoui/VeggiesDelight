@@ -8,10 +8,10 @@
   "type": "immersiveengineering:squeezer",
   "fluid": {
     "fluid": "immersiveengineering:plantoil",
-    "amount": 40
+    "amount": 60
   },
   "input": {
-    "item": "veggiesdelight:garlic_clove"
+    "item": "veggiesdelight:turnip_seeds"
   },
   "energy": 6400
 }

@@ -10,7 +10,7 @@
     {
       "chance": 1.0,
       "output": {
-        "item": "minecraft:lime_dye",
+        "item": "minecraft:yellow_dye",
         "count": 1
       }
     }

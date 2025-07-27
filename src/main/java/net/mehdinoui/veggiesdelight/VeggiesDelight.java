@@ -70,19 +70,28 @@ public class VeggiesDelight
 
                     //30%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER_SEEDS.get(), 0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BROCCOLI_SEEDS.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_SEEDS.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_FLORET.get(), 0.3F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.DANDELION_LEAF.get(),0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.TURNIP_SEEDS.get(), 0.3F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.ZUCCHINI_SEEDS.get(), 0.3F);
 
                     //65%
-                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.BELLPEPPER.get(), 0.65F);
-                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.BROCCOLI.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.GARLIC.get(),0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.TURNIP.get(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModItems.ZUCCHINI.get(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_BELLPEPPERS.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_BROCCOLI.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_CAULIFLOWERS.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_GARLIC.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_SWEET_POTATOES.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_TURNIPS.get().asItem(), 0.65F);
+                    ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_ZUCCHINIS.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.MATURE_DANDELION.get().asItem(), 0.65F);
 
                     // 85%

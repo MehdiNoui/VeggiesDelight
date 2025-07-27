@@ -150,6 +150,23 @@ public class VeggiesDelight
                             2, // Villager XP
                             0.05f // Price multiplier
                     ));
+
+                    level1Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.BROCCOLI.get(), 26),
+                            new ItemStack(Items.EMERALD, 1),
+                            12, // Max uses
+                            2, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+
+                    level1Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.CAULIFLOWER.get(), 16),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, // Max uses
+                            5, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+
                     level1Trades.add((entity, random) -> new MerchantOffer(
                             new ItemStack(ModItems.GARLIC.get(), 26),
                             new ItemStack(Items.EMERALD, 1),
@@ -164,8 +181,17 @@ public class VeggiesDelight
                             2, // Villager XP
                             0.05f // Price multiplier
                     ));
+
                     level1Trades.add((entity, random) -> new MerchantOffer(
-                            new ItemStack(ModItems.CAULIFLOWER.get(), 16),
+                            new ItemStack(ModItems.TURNIP.get(), 16),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, // Max uses
+                            5, // Villager XP
+                            0.05f // Price multiplier
+                    ));
+
+                    level1Trades.add((entity, random) -> new MerchantOffer(
+                            new ItemStack(ModItems.ZUCCHINI.get(), 16),
                             new ItemStack(Items.EMERALD, 1),
                             16, // Max uses
                             5, // Villager XP
@@ -179,9 +205,13 @@ public class VeggiesDelight
             if (Configuration.ENABLE_WANDERING_TRADER_SELLS.get()) {
                 List<VillagerTrades.ItemListing> trades = event.getGenericTrades();
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.BELLPEPPER_SEEDS.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.BROCCOLI_SEEDS.get()), 12, 1, 0.05f));
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.CAULIFLOWER_SEEDS.get()), 12, 1, 0.05f));
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.GARLIC_CLOVE.get()), 12, 1, 0.05f));
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.SWEET_POTATO.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.TURNIP_SEEDS.get()), 12, 1, 0.05f));
+                trades.add(new BasicItemListing(1, new ItemStack(ModItems.ZUCCHINI_SEEDS.get()), 12, 1, 0.05f));
+
                 trades.add(new BasicItemListing(1, new ItemStack(ModItems.DANDELION_LEAF.get()), 12, 1, 0.05f));
             }
         }

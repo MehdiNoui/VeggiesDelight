@@ -4,11 +4,14 @@ import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.block.custom.*;
 import net.mehdinoui.veggiesdelight.block.custom.crops.*;
 import net.mehdinoui.veggiesdelight.item.ModItems;
+import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -66,8 +69,14 @@ public class ModBlocks {
 
     //WILD CROPS
     public static final RegistryObject<Block> WILD_BELLPEPPERS = registerBlock("wild_bellpeppers",
-            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
-                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+            () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()) {
+                @Override
+                protected boolean mayPlaceOn(BlockState state, BlockGetter worldIn, BlockPos pos) {
+                    return super.mayPlaceOn(state, worldIn, pos)
+                            || state.is(Blocks.SAND)
+                            || state.is(Blocks.RED_SAND);
+                }
+            });
     public static final RegistryObject<Block> WILD_BROCCOLI = registerBlock("wild_broccoli",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));

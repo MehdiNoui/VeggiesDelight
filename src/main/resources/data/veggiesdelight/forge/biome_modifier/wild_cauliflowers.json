@@ -3,7 +3,7 @@
   "allowed_biomes": "#minecraft:is_overworld",
   "denied_biomes": "#forge:is_underground",
   "min_temperature": 0.2,
-  "max_temperature": 0.7,
+  "max_temperature": 0.69,
   "features": "veggiesdelight:patch_wild_cauliflowers",
   "step": "vegetal_decoration"
 }

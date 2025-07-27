@@ -2,6 +2,6 @@
   "type": "farmersdelight:add_features_by_filter",
   "allowed_biomes": "#forge:is_hot/overworld",
   "denied_biomes": "#forge:is_underground",
-  "features": "veggiesdelight:patch_wild_bellpeppers",
+  "features": "veggiesdelight:patch_wild_zucchinis",
   "step": "vegetal_decoration"
 }

@@ -94,7 +94,7 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.WILD_ZUCCHINIS.get().asItem(), 0.65F);
                     ComposterBlock.COMPOSTABLES.put(ModBlocks.MATURE_DANDELION.get().asItem(), 0.65F);
 
-                    // 85%
+                    //85%
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.VEGAN_PIZZA_SLICE.get(), 0.85F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE_SLICE.get(), 0.85F);
@@ -111,10 +111,20 @@ public class VeggiesDelight
                     ComposterBlock.COMPOSTABLES.put(ModItems.BEETROOT_BROWNIE_TRAY.get(), 1F);
                     ComposterBlock.COMPOSTABLES.put(ModItems.CARROT_CAKE.get(), 1F);
 
-                Ingredient newPigFood = Ingredient.of(ModItems.BELLPEPPER.get(), ModItems.SWEET_POTATO.get());
+                Ingredient newPigFood = Ingredient.of(
+                        ModItems.BELLPEPPER.get(),
+                        ModItems.SWEET_POTATO.get(),
+                        ModItems.TURNIP.get(),
+                        ModItems.ZUCCHINI.get());
                 Pig.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Pig.FOOD_ITEMS, newPigFood)) {};
 
-                Ingredient newChickenFood = Ingredient.of(ModItems.BELLPEPPER_SEEDS.get(), ModItems.CAULIFLOWER_SEEDS.get());
+                Ingredient newChickenFood = Ingredient.of(
+                        ModItems.BELLPEPPER_SEEDS.get(),
+                        ModItems.BROCCOLI_SEEDS.get(),
+                        ModItems.CAULIFLOWER_SEEDS.get(),
+                        ModItems.TURNIP_SEEDS.get(),
+                        ModItems.ZUCCHINI_SEEDS.get()
+                );
                 Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood)) {};
 
             });

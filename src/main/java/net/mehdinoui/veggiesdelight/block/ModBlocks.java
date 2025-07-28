@@ -87,8 +87,14 @@ public class ModBlocks {
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
     public static final RegistryObject<Block> WILD_SWEET_POTATOES = registerBlock("wild_sweet_potatoes",
-            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
-                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+            () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()) {
+                @Override
+                protected boolean mayPlaceOn(BlockState state, BlockGetter worldIn, BlockPos pos) {
+                    return super.mayPlaceOn(state, worldIn, pos)
+                            || state.is(Blocks.SAND)
+                            || state.is(Blocks.RED_SAND);
+                }
+            });
     public static final RegistryObject<Block> WILD_TURNIPS = registerBlock("wild_turnips",
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));

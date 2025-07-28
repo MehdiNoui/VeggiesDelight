@@ -60,8 +60,15 @@
                 "blocks": "minecraft:air"
               },
               {
-                "type": "minecraft:matching_block_tag",
-                "tag": "minecraft:dirt",
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt",
+                  "minecraft:podzol",
+                  "minecraft:sand",
+                  "minecraft:red_sand"
+                ],
                 "offset": [
                   0,
                   -1,

@@ -90,8 +90,8 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
     public static final RegistryObject<Item> CAULIFLOWER_BURGER = ITEMS.register("cauliflower_burger",
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BURGER)));
-    public static final RegistryObject<Item> WHOLE_ROASTED_CAULIFLOWER = ITEMS.register("whole_roasted_cauliflower",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.WHOLE_CAULIFLOWER), true));
+    public static final RegistryObject<Item> CAULIFLOWER_KUKU = ITEMS.register("cauliflower_kuku",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_KUKU), true));
 
     //GARLIC
     public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
@@ -130,8 +130,8 @@ public class ModItems {
             ()-> new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_DOUGH)));
     public static final RegistryObject<Item> SWEET_POTATO_CUPCAKE = ITEMS.register("sweet_potato_cupcake",
             ()-> new Item(new Item.Properties().food(ModFoods.SWEET_POTATO_CUPCAKE)));
-    public static final RegistryObject<Item> SWEET_POTATO_MOCHI = ITEMS.register("sweet_potato_mochi",
-            ()->new ConsumableItem(bowlFoodItem(ModFoods.SWEET_POTATO_MOCHI), true));
+    public static final RegistryObject<Item> SWEET_POTATO_PANCAKES = ITEMS.register("sweet_potato_pancakes",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.SWEET_POTATO_PANCAKES), true));
 
     //TURNIP
     public static final RegistryObject<Item> TURNIP = ITEMS.register("turnip",

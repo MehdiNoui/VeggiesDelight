@@ -42,7 +42,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.COOKED_CAULIFLOWER_PATTY);
         simpleItem(ModItems.CAULIFLOWER_SOUP);
         simpleItem(ModItems.CAULIFLOWER_BURGER);
-        simpleItem(ModItems.WHOLE_ROASTED_CAULIFLOWER);
+        simpleItem(ModItems.CAULIFLOWER_KUKU);
 
         simpleItem(ModItems.GARLIC);
         simpleItem(ModItems.GARLIC_CLOVE);
@@ -64,7 +64,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.POTATO_NOODLES);
         simpleItem(ModItems.SWEET_POTATO_CUPCAKE);
         simpleItem(ModItems.SWEET_POTATO_DOUGH);
-        simpleItem(ModItems.SWEET_POTATO_MOCHI);
+        simpleItem(ModItems.SWEET_POTATO_PANCAKES);
 
         simpleItem(ModItems.TURNIP);
         simpleItem(ModItems.TURNIP_SEEDS);

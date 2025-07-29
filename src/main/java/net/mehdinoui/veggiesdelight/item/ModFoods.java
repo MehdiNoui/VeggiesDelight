@@ -70,7 +70,7 @@ public class ModFoods {
     public static final FoodProperties CAULIFLOWER_BURGER = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties WHOLE_CAULIFLOWER = new FoodProperties.Builder().
+    public static final FoodProperties CAULIFLOWER_KUKU = new FoodProperties.Builder().
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
 
@@ -112,7 +112,7 @@ public class ModFoods {
     public static final FoodProperties POTATO_NOODLES = new FoodProperties.Builder().
             nutrition(13).saturationMod(0.8f).fast()
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties SWEET_POTATO_MOCHI = new FoodProperties.Builder().
+    public static final FoodProperties SWEET_POTATO_PANCAKES = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f)

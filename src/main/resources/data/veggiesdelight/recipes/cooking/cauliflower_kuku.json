@@ -13,10 +13,10 @@
       "tag": "forge:crops/onion"
     },
     {
-      "tag": "forge:vegetables"
+      "tag": "forge:crops/garlic"
     }
   ],
   "result": {
-    "item": "veggiesdelight:whole_roasted_cauliflower"
+    "item": "veggiesdelight:cauliflower_kuku"
   }
 }

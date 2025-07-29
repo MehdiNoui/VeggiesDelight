@@ -77,6 +77,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
 
                         // Desserts
+                        output.accept(ModItems.SWEET_POTATO_PANCAKES.get());
                         output.accept(ModItems.SWEET_POTATO_CUPCAKE.get());
                         output.accept(ModItems.SWEET_POTATO_PIE.get());
                         output.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
@@ -95,6 +96,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POTATO_NOODLES.get());
 
                         // Meals
+                        output.accept(ModItems.CAULIFLOWER_KUKU.get());
                         output.accept(ModItems.CESAR_SALAD.get());
                         output.accept(ModItems.FISH_AND_CHIPS.get());
                         output.accept(ModItems.DANDELION_AND_EGGS.get());
@@ -103,8 +105,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHAKSHOUKA.get());
                         output.accept(ModItems.ROASTED_VEGETABLES.get());
                         output.accept(ModItems.STUFFED_BELLPEPPERS.get());
-                        output.accept(ModItems.SWEET_POTATO_MOCHI.get());
-                        output.accept(ModItems.WHOLE_ROASTED_CAULIFLOWER.get());
 
                         // Wild Plants
                         output.accept(ModBlocks.MATURE_DANDELION.get());

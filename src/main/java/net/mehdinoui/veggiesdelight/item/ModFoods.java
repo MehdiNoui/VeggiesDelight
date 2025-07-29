@@ -139,6 +139,11 @@ public class ModFoods {
             .alwaysEat().build();
 
     // MISC FOOD
+    public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.5f).alwaysEat()
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F).build();
+    public static final FoodProperties CARROT_CAKE_SLICE = new FoodProperties.Builder().
+            nutrition(3).saturationMod(0.2f).build();
     public static final FoodProperties DANDELION_WITH_EGGS = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, BRIEF_DURATION, 0), 1.0F)
@@ -151,9 +156,4 @@ public class ModFoods {
     public static final FoodProperties ROASTED_VEGETABLES = new FoodProperties.Builder().
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
-    public static final FoodProperties BEETROOT_BROWNIE = new FoodProperties.Builder().
-            nutrition(6).saturationMod(0.5f).alwaysEat()
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F).build();
-    public static final FoodProperties CARROT_CAKE_SLICE = new FoodProperties.Builder().
-            nutrition(3).saturationMod(0.2f).build();
-}
+    }

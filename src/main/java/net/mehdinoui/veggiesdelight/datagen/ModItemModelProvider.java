@@ -32,6 +32,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.BROCCOLI);
         simpleItem(ModItems.BROCCOLI_SEEDS);
+        simpleItem(ModItems.BROCCOLI_SALAD);
+        simpleItem(ModItems.BROCCOLI_SOUP);
+        simpleItem(ModItems.PASTA_WITH_BROCCOLI);
 
         simpleItem(ModItems.CAULIFLOWER);
         simpleItem(ModItems.CAULIFLOWER_SEEDS);
@@ -68,8 +71,16 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.TURNIP);
         simpleItem(ModItems.TURNIP_SEEDS);
+        simpleItem(ModItems.TURNIP_BEEF_STEW);
+        simpleItem(ModItems.TURNIP_CAKE);
+        simpleItem(ModItems.TURNIP_SALAD);
+        simpleItem(ModItems.TURNIP_WATER);
 
         simpleItem(ModItems.ZUCCHINI);
+        simpleItem(ModItems.ROASTED_ZUCCHINI);
+        simpleItem(ModItems.STUFFED_ZUCCHINIS);
+        simpleItem(ModItems.ZUCCHINI_SANDWICH);
+        simpleItem(ModItems.ZUCCHINI_SLICE);
         simpleItem(ModItems.ZUCCHINI_SEEDS);
 
         simpleItem(ModItems.BEETROOT_BROWNIE_TRAY);

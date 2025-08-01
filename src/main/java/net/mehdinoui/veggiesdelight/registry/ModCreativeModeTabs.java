@@ -49,12 +49,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ZUCCHINI_CRATE.get());
 
                         // Basic Ingredients
-                        output.accept(ModItems.GARLIC_CLOVE.get());
-                        output.accept(ModItems.ROASTED_GARLIC_CLOVE.get());
                         output.accept(ModItems.SMOKED_BELLPEPPER.get());
                         output.accept(ModItems.CAULIFLOWER_FLORET.get());
                         output.accept(ModItems.FRIED_CAULIFLOWER_FLORET.get());
+                        output.accept(ModItems.GARLIC_CLOVE.get());
+                        output.accept(ModItems.ROASTED_GARLIC_CLOVE.get());
                         output.accept(ModItems.BAKED_SWEET_POTATO.get());
+                        output.accept(ModItems.ZUCCHINI_SLICE.get());
+                        output.accept(ModItems.ROASTED_ZUCCHINI.get());
 
                         // Dough & Noodles
                         output.accept(ModItems.SWEET_POTATO_DOUGH.get());
@@ -70,41 +72,50 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GARLIC_STUFFED_MUSHROOMS.get());
                         output.accept(ModItems.UNCOOKED_MHADJEB.get());
                         output.accept(ModItems.MHADJEB.get());
+                        output.accept(ModItems.VEGAN_PIZZA.get());
+                        output.accept(ModItems.VEGAN_PIZZA_SLICE.get());
+                        output.accept(ModItems.ZUCCHINI_SANDWICH.get());
 
                         // Drinks
                         output.accept(ModItems.CARROT_JUICE.get());
                         output.accept(ModItems.DANDELION_JUICE.get());
+                        output.accept(ModItems.TURNIP_WATER.get());
                         output.accept(ModItems.FERMENTED_GARLIC_HONEY.get());
 
                         // Desserts
-                        output.accept(ModItems.SWEET_POTATO_PANCAKES.get());
                         output.accept(ModItems.SWEET_POTATO_CUPCAKE.get());
+                        output.accept(ModItems.SWEET_POTATO_PANCAKES.get());
                         output.accept(ModItems.SWEET_POTATO_PIE.get());
                         output.accept(ModItems.SWEET_POTATO_PIE_SLICE.get());
-                        output.accept(ModItems.VEGAN_PIZZA.get());
-                        output.accept(ModItems.VEGAN_PIZZA_SLICE.get());
+                        output.accept(ModItems.TURNIP_CAKE.get());
                         output.accept(ModItems.BEETROOT_BROWNIE_TRAY.get());
                         output.accept(ModItems.BEETROOT_BROWNIE.get());
                         output.accept(ModItems.CARROT_CAKE.get());
                         output.accept(ModItems.CARROT_CAKE_SLICE.get());
 
                         // Soups & Stews
+                        output.accept(ModItems.BROCCOLI_SOUP.get());
                         output.accept(ModItems.CACCIATORE.get());
                         output.accept(ModItems.CAULIFLOWER_SOUP.get());
                         output.accept(ModItems.GARLIC_CHICKEN_STEW.get());
                         output.accept(ModItems.MASHED_POTATOES.get());
                         output.accept(ModItems.POTATO_NOODLES.get());
+                        output.accept(ModItems.TURNIP_BEEF_STEW.get());
 
                         // Meals
+                        output.accept(ModItems.BROCCOLI_SALAD.get());
                         output.accept(ModItems.CAULIFLOWER_KUKU.get());
                         output.accept(ModItems.CESAR_SALAD.get());
-                        output.accept(ModItems.FISH_AND_CHIPS.get());
                         output.accept(ModItems.DANDELION_AND_EGGS.get());
+                        output.accept(ModItems.FISH_AND_CHIPS.get());
                         output.accept(ModItems.GARLIC_BAKED_COD.get());
                         output.accept(ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get());
-                        output.accept(ModItems.SHAKSHOUKA.get());
+                        output.accept(ModItems.PASTA_WITH_BROCCOLI.get());
                         output.accept(ModItems.ROASTED_VEGETABLES.get());
+                        output.accept(ModItems.SHAKSHOUKA.get());
                         output.accept(ModItems.STUFFED_BELLPEPPERS.get());
+                        output.accept(ModItems.STUFFED_ZUCCHINIS.get());
+                        output.accept(ModItems.TURNIP_SALAD.get());
 
                         // Wild Plants
                         output.accept(ModBlocks.MATURE_DANDELION.get());

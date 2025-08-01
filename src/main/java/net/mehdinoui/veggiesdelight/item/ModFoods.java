@@ -15,7 +15,7 @@ public class ModFoods {
     public static final FoodProperties BROCCOLI = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.4f).build();
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().
-            nutrition(3).saturationMod(0.4f).build();
+            nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties DANDELION_LEAF = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.3F).
             effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F)
@@ -27,7 +27,7 @@ public class ModFoods {
     public static final FoodProperties TURNIP = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.4f).build();
     public static final FoodProperties ZUCCHINI = new FoodProperties.Builder().
-            nutrition(2).saturationMod(0.4f).build();
+            nutrition(3).saturationMod(0.4f).build();
 
     // BELL PEPPER RELATED FOOD
         public static final FoodProperties SMOKED_BELLPEPPER = new FoodProperties.Builder().
@@ -51,7 +51,15 @@ public class ModFoods {
             nutrition(5).saturationMod(0.5f).build();
 
     // BROCCOLI RELATED FOOD
-
+    public static final FoodProperties BROCCOLI_SALAD = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 0), 1.0F).build();
+    public static final FoodProperties BROCCOLI_SOUP = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties PASTA_WITH_BROCCOLI = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
 
     // CAULIFLOWER RELATED FOOD
      public static final FoodProperties CAULIFLOWER_FLORET = new FoodProperties.Builder().
@@ -66,7 +74,7 @@ public class ModFoods {
             nutrition(5).saturationMod(0.6f).build();
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f).fast()
-            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties CAULIFLOWER_BURGER = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
@@ -127,8 +135,27 @@ public class ModFoods {
             .build();
 
     // TURNIP RELATED FOOD
+    public static final FoodProperties TURNIP_BEEF_STEW = new FoodProperties.Builder().
+            nutrition(14).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties TURNIP_CAKE = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.7f)
+            .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f)
+            .build();
+    public static final FoodProperties TURNIP_SALAD = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 100, 0), 1.0F).build();
 
     // ZUCCHINI RELATED FOOD
+    public static final FoodProperties ROASTED_ZUCCHINI = new FoodProperties.Builder().
+            nutrition(4).saturationMod(0.4f).build();
+    public static final FoodProperties STUFFED_ZUCCHINIS = new FoodProperties.Builder().
+            nutrition(16).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
+    public static final FoodProperties ZUCCHINI_SANDWICH = new FoodProperties.Builder().
+            nutrition(8).saturationMod(0.8f).build();
+    public static final FoodProperties ZUCCHINI_SLICE = new FoodProperties.Builder().
+            nutrition(2).saturationMod(0.1f).build();
 
     // Drinks
     public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().
@@ -136,6 +163,9 @@ public class ModFoods {
             .alwaysEat().build();
     public static final FoodProperties DANDELION_JUICE = new FoodProperties.Builder().
             effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 400, 0), 1.0F)
+            .alwaysEat().build();
+    public static final FoodProperties TURNIP_WATER = new FoodProperties.Builder().
+            effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 400, 0), 1.0F)
             .alwaysEat().build();
 
     // MISC FOOD

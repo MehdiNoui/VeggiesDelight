@@ -44,6 +44,10 @@
   "block.veggiesdelight.vegan_pizza": "Vegan Pizza",
   "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice",
 
+  "item.veggiesdelight.broccoli_salad": "Broccoli Salad",
+  "item.veggiesdelight.broccoli_soup": "Broccoli Soup",
+  "item.veggiesdelight.pasta_with_broccoli": "Pasta With Broccoli",
+
   "item.veggiesdelight.cauliflower_bread": "Cauliflower Bread",
   "item.veggiesdelight.cauliflower_burger": "Cauliflower Burger",
   "item.veggiesdelight.cauliflower_floret": "Cauliflower Floret",
@@ -75,6 +79,16 @@
   "item.veggiesdelight.sweet_potato_pancakes": "Sweet Potato Pancakes",
   "item.veggiesdelight.sweet_potato_pie": "Sweet Potato Pie",
   "item.veggiesdelight.sweet_potato_pie_slice": "Sweet Potato Pie Slice",
+
+  "item.veggiesdelight.turnip_beef_stew": "Turnip Beef Stew",
+  "item.veggiesdelight.turnip_cake": "Turnip Cake",
+  "item.veggiesdelight.turnip_salad": "Turnip Salad",
+  "item.veggiesdelight.turnip_water": "Turnip Water",
+
+  "item.veggiesdelight.roasted_zucchini": "Roasted Zucchini",
+  "item.veggiesdelight.zucchini_sandwich": "Zucchini Sandwich",
+  "item.veggiesdelight.zucchini_slice": "Zucchini Slice",
+  "item.veggiesdelight.stuffed_zucchinis": "Stuffed Zucchinis",
 
   "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
   "block.veggiesdelight.beetroot_brownie_tray": "Beetroot Brownie Tray",

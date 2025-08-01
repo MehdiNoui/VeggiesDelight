@@ -72,6 +72,12 @@ public class ModItems {
     //BROCCOLI
     public static final RegistryObject<Item> BROCCOLI = ITEMS.register("broccoli",
             ()-> new Item(new Item.Properties().food(ModFoods.BROCCOLI)));
+    public static final RegistryObject<Item> BROCCOLI_SALAD = ITEMS.register("broccoli_salad",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.BROCCOLI_SALAD), true));
+    public static final RegistryObject<Item> BROCCOLI_SOUP = ITEMS.register("broccoli_soup",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.BROCCOLI_SOUP), true));
+    public static final RegistryObject<Item> PASTA_WITH_BROCCOLI = ITEMS.register("pasta_with_broccoli",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.PASTA_WITH_BROCCOLI), true));
 
     //CAULIFLOWER
     public static final RegistryObject<Item> CAULIFLOWER = ITEMS.register("cauliflower",
@@ -136,10 +142,26 @@ public class ModItems {
     //TURNIP
     public static final RegistryObject<Item> TURNIP = ITEMS.register("turnip",
             ()->new Item(new Item.Properties().food(ModFoods.TURNIP)));
+    public static final RegistryObject<Item> TURNIP_BEEF_STEW = ITEMS.register("turnip_beef_stew",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.TURNIP_BEEF_STEW), true));
+    public static final RegistryObject<Item> TURNIP_CAKE = ITEMS.register("turnip_cake",
+            ()->new Item(new Item.Properties().food(ModFoods.TURNIP_CAKE)));
+    public static final RegistryObject<Item> TURNIP_SALAD= ITEMS.register("turnip_salad",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.TURNIP_SALAD), true));
+    public static final RegistryObject<Item> TURNIP_WATER= ITEMS.register("turnip_water",
+            ()->new DrinkableItem(bottleItem(ModFoods.TURNIP_WATER),true));
 
     //ZUCCHINI
     public static final RegistryObject<Item> ZUCCHINI = ITEMS.register("zucchini",
             ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI)));
+    public static final RegistryObject<Item> ROASTED_ZUCCHINI = ITEMS.register("roasted_zucchini",
+            ()->new Item(new Item.Properties().food(ModFoods.ROASTED_ZUCCHINI)));
+    public static final RegistryObject<Item> ZUCCHINI_SANDWICH = ITEMS.register("zucchini_sandwich",
+            ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI_SANDWICH)));
+    public static final RegistryObject<Item> ZUCCHINI_SLICE = ITEMS.register("zucchini_slice",
+            ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI_SLICE)));
+    public static final RegistryObject<Item> STUFFED_ZUCCHINIS = ITEMS.register("stuffed_zucchinis",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.STUFFED_ZUCCHINIS), true));
 
 
     //MISC

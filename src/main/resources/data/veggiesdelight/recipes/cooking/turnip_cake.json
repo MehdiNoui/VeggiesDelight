@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/turnip"
+    },
+    {
+      "tag": "forge:grain/rice"
+    },
+    [
+      {"tag": "forge:cooked_beef"},
+      {"tag": "forge:cooked_bacon"},
+      {"tag": "forge:cooked_chicken"},
+      {"tag": "forge:cooked_fishes"},
+      {"tag": "forge:cooked_mutton"},
+      {"tag": "forge:cooked_pork"}
+    ],
+    {
+      "tag": "forge:grain/wheat"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "veggiesdelight:turnip_cake"
+  }
+}

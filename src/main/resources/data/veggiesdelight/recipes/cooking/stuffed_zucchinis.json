@@ -7,13 +7,10 @@
   },
   "ingredients": [
     {
-      "item": "veggiesdelight:bellpepper"
+      "item": "veggiesdelight:zucchini"
     },
     {
-      "item": "veggiesdelight:bellpepper"
-    },
-    {
-      "item": "veggiesdelight:bellpepper"
+      "item": "veggiesdelight:zucchini"
     },
     {
       "item": "farmersdelight:tomato"
@@ -24,6 +21,6 @@
     ]
   ],
   "result": {
-    "item": "veggiesdelight:stuffed_bellpeppers"
+    "item": "veggiesdelight:stuffed_zucchinis"
   }
 }

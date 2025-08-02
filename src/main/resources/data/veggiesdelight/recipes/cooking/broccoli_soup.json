@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:crops/broccoli"
+    },
+    {
+      "tag": "forge:crops/broccoli"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:broccoli_soup"
+  }
+}

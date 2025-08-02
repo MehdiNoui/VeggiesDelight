@@ -1,10 +1,10 @@
 {
   "values": [
-    "veggiesdelight:cauliflower_seeds",
     "veggiesdelight:bellpepper_seeds",
-    "veggiesdelight:sweet_potato",
-    "veggiesdelight:garlic_clove",
     "veggiesdelight:broccoli_seeds",
+    "veggiesdelight:cauliflower_seeds",
+    "veggiesdelight:garlic_clove",
+    "veggiesdelight:sweet_potato",
     "veggiesdelight:turnip_seeds",
     "veggiesdelight:zucchini_seeds"
   ]

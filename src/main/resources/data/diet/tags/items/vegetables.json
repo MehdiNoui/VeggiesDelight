@@ -1,13 +1,14 @@
 {
   "replace": false,
   "values": [
-    "veggiesdelight:cauliflower",
-    "veggiesdelight:sweet_potato",
     "veggiesdelight:bellpepper",
-    "veggiesdelight:garlic",
+    "veggiesdelight:broccoli",
+    "veggiesdelight:cauliflower",
     "veggiesdelight:dandelion_leaf",
+    "veggiesdelight:garlic",
+    "veggiesdelight:sweet_potato",
     "veggiesdelight:turnip",
     "veggiesdelight:zucchini",
-    "veggiesdelight:broccoli"
+
   ]
 }

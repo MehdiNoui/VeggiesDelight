@@ -1,8 +1,11 @@
 {
   "values": [
     "#forge:crops/bellpepper",
+    "#forge:crops/broccoli",
     "#forge:crops/cauliflower",
     "#forge:crops/garlic",
-    "#forge:crops/sweet_potato"
+    "#forge:crops/sweet_potato",
+    "#forge:crops/turnip",
+    "#forge:crops/zucchini"
   ]
 }

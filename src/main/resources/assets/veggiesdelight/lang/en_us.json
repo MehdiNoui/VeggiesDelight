@@ -102,48 +102,33 @@
   "veggiesdelight.advancement.root": "Veggies Delight",
   "veggiesdelight.advancement.root.desc": "Go get your veggies!",
 
-  "veggiesdelight.advancement.fruit": "Isn't this a fruit?",
-  "veggiesdelight.advancement.fruit.desc": "an Imposter among us",
+  "veggiesdelight.advancement.r_first_veggie": "Lettuce Begin",
+  "veggiesdelight.advancement.r_first_veggie.desc": "Collect your first veggie",
 
-  "veggiesdelight.advancement.first": "Lettuce Begin",
-  "veggiesdelight.advancement.first.desc": "Collect your first veggie",
+  "veggiesdelight.advancement.r_fruit_veggie": "Isn't this a fruit?",
+  "veggiesdelight.advancement.r_fruit_veggie.desc": "An imposter among us",
 
-  "veggiesdelight.advancement.all": "Gotta catch 'em all",
-  "veggiesdelight.advancement.all.desc": "Collect all of the veggies",
+  "veggiesdelight.advancement.r_all_veggies": "Gotta Catch 'Em All",
+  "veggiesdelight.advancement.r_all_veggies.desc": "Collect all of the new veggies",
 
-  "veggiesdelight.advancement.eat": "It's raw but it's still edible",
-  "veggiesdelight.advancement.eat.desc": "Eat any kind of vegetable raw",
+  "veggiesdelight.advancement.vd_bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.vd_bellpepper_master.desc": "Make every dish possible out of bell peppers",
 
-  "veggiesdelight.advancement.pizza_time": "It's pizza time",
-  "veggiesdelight.advancement.pizza_time.desc": "Make your first Vegan Pizza",
+  "veggiesdelight.advancement.vd_broccoli_master": "Broccoli Boss",
+  "veggiesdelight.advancement.vd_broccoli_master.desc": "Make every dish possible out of broccoli",
 
-  "veggiesdelight.advancement.burger": "Burger bloom",
-  "veggiesdelight.advancement.burger.desc": "Make a cauliflower burger",
+  "veggiesdelight.advancement.vd_cauliflower_master": "Cauli-Master",
+  "veggiesdelight.advancement.vd_cauliflower_master.desc": "Make every dish possible out of cauliflowers",
 
-  "veggiesdelight.advancement.cauliflower": "I Teleported Bread",
-  "veggiesdelight.advancement.cauliflower.desc": "Make bread out of cauliflower",
+  "veggiesdelight.advancement.vd_garlic_master": "Garlic Jr.",
+  "veggiesdelight.advancement.vd_garlic_master.desc": "Make every dish possible out of garlic",
 
-  "veggiesdelight.advancement.cupcake": "I Came Here Just To Get A Cupcake",
-  "veggiesdelight.advancement.cupcake.desc": "Make a cupcake out of sweet potatoes",
+  "veggiesdelight.advancement.vd_sweet_potato_master": "Sweet Victory",
+  "veggiesdelight.advancement.vd_sweet_potato_master.desc": "Make every dish possible out of sweet potatoes",
 
-  "veggiesdelight.advancement.pie": "Slice Of Life",
-  "veggiesdelight.advancement.pie.desc": "Bake a sweet potato pie",
+  "veggiesdelight.advancement.vd_turnip_master": "Turnip the Beat",
+  "veggiesdelight.advancement.vd_turnip_master.desc": "Make every dish possible out of turnips",
 
-  "veggiesdelight.advancement.med": "Nature's Remedy",
-  "veggiesdelight.advancement.med.desc": "Make a fermented garlic honey",
-
-  "veggiesdelight.advancement.cesar": "CAEEEEEEESAAAAAR",
-  "veggiesdelight.advancement.cesar.desc": "Make a cesar salad",
-
-  "veggiesdelight.advancement.bellpepper_master": "Dr. Pepper",
-  "veggiesdelight.advancement.bellpepper_master.desc": "Make every dish possible out of bell peppers",
-
-  "veggiesdelight.advancement.cauliflower_master": "Cauli-master",
-  "veggiesdelight.advancement.cauliflower_master.desc": "Make every dish possible out of cauliflowers",
-
-  "veggiesdelight.advancement.sweet_potato_master": "Sweet Victory",
-  "veggiesdelight.advancement.sweet_potato_master.desc": "Make every dish possible out of sweet potatoes",
-
-  "veggiesdelight.advancement.garlic_master": "Garlic Jr.",
-  "veggiesdelight.advancement.garlic_master.desc": "Make every dish possible out of garlics"
+  "veggiesdelight.advancement.vd_zucchini_master": "Zucchini Zenith",
+  "veggiesdelight.advancement.vd_zucchini_master.desc": "Make every dish possible out of zucchinis"
 }

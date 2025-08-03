@@ -1,14 +1,14 @@
 {
-  "parent": "veggiesdelight:main/first_veggie",
+  "parent": "veggiesdelight:main/r_first_veggie",
   "display": {
     "icon": {
       "item": "farmersdelight:tomato"
     },
     "title": {
-      "translate": "veggiesdelight.advancement.fruit"
+      "translate": "veggiesdelight.advancement.r_fruit_veggie"
     },
     "description": {
-      "translate": "veggiesdelight.advancement.fruit.desc"
+      "translate": "veggiesdelight.advancement.r_fruit_veggie.desc"
     },
     "frame": "task",
     "show_toast": true,

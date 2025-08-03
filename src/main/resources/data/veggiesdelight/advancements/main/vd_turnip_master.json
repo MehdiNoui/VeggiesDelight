@@ -1,0 +1,50 @@
+{
+  "parent": "veggiesdelight:main/vd_sweet_potato_master",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_turnip_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_turnip_master.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:turnip_cake"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:turnip_beef_stew"] }]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:turnip_cake"] }]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:turnip_salad"] }]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:turnip_water"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"], ["D"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

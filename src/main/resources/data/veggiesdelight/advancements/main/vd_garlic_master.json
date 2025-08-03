@@ -1,18 +1,18 @@
 {
-  "parent": "veggiesdelight:main/pizza",
+  "parent": "veggiesdelight:main/vd_cauliflower_master",
   "display": {
     "title": {
-      "translate": "veggiesdelight.advancement.bellpepper_master"
+      "translate": "veggiesdelight.advancement.vd_garlic_master"
     },
     "description": {
-      "translate": "veggiesdelight.advancement.bellpepper_master.desc"
+      "translate": "veggiesdelight.advancement.vd_garlic_master.desc"
     },
     "icon": {
-      "item": "veggiesdelight:shakshouka"
+      "item": "veggiesdelight:garlic_baked_cod"
     },
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:cacciatore"]
+            "items": ["veggiesdelight:roasted_garlic_clove"]
           }
         ]
       }
@@ -31,7 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:shakshouka"]
+            "items": ["veggiesdelight:garlic_chicken_stew"]
           }
         ]
       }
@@ -41,7 +41,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:stuffed_bellpeppers"]
+            "items": ["veggiesdelight:garlic_rice_with_cauliflower"]
           }
         ]
       }
@@ -51,7 +51,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:mhadjeb"]
+            "items": ["veggiesdelight:garlic_baked_cod"]
           }
         ]
       }
@@ -61,7 +61,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:smoked_bellpepper"]
+            "items": ["veggiesdelight:fermented_garlic_honey"]
           }
         ]
       }
@@ -71,7 +71,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:vegan_pizza"]
+            "items": ["veggiesdelight:garlic_bread"]
           }
         ]
       }
@@ -81,14 +81,14 @@
       "conditions": {
         "items": [
           {
-            "items": ["veggiesdelight:chicken_fajitas_wrap"]
+            "items": ["veggiesdelight:garlic_stuffed_mushrooms"]
           }
         ]
       }
     }
   },
   "requirements": [
-    ["A"],["B"],["C"],["D"],["E"],["F"],["G"]
+    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"], ["G"]
   ],
   "rewards": {
     "experience": 300

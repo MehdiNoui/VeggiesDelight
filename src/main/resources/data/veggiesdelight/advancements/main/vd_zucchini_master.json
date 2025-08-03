@@ -1,0 +1,50 @@
+{
+  "parent": "veggiesdelight:main/vd_turnip_master",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_zucchini_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_zucchini_master.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:stuffed_zucchinis"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:roasted_zucchini"] }]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:zucchini_sandwich"] }]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:zucchini_slice"] }]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:stuffed_zucchinis"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"], ["D"]
+  ],
+  "rewards": {
+    "experience": 250
+  }
+}

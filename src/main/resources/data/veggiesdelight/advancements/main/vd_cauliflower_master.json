@@ -1,0 +1,62 @@
+{
+  "parent": "veggiesdelight:main/vd_broccoli_master",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_cauliflower_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_cauliflower_master.desc"
+    },
+    "icon": {
+      "item": "veggiesdelight:cauliflower_kuku"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:fried_cauliflower_floret"] }]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:cauliflower_soup"] }]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:cauliflower_burger"] }]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:cauliflower_bread"] }]
+      }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:cauliflower_kuku"] }]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:garlic_rice_with_cauliflower"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

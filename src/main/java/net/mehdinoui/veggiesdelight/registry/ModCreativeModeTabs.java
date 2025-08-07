@@ -101,6 +101,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MASHED_POTATOES.get());
                         output.accept(ModItems.POTATO_NOODLES.get());
                         output.accept(ModItems.TURNIP_BEEF_STEW.get());
+                        output.accept(ModItems.TURNIP_SALAD.get());
 
                         // Meals
                         output.accept(ModItems.BROCCOLI_SALAD.get());
@@ -115,7 +116,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHAKSHOUKA.get());
                         output.accept(ModItems.STUFFED_BELLPEPPERS.get());
                         output.accept(ModItems.STUFFED_ZUCCHINIS.get());
-                        output.accept(ModItems.TURNIP_SALAD.get());
 
                         // Wild Plants
                         output.accept(ModBlocks.MATURE_DANDELION.get());

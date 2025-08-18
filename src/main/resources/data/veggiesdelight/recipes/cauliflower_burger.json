@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread"
     },
     {
       "tag": "forge:crops/cabbage"

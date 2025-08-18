@@ -53,7 +53,7 @@ public class ModFoods {
     // BROCCOLI RELATED FOOD
     public static final FoodProperties BROCCOLI_SALAD = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 0), 1.0F).build();
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties BROCCOLI_SOUP = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
@@ -139,7 +139,7 @@ public class ModFoods {
             nutrition(14).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties TURNIP_CAKE = new FoodProperties.Builder().
-            nutrition(12).saturationMod(0.7f)
+            nutrition(14).saturationMod(0.8f)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f)
             .build();
     public static final FoodProperties TURNIP_SALAD = new FoodProperties.Builder().

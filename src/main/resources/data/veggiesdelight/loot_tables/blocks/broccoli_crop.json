@@ -6,8 +6,26 @@
       "rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "veggiesdelight:broccoli_seeds"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "veggiesdelight:broccoli_crop",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "name": "veggiesdelight:broccoli"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "veggiesdelight:broccoli_seeds"
+            }
+          ]
         }
       ]
     },
@@ -28,7 +46,7 @@
               }
             }
           ],
-          "name": "veggiesdelight:broccoli"
+          "name": "veggiesdelight:broccoli_seeds"
         }
       ],
       "conditions": [
@@ -46,6 +64,5 @@
     {
       "function": "minecraft:explosion_decay"
     }
-  ],
-  "random_sequence": "veggiesdelight:blocks/broccoli_crop"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 800,
-  "experience": 8.0,
+  "cookingtime": 200,
+  "experience": 2.0,
   "container": {
     "item": "minecraft:bowl"
   },
@@ -14,6 +14,9 @@
     },
     {
       "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:milk"
     }
   ],
   "result": {

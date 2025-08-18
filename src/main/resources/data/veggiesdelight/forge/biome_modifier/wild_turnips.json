@@ -1,9 +1,6 @@
 {
-  "type": "farmersdelight:add_features_by_filter",
-  "allowed_biomes": "#minecraft:is_river",
-  "denied_biomes": "#forge:is_underground",
-  "min_temperature": 0.2,
-  "max_temperature": 0.89,
+  "type": "forge:add_features",
+  "biomes": "minecraft:beach",
   "features": "veggiesdelight:patch_wild_turnips",
   "step": "vegetal_decoration"
 }

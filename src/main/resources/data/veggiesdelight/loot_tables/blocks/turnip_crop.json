@@ -6,8 +6,26 @@
       "rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "veggiesdelight:turnip_seeds"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "veggiesdelight:turnip_crop",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "name": "veggiesdelight:turnip"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "veggiesdelight:turnip_seeds"
+            }
+          ]
         }
       ]
     },
@@ -28,7 +46,7 @@
               }
             }
           ],
-          "name": "veggiesdelight:turnip"
+          "name": "veggiesdelight:turnip_seeds"
         }
       ],
       "conditions": [
@@ -46,6 +64,5 @@
     {
       "function": "minecraft:explosion_decay"
     }
-  ],
-  "random_sequence": "veggiesdelight:blocks/turnip_crop"
+  ]
 }

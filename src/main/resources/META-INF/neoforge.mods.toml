@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}" #mandatory
+license="${mod_license}"
+###########
+[[mods]] #mandatory
+modId="veggiesdelight"
+version="${file.jarVersion}"
+displayName="Veggies Delight"
+authors="${mod_authors}"
+description='''${mod_description}'''
+###########
+[[dependencies.veggiesdelight]] #optional
+    modId="neoforge" #mandatory
+    type="required" #mandatory
+    versionRange="[${neo_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+###########
+[[dependencies.veggiesdelight]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+###########
+[[dependencies.veggiesdelight]]
+modId="farmersdelight"
+mandatory=true
+versionRange="[1.2.3,)"
+ordering="NONE"
+side="BOTH"

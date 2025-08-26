@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "veggiesdelight:block/bellpepper_stage2"
+  },
+  "render_type": "minecraft:cutout"
+}

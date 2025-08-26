@@ -1,0 +1,134 @@
+{
+  "creativetab.veggiesdelight_tab": "Veggies Delight",
+
+  "item.veggiesdelight.bellpepper": "Болгарский перец",
+  "item.veggiesdelight.broccoli": "???",
+  "item.veggiesdelight.cauliflower": "Цветная капуста",
+  "item.veggiesdelight.dandelion_leaf": "Листик одуванчика",
+  "item.veggiesdelight.garlic": "Чеснок",
+  "item.veggiesdelight.sweet_potato": "Батат",
+  "item.veggiesdelight.turnip": "???",
+  "item.veggiesdelight.zucchini": "???",
+
+  "item.veggiesdelight.bellpepper_seeds": "Семена болгарского перца",
+  "item.veggiesdelight.broccoli_seeds": "???",
+  "item.veggiesdelight.cauliflower_seeds": "Семена цветной капусты",
+  "item.veggiesdelight.turnip_seeds": "???",
+  "item.veggiesdelight.zucchini_seeds": "???",
+
+  "block.veggiesdelight.bellpepper_crate": "Ящик болгарского перца",
+  "block.veggiesdelight.broccoli_crate": "???",
+  "block.veggiesdelight.cauliflower_crate": "Ящик цветной капусты",
+  "block.veggiesdelight.garlic_crate": "Ящик чеснока",
+  "block.veggiesdelight.sweet_potato_crate": "Ящик батата",
+  "block.veggiesdelight.turnip_crate": "???",
+  "block.veggiesdelight.zucchini_crate": "???",
+
+  "block.veggiesdelight.wild_bellpeppers": "Дикий болгарский перец",
+  "block.veggiesdelight.wild_broccoli": "???",
+  "block.veggiesdelight.wild_cauliflowers": "Дикая цветная капуста",
+  "block.veggiesdelight.wild_garlic": "Дикий чеснок",
+  "block.veggiesdelight.wild_sweet_potatoes": "Дикий батат",
+  "block.veggiesdelight.wild_turnips": "???",
+  "block.veggiesdelight.wild_zucchinis": "???",
+  "block.veggiesdelight.mature_dandelion": "Спелый одуванчик",
+
+
+  "item.veggiesdelight.cacciatore": "Каччиаторе",
+  "item.veggiesdelight.chicken_fajitas_wrap": "Фахитас с курицей",
+  "item.veggiesdelight.mhadjeb": "Мхаджеб",
+  "item.veggiesdelight.shakshouka": "Шакшука",
+  "item.veggiesdelight.smoked_bellpepper": "Копченый болгарский перец",
+  "item.veggiesdelight.stuffed_bellpeppers": "Фаршированный болгарский перец",
+  "item.veggiesdelight.uncooked_mhadjeb": "Сырой мхаджеб",
+  "block.veggiesdelight.vegan_pizza": "Веганская пицца",
+  "item.veggiesdelight.vegan_pizza_slice": "Кусочек веганской пиццы",
+
+  "item.veggiesdelight.broccoli_salad": "???",
+  "item.veggiesdelight.broccoli_soup": "???",
+  "item.veggiesdelight.pasta_with_broccoli": "???",
+
+  "item.veggiesdelight.cauliflower_bread": "Хлеб из цветной капусты",
+  "item.veggiesdelight.cauliflower_burger": "Бургер с цветной капустой",
+  "item.veggiesdelight.cauliflower_floret": "Соцветия цветной капусты",
+  "item.veggiesdelight.cauliflower_kuku": "???",
+  "item.veggiesdelight.cauliflower_patty": "Котлета из цветной капусты",
+  "item.veggiesdelight.cauliflower_soup": "Суп из цветной капусты",
+  "item.veggiesdelight.cooked_cauliflower_patty": "Котлета из вареной цветной капусты",
+  "item.veggiesdelight.fried_cauliflower_floret": "Жареные соцветия цветной капусты",
+
+  "item.veggiesdelight.dandelion_and_eggs": "Зелень одуванчика с яичницей",
+  "item.veggiesdelight.dandelion_juice": "Сок из одуванчика",
+
+  "item.veggiesdelight.cesar_salad": "Салат Цезарь",
+  "item.veggiesdelight.fermented_garlic_honey": "Ферментированный чесночный мед",
+  "item.veggiesdelight.garlic_baked_cod": "Запеченная треска с чесноком",
+  "item.veggiesdelight.garlic_bread": "Чесночный хлеб",
+  "item.veggiesdelight.garlic_chicken_stew": "Тушеная курица с чесноком",
+  "item.veggiesdelight.garlic_clove": "Зубчик чеснока",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "Чесночный рис с цветной капустой",
+  "item.veggiesdelight.garlic_stuffed_mushrooms": "Грибы, фаршированные чесноком",
+  "item.veggiesdelight.roasted_garlic_clove": "Запеченный зубчик чеснока",
+
+  "item.veggiesdelight.baked_sweet_potato": "Запеченный батат",
+  "item.veggiesdelight.mashed_potatoes": "Картофельное пюре",
+  "item.veggiesdelight.potato_noodle": "Нить картофельной лапшы",
+  "item.veggiesdelight.potato_noodles": "Картофельная лапша",
+  "item.veggiesdelight.sweet_potato_cupcake": "Кекс из батата",
+  "item.veggiesdelight.sweet_potato_dough": "Тесто из батата",
+  "item.veggiesdelight.sweet_potato_pancakes": "???",
+  "block.veggiesdelight.sweet_potato_pie": "???",
+  "item.veggiesdelight.sweet_potato_pie_slice": "Кусочек пирога с бататом",
+
+  "item.veggiesdelight.turnip_beef_stew": "???",
+  "item.veggiesdelight.turnip_cake": "???",
+  "item.veggiesdelight.turnip_salad": "???",
+  "item.veggiesdelight.turnip_water": "???",
+
+  "item.veggiesdelight.roasted_zucchini": "???",
+  "item.veggiesdelight.zucchini_sandwich": "???",
+  "item.veggiesdelight.zucchini_slice": "???",
+  "item.veggiesdelight.stuffed_zucchinis": "???",
+
+  "item.veggiesdelight.beetroot_brownie": "Свекольный брауни",
+  "block.veggiesdelight.beetroot_brownie_tray": "Лоток с брауни из свёклы",
+  "block.veggiesdelight.carrot_cake": "Морковный пирог",
+  "item.veggiesdelight.carrot_cake_slice": "Кусочек морковного пирога",
+  "item.veggiesdelight.carrot_juice": "Морковный сок",
+  "item.veggiesdelight.fish_and_chips": "Рыба с жареным картофелем",
+  "item.veggiesdelight.roasted_vegetables": "Запеченные овощи",
+
+
+  "veggiesdelight.advancement.root": "Veggies Delight",
+  "veggiesdelight.advancement.root.desc": "Собери свои овощи!",
+
+  "veggiesdelight.advancement.r_first_veggie": "Салатус начнём!",
+  "veggiesdelight.advancement.r_first_veggie.desc": "Соберите свой первый овощ",
+
+  "veggiesdelight.advancement.r_fruit_veggie": "Разве это не фрукт?",
+  "veggiesdelight.advancement.r_fruit_veggie.desc": "Среди нас амогус",
+
+  "veggiesdelight.advancement.r_all_veggies": "Поймай их всех!",
+  "veggiesdelight.advancement.r_all_veggies.desc": "Соберите все овощи",
+
+  "veggiesdelight.advancement.r_bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.r_bellpepper_master.desc": "Приготовьте все блюда из болгарского перца",
+
+  "veggiesdelight.advancement.vd_broccoli_master": "???",
+  "veggiesdelight.advancement.vd_broccoli_master.desc": "???",
+
+  "veggiesdelight.advancement.r_cauliflower_master": "Каули-мастер",
+  "veggiesdelight.advancement.r_cauliflower_master.desc": "Приготовьте все блюда из цветной капусты",
+
+  "veggiesdelight.advancement.r_garlic_master": "Гарлик-младший",
+  "veggiesdelight.advancement.r_garlic_master.desc": "Приготовь все блюда из чеснока",
+
+  "veggiesdelight.advancement.r_sweet_potato_master": "Сладкая победа",
+  "veggiesdelight.advancement.r_sweet_potato_master.desc": "Приготовь все блюда из сладкого картофеля",
+
+  "veggiesdelight.advancement.vd_turnip_master": "???",
+  "veggiesdelight.advancement.vd_turnip_master.desc": "???",
+
+  "veggiesdelight.advancement.vd_zucchini_master": "???",
+  "veggiesdelight.advancement.vd_zucchini_master.desc": "???"
+}

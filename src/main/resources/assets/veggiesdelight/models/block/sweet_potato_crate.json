@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "veggiesdelight:block/sweet_potato_crate_top",
+    "down": "veggiesdelight:block/crate_bottom",
+    "north": "veggiesdelight:block/sweet_potato_crate_side",
+    "south":"veggiesdelight:block/sweet_potato_crate_side",
+    "east": "veggiesdelight:block/sweet_potato_crate_side",
+    "west": "veggiesdelight:block/sweet_potato_crate_side",
+    "particle": "veggiesdelight:block/sweet_potato_crate_top"
+  }
+}

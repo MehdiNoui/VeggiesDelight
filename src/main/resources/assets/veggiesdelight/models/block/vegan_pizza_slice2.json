@@ -1,0 +1,24 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "veggiesdelight:block/pizza_inner",
+    "1": "veggiesdelight:block/pizza_bottom",
+    "2": "veggiesdelight:block/vegan_pizza_top",
+    "3": "veggiesdelight:block/pizza_side",
+    "particle": "veggiesdelight:block/pizza_inner"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 2, 8],
+      "faces": {
+        "north": {"uv": [0, 14, 16, 16], "texture": "#3"},
+        "east": {"uv": [8, 14, 16, 16], "texture": "#3"},
+        "south": {"uv": [0, 14, 16, 16], "texture": "#0"},
+        "west": {"uv": [0, 14, 8, 16], "texture": "#3"},
+        "up": {"uv": [0, 0, 16, 8], "texture": "#2"},
+        "down": {"uv": [0, 8, 16, 16], "texture": "#1", "cullface": "down"}
+      }
+    }
+  ]
+}

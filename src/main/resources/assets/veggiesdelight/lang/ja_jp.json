@@ -1,0 +1,134 @@
+{
+  "creativetab.veggiesdelight_tab": "Veggies Delight",
+
+  "item.veggiesdelight.bellpepper": "パプリカ",
+  "item.veggiesdelight.broccoli": "???",
+  "item.veggiesdelight.cauliflower": "カリフラワー",
+  "item.veggiesdelight.dandelion_leaf": "タンポポの葉",
+  "item.veggiesdelight.garlic": "にんにく",
+  "item.veggiesdelight.sweet_potato": "さつまいも",
+  "item.veggiesdelight.turnip": "???",
+  "item.veggiesdelight.zucchini": "???",
+
+  "item.veggiesdelight.bellpepper_seeds": "パプリカの種",
+  "item.veggiesdelight.broccoli_seeds": "???",
+  "item.veggiesdelight.cauliflower_seeds": "カリフラワーの種",
+  "item.veggiesdelight.turnip_seeds": "???",
+  "item.veggiesdelight.zucchini_seeds": "???",
+
+  "block.veggiesdelight.bellpepper_crate": "パプリカ入り木箱",
+  "block.veggiesdelight.broccoli_crate": "???",
+  "block.veggiesdelight.cauliflower_crate": "カリフラワー入り木箱",
+  "block.veggiesdelight.garlic_crate": "にんにく入り木箱",
+  "block.veggiesdelight.sweet_potato_crate": "さつまいも入り木箱",
+  "block.veggiesdelight.turnip_crate": "???",
+  "block.veggiesdelight.zucchini_crate": "???",
+
+  "block.veggiesdelight.wild_bellpeppers": "野生のパプリカ",
+  "block.veggiesdelight.wild_broccoli": "???",
+  "block.veggiesdelight.wild_cauliflowers": "野生のカリフラワー",
+  "block.veggiesdelight.wild_garlic": "野生のにんにく",
+  "block.veggiesdelight.wild_sweet_potatoes": "野生のさつまいも",
+  "block.veggiesdelight.wild_turnips": "???",
+  "block.veggiesdelight.wild_zucchinis": "???",
+  "block.veggiesdelight.mature_dandelion": "成熟したタンポポ",
+
+
+  "item.veggiesdelight.cacciatore": "鶏肉の狩り人風煮込み",
+  "item.veggiesdelight.chicken_fajitas_wrap": "チキンファヒータラップ",
+  "item.veggiesdelight.mhadjeb": "ハジェブ",
+  "item.veggiesdelight.shakshouka": "シャクシュカ",
+  "item.veggiesdelight.smoked_bellpepper": "パプリカの燻製",
+  "item.veggiesdelight.stuffed_bellpeppers": "パプリカのの肉詰め",
+  "item.veggiesdelight.uncooked_mhadjeb": "未調理のハジェブ",
+  "block.veggiesdelight.vegan_pizza": "ビーガンピザ",
+  "item.veggiesdelight.vegan_pizza_slice": "一切れのビーガンピザ",
+
+  "item.veggiesdelight.broccoli_salad": "???",
+  "item.veggiesdelight.broccoli_soup": "???",
+  "item.veggiesdelight.pasta_with_broccoli": "???",
+
+  "item.veggiesdelight.cauliflower_bread": "カリフラワーブレッド",
+  "item.veggiesdelight.cauliflower_burger": "カリフラワーバーガー",
+  "item.veggiesdelight.cauliflower_floret": "カリフラワーの小房",
+  "item.veggiesdelight.cauliflower_kuku": "???",
+  "item.veggiesdelight.cauliflower_patty": "未調理のカリフラワーハンバーグ",
+  "item.veggiesdelight.cauliflower_soup": "カリフラワースープ",
+  "item.veggiesdelight.cooked_cauliflower_patty": "カリフラワーハンバーグ",
+  "item.veggiesdelight.fried_cauliflower_floret": "揚げたカリフラワーの小房",
+
+  "item.veggiesdelight.dandelion_and_eggs": "タンポポの葉と卵のサラダ",
+  "item.veggiesdelight.dandelion_juice": "タンポポジュース",
+
+  "item.veggiesdelight.cesar_salad": "シーザーサラダ",
+  "item.veggiesdelight.fermented_garlic_honey": "発酵にんにくの蜂蜜漬け",
+  "item.veggiesdelight.garlic_baked_cod": "にんにく風味の焼き鱈",
+  "item.veggiesdelight.garlic_bread": "にんにくパン",
+  "item.veggiesdelight.garlic_chicken_stew": "鶏肉とにんにくのシチュー",
+  "item.veggiesdelight.garlic_clove": "ひとかけのにんにく",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "カリフラワーを添えたガーリックライス",
+  "item.veggiesdelight.garlic_stuffed_mushrooms": "ニンニク詰めマッシュルーム",
+  "item.veggiesdelight.roasted_garlic_clove": "焼きにんにく",
+
+  "item.veggiesdelight.baked_sweet_potato": "焼き芋",
+  "item.veggiesdelight.mashed_potatoes": "マッシュポテト",
+  "item.veggiesdelight.potato_noodle": "芋麺",
+  "item.veggiesdelight.potato_noodles": "芋麺",
+  "item.veggiesdelight.sweet_potato_cupcake": "さつまいものカップケーキ",
+  "item.veggiesdelight.sweet_potato_dough": "サツマイモ生地",
+  "item.veggiesdelight.sweet_potato_pancakes": "???",
+  "block.veggiesdelight.sweet_potato_pie": "???",
+  "item.veggiesdelight.sweet_potato_pie_slice": "一切れのさつまいもパイ",
+
+  "item.veggiesdelight.turnip_beef_stew": "???",
+  "item.veggiesdelight.turnip_cake": "???",
+  "item.veggiesdelight.turnip_salad": "???",
+  "item.veggiesdelight.turnip_water": "???",
+
+  "item.veggiesdelight.roasted_zucchini": "???",
+  "item.veggiesdelight.zucchini_sandwich": "???",
+  "item.veggiesdelight.zucchini_slice": "???",
+  "item.veggiesdelight.stuffed_zucchinis": "???",
+
+  "item.veggiesdelight.beetroot_brownie": "ビーツブラウニー",
+  "block.veggiesdelight.beetroot_brownie_tray": "ビーツブラウニーの型焼き",
+  "block.veggiesdelight.carrot_cake": "キャロットケーキ",
+  "item.veggiesdelight.carrot_cake_slice": "キャロットケーキ",
+  "item.veggiesdelight.carrot_juice": "ニンジンジュース",
+  "item.veggiesdelight.fish_and_chips": "フィッシュ＆チップス",
+  "item.veggiesdelight.roasted_vegetables": "焼き野菜の盛り合わせ",
+
+
+  "veggiesdelight.advancement.root": "Veggies Delight",
+  "veggiesdelight.advancement.root.desc": "野菜を採取に行こう！",
+
+  "veggiesdelight.advancement.r_first_veggie": "さあ、始めよう",
+  "veggiesdelight.advancement.r_first_veggie.desc": "野菜を収穫しよう。",
+
+  "veggiesdelight.advancement.r_fruit_veggie": "これって果物じゃないの？",
+  "veggiesdelight.advancement.r_fruit_veggie.desc": "私たちの中に裏切り者がいる。",
+
+  "veggiesdelight.advancement.r_all_veggies": "全部ゲットだぜ",
+  "veggiesdelight.advancement.r_all_veggies.desc": "すべての野菜を集めよう。",
+
+  "veggiesdelight.advancement.vd_bellpepper_master": "Dr.ペッパー",
+  "veggiesdelight.advancement.vd_bellpepper_master.desc": "パプリカを使った全ての料理を作る。",
+
+  "veggiesdelight.advancement.vd_broccoli_master": "???",
+  "veggiesdelight.advancement.vd_broccoli_master.desc": "???",
+
+  "veggiesdelight.advancement.vd_cauliflower_master": "カリフラワーマスター",
+  "veggiesdelight.advancement.vd_cauliflower_master.desc": "カリフラワーを使った全ての料理を作る。",
+
+  "veggiesdelight.advancement.vd_garlic_master": "ガーリックJr.",
+  "veggiesdelight.advancement.vd_garlic_master.desc": "にんにくを使った全ての料理を作る。",
+
+  "veggiesdelight.advancement.vd_sweet_potato_master": "勝利の味",
+  "veggiesdelight.advancement.vd_sweet_potato_master.desc": "サツマイモを使った全ての料理を作る。",
+
+  "veggiesdelight.advancement.vd_turnip_master": "???",
+  "veggiesdelight.advancement.vd_turnip_master.desc": "???",
+
+  "veggiesdelight.advancement.vd_zucchini_master": "???",
+  "veggiesdelight.advancement.vd_zucchini_master.desc": "???"
+}

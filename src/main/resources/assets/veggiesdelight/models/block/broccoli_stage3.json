@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "veggiesdelight:block/broccoli_stage3"
+  },
+  "render_type": "minecraft:cutout"
+}

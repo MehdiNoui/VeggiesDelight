@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "veggiesdelight:block/cauliflower_stage4"
+  },
+  "render_type": "minecraft:cutout"
+}

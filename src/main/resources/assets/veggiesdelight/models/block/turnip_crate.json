@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "veggiesdelight:block/turnip_crate_top",
+    "down": "veggiesdelight:block/crate_bottom",
+    "north": "veggiesdelight:block/turnip_crate_side",
+    "south":"veggiesdelight:block/turnip_crate_side",
+    "east": "veggiesdelight:block/turnip_crate_side",
+    "west": "veggiesdelight:block/turnip_crate_side",
+    "particle": "veggiesdelight:block/turnip_crate_top"
+  }
+}

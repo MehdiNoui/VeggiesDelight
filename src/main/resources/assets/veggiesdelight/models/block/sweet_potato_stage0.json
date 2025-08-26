@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "veggiesdelight:block/sweet_potato_stage0"
+  },
+  "render_type": "minecraft:cutout"
+}

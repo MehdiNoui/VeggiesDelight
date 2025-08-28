@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "veggiesdelight:sweet_potato_pie_slice"
+    }
+  },
+  "result":{
+    "id": "veggiesdelight:sweet_potato_pie",
+    "count": 1
+  }
+}

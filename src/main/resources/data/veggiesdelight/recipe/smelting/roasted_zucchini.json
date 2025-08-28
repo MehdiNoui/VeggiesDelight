@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "veggiesdelight:zucchini"
+  },
+  "result": {
+    "id": "veggiesdelight:roasted_zucchini",
+    "count": 1
+  }
+}

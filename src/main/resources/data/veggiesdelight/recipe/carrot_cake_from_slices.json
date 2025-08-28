@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    },
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    },
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    },
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    },
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    },
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    },
+    {
+      "item": "veggiesdelight:carrot_cake_slice"
+    }
+  ],
+  "result": {
+    "id": "veggiesdelight:carrot_cake",
+    "count": 1
+  }
+}

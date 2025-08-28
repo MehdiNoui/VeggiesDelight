@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "veggiesdelight:bellpepper"
+    }
+  },
+  "result":{
+    "id":"veggiesdelight:bellpepper_crate",
+    "count": 1
+  }
+}

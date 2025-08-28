@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result":{
+    "id": "veggiesdelight:carrot_cake",
+    "count": 1
+  }
+}

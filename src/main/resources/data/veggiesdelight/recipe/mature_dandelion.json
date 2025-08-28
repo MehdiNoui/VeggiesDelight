@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:mature_dandelion"
+    }
+  ],
+  "result":{
+    "id": "minecraft:yellow_dye",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:garlic_crate"
+    }
+  ],
+  "result":{
+    "id":"veggiesdelight:garlic",
+    "count": 9
+  }
+}

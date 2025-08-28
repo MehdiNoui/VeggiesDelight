@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "veggiesdelight:garlic_clove"
+  },
+  "result": {
+    "id": "veggiesdelight:roasted_garlic_clove",
+    "count": 1
+  }
+}

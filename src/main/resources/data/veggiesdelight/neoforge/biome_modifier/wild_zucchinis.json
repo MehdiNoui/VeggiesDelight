@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#c:is_hot/overworld",
+  "features": "veggiesdelight:patch_wild_zucchinis",
+  "step": "vegetal_decoration"
+}

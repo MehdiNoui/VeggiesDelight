@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_beach",
+  "features": "veggiesdelight:patch_wild_turnips",
+  "step": "vegetal_decoration"
+}

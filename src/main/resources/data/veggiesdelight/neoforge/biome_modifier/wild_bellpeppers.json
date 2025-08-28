@@ -1,0 +1,7 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#c:is_hot/overworld",
+  "denied_biomes": "#c:is_wet",
+  "features": "veggiesdelight:patch_wild_bellpeppers",
+  "step": "vegetal_decoration"
+}

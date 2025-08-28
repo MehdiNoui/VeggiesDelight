@@ -1,4 +1,4 @@
-package net.mehdinoui.veggiesdelight.item;
+package net.mehdinoui.veggiesdelight.common.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

@@ -1,6 +1,6 @@
-package net.mehdinoui.veggiesdelight.block.custom.crops;
+package net.mehdinoui.veggiesdelight.common.block.custom.crops;
 
-import net.mehdinoui.veggiesdelight.item.ModItems;
+import net.mehdinoui.veggiesdelight.common.item.ModItems;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
@@ -9,27 +9,26 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
-public class TurnipCropBlock extends CropBlock {
+public class SweetPotatoCropBlock extends CropBlock {
     public static final int MAX_AGE = 5;
     public static final IntegerProperty AGE = BlockStateProperties.AGE_5;
-
-    public TurnipCropBlock(Properties properties) {
+    public SweetPotatoCropBlock(Properties properties) {
         super(properties);
     }
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return ModItems.TURNIP_SEEDS.get();
-    }
-
-    @Override
-    public int getMaxAge() {
-        return MAX_AGE;
+        return ModItems.SWEET_POTATO.get();
     }
 
     @Override
     public IntegerProperty getAgeProperty() {
         return AGE;
+    }
+
+    @Override
+    public int getMaxAge() {
+        return MAX_AGE;
     }
 
     @Override

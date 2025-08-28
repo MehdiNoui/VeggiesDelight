@@ -1,4 +1,4 @@
-package net.mehdinoui.veggiesdelight.datagen;
+package net.mehdinoui.veggiesdelight.data;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.minecraft.core.HolderLookup;

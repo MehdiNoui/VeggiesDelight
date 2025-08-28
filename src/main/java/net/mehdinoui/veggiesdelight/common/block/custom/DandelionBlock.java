@@ -1,6 +1,6 @@
-package net.mehdinoui.veggiesdelight.block.custom;
+package net.mehdinoui.veggiesdelight.common.block.custom;
 
-import net.mehdinoui.veggiesdelight.block.ModBlocks;
+import net.mehdinoui.veggiesdelight.common.block.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moredelight:toast"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    }
+  ],
+  "result":{
+    "id":"veggiesdelight:garlic_bread",
+    "count": 1
+  }
+}

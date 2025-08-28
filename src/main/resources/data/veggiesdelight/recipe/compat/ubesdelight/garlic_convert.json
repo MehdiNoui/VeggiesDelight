@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ubesdelight:garlic"
+    }
+  ],
+  "result":{
+    "id":"veggiesdelight:garlic",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "veggiesdelight:wild_zucchinis"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "veggiesdelight:wild_zucchinis",
+  "input": {
+    "item": "veggiesdelight:wild_zucchinis"
+  }
+}

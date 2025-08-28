@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:beetroot_brownie_tray"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+          "id": "veggiesdelight:beetroot_brownie",
+          "count": 4
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

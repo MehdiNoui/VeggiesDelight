@@ -1,0 +1,15 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "veggiesdelight:garlic_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "veggiesdelight:garlic_crop",
+  "input": {
+    "item": "veggiesdelight:garlic_clove"
+  }
+}

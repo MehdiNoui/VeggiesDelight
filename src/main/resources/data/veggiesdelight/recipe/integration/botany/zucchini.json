@@ -1,0 +1,15 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "veggiesdelight:zucchini_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "veggiesdelight:zucchini_crop",
+  "input": {
+    "item": "veggiesdelight:zucchini_seeds"
+  }
+}

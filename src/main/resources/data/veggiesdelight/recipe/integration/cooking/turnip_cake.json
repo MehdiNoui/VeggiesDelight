@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:crops/turnip"
+    },
+    {
+      "tag": "c:crops/grain"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        { "tag": "c:foods/raw_beef" },
+        { "tag": "c:foods/raw_bacon" },
+        { "tag": "c:foods/raw_chicken" },
+        { "tag": "c:foods/safe_raw_fish" },
+        { "tag": "c:foods/raw_mutton" },
+        { "tag": "c:foods/raw_pork" }
+      ]
+    },
+    {
+      "tag": "c:crops/grain"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "veggiesdelight:turnip_cake",
+    "count": 1
+  }
+}

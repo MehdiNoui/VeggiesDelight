@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "veggiesdelight:bellpepper"
+    },
+    {
+      "tag": "c:foods/cooked_chicken"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "veggiesdelight:cacciatore",
+    "count": 1
+  }
+}

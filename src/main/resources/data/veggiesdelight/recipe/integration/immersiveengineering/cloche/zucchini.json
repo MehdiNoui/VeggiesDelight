@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "veggiesdelight:zucchini_seeds"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "veggiesdelight:zucchini_crop"
+  },
+  "results": [
+    {
+      "id": "veggiesdelight:zucchini",
+      "count": 2
+    },
+    {
+      "id": "veggiesdelight:zucchini_seeds",
+      "count": 1
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

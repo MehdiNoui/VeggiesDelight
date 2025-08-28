@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "input": {
+    "item": "veggiesdelight:garlic_clove"
+  },
+  "type": "immersiveengineering:cloche",
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "veggiesdelight:garlic_crop"
+  },
+  "results": [
+    {
+      "id": "veggiesdelight:garlic",
+      "count": 2
+    },
+    {
+      "id": "veggiesdelight:garlic_clove",
+      "count": 1
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

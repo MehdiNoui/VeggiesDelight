@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:crops/turnip"
+    },
+    {
+      "tag": "c:crops/turnip"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "id": "veggiesdelight:turnip_water",
+    "count": 1
+  }
+}

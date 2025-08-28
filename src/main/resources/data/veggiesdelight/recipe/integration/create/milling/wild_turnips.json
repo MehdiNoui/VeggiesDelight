@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_turnips"
+    }
+  ],
+  "results": [
+    {
+      "id": "veggiesdelight:turnip_seeds",
+      "count": 1
+    },
+    {
+      "id": "minecraft:magenta_dye",
+      "count" : 1
+    }
+  ],
+  "processingTime": 50
+}

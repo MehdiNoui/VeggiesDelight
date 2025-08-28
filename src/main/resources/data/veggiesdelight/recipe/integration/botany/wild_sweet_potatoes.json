@@ -1,0 +1,15 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "veggiesdelight:wild_sweet_potatoes"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "veggiesdelight:wild_sweet_potatoes",
+  "input": {
+    "item": "veggiesdelight:wild_sweet_potatoes"
+  }
+}

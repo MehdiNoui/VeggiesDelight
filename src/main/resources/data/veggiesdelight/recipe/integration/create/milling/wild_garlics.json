@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_garlic"
+    }
+  ],
+  "results": [
+    {
+      "id": "veggiesdelight:garlic_clove",
+      "count": 1
+    },
+    {
+      "id": "minecraft:white_dye",
+      "count": 1
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "veggiesdelight:potato_noodle"
+    },
+    {
+      "item": "veggiesdelight:potato_noodle"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "veggiesdelight:potato_noodles",
+    "count": 1
+  }
+}

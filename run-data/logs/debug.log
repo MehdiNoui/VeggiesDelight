@@ -340,7 +340,7 @@
 [25Jul2025 18:39:42.218] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for appleskin
 [25Jul2025 18:39:42.231] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file veggiesdelight-common.toml for veggiesdelight tracking
 [25Jul2025 18:39:42.326] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for veggiesdelight
-[25Jul2025 18:39:42.343] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mehdinoui.veggiesdelight.datagen.DataGenerators to MOD
+[25Jul2025 18:39:42.343] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mehdinoui.veggiesdelight.data.DataGenerators to MOD
 [25Jul2025 18:39:42.360] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mehdinoui.veggiesdelight.VeggiesDelight$ModEventSubscriber to MOD
 [25Jul2025 18:39:42.369] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mehdinoui.veggiesdelight.VeggiesDelight$newSubscriber to FORGE
 [25Jul2025 18:39:42.436] [modloading-worker-0/DEBUG] [mixin/]: Mixing CanvasSignEditScreenMixin from farmersdelight.mixins.json into net.minecraft.client.player.LocalPlayer

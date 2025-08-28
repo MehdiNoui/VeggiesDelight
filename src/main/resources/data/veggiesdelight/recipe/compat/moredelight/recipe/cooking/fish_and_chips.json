@@ -3,7 +3,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "c:foods/raw_fish"
+      "tag": "c:foods/safe_raw_fish"
     },
     {
       "item": "moredelight:diced_potatoes"

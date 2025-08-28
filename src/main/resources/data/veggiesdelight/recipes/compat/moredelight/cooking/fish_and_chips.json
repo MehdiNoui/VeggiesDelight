@@ -7,10 +7,10 @@
   },
   "ingredients": [
     {
-      "item": "moredelight:diced_potatoes"
+      "tag": "forge:raw_fishes"
     },
     {
-      "tag": "forge:raw_fishes"
+      "item": "moredelight:diced_potatoes"
     },
     {
       "tag": "forge:eggs"

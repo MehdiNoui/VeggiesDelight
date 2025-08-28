@@ -13,13 +13,7 @@
       "item": "veggiesdelight:dandelion_leaf"
     },
     {
-      "item": "veggiesdelight:dandelion_leaf"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "tag": "forge:milk"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {

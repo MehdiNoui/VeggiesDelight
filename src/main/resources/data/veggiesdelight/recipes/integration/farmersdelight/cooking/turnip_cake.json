@@ -10,12 +10,12 @@
       "tag": "forge:grain/rice"
     },
     [
-      {"tag": "forge:cooked_beef"},
-      {"tag": "forge:cooked_bacon"},
-      {"tag": "forge:cooked_chicken"},
-      {"tag": "forge:cooked_fishes"},
-      {"tag": "forge:cooked_mutton"},
-      {"tag": "forge:cooked_pork"}
+      {"tag": "forge:raw_beef"},
+      {"tag": "forge:raw_bacon"},
+      {"tag": "forge:raw_chicken"},
+      {"tag": "forge:raw_fishes"},
+      {"tag": "forge:raw_mutton"},
+      {"tag": "forge:raw_pork"}
     ],
     {
       "tag": "forge:grain/wheat"

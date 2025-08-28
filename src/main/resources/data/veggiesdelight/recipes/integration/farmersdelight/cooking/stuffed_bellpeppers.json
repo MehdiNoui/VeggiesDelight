@@ -19,8 +19,8 @@
       "item": "farmersdelight:tomato"
     },
     [
-      {"tag": "forge:cooked_beef"},
-      {"tag": "forge:cooked_mutton"}
+      {"tag": "forge:raw_beef"},
+      {"tag": "forge:raw_mutton"}
     ]
   ],
   "result": {

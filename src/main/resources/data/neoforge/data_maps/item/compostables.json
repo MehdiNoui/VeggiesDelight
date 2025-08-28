@@ -1,0 +1,116 @@
+{
+  "values": {
+    "veggiesdelight:garlic_clove": {
+      "chance": 0.1
+    },
+
+    "veggiesdelight:bellpepper_seeds": {
+      "chance": 0.3
+    },
+    "veggiesdelight:broccoli_seeds": {
+      "chance": 0.3
+    },
+    "veggiesdelight:cauliflower_seeds": {
+      "chance": 0.3
+    },
+    "veggiesdelight:cauliflower_floret": {
+      "chance": 0.3
+    },
+    "veggiesdelight:dandelion_leaf": {
+      "chance": 0.3
+    },
+    "veggiesdelight:turnip_seeds": {
+      "chance": 0.3
+    },
+    "veggiesdelight:zucchini_seeds": {
+      "chance": 0.3
+    },
+
+    "veggiesdelight:bellpepper": {
+      "chance": 0.65
+    },
+    "veggiesdelight:broccoli": {
+      "chance": 0.65
+    },
+    "veggiesdelight:cauliflower": {
+      "chance": 0.65
+    },
+    "veggiesdelight:garlic": {
+      "chance": 0.65
+    },
+    "veggiesdelight:sweet_potato": {
+      "chance": 0.65
+    },
+    "veggiesdelight:turnip": {
+      "chance": 0.65
+    },
+    "veggiesdelight:zucchini": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_bellpeppers": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_broccoli": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_cauliflowers": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_garlic": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_sweet_potatoes": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_turnips": {
+      "chance": 0.65
+    },
+    "veggiesdelight:wild_zucchinis": {
+      "chance": 0.65
+    },
+    "veggiesdelight:mature_dandelion": {
+      "chance": 0.65
+    },
+
+    "veggiesdelight:beetroot_brownie": {
+      "chance": 0.85
+    },
+    "veggiesdelight:vegan_pizza_slice": {
+      "chance": 0.85
+    },
+    "veggiesdelight:sweet_potato_pie_slice": {
+      "chance": 0.85
+    },
+    "veggiesdelight:carrot_cake_slice": {
+      "chance": 0.85
+    },
+    "veggiesdelight:potato_noodle": {
+      "chance": 0.85
+    },
+    "veggiesdelight:cauliflower_patty": {
+      "chance": 0.85
+    },
+    "veggiesdelight:uncooked_mhadjeb": {
+      "chance": 0.85
+    },
+    "veggiesdelight:sweet_potato_dough": {
+      "chance": 0.85
+    },
+    "veggiesdelight:sweet_potato_cupcake": {
+      "chance": 0.85
+    },
+
+    "veggiesdelight:vegan_pizza": {
+      "chance": 1.0
+    },
+    "veggiesdelight:sweet_potato_pie": {
+      "chance": 1.0
+    },
+    "veggiesdelight:beetroot_brownie_tray": {
+      "chance": 1.0
+    },
+    "veggiesdelight:carrot_cake": {
+      "chance": 1.0
+    }
+  }
+}

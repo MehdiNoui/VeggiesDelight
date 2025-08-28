@@ -1,0 +1,44 @@
+{
+  "parent": "veggiesdelight:main/vd_bellpepper_master",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_broccoli_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_broccoli_master.desc"
+    },
+    "icon": {
+      "id": "veggiesdelight:pasta_with_broccoli"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:broccoli_salad"] }]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:broccoli_soup"] }]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:pasta_with_broccoli"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "veggiesdelight:main/r_first_veggie",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.r_fruit_veggie"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.r_fruit_veggie.desc"
+    },
+    "icon": {
+      "id": "farmersdelight:tomato"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:bellpepper","farmersdelight:tomato"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements":[
+    ["fruit"]
+  ]
+}

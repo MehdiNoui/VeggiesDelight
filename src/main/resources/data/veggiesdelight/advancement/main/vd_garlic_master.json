@@ -1,0 +1,96 @@
+{
+  "parent": "veggiesdelight:main/vd_cauliflower_master",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_garlic_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_garlic_master.desc"
+    },
+    "icon": {
+      "id": "veggiesdelight:garlic_baked_cod"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:roasted_garlic_clove"]
+          }
+        ]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:garlic_chicken_stew"]
+          }
+        ]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:garlic_rice_with_cauliflower"]
+          }
+        ]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:garlic_baked_cod"]
+          }
+        ]
+      }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:fermented_garlic_honey"]
+          }
+        ]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:garlic_bread"]
+          }
+        ]
+      }
+    },
+    "G": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:garlic_stuffed_mushrooms"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"], ["G"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

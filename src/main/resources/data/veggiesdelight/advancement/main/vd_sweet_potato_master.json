@@ -1,0 +1,62 @@
+{
+  "parent": "veggiesdelight:main/vd_garlic_master",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_sweet_potato_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_sweet_potato_master.desc"
+    },
+    "icon": {
+      "id": "veggiesdelight:sweet_potato_pancakes"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:baked_sweet_potato"] }]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:sweet_potato_pie"] }]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:potato_noodles"] }]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:mashed_potatoes"] }]
+      }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:sweet_potato_cupcake"] }]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:sweet_potato_pancakes"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "veggiesdelight:main/root",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.r_first_veggie"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.r_first_veggie.desc"
+    },
+    "icon": {
+      "id": "minecraft:iron_hoe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:bellpepper",
+              "veggiesdelight:broccoli",
+              "veggiesdelight:cauliflower",
+              "veggiesdelight:garlic",
+              "veggiesdelight:sweet_potato",
+              "veggiesdelight:turnip",
+              "veggiesdelight:zucchini",
+              "farmersdelight:tomato",
+              "farmersdelight:onion",
+              "farmersdelight:cabbage",
+              "minecraft:potato",
+              "minecraft:carrot",
+              "minecraft:beetroot"
+              ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements":[
+    ["first"]
+  ]
+}

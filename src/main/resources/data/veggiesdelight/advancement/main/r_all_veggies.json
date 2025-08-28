@@ -1,0 +1,74 @@
+{
+  "parent": "veggiesdelight:main/r_fruit_veggie",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.r_all_veggies"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.r_all_veggies.desc"
+    },
+    "icon": {
+      "id": "veggiesdelight:broccoli"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:bellpepper"] }]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:broccoli"] }]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:cauliflower"] }]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:garlic"] }]
+      }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:sweet_potato"] }]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:turnip"] }]
+      }
+    },
+    "G": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:zucchini"] }]
+      }
+    },
+    "H": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:dandelion_leaf"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"], ["G"], ["H"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "parent": "veggiesdelight:main/root",
+  "display": {
+    "title": {
+      "translate": "veggiesdelight.advancement.vd_bellpepper_master"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.vd_bellpepper_master.desc"
+    },
+    "icon": {
+      "id": "veggiesdelight:shakshouka"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:cacciatore"]
+          }
+        ]
+      }
+    },
+    "B": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:shakshouka"]
+          }
+        ]
+      }
+    },
+    "C": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:stuffed_bellpeppers"]
+          }
+        ]
+      }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:mhadjeb"]
+          }
+        ]
+      }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:smoked_bellpepper"]
+          }
+        ]
+      }
+    },
+    "F": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:vegan_pizza"]
+          }
+        ]
+      }
+    },
+    "G": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["veggiesdelight:chicken_fajitas_wrap"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["A"],["B"],["C"],["D"],["E"],["F"],["G"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

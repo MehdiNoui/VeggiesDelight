@@ -1,0 +1,30 @@
+{
+  "display": {
+    "announce_to_chat": false,
+    "background": "farmersdelight:textures/block/rich_soil.png",
+    "title": {
+      "translate": "veggiesdelight.advancement.root"
+    },
+    "description": {
+      "translate": "veggiesdelight.advancement.root.desc"
+    },
+    "icon": {
+      "id": "veggiesdelight:bellpepper"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "hidden": false
+  },
+  "criteria": {
+    "veggies": {
+      "conditions": {},
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "veggies"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

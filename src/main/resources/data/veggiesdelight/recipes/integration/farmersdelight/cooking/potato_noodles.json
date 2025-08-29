@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 300,
-  "experience": 3.0,
+  "experience": 2.0,
   "container": {
     "item": "minecraft:bowl"
   },
@@ -16,6 +16,7 @@
       "tag": "forge:crops/onion"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "item": "veggiesdelight:potato_noodles"
   }

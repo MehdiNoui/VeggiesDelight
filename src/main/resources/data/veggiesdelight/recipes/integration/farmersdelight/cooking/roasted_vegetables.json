@@ -2,9 +2,6 @@
   "type": "farmersdelight:cooking",
   "cookingtime": 300,
   "experience": 3.0,
-  "container": {
-    "item": "minecraft:bowl"
-  },
   "ingredients": [
     {
       "tag": "forge:potatoes"
@@ -25,6 +22,7 @@
       "tag": "forge:crops/bellpepper"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:roasted_vegetables"
   }

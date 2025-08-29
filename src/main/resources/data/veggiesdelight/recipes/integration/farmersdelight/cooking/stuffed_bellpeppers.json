@@ -1,10 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 3.0,
-  "container": {
-    "item": "minecraft:bowl"
-  },
+  "experience": 2.0,
   "ingredients": [
     {
       "item": "veggiesdelight:bellpepper"
@@ -23,6 +20,7 @@
       {"tag": "forge:raw_mutton"}
     ]
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:stuffed_bellpeppers"
   }

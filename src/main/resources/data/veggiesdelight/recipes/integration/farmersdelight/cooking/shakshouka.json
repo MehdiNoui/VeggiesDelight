@@ -2,9 +2,6 @@
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
   "experience": 2.0,
-  "container": {
-    "item": "minecraft:bowl"
-  },
   "ingredients": [
     {
       "tag": "forge:crops/bellpepper"
@@ -19,6 +16,7 @@
       "item": "farmersdelight:onion"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:shakshouka"
   }

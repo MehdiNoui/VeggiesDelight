@@ -1,10 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 2.0,
-  "container": {
-    "item": "minecraft:bowl"
-  },
+  "experience": 1.0,
   "ingredients": [
     {
       "tag": "forge:crops/cauliflower"
@@ -19,6 +16,7 @@
       "tag": "forge:milk"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:cauliflower_soup"
   }

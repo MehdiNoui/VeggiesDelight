@@ -13,6 +13,7 @@
       "tag": "forge:potatoes"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "item": "veggiesdelight:potato_noodle",
     "count": 6

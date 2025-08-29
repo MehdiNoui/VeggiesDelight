@@ -1,10 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 2.0,
-  "container": {
-    "item": "minecraft:bowl"
-  },
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "veggiesdelight:bellpepper"
@@ -16,6 +13,7 @@
       "item": "farmersdelight:tomato"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:cacciatore"
   }

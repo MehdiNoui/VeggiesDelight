@@ -1,10 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 2.0,
-  "container": {
-    "item": "minecraft:bowl"
-  },
+  "experience": 1.0,
   "ingredients": [
     {
       "tag": "forge:crops/garlic"
@@ -19,6 +16,7 @@
       "tag": "forge:vegetables"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:garlic_chicken_stew"
   }

@@ -1,0 +1,134 @@
+{
+  "creativetab.veggiesdelight_tab": "Veggies Delight",
+
+  "item.veggiesdelight.bellpepper": "Болгарській перець",
+  "item.veggiesdelight.broccoli": "Броколі",
+  "item.veggiesdelight.cauliflower": "Цвітна капуста",
+  "item.veggiesdelight.dandelion_leaf": "Листок кульбаби",
+  "item.veggiesdelight.garlic": "Часник",
+  "item.veggiesdelight.sweet_potato": "Батат",
+  "item.veggiesdelight.turnip": "Ріпа",
+  "item.veggiesdelight.zucchini": "Цукіні",
+
+  "item.veggiesdelight.bellpepper_seeds": "Насіння болгарського перця",
+  "item.veggiesdelight.broccoli_seeds": "Насіння броколі",
+  "item.veggiesdelight.cauliflower_seeds": "Насіння цвітної капусти",
+  "item.veggiesdelight.turnip_seeds": "Насіння ріпи",
+  "item.veggiesdelight.zucchini_seeds": "Насіння цукіні",
+
+  "block.veggiesdelight.bellpepper_crate": "Ящик болгарського перця",
+  "block.veggiesdelight.broccoli_crate": "Ящик броколі",
+  "block.veggiesdelight.cauliflower_crate": "Ящик цвітної капусти",
+  "block.veggiesdelight.garlic_crate": "Ящик часника",
+  "block.veggiesdelight.sweet_potato_crate": "Ящик батата",
+  "block.veggiesdelight.turnip_crate": "Ящик ріпи",
+  "block.veggiesdelight.zucchini_crate": "Яшик цукіні",
+
+  "block.veggiesdelight.wild_bellpeppers": "Дикий болгарський перець",
+  "block.veggiesdelight.wild_broccoli": "Дика броколі",
+  "block.veggiesdelight.wild_cauliflowers": "Дика цвітна капуста",
+  "block.veggiesdelight.wild_garlic": "Дикий часник",
+  "block.veggiesdelight.wild_sweet_potatoes": "Дикий батат",
+  "block.veggiesdelight.wild_turnips": "Дика ріпа",
+  "block.veggiesdelight.wild_zucchinis": "Дикий цукіні",
+  "block.veggiesdelight.mature_dandelion": "Стигла кульбаба",
+
+
+  "item.veggiesdelight.cacciatore": "Качаторе",
+  "item.veggiesdelight.chicken_fajitas_wrap": "Фахітас з куркою",
+  "item.veggiesdelight.mhadjeb": "Мхаджеб",
+  "item.veggiesdelight.shakshouka": "Шакшука",
+  "item.veggiesdelight.smoked_bellpepper": "Копчений болгарський перець",
+  "item.veggiesdelight.stuffed_bellpeppers": "Фаршировані болгарські перці",
+  "item.veggiesdelight.uncooked_mhadjeb": "Сирий мхаджеб",
+  "block.veggiesdelight.vegan_pizza": "Веганська піцца",
+  "item.veggiesdelight.vegan_pizza_slice": "Шматок веганської піццы",
+
+  "item.veggiesdelight.broccoli_salad": "Салат з броколі",
+  "item.veggiesdelight.broccoli_soup": "Суп з броколі",
+  "item.veggiesdelight.pasta_with_broccoli": "Паста з броколі",
+
+  "item.veggiesdelight.cauliflower_bread": "Хліб з цвітної капусти",
+  "item.veggiesdelight.cauliflower_burger": "Бургер з цвітною капустою",
+  "item.veggiesdelight.cauliflower_floret": "Суцвіття цвітної капусти",
+  "item.veggiesdelight.cauliflower_kuku": "Куку з цвітної капусти",
+  "item.veggiesdelight.cauliflower_patty": "Котлета з цвітної капусти",
+  "item.veggiesdelight.cauliflower_soup": "Суп з цвітної капусти",
+  "item.veggiesdelight.cooked_cauliflower_patty": "Котлета з вареної цвітної капусти",
+  "item.veggiesdelight.fried_cauliflower_floret": "Смаженні суцвіття цвітної капусти",
+
+  "item.veggiesdelight.dandelion_and_eggs": "Зелень кульбабі з яєчнею",
+  "item.veggiesdelight.dandelion_juice": "Сік з кульбаби",
+
+  "item.veggiesdelight.cesar_salad": "Салат Цезарь",
+  "item.veggiesdelight.fermented_garlic_honey": "Ферментований часничний мед",
+  "item.veggiesdelight.garlic_baked_cod": "Запечена тріска з часником",
+  "item.veggiesdelight.garlic_bread": "Часничний хліб",
+  "item.veggiesdelight.garlic_chicken_stew": "Тушена куриця з часником",
+  "item.veggiesdelight.garlic_clove": "Зубчик часника",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "Часничний рис з цвітною капустою",
+  "item.veggiesdelight.garlic_stuffed_mushrooms": "Гриби, фаршировані часником",
+  "item.veggiesdelight.roasted_garlic_clove": "Запечений зубчик часника",
+
+  "item.veggiesdelight.baked_sweet_potato": "Запечений батат",
+  "item.veggiesdelight.mashed_potatoes": "Картопляне пюре",
+  "item.veggiesdelight.potato_noodle": "Нить картопляної лапші",
+  "item.veggiesdelight.potato_noodles": "Картопляна лапша",
+  "item.veggiesdelight.sweet_potato_cupcake": "Кекс з батата",
+  "item.veggiesdelight.sweet_potato_dough": "Тісто з батата",
+  "item.veggiesdelight.sweet_potato_pancakes": "Млинці з батата",
+  "block.veggiesdelight.sweet_potato_pie": "Пиріг з батата",
+  "item.veggiesdelight.sweet_potato_pie_slice": "Шматок пиріга з бататом",
+
+  "item.veggiesdelight.turnip_beef_stew": "Тушкована яловичина з ріпою",
+  "item.veggiesdelight.turnip_cake": "Пиріг з ріпи",
+  "item.veggiesdelight.turnip_salad": "Салат з ріпи",
+  "item.veggiesdelight.turnip_water": "Вода з ріпою",
+
+  "item.veggiesdelight.roasted_zucchini": "Смажений цукіні",
+  "item.veggiesdelight.zucchini_sandwich": "Сендвіч з цукіні",
+  "item.veggiesdelight.zucchini_slice": "Шматок цукіні",
+  "item.veggiesdelight.stuffed_zucchinis": "Фарширований цукіні",
+
+  "item.veggiesdelight.beetroot_brownie": "Буряковий брауні",
+  "block.veggiesdelight.beetroot_brownie_tray": "Лоток з брауні з буряка",
+  "block.veggiesdelight.carrot_cake": "Морквяний пиріг",
+  "item.veggiesdelight.carrot_cake_slice": "Шматок морквяного пиріга",
+  "item.veggiesdelight.carrot_juice": "Морквяний сік",
+  "item.veggiesdelight.fish_and_chips": "Риба з смаженою картоплею",
+  "item.veggiesdelight.roasted_vegetables": "Запечені овочі",
+
+
+  "veggiesdelight.advancement.root": "Veggies Delight",
+  "veggiesdelight.advancement.root.desc": "Збери свої овочі!",
+
+  "veggiesdelight.advancement.r_first_veggie": "Салатус почнемус!",
+  "veggiesdelight.advancement.r_first_veggie.desc": "Збери свій перший овоч",
+
+  "veggiesdelight.advancement.r_fruit_veggie": "Хіба це не фрукт?",
+  "veggiesdelight.advancement.r_fruit_veggie.desc": "Серед нас амогус",
+
+  "veggiesdelight.advancement.r_all_veggies": "Зпіймай їх усіх!",
+  "veggiesdelight.advancement.r_all_veggies.desc": "Збери усі овочі",
+
+  "veggiesdelight.advancement.r_bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.r_bellpepper_master.desc": "Приготуйте усі блюда з болгарського перця",
+
+  "veggiesdelight.advancement.vd_broccoli_master": "Мастер з броколі",
+  "veggiesdelight.advancement.vd_broccoli_master.desc": "Приготуйте усі блюда з броколі",
+
+  "veggiesdelight.advancement.r_cauliflower_master": "Каулі-мастер",
+  "veggiesdelight.advancement.r_cauliflower_master.desc": "Приготуйте усі блюда з цвітної капусти",
+
+  "veggiesdelight.advancement.r_garlic_master": "Часник-молодший",
+  "veggiesdelight.advancement.r_garlic_master.desc": "Приготуйте усі блюда з часника",
+
+  "veggiesdelight.advancement.r_sweet_potato_master": "Солодка перемога",
+  "veggiesdelight.advancement.r_sweet_potato_master.desc": "Приготуйте усі блюда з батата",
+
+  "veggiesdelight.advancement.vd_turnip_master": "Ритм ріпи",
+  "veggiesdelight.advancement.vd_turnip_master.desc": "Приготуйте усі блюда з ріпи",
+
+  "veggiesdelight.advancement.vd_zucchini_master": "Зеніт цукіні",
+  "veggiesdelight.advancement.vd_zucchini_master.desc": "Приготуйте усі блюда з цукіін"
+}

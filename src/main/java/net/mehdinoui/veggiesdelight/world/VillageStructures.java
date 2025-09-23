@@ -11,6 +11,7 @@ import net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement;
 import net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement;
 import net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorList;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
 
 import java.util.ArrayList;
@@ -27,6 +28,12 @@ public class VillageStructures
         VillageStructures.addBuildingToPool(templatePools, processorLists, ResourceLocation.parse("minecraft:village/taiga/houses"), "veggiesdelight:village/houses/taiga_depot_house", 5);
         VillageStructures.addBuildingToPool(templatePools, processorLists, ResourceLocation.parse("minecraft:village/savanna/houses"), "veggiesdelight:village/houses/savanna_depot_house", 4);
         VillageStructures.addBuildingToPool(templatePools, processorLists, ResourceLocation.parse("minecraft:village/desert/houses"), "veggiesdelight:village/houses/desert_depot_house", 4);
+        if (ModList.get().isLoaded("atmospheric")) {
+            VillageStructures.addBuildingToPool(
+                    templatePools, processorLists,
+                    ResourceLocation.fromNamespaceAndPath("atmospheric", "village/scrubland/houses"),
+                    "veggiesdelight:village/houses/scrubland_depot_house", 4);
+        }
     }
 
     public static void addBuildingToPool(Registry<StructureTemplatePool> templatePoolRegistry, Registry<StructureProcessorList> processorListRegistry, ResourceLocation poolRL, String nbtPieceRL, int weight) {

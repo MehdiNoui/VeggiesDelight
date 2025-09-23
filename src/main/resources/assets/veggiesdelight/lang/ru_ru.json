@@ -1,5 +1,5 @@
 {
-  "creativetab.veggiesdelight_tab": "Veggies Delight",
+  "creativetab.veggiesdelight_tab": "Овощной Восторг",
 
   "item.veggiesdelight.bellpepper": "Болгарский перец",
   "item.veggiesdelight.broccoli": "Брокколи",
@@ -99,7 +99,7 @@
   "item.veggiesdelight.roasted_vegetables": "Запеченные овощи",
 
 
-  "veggiesdelight.advancement.root": "Veggies Delight",
+  "veggiesdelight.advancement.root": "Овощной восторг",
   "veggiesdelight.advancement.root.desc": "Собери свои овощи!",
 
   "veggiesdelight.advancement.r_first_veggie": "Салатус начнём!",
@@ -111,7 +111,7 @@
   "veggiesdelight.advancement.r_all_veggies": "Поймай их всех!",
   "veggiesdelight.advancement.r_all_veggies.desc": "Соберите все овощи",
 
-  "veggiesdelight.advancement.r_bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.r_bellpepper_master": "Доктор Пеппер",
   "veggiesdelight.advancement.r_bellpepper_master.desc": "Приготовьте все блюда из болгарского перца",
 
   "veggiesdelight.advancement.vd_broccoli_master": "Брокколи босс",

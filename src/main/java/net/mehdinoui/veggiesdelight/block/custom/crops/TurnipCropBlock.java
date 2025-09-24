@@ -1,6 +1,6 @@
-package net.mehdinoui.veggiesdelight.common.block.custom.crops;
+package net.mehdinoui.veggiesdelight.block.custom.crops;
 
-import net.mehdinoui.veggiesdelight.common.item.ModItems;
+import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;

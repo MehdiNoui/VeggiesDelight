@@ -1,6 +1,6 @@
-package net.mehdinoui.veggiesdelight.common.block.custom.crops;
+package net.mehdinoui.veggiesdelight.block.custom.crops;
 
-import net.mehdinoui.veggiesdelight.common.item.ModItems;
+import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;

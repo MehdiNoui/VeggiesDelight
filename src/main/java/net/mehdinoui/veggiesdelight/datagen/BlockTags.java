@@ -19,6 +19,7 @@ public class BlockTags extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.registerForgeTags();
+        this.registerMinecraftTags();
     }
     protected void registerForgeTags() {
         tag(ForgeTags.MINEABLE_WITH_KNIFE).add(
@@ -34,5 +35,8 @@ public class BlockTags extends BlockTagsProvider {
         tag(VDForgeTags.STORAGE_BLOCKS_SWEET_POTATO).add(ModBlocks.SWEET_POTATO_CRATE.get());
         tag(VDForgeTags.STORAGE_BLOCKS_TURNIP).add(ModBlocks.TURNIP_CRATE.get());
         tag(VDForgeTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
+    }
+    protected void registerMinecraftTags(){
+
     }
 }

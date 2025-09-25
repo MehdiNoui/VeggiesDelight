@@ -28,10 +28,8 @@ public class VDForgeTags {
 
     // ITEMS
     // Bread
-    public static final TagKey<Item> BREAD = forgeItemTag("bread");
     public static final TagKey<Item> BREAD_CAULIFLOWER = forgeItemTag("bread/cauliflower");
     // Crops
-    public static final TagKey<Item> CROPS= forgeItemTag("crops");
     public static final TagKey<Item> CROPS_BELLPEPPER = forgeItemTag("crops/bellpepper");
     public static final TagKey<Item> CROPS_BROCCOLI = forgeItemTag("crops/broccoli");
     public static final TagKey<Item> CROPS_CAULIFLOWER = forgeItemTag("crops/cauliflower");
@@ -40,30 +38,18 @@ public class VDForgeTags {
     public static final TagKey<Item> CROPS_TURNIP = forgeItemTag("crops/turnip");
     public static final TagKey<Item> CROPS_ZUCCHINI = forgeItemTag("crops/zucchini");
     // Dough
-    public static final TagKey<Item> DOUGH = forgeItemTag("dough");
     public static final TagKey<Item> DOUGH_SWEET_POTATO = forgeItemTag("dough/sweet_potato");
     // Potatoes
     public static final TagKey<Item> POTATOES = forgeItemTag("potatoes");
     // Salad Ingredients
-    public static final TagKey<Item> SALAD_INGREDIENTS = forgeItemTag("salad_ingredients");
     public static final TagKey<Item> SALAD_INGREDIENTS_DANDELION = forgeItemTag("salad_ingredients/dandelion");
     // Seeds
-    public static final TagKey<Item> SEEDS = forgeItemTag("seeds");
-    public static final TagKey<Item> SEEDS_BELLPEPPER = forgeItemTag("seeds/bellpepper");
+     public static final TagKey<Item> SEEDS_BELLPEPPER = forgeItemTag("seeds/bellpepper");
     public static final TagKey<Item> SEEDS_BROCCOLI = forgeItemTag("seeds/broccoli");
     public static final TagKey<Item> SEEDS_CAULIFLOWER = forgeItemTag("seeds/cauliflower");
     public static final TagKey<Item> SEEDS_TURNIP = forgeItemTag("seeds/turnip");
     public static final TagKey<Item> SEEDS_ZUCCHINI = forgeItemTag("seeds/zucchini");
-    // Storage Blocks
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_BELLPEPPER = forgeItemTag("storage_blocks/bellpepper");
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_BROCCOLI = forgeItemTag("storage_blocks/broccoli");
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_CAULIFLOWER = forgeItemTag("storage_blocks/cauliflower");
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_GARLIC = forgeItemTag("storage_blocks/garlic");
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_SWEET_POTATO = forgeItemTag("storage_blocks/sweet_potato");
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_TURNIP = forgeItemTag("storage_blocks/turnip");
-    public static final TagKey<Item> STORAGE_BLOCKS_ITEM_ZUCCHINI = forgeItemTag("storage_blocks/zucchini");
     // Vegetables
-    public static final TagKey<Item> VEGETABLES = forgeItemTag("vegetables/bellpepper");
     public static final TagKey<Item> VEGETABLES_BELLPEPPER = forgeItemTag("vegetables/bellpepper");
     public static final TagKey<Item> VEGETABLES_BROCCOLI = forgeItemTag("vegetables/broccoli");
     public static final TagKey<Item> VEGETABLES_CAULIFLOWER = forgeItemTag("vegetables/cauliflower");
@@ -71,6 +57,5 @@ public class VDForgeTags {
     public static final TagKey<Item> VEGETABLES_SWEET_POTATO = forgeItemTag("vegetables/sweet_potato");
     public static final TagKey<Item> VEGETABLES_TURNIP = forgeItemTag("vegetables/turnip");
     public static final TagKey<Item> VEGETABLES_ZUCCHINI = forgeItemTag("vegetables/zucchini");
-
 }
 

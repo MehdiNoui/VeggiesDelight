@@ -23,8 +23,9 @@ public class ItemTags extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.registerForgeTags();
+        this.registerMinecraftTags();
     }
-    private void registerForgeTags() {
+    protected void registerForgeTags() {
         tag(ForgeTags.BREAD).addTag(VDForgeTags.BREAD_CAULIFLOWER);
         tag(VDForgeTags.BREAD_CAULIFLOWER).add(ModItems.CAULIFLOWER_BREAD.get());
 
@@ -83,5 +84,16 @@ public class ItemTags extends ItemTagsProvider {
         tag(VDForgeTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI.get());
         tag(VDForgeTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
 
+    }
+    protected void registerMinecraftTags() {
+        tag(net.minecraft.tags.ItemTags.VILLAGER_PLANTABLE_SEEDS).add(
+                ModItems.BELLPEPPER_SEEDS.get(),
+                ModItems.BROCCOLI_SEEDS.get(),
+                ModItems.CAULIFLOWER_SEEDS.get(),
+                ModItems.GARLIC_CLOVE.get(),
+                ModItems.SWEET_POTATO.get(),
+                ModItems.TURNIP_SEEDS.get(),
+                ModItems.ZUCCHINI_SEEDS.get()
+        );
     }
 }

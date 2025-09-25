@@ -5,6 +5,7 @@ import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.tag.VDForgeTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
@@ -37,6 +38,42 @@ public class BlockTags extends BlockTagsProvider {
         tag(VDForgeTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
     }
     protected void registerMinecraftTags(){
-
+        tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE).add(
+                ModBlocks.BELLPEPPER_CRATE.get(),
+                ModBlocks.BROCCOLI_CRATE.get(),
+                ModBlocks.CAULIFLOWER_CRATE.get(),
+                ModBlocks.GARLIC_CRATE.get(),
+                ModBlocks.SWEET_POTATO_CRATE.get(),
+                ModBlocks.TURNIP_CRATE.get(),
+                ModBlocks.ZUCCHINI_CRATE.get()
+        );
+        tag(net.minecraft.tags.BlockTags.CROPS).add(
+                ModBlocks.BELLPEPPER_CROP.get(),
+                ModBlocks.BROCCOLI_CROP.get(),
+                ModBlocks.CAULIFLOWER_CROP.get(),
+                ModBlocks.GARLIC_CROP.get(),
+                ModBlocks.SWEET_POTATO_CROP.get(),
+                ModBlocks.TURNIP_CROP.get(),
+                ModBlocks.ZUCCHINI_CROP.get()
+        );
+        tag(net.minecraft.tags.BlockTags.MAINTAINS_FARMLAND).add(
+                ModBlocks.BELLPEPPER_CROP.get(),
+                ModBlocks.BROCCOLI_CROP.get(),
+                ModBlocks.CAULIFLOWER_CROP.get(),
+                ModBlocks.GARLIC_CROP.get(),
+                ModBlocks.SWEET_POTATO_CROP.get(),
+                ModBlocks.TURNIP_CROP.get(),
+                ModBlocks.ZUCCHINI_CROP.get()
+        );
+        tag(net.minecraft.tags.BlockTags.SMALL_FLOWERS).add(
+                ModBlocks.MATURE_DANDELION.get(),
+                ModBlocks.WILD_BELLPEPPERS.get(),
+                ModBlocks.WILD_BROCCOLI.get(),
+                ModBlocks.WILD_CAULIFLOWERS.get(),
+                ModBlocks.WILD_GARLIC.get(),
+                ModBlocks.WILD_SWEET_POTATOES.get(),
+                ModBlocks.WILD_TURNIPS.get(),
+                ModBlocks.WILD_ZUCCHINIS.get()
+        );
     }
 }

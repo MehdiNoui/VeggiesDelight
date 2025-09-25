@@ -9,6 +9,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
+import vectorwing.farmersdelight.common.tag.ModTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
@@ -21,6 +22,7 @@ public class BlockTags extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.registerForgeTags();
         this.registerMinecraftTags();
+        this.registerFarmersDelightTags();
     }
     protected void registerForgeTags() {
         tag(ForgeTags.MINEABLE_WITH_KNIFE).add(
@@ -76,4 +78,22 @@ public class BlockTags extends BlockTagsProvider {
                 ModBlocks.WILD_ZUCCHINIS.get()
         );
     }
+    protected void registerFarmersDelightTags(){
+        tag(ModTags.MINEABLE_WITH_KNIFE).add(
+                ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
+                ModBlocks.CARROT_CAKE.get(),
+                ModBlocks.SWEET_POTATO_PIE.get(),
+                ModBlocks.VEGAN_PIZZA.get()
+        );
+        tag(ModTags.WILD_CROPS).add(
+                ModBlocks.WILD_BELLPEPPERS.get(),
+                ModBlocks.WILD_BROCCOLI.get(),
+                ModBlocks.WILD_CAULIFLOWERS.get(),
+                ModBlocks.WILD_GARLIC.get(),
+                ModBlocks.WILD_SWEET_POTATOES.get(),
+                ModBlocks.WILD_TURNIPS.get(),
+                ModBlocks.WILD_ZUCCHINIS.get()
+        );
+    }
 }
+

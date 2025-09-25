@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
+import vectorwing.farmersdelight.common.tag.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -24,6 +25,7 @@ public class ItemTags extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.registerForgeTags();
         this.registerMinecraftTags();
+        this.registerFarmersDelightTags();
     }
     protected void registerForgeTags() {
         tag(ForgeTags.BREAD).addTag(VDForgeTags.BREAD_CAULIFLOWER);
@@ -94,6 +96,39 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.SWEET_POTATO.get(),
                 ModItems.TURNIP_SEEDS.get(),
                 ModItems.ZUCCHINI_SEEDS.get()
+        );
+    }
+    protected void registerFarmersDelightTags(){
+        tag(ModTags.DRINKS).add(
+                ModItems.CARROT_JUICE.get(),
+                ModItems.DANDELION_JUICE.get(),
+                ModItems.TURNIP_WATER.get()
+        );
+        tag(ModTags.MEALS).add(
+                // Bell pepper
+                ModItems.CACCIATORE.get(),
+                ModItems.SHAKSHOUKA.get(),
+                ModItems.STUFFED_BELLPEPPERS.get(),
+                // Broccoli
+                ModItems.BROCCOLI_SOUP.get(),
+                ModItems.PASTA_WITH_BROCCOLI.get(),
+                // Cauliflower
+                ModItems.CAULIFLOWER_KUKU.get(),
+                ModItems.CAULIFLOWER_SOUP.get(),
+                // Dandelion
+                ModItems.DANDELION_AND_EGGS.get(),
+                // Garlic
+                ModItems.GARLIC_BAKED_COD.get(),
+                ModItems.GARLIC_CHICKEN_STEW.get(),
+                ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get(),
+                // Sweet Potato
+                ModItems.MASHED_POTATOES.get(),
+                ModItems.POTATO_NOODLES.get(),
+                // Turnip
+                ModItems.TURNIP_BEEF_STEW.get(),
+                ModItems.TURNIP_CAKE.get(),
+                // Zucchini
+                ModItems.STUFFED_ZUCCHINIS.get()
         );
     }
 }

@@ -27,7 +27,6 @@ public class BlockTags extends BlockTagsProvider {
                 ModBlocks.SWEET_POTATO_PIE.get(),
                 ModBlocks.VEGAN_PIZZA.get()
         );
-
         tag(VDForgeTags.STORAGE_BLOCKS_BELLPEPPER).add(ModBlocks.BELLPEPPER_CRATE.get());
         tag(VDForgeTags.STORAGE_BLOCKS_BROCCOLI).add(ModBlocks.BROCCOLI_CRATE.get());
         tag(VDForgeTags.STORAGE_BLOCKS_CAULIFLOWER).add(ModBlocks.CAULIFLOWER_CRATE.get());

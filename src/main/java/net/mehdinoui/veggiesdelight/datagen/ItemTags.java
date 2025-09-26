@@ -37,14 +37,17 @@ public class ItemTags extends ItemTagsProvider {
         tag(VDForgeTags.CROPS_BROCCOLI).add(ModItems.BROCCOLI.get());
         tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_CAULIFLOWER);
         tag(VDForgeTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
+        tag(VDForgeTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER_FLORET.get());
         tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_GARLIC);
         tag(VDForgeTags.CROPS_GARLIC).add(ModItems.GARLIC.get());
+        tag(VDForgeTags.CROPS_GARLIC).add(ModItems.GARLIC_CLOVE.get());
         tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_SWEET_POTATO);
         tag(VDForgeTags.CROPS_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
         tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_TURNIP);
         tag(VDForgeTags.CROPS_TURNIP).add(ModItems.TURNIP.get());
         tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_ZUCCHINI);
         tag(VDForgeTags.CROPS_ZUCCHINI).add(ModItems.ZUCCHINI.get());
+        tag(VDForgeTags.CROPS_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
 
         tag(ForgeTags.DOUGH).addTag(VDForgeTags.DOUGH_SWEET_POTATO);
         tag(VDForgeTags.DOUGH_SWEET_POTATO).add(ModItems.SWEET_POTATO_DOUGH.get());

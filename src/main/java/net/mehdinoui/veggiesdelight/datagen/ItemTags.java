@@ -10,6 +10,7 @@ import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
 import vectorwing.farmersdelight.common.tag.ModTags;
@@ -21,7 +22,7 @@ public class ItemTags extends ItemTagsProvider {
         super(output, provider, blockTagProvider, VeggiesDelight.MOD_ID, existingFileHelper);
     }
     @Override
-    protected void addTags(HolderLookup.Provider provider) {
+    protected void addTags(HolderLookup.@NotNull Provider provider) {
         this.registerForgeTags();
         this.registerMinecraftTags();
         this.registerFarmersDelightTags();

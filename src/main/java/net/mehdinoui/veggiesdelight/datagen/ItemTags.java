@@ -1,7 +1,6 @@
 package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.mehdinoui.veggiesdelight.tag.VDForgeTags;
 import net.minecraft.core.HolderLookup;

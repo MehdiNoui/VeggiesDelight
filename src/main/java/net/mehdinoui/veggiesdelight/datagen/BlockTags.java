@@ -5,7 +5,6 @@ import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.tag.VDForgeTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import vectorwing.farmersdelight.common.tag.ForgeTags;

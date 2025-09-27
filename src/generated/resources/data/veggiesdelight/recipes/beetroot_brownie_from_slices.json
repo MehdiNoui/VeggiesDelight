@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "veggiesdelight:beetroot_brownie"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "veggiesdelight:beetroot_brownie_tray"
+  },
+  "show_notification": true
+}

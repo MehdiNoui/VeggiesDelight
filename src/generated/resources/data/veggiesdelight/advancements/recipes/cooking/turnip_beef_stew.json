@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:cooking/turnip_beef_stew"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turnip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:turnip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_turnip",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:cooking/turnip_beef_stew"
+    ]
+  },
+  "sends_telemetry_event": true
+}

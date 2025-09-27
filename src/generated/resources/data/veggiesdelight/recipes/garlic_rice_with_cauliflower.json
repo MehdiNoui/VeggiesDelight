@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:roasted_cauliflower_floret"
+    },
+    {
+      "item": "veggiesdelight:roasted_cauliflower_floret"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:garlic_rice_with_cauliflower"
+  }
+}

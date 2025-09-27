@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:potatoes"
+    },
+    {
+      "tag": "forge:potatoes"
+    },
+    {
+      "tag": "forge:potatoes"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 3,
+    "item": "veggiesdelight:potato_noodle"
+  }
+}

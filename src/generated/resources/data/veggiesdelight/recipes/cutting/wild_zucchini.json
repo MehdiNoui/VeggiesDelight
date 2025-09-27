@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_zucchinis"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiesdelight:zucchini_seeds"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "chance": 0.2,
+      "item": "veggiesdelight:zucchini"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

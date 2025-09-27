@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:broccoli_crate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "veggiesdelight:broccoli"
+  }
+}

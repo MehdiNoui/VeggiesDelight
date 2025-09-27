@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:zucchini_sandwich"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zucchini": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:zucchini"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zucchini",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:zucchini_sandwich"
+    ]
+  },
+  "sends_telemetry_event": false
+}

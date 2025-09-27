@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_sweet_potatoes"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiesdelight:sweet_potato"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

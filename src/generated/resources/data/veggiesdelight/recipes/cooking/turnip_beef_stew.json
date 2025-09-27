@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/turnip"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:raw_beef"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "veggiesdelight:turnip_beef_stew"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 75,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "veggiesdelight:cauliflower_floret"
+  },
+  "result": "veggiesdelight:roasted_cauliflower_floret"
+}

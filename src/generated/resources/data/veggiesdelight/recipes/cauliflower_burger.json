@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "veggiesdelight:cooked_cauliflower_patty"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:cauliflower_burger"
+  }
+}

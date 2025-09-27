@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:garlic"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "veggiesdelight:garlic_clove"
+  }
+}

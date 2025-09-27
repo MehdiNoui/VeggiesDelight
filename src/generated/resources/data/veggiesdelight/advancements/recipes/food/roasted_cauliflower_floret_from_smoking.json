@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_roasted_cauliflower_floret": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:cauliflower_floret"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:roasted_cauliflower_floret_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_roasted_cauliflower_floret",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:roasted_cauliflower_floret_from_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

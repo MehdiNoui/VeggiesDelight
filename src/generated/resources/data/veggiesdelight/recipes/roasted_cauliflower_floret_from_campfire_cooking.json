@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 450,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "veggiesdelight:cauliflower_floret"
+  },
+  "result": "veggiesdelight:roasted_cauliflower_floret"
+}

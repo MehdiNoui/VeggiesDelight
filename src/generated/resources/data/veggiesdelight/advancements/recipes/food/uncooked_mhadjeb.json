@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:uncooked_mhadjeb"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomato_sauce": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:tomato_sauce"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tomato_sauce",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:uncooked_mhadjeb"
+    ]
+  },
+  "sends_telemetry_event": false
+}

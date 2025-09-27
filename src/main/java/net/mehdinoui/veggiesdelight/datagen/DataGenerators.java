@@ -3,6 +3,7 @@ package net.mehdinoui.veggiesdelight.datagen;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.datagen.recipes.ModBasicRecipes;
 import net.mehdinoui.veggiesdelight.datagen.recipes.ModCookingRecipes;
+import net.mehdinoui.veggiesdelight.datagen.recipes.ModCuttingRecipes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -38,7 +39,9 @@ public class DataGenerators {
                     @Override
                     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
                         ModBasicRecipes.register(consumer);
-                        ModCookingRecipes.register(consumer);}
+                        ModCookingRecipes.register(consumer);
+                        ModCuttingRecipes.register(consumer);
+                    }
                 });
     }
 }

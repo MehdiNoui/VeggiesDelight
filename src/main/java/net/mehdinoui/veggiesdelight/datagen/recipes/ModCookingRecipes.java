@@ -87,8 +87,8 @@ public class ModCookingRecipes {
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.PASTA_WITH_BROCCOLI.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(VDForgeTags.CROPS_BROCCOLI)
                 .addIngredient(ForgeTags.PASTA)
-                .addIngredient(ForgeTags.CROPS_TOMATO)
-                .unlockedByItems("has_broccoli",ModItems.BROCCOLI.get())
+                .addIngredient(ForgeTags.MILK)
+                .unlockedByItems("has_pasta",vectorwing.farmersdelight.common.registry.ModItems.RAW_PASTA.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/pasta_with_broccoli"));
 

@@ -4,6 +4,7 @@ import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.datagen.recipes.ModBasicRecipes;
 import net.mehdinoui.veggiesdelight.datagen.recipes.ModCookingRecipes;
 import net.mehdinoui.veggiesdelight.datagen.recipes.ModCuttingRecipes;
+import net.mehdinoui.veggiesdelight.datagen.recipes.ModSmeltingRecipes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -41,6 +42,7 @@ public class DataGenerators {
                         ModBasicRecipes.register(consumer);
                         ModCookingRecipes.register(consumer);
                         ModCuttingRecipes.register(consumer);
+                        ModSmeltingRecipes.register(consumer);
                     }
                 });
     }

@@ -7,6 +7,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
 import vectorwing.farmersdelight.common.tag.ModTags;
 
@@ -18,7 +19,7 @@ public class BlockTags extends BlockTagsProvider {
         super(output, lookupProvider, VeggiesDelight.MOD_ID, existingFileHelper);
     }
     @Override
-    protected void addTags(HolderLookup.Provider provider) {
+    protected void addTags(HolderLookup.@NotNull Provider provider) {
         this.registerForgeTags();
         this.registerMinecraftTags();
         this.registerFarmersDelightTags();

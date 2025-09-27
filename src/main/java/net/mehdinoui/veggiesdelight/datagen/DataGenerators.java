@@ -1,6 +1,7 @@
 package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.datagen.recipes.ModBasicRecipes;
 import net.mehdinoui.veggiesdelight.datagen.recipes.ModCookingRecipes;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -23,19 +24,21 @@ public class DataGenerators {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
-
         BlockTags blockTags = new BlockTags(packOutput, lookupProvider, existingFileHelper);
+
+        // Tags
         generator.addProvider(event.includeServer(), blockTags);
         generator.addProvider(event.includeServer(),
                 new ItemTags(packOutput, lookupProvider, blockTags.contentsGetter(), existingFileHelper));
-
+        // Models
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+        // Recipes
         generator.addProvider(event.includeServer(),
                 new RecipeProvider(packOutput) {
                     @Override
                     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
-                        ModCookingRecipes.register(consumer);
-                    }
+                        ModBasicRecipes.register(consumer);
+                        ModCookingRecipes.register(consumer);}
                 });
     }
 }

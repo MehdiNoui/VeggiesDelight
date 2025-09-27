@@ -88,12 +88,6 @@ public class ModBasicRecipes {
                 .define('#', ModItems.BEETROOT_BROWNIE.get())
                 .unlockedBy("has_slice", hasItems( ModItems.BEETROOT_BROWNIE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"beetroot_brownie_from_slices"));
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.CARROT_CAKE.get(), 1)
-                .pattern("##")
-                .pattern("##")
-                .define('#', ModItems.CARROT_CAKE_SLICE.get())
-                .unlockedBy("has_slice", hasItems( ModItems.CARROT_CAKE_SLICE.get()))
-                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"carrot_cake_from_slices"));
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SWEET_POTATO_PIE.get(), 1)
                 .pattern("##")
                 .pattern("##")
@@ -209,6 +203,7 @@ public class ModBasicRecipes {
                 .unlockedBy("has_zucchini", hasItems(ModItems.ZUCCHINI.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"zucchini_sandwich"));
 
+
         // Misc
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CAULIFLOWER_FLORET.get(),2)
                 .requires(ModItems.CAULIFLOWER.get())
@@ -241,6 +236,7 @@ public class ModBasicRecipes {
                 .unlockedBy("has_tomato_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"uncooked_mhadjeb"));
 
+
         // Pies and stuff
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.BEETROOT_BROWNIE_TRAY.get(),1)
                 .requires(ForgeTags.VEGETABLES_BEETROOT)
@@ -266,6 +262,16 @@ public class ModBasicRecipes {
                 .requires(ForgeTags.VEGETABLES_CARROT)
                 .unlockedBy("has_carrot", hasItems(Items.CARROT))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"carrot_cake"));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CARROT_CAKE.get(), 1)
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .requires(ModItems.CARROT_CAKE_SLICE.get())
+                .unlockedBy("has_slice", hasItems( ModItems.CARROT_CAKE_SLICE.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"carrot_cake_from_slices"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(),1)
                 .requires(ForgeTags.DOUGH)
                 .requires(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
@@ -320,7 +326,7 @@ public class ModBasicRecipes {
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"zucchinis_from_crate"));
 
         // Wild And Flowers
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.YELLOW_DYE,3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.YELLOW_DYE,2)
                 .requires(ModBlocks.MATURE_DANDELION.get())
                 .unlockedBy("has_mature_dandelion", hasItems(ModBlocks.MATURE_DANDELION.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"dye_from_mature_dandelion"));

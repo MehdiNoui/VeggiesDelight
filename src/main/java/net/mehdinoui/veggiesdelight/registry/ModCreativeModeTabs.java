@@ -49,7 +49,7 @@ public class ModCreativeModeTabs {
                         // Basic Ingredients
                         output.accept(ModItems.SMOKED_BELLPEPPER.get());
                         output.accept(ModItems.CAULIFLOWER_FLORET.get());
-                        output.accept(ModItems.FRIED_CAULIFLOWER_FLORET.get());
+                        output.accept(ModItems.ROASTED_CAULIFLOWER_FLORET.get());
                         output.accept(ModItems.GARLIC_CLOVE.get());
                         output.accept(ModItems.ROASTED_GARLIC_CLOVE.get());
                         output.accept(ModItems.BAKED_SWEET_POTATO.get());

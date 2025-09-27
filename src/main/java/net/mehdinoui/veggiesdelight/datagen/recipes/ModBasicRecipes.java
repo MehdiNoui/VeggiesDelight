@@ -138,8 +138,8 @@ public class ModBasicRecipes {
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"garlic_baked_cod"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get(),1)
                 .requires(ModItems.ROASTED_GARLIC_CLOVE.get())
-                .requires(ModItems.FRIED_CAULIFLOWER_FLORET.get())
-                .requires(ModItems.FRIED_CAULIFLOWER_FLORET.get())
+                .requires(ModItems.ROASTED_CAULIFLOWER_FLORET.get())
+                .requires(ModItems.ROASTED_CAULIFLOWER_FLORET.get())
                 .requires(Items.BOWL)
                 .requires(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get())
                 .unlockedBy("has_rice", hasItems(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get()))

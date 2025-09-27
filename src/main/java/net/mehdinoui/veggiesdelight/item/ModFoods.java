@@ -64,7 +64,7 @@ public class ModFoods {
     // CAULIFLOWER RELATED FOOD
      public static final FoodProperties CAULIFLOWER_FLORET = new FoodProperties.Builder().
             nutrition(1).saturationMod(0.1f).fast().build();
-    public static final FoodProperties FRIED_CAULIFLOWER_FLORET = new FoodProperties.Builder().
+    public static final FoodProperties ROASTED_CAULIFLOWER_FLORET = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.3f).fast().build();
     public static final FoodProperties CAULIFLOWER_BREAD = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f).build();

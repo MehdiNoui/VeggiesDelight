@@ -73,7 +73,7 @@ public class ModSmeltingRecipes {
                 "mhadjeb", ModItems.UNCOOKED_MHADJEB.get());
         cookingTriplet(consumer,
                 Ingredient.of(ModItems.CAULIFLOWER_FLORET.get()),
-                ModItems.FRIED_CAULIFLOWER_FLORET.get(),
+                ModItems.ROASTED_CAULIFLOWER_FLORET.get(),
                 0.35F, 150,
                 "roasted_cauliflower_floret", ModItems.CAULIFLOWER_FLORET.get());
         cookingTriplet(consumer,

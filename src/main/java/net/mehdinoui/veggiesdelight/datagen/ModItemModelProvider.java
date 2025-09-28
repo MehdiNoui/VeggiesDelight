@@ -33,7 +33,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CAULIFLOWER.get());
         basicItem(ModItems.CAULIFLOWER_SEEDS.get());
         basicItem(ModItems.CAULIFLOWER_FLORET.get());
-        basicItem(ModItems.FRIED_CAULIFLOWER_FLORET.get());
+        basicItem(ModItems.ROASTED_CAULIFLOWER_FLORET.get());
         basicItem(ModItems.CAULIFLOWER_BREAD.get());
         basicItem(ModItems.CAULIFLOWER_PATTY.get());
         basicItem(ModItems.COOKED_CAULIFLOWER_PATTY.get());

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sweet_potato_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veggiesdelight:sweet_potato_dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:sweet_potato_cupcakes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sweet_potato_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:sweet_potato_cupcakes"
+    ]
+  }
+}

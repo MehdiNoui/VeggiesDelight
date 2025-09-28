@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bellpepper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veggiesdelight:bellpepper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:cooking/cooking/stuffed_bellpeppers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bellpepper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:cooking/cooking/stuffed_bellpeppers"
+    ]
+  }
+}

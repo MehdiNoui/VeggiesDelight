@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_cauliflowers"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "veggiesdelight:cauliflower_seeds"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 1,
+        "id": "minecraft:lime_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

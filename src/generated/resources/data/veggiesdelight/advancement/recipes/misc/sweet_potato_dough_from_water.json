@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sweet_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veggiesdelight:sweet_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:sweet_potato_dough_from_water"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sweet_potato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:sweet_potato_dough_from_water"
+    ]
+  }
+}

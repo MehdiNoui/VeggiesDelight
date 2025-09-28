@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "veggiesdelight:cauliflower_floret"
+  },
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:roasted_cauliflower_floret"
+  }
+}

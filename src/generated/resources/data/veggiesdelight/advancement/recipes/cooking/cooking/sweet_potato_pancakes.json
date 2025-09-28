@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sweet_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veggiesdelight:sweet_potato_pancakes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:cooking/cooking/sweet_potato_pancakes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sweet_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:cooking/cooking/sweet_potato_pancakes"
+    ]
+  }
+}

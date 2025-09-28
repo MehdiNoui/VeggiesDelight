@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_roasted_zucchini": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veggiesdelight:zucchini"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:roasted_zucchini_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_roasted_zucchini"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:roasted_zucchini_from_smoking"
+    ]
+  }
+}

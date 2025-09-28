@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/bellpepper"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "veggiesdelight:uncooked_mhadjeb"
+  }
+}

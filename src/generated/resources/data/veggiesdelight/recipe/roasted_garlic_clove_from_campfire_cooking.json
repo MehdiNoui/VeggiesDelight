@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "veggiesdelight:garlic_clove"
+  },
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:roasted_garlic_clove"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:wild_broccoli"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "veggiesdelight:broccoli_seeds"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 1,
+        "id": "minecraft:green_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

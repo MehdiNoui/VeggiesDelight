@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veggiesdelight:dandelion_leaf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:cooking/cooking/dandelion_juice"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dandelion"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:cooking/cooking/dandelion_juice"
+    ]
+  }
+}

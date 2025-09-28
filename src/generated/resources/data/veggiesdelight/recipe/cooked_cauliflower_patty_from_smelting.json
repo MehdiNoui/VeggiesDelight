@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "veggiesdelight:cauliflower_patty"
+  },
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:cooked_cauliflower_patty"
+  }
+}

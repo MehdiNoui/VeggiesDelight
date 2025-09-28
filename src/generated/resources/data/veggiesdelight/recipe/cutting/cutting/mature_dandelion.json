@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:mature_dandelion"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "veggiesdelight:dandelion_leaf"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:yellow_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

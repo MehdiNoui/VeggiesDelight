@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "veggiesdelight:bellpepper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:vegan_pizza"
+  }
+}

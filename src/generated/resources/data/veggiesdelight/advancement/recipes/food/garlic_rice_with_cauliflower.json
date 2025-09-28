@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:cooked_rice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:garlic_rice_with_cauliflower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:garlic_rice_with_cauliflower"
+    ]
+  }
+}

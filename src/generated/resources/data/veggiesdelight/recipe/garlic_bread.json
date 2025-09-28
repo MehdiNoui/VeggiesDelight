@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    },
+    {
+      "item": "veggiesdelight:roasted_garlic_clove"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "veggiesdelight:garlic_bread"
+  }
+}

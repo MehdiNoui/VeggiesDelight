@@ -31,7 +31,7 @@ public class VillageStructures
         if (ModList.get().isLoaded("atmospheric")) {
             VillageStructures.addBuildingToPool(
                     templatePools, processorLists,
-                    ResourceLocation.fromNamespaceAndPath("atmospheric", "village/scrubland/houses"),
+                    ResourceLocation.parse("atmospheric:village/scrubland/houses"),
                     "veggiesdelight:village/houses/scrubland_depot_house", 4);
         }
     }

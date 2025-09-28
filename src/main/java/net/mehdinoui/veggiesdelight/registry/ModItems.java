@@ -1,7 +1,7 @@
-package net.mehdinoui.veggiesdelight.common.item;
+package net.mehdinoui.veggiesdelight.registry;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.common.block.ModBlocks;
+import net.mehdinoui.veggiesdelight.item.ModFoods;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

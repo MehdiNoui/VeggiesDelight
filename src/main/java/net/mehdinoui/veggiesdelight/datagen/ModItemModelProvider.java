@@ -1,7 +1,7 @@
-package net.mehdinoui.veggiesdelight.data;
+package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.common.item.ModItems;
+import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

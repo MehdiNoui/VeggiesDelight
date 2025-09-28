@@ -1,8 +1,6 @@
 package net.mehdinoui.veggiesdelight.registry;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.common.block.ModBlocks;
-import net.mehdinoui.veggiesdelight.common.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

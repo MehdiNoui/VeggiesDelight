@@ -1,10 +1,11 @@
-package net.mehdinoui.veggiesdelight.common.block;
+package net.mehdinoui.veggiesdelight.registry;
 
 import com.mojang.serialization.MapCodec;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.common.block.custom.*;
-import net.mehdinoui.veggiesdelight.common.block.custom.crops.*;
-import net.mehdinoui.veggiesdelight.common.item.ModItems;
+import net.mehdinoui.veggiesdelight.block.custom.CarrotCakeBlock;
+import net.mehdinoui.veggiesdelight.block.custom.DandelionBlock;
+import net.mehdinoui.veggiesdelight.block.custom.PizzaBlock;
+import net.mehdinoui.veggiesdelight.block.custom.crops.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;

@@ -1,4 +1,4 @@
-package net.mehdinoui.veggiesdelight.common.block.custom;
+package net.mehdinoui.veggiesdelight.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.Item;

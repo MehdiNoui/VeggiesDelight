@@ -20,6 +20,9 @@ import java.util.List;
 public class VillageStructures
 {
     public static void addNewVillageBuilding(final ServerAboutToStartEvent event) {
+        if (!Configuration.GENERATE_VILLAGE_STRUCTURES.get()) {
+            return;
+        }
         Registry<StructureTemplatePool> templatePools = event.getServer().registryAccess().registry(Registries.TEMPLATE_POOL).get();
         Registry<StructureProcessorList> processorLists = event.getServer().registryAccess().registry(Registries.PROCESSOR_LIST).get();
 

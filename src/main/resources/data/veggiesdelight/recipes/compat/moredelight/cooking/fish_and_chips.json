@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "moredelight"
+    }
+  ],
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
   "experience": 2.0,

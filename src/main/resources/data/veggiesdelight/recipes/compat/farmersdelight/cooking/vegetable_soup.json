@@ -7,10 +7,10 @@
   },
   "ingredients": [
     {
-      "tag": "forge:potatoes"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:potatoes"
     },
     {
       "tag": "forge:vegetables"

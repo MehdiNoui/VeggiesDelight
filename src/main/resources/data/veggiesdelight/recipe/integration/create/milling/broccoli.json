@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:broccoli"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:green_dye",
+      "count": 2
+    },
+    {
+      "chance": 0.1,
+      "id": "veggiesdelight:broccoli_seeds",
+      "count" : 1
+    }
+  ],
+  "processingTime": 50
+}

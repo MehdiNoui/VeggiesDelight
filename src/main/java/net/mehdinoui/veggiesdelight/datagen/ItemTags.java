@@ -203,6 +203,23 @@ public class ItemTags extends ItemTagsProvider {
         );
     }
     protected void registerNeoforgeTags() {
+        tag(Tags.Items.CROPS).add(
+                ModItems.BELLPEPPER.get(),
+                ModItems.BROCCOLI.get(),
+                ModItems.CAULIFLOWER.get(),
+                ModItems.CAULIFLOWER_FLORET.get(),
+                ModItems.SWEET_POTATO.get(),
+                ModItems.TURNIP.get(),
+                ModItems.ZUCCHINI.get(),
+                ModItems.ZUCCHINI_SLICE.get()
+        );
+
+        tag(Tags.Items.DRINKS_JUICE).add(
+                ModItems.CARROT_JUICE.get(),
+                ModItems.DANDELION_JUICE.get(),
+                ModItems.TURNIP_WATER.get()
+        );
+
         tag(Tags.Items.FOODS_BREAD).add(ModItems.CAULIFLOWER_BREAD.get());
 
         tag(Tags.Items.FOODS_VEGETABLE).add(ModItems.BELLPEPPER.get());
@@ -231,22 +248,14 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.TURNIP_SEEDS.get(),
                 ModItems.ZUCCHINI_SEEDS.get()
         );
-
-        tag(Tags.Items.CROPS).add(
-                ModItems.BELLPEPPER.get(),
-                ModItems.BROCCOLI.get(),
-                ModItems.CAULIFLOWER.get(),
-                ModItems.CAULIFLOWER_FLORET.get(),
-                ModItems.SWEET_POTATO.get(),
-                ModItems.TURNIP.get(),
-                ModItems.ZUCCHINI.get(),
-                ModItems.ZUCCHINI_SLICE.get()
-        );
-
-        tag(Tags.Items.DRINKS_JUICE).add(
-                ModItems.CARROT_JUICE.get(),
-                ModItems.DANDELION_JUICE.get(),
-                ModItems.TURNIP_WATER.get()
+        tag(Tags.Items.STORAGE_BLOCKS).add(
+                ModItems.BELLPEPPER_CRATE.get(),
+                ModItems.BROCCOLI_CRATE.get(),
+                ModItems.CAULIFLOWER_CRATE.get(),
+                ModItems.GARLIC_CRATE.get(),
+                ModItems.SWEET_POTATO_CRATE.get(),
+                ModItems.TURNIP_CRATE.get(),
+                ModItems.ZUCCHINI_CRATE.get()
         );
     }
 }

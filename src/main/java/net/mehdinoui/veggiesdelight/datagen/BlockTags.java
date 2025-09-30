@@ -5,6 +5,7 @@ import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.tag.VDCommonTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
@@ -21,9 +22,11 @@ public class BlockTags extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
         this.registerCommonTags();
-        this.registerMinecraftTags();
         this.registerFarmersDelightTags();
+        this.registerMinecraftTags();
+        this.registerNeoforgeTags();
     }
+
     protected void registerCommonTags() {
         tag(CommonTags.MINEABLE_WITH_KNIFE).add(
                 ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
@@ -38,6 +41,23 @@ public class BlockTags extends BlockTagsProvider {
         tag(VDCommonTags.STORAGE_BLOCKS_SWEET_POTATO).add(ModBlocks.SWEET_POTATO_CRATE.get());
         tag(VDCommonTags.STORAGE_BLOCKS_TURNIP).add(ModBlocks.TURNIP_CRATE.get());
         tag(VDCommonTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
+    }
+    protected void registerFarmersDelightTags(){
+        tag(ModTags.MINEABLE_WITH_KNIFE).add(
+                ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
+                ModBlocks.CARROT_CAKE.get(),
+                ModBlocks.SWEET_POTATO_PIE.get(),
+                ModBlocks.VEGAN_PIZZA.get()
+        );
+        tag(ModTags.WILD_CROPS).add(
+                ModBlocks.WILD_BELLPEPPERS.get(),
+                ModBlocks.WILD_BROCCOLI.get(),
+                ModBlocks.WILD_CAULIFLOWERS.get(),
+                ModBlocks.WILD_GARLIC.get(),
+                ModBlocks.WILD_SWEET_POTATOES.get(),
+                ModBlocks.WILD_TURNIPS.get(),
+                ModBlocks.WILD_ZUCCHINIS.get()
+        );
     }
     protected void registerMinecraftTags(){
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE).add(
@@ -78,21 +98,15 @@ public class BlockTags extends BlockTagsProvider {
                 ModBlocks.WILD_ZUCCHINIS.get()
         );
     }
-    protected void registerFarmersDelightTags(){
-        tag(ModTags.MINEABLE_WITH_KNIFE).add(
-                ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
-                ModBlocks.CARROT_CAKE.get(),
-                ModBlocks.SWEET_POTATO_PIE.get(),
-                ModBlocks.VEGAN_PIZZA.get()
-        );
-        tag(ModTags.WILD_CROPS).add(
-                ModBlocks.WILD_BELLPEPPERS.get(),
-                ModBlocks.WILD_BROCCOLI.get(),
-                ModBlocks.WILD_CAULIFLOWERS.get(),
-                ModBlocks.WILD_GARLIC.get(),
-                ModBlocks.WILD_SWEET_POTATOES.get(),
-                ModBlocks.WILD_TURNIPS.get(),
-                ModBlocks.WILD_ZUCCHINIS.get()
+    protected void registerNeoforgeTags(){
+        tag(Tags.Blocks.STORAGE_BLOCKS).add(
+                ModBlocks.BELLPEPPER_CRATE.get(),
+                ModBlocks.BROCCOLI_CRATE.get(),
+                ModBlocks.CAULIFLOWER_CRATE.get(),
+                ModBlocks.GARLIC_CRATE.get(),
+                ModBlocks.SWEET_POTATO_CRATE.get(),
+                ModBlocks.TURNIP_CRATE.get(),
+                ModBlocks.ZUCCHINI_CRATE.get()
         );
     }
 }

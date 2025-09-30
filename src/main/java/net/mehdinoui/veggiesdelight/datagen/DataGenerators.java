@@ -32,6 +32,9 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(), blockTags);
         generator.addProvider(event.includeServer(),
                 new ItemTags(packOutput, lookupProvider, blockTags.contentsGetter(), existingFileHelper));
+        // Compostables (DataMapProvider)
+        generator.addProvider(event.includeServer(),
+                new ModCompostablesDataMap(packOutput, lookupProvider));
         // Models
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         // Recipes

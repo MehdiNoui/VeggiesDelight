@@ -19,7 +19,7 @@
     "A": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "items": ["veggiesdelight:fried_cauliflower_floret"] }]
+        "items": [{ "items": ["veggiesdelight:roasted_cauliflower_floret"] }]
       }
     },
     "B": {

@@ -1,6 +1,7 @@
 package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
@@ -10,6 +11,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, VeggiesDelight.MOD_ID, existingFileHelper);
     }
+
     @Override
     protected void registerModels() {
         basicItem(ModItems.BELLPEPPER.get());
@@ -87,5 +89,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DANDELION_AND_EGGS.get());
         basicItem(ModItems.CARROT_CAKE.get());
         basicItem(ModItems.CARROT_CAKE_SLICE.get());
+
+        // Blocks
+        simpleBlockItem(ModBlocks.BELLPEPPER_CRATE.get());
+        simpleBlockItem(ModBlocks.BROCCOLI_CRATE.get());
+        simpleBlockItem(ModBlocks.CAULIFLOWER_CRATE.get());
+        simpleBlockItem(ModBlocks.GARLIC_CRATE.get());
+        simpleBlockItem(ModBlocks.SWEET_POTATO_CRATE.get());
+        simpleBlockItem(ModBlocks.TURNIP_CRATE.get());
+        simpleBlockItem(ModBlocks.ZUCCHINI_CRATE.get());
+
+        basicItem(ModItems.MATURE_DANDELION.get());
+        basicItem(ModItems.WILD_BELLPEPPERS.get());
+        basicItem(ModItems.WILD_BROCCOLI.get());
+        basicItem(ModItems.WILD_CAULIFLOWERS.get());
+        basicItem(ModItems.WILD_GARLIC.get());
+        basicItem(ModItems.WILD_SWEET_POTATOES.get());
+        basicItem(ModItems.WILD_TURNIPS.get());
+        basicItem(ModItems.WILD_ZUCCHINIS.get());
     }
 }

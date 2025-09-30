@@ -1,6 +1,6 @@
 package net.mehdinoui.veggiesdelight.block.custom;
 
-import net.mehdinoui.veggiesdelight.registry.ModBlocks;
+import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
@@ -17,23 +17,16 @@ public class DandelionBlock extends FlowerBlock implements BonemealableBlock{
     public DandelionBlock(Properties properties) {
         super(MobEffects.LUCK, 5, properties);
     }
-
-    public boolean isValidBonemealTarget(LevelReader levelReader, BlockPos blockPos, BlockState blockState, boolean b) {
-        return true;
-    }
-
     @Override
     public boolean isValidBonemealTarget(LevelReader levelReader, BlockPos blockPos, BlockState blockState) {
         return false;
     }
-
     @Override
     public boolean isBonemealSuccess(Level level, RandomSource randomSource, BlockPos blockPos, BlockState blockState) {
         return true;
     }
-
     @Override
     public void performBonemeal(ServerLevel serverLevel, RandomSource randomSource, BlockPos blockPos, BlockState blockState) {
-        popResource(serverLevel, blockPos, new ItemStack(ModBlocks.MATURE_DANDELION.get()));
+        popResource(serverLevel, blockPos, new ItemStack(ModItems.MATURE_DANDELION.get()));
     }
 }

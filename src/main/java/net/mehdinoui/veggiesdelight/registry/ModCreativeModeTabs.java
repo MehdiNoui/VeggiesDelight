@@ -39,13 +39,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ZUCCHINI_SEEDS.get());
 
                         // Storage Crates
-                        output.accept(ModBlocks.BELLPEPPER_CRATE.get());
-                        output.accept(ModBlocks.BROCCOLI_CRATE.get());
-                        output.accept(ModBlocks.CAULIFLOWER_CRATE.get());
-                        output.accept(ModBlocks.GARLIC_CRATE.get());
-                        output.accept(ModBlocks.SWEET_POTATO_CRATE.get());
-                        output.accept(ModBlocks.TURNIP_CRATE.get());
-                        output.accept(ModBlocks.ZUCCHINI_CRATE.get());
+                        output.accept(ModItems.BELLPEPPER_CRATE.get());
+                        output.accept(ModItems.BROCCOLI_CRATE.get());
+                        output.accept(ModItems.CAULIFLOWER_CRATE.get());
+                        output.accept(ModItems.GARLIC_CRATE.get());
+                        output.accept(ModItems.SWEET_POTATO_CRATE.get());
+                        output.accept(ModItems.TURNIP_CRATE.get());
+                        output.accept(ModItems.ZUCCHINI_CRATE.get());
 
                         // Basic Ingredients
                         output.accept(ModItems.SMOKED_BELLPEPPER.get());
@@ -117,14 +117,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STUFFED_ZUCCHINIS.get());
 
                         // Wild Plants
-                        output.accept(ModBlocks.MATURE_DANDELION.get());
-                        output.accept(ModBlocks.WILD_BELLPEPPERS.get());
-                        output.accept(ModBlocks.WILD_BROCCOLI.get());
-                        output.accept(ModBlocks.WILD_CAULIFLOWERS.get());
-                        output.accept(ModBlocks.WILD_GARLIC.get());
-                        output.accept(ModBlocks.WILD_SWEET_POTATOES.get());
-                        output.accept(ModBlocks.WILD_TURNIPS.get());
-                        output.accept(ModBlocks.WILD_ZUCCHINIS.get());
+                        output.accept(ModItems.MATURE_DANDELION.get());
+                        output.accept(ModItems.WILD_BELLPEPPERS.get());
+                        output.accept(ModItems.WILD_BROCCOLI.get());
+                        output.accept(ModItems.WILD_CAULIFLOWERS.get());
+                        output.accept(ModItems.WILD_GARLIC.get());
+                        output.accept(ModItems.WILD_SWEET_POTATOES.get());
+                        output.accept(ModItems.WILD_TURNIPS.get());
+                        output.accept(ModItems.WILD_ZUCCHINIS.get());
                     })
                     .build()
     );

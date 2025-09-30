@@ -1,10 +1,15 @@
 package net.mehdinoui.veggiesdelight.block.custom;
 
+import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.CakeBlock;
@@ -19,18 +24,35 @@ public class CarrotCakeBlock extends CakeBlock {
     }
 
     @Override
-    public InteractionResult use(BlockState state, Level world, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-        // Eating logic
-        return eatCustom(world, pos, state, player);
+    public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
+        ItemStack itemstack = pPlayer.getItemInHand(pHand);
+        if (!itemstack.isEmpty()) {
+            return InteractionResult.PASS;
+        }
+        if (pLevel.isClientSide) {
+            if (customEat(pLevel, pPos, pState, pPlayer).consumesAction()) {
+                return InteractionResult.SUCCESS;
+            }
+            if (itemstack.isEmpty()) {
+                return InteractionResult.CONSUME;
+            }
+        }
+        return customEat(pLevel, pPos, pState, pPlayer);
     }
 
-    private InteractionResult eatCustom(LevelAccessor world, BlockPos pos, BlockState state, Player player) {
+    private InteractionResult customEat(LevelAccessor world, BlockPos pos, BlockState state, Player player) {
         if (!player.canEat(false)) {
             return InteractionResult.PASS;
         } else {
             player.awardStat(Stats.EAT_CAKE_SLICE);
 
-            player.getFoodData().eat(3, 0.2F); // More hunger & saturation than vanilla cake
+            FoodProperties props = ModItems.CARROT_CAKE_SLICE.get().getFoodProperties(null, player);
+            assert props != null;
+            player.getFoodData().eat(props.getNutrition(), props.getSaturationModifier());
+
+            if (world instanceof Level level) {
+                level.playSound((Player)null, pos, SoundEvents.GENERIC_EAT, SoundSource.PLAYERS, 0.8F, 0.8F);
+            }
 
             int bites = state.getValue(BITES);
             world.gameEvent(player, GameEvent.EAT, pos);

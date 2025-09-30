@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
   "bookshelf:load_conditions": [
     {
       "type": "bookshelf:item_exists",

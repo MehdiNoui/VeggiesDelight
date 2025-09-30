@@ -19,7 +19,7 @@ import java.util.Set;
 import static net.mehdinoui.veggiesdelight.VeggiesDelight.MOD_ID;
 
 @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ModAnimalsEvents {
+public class ModMobsEvents {
     @SubscribeEvent
     public static void onCommonSetup(FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {

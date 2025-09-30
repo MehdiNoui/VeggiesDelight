@@ -109,6 +109,16 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.TURNIP_SEEDS.get(),
                 ModItems.ZUCCHINI_SEEDS.get()
         );
+        tag(net.minecraft.tags.ItemTags.SMALL_FLOWERS).add(
+                ModItems.MATURE_DANDELION.get(),
+                ModItems.WILD_BELLPEPPERS.get(),
+                ModItems.WILD_BROCCOLI.get(),
+                ModItems.WILD_CAULIFLOWERS.get(),
+                ModItems.WILD_GARLIC.get(),
+                ModItems.WILD_SWEET_POTATOES.get(),
+                ModItems.WILD_TURNIPS.get(),
+                ModItems.WILD_ZUCCHINIS.get()
+        );
     }
     protected void registerFarmersDelightTags(){
         tag(ModTags.DRINKS).add(

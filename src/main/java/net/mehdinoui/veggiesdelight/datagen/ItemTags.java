@@ -1,6 +1,7 @@
 package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.mehdinoui.veggiesdelight.tag.VDCommonTags;
 import net.minecraft.core.HolderLookup;
@@ -30,6 +31,14 @@ public class ItemTags extends ItemTagsProvider {
         this.registerNeoforgeTags();
     }
     protected void registerCommonTags() {
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_BELLPEPPER).add(ModItems.BELLPEPPER_CRATE.get());
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_BROCCOLI).add(ModItems.BROCCOLI_CRATE.get());
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_CAULIFLOWER).add(ModItems.CAULIFLOWER_CRATE.get());
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_GARLIC).add(ModItems.GARLIC_CRATE.get());
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_SWEET_POTATO).add(ModItems.SWEET_POTATO_CRATE.get());
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_TURNIP).add(ModItems.TURNIP_CRATE.get());
+        tag(VDCommonTags.STORAGE_ITEM_BLOCKS_ZUCCHINI).add(ModItems.ZUCCHINI_CRATE.get());
+
         tag(VDCommonTags.CROPS_BELLPEPPER).add(ModItems.BELLPEPPER.get());
         tag(VDCommonTags.CROPS_BROCCOLI).add(ModItems.BROCCOLI.get());
         tag(VDCommonTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
@@ -59,39 +68,6 @@ public class ItemTags extends ItemTagsProvider {
                 Items.POTATO,
                 ModItems.SWEET_POTATO.get()
         );
-        /* Legacy Tags
-        tag(CommonTags.BREAD).addTag(VDCommonTags.BREAD_CAULIFLOWER);
-        tag(VDCommonTags.BREAD_CAULIFLOWER).add(ModItems.CAULIFLOWER_BREAD.get());
-
-        tag(CommonTags.SEEDS).addTag(VDCommonTags.SEEDS_BELLPEPPER);
-        tag(VDCommonTags.SEEDS_BELLPEPPER).add(ModItems.BELLPEPPER_SEEDS.get());
-        tag(CommonTags.SEEDS).addTag(VDCommonTags.SEEDS_BROCCOLI);
-        tag(VDCommonTags.SEEDS_BROCCOLI).add(ModItems.BROCCOLI_SEEDS.get());
-        tag(CommonTags.SEEDS).addTag(VDCommonTags.SEEDS_CAULIFLOWER);
-        tag(VDCommonTags.SEEDS_CAULIFLOWER).add(ModItems.CAULIFLOWER_SEEDS.get());
-        tag(CommonTags.SEEDS).addTag(VDCommonTags.SEEDS_TURNIP);
-        tag(VDCommonTags.SEEDS_TURNIP).add(ModItems.TURNIP_SEEDS.get());
-        tag(CommonTags.SEEDS).addTag(VDCommonTags.SEEDS_ZUCCHINI);
-        tag(VDCommonTags.SEEDS_ZUCCHINI).add(ModItems.ZUCCHINI_SEEDS.get());
-
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_BELLPEPPER);
-        tag(VDCommonTags.VEGETABLES_BELLPEPPER).add(ModItems.BELLPEPPER.get());
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_BROCCOLI);
-        tag(VDCommonTags.VEGETABLES_BROCCOLI).add(ModItems.BROCCOLI.get());
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_CAULIFLOWER);
-        tag(VDCommonTags.VEGETABLES_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
-        tag(VDCommonTags.VEGETABLES_CAULIFLOWER).add(ModItems.CAULIFLOWER_FLORET.get());
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_GARLIC);
-        tag(VDCommonTags.VEGETABLES_GARLIC).add(ModItems.GARLIC.get());
-        tag(VDCommonTags.VEGETABLES_GARLIC).add(ModItems.GARLIC_CLOVE.get());
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_SWEET_POTATO);
-        tag(VDCommonTags.VEGETABLES_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_TURNIP);
-        tag(VDCommonTags.VEGETABLES_TURNIP).add(ModItems.TURNIP.get());
-        tag(CommonTags.VEGETABLES).addTag(VDCommonTags.VEGETABLES_ZUCCHINI);
-        tag(VDCommonTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI.get());
-        tag(VDCommonTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
-        */
     }
     protected void registerMinecraftTags() {
         // Animals food
@@ -161,6 +137,17 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.BROCCOLI.get(),
                 ModItems.CAULIFLOWER.get()
         );
+        // Small Flowers
+        tag(net.minecraft.tags.ItemTags.SMALL_FLOWERS).add(
+                ModItems.MATURE_DANDELION.get(),
+                ModItems.WILD_BELLPEPPERS.get(),
+                ModItems.WILD_BROCCOLI.get(),
+                ModItems.WILD_CAULIFLOWERS.get(),
+                ModItems.WILD_GARLIC.get(),
+                ModItems.WILD_SWEET_POTATOES.get(),
+                ModItems.WILD_TURNIPS.get(),
+                ModItems.WILD_ZUCCHINIS.get()
+        );
         // Villager
         tag(net.minecraft.tags.ItemTags.VILLAGER_PLANTABLE_SEEDS).add(
                 ModItems.BELLPEPPER_SEEDS.get(),
@@ -203,6 +190,16 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.TURNIP_CAKE.get(),
                 // Zucchini
                 ModItems.STUFFED_ZUCCHINIS.get()
+        );
+        // Wild Crops
+        tag(ModTags.WILD_CROPS_ITEM).add(
+                ModItems.WILD_BELLPEPPERS.get(),
+                ModItems.WILD_BROCCOLI.get(),
+                ModItems.WILD_CAULIFLOWERS.get(),
+                ModItems.WILD_GARLIC.get(),
+                ModItems.WILD_SWEET_POTATOES.get(),
+                ModItems.WILD_TURNIPS.get(),
+                ModItems.WILD_ZUCCHINIS.get()
         );
     }
     protected void registerNeoforgeTags() {

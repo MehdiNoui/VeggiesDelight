@@ -38,7 +38,6 @@ public class BlockTags extends BlockTagsProvider {
         tag(VDCommonTags.STORAGE_BLOCKS_SWEET_POTATO).add(ModBlocks.SWEET_POTATO_CRATE.get());
         tag(VDCommonTags.STORAGE_BLOCKS_TURNIP).add(ModBlocks.TURNIP_CRATE.get());
         tag(VDCommonTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
-
     }
     protected void registerMinecraftTags(){
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE).add(

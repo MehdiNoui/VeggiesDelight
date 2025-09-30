@@ -72,7 +72,8 @@ public class ModBlocks {
             () -> new DandelionBlock(BlockBehaviour.Properties.copy(Blocks.DANDELION)
                     .noCollission().noOcclusion()));
     public static final RegistryObject<Block> WILD_BELLPEPPERS = BLOCKS.register("wild_bellpeppers",
-            () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()) {
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()) {
                 @Override
                 protected boolean mayPlaceOn(BlockState state, BlockGetter worldIn, BlockPos pos) {
                     return super.mayPlaceOn(state, worldIn, pos)
@@ -93,7 +94,8 @@ public class ModBlocks {
             () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
     public static final RegistryObject<Block> WILD_TURNIPS = BLOCKS.register("wild_turnips",
-            () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()) {
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()) {
                 @Override
                 protected boolean mayPlaceOn(BlockState state, BlockGetter worldIn, BlockPos pos) {
                     return super.mayPlaceOn(state, worldIn, pos)

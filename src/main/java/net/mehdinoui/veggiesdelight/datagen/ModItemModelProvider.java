@@ -1,23 +1,39 @@
 package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, VeggiesDelight.MOD_ID, existingFileHelper);
     }
+    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(VeggiesDelight.MOD_ID,"item/" + item.getId().getPath()));
+    }
+    public void simpleBlock(RegistryObject<Block> block) {
+        this.withExistingParent(VeggiesDelight.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+    }
+    private ItemModelBuilder flowerItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(VeggiesDelight.MOD_ID,"block/" + item.getId().getPath()));
+    }
 
     @Override
     protected void registerModels() {
-
         simpleItem(ModItems.BELLPEPPER);
         simpleItem(ModItems.BELLPEPPER_SEEDS);
         simpleItem(ModItems.CACCIATORE);
@@ -93,11 +109,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DANDELION_AND_EGGS);
         simpleItem(ModItems.CARROT_CAKE);
         simpleItem(ModItems.CARROT_CAKE_SLICE);
-    }
 
-    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
-        return withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(VeggiesDelight.MOD_ID,"item/" + item.getId().getPath()));
+        // Blocks
+        simpleBlock(ModBlocks.BELLPEPPER_CRATE);
+        simpleBlock(ModBlocks.BROCCOLI_CRATE);
+        simpleBlock(ModBlocks.CAULIFLOWER_CRATE);
+        simpleBlock(ModBlocks.GARLIC_CRATE);
+        simpleBlock(ModBlocks.SWEET_POTATO_CRATE);
+        simpleBlock(ModBlocks.TURNIP_CRATE);
+        simpleBlock(ModBlocks.ZUCCHINI_CRATE);
+
+        flowerItem(ModBlocks.MATURE_DANDELION);
+        flowerItem(ModBlocks.WILD_BELLPEPPERS);
+        flowerItem(ModBlocks.WILD_BROCCOLI);
+        flowerItem(ModBlocks.WILD_CAULIFLOWERS);
+        flowerItem(ModBlocks.WILD_GARLIC);
+        flowerItem(ModBlocks.WILD_SWEET_POTATOES);
+        flowerItem(ModBlocks.WILD_TURNIPS);
+        flowerItem(ModBlocks.WILD_ZUCCHINIS);
     }
 }

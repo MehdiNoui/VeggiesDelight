@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.minecraft.world.entity.animal.Chicken;
+import net.minecraft.world.entity.animal.Parrot;
 import net.minecraft.world.entity.animal.Pig;
 import net.minecraft.world.entity.npc.Villager;
 import net.minecraft.world.item.Item;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Set;
 
 import static net.mehdinoui.veggiesdelight.VeggiesDelight.MOD_ID;
@@ -42,6 +44,12 @@ public class ModMobsEvents {
             );
             Chicken.FOOD_ITEMS = new CompoundIngredient(Arrays.asList(Chicken.FOOD_ITEMS, newChickenFood)) {};
         });
+
+        Collections.addAll(Parrot.TAME_FOOD,
+                ModItems.BROCCOLI_SEEDS.get(),
+                ModItems.CAULIFLOWER_SEEDS.get(),
+                ModItems.TURNIP_SEEDS.get(),
+                ModItems.ZUCCHINI_SEEDS.get());
 
         Set<Item> newWantedItems = Sets.newHashSet(
                 ModItems.CAULIFLOWER_BREAD.get(),

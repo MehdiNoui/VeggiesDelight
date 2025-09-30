@@ -1,6 +1,7 @@
 package net.mehdinoui.veggiesdelight.datagen;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
 import net.mehdinoui.veggiesdelight.tag.VDForgeTags;
 import net.minecraft.core.HolderLookup;
@@ -71,6 +72,14 @@ public class ItemTags extends ItemTagsProvider {
         tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_ZUCCHINI);
         tag(VDForgeTags.SEEDS_ZUCCHINI).add(ModItems.ZUCCHINI_SEEDS.get());
 
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_BELLPEPPER).add(ModItems.BELLPEPPER_CRATE.get());
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_BROCCOLI).add(ModItems.BROCCOLI_CRATE.get());
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_CAULIFLOWER).add(ModItems.CAULIFLOWER_CRATE.get());
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_GARLIC).add(ModItems.GARLIC_CRATE.get());
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_SWEET_POTATO).add(ModItems.SWEET_POTATO_CRATE.get());
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_TURNIP).add(ModItems.TURNIP_CRATE.get());
+        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_ZUCCHINI).add(ModItems.ZUCCHINI_CRATE.get());
+
         tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_BELLPEPPER);
         tag(VDForgeTags.VEGETABLES_BELLPEPPER).add(ModItems.BELLPEPPER.get());
         tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_BROCCOLI);
@@ -132,6 +141,15 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.TURNIP_CAKE.get(),
                 // Zucchini
                 ModItems.STUFFED_ZUCCHINIS.get()
+        );
+        tag(ModTags.WILD_CROPS_ITEM).add(
+                ModItems.WILD_BELLPEPPERS.get(),
+                ModItems.WILD_BROCCOLI.get(),
+                ModItems.WILD_CAULIFLOWERS.get(),
+                ModItems.WILD_GARLIC.get(),
+                ModItems.WILD_SWEET_POTATOES.get(),
+                ModItems.WILD_TURNIPS.get(),
+                ModItems.WILD_ZUCCHINIS.get()
         );
     }
 }

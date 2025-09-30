@@ -12,12 +12,13 @@ import java.util.function.Supplier;
 
 public class PizzaBlock extends PieBlock {
     protected static final VoxelShape PIZZA_SHAPE = Block.box(0.0, 0.0, 0.0, 15.95, 2.0, 15.95);
+
     public PizzaBlock(Properties properties, Supplier<Item> pieSlice) {
         super(properties, pieSlice);
     }
+
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return PIZZA_SHAPE;
     }
-
 }

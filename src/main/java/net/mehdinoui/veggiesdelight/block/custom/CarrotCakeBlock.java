@@ -79,8 +79,15 @@ public class CarrotCakeBlock extends CakeBlock {
             level.removeBlock(pos, false);
         }
 
-        Direction direction = player.getDirection().getOpposite();
-        ItemUtils.spawnItemEntity(level, new ItemStack(ModItems.CARROT_CAKE_SLICE.get()), (double)pos.getX() + (double)0.5F, (double)pos.getY() + 0.3, (double)pos.getZ() + (double)0.5F, (double)direction.getStepX() * 0.15, 0.05, (double)direction.getStepZ() * 0.15);
+        Direction direction = Direction.WEST;
+        double x = pos.getX() + 0.5D + (direction.getStepX() * 0.05D);
+        double y = pos.getY() + 0.3D;
+        double z = pos.getZ() + 0.5D + (direction.getStepZ() * 0.05D);
+        double velocityX = direction.getStepX() * 0.05D;
+        double velocityZ = direction.getStepZ() * 0.05D;
+        double velocityY = 0.02D;
+
+        ItemUtils.spawnItemEntity(level, new ItemStack(ModItems.CARROT_CAKE_SLICE.get()), x, y, z, velocityX, velocityY, velocityZ);
         level.playSound((Player)null, pos, SoundEvents.WOOL_BREAK, SoundSource.PLAYERS, 0.8F, 0.8F);
         return InteractionResult.SUCCESS;
     }

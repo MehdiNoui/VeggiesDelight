@@ -2,29 +2,30 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "vintagedelight"
+      "modid": "culturaldelights"
     }
   ],
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 1.0,
   "container": {
     "item": "minecraft:bowl"
   },
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
-      "item": "vintagedelight:ghost_pepper"
+      "tag": "forge:crops/bellpepper"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "culturaldelights:regular_eggplants"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "forge:crops/tomato"
     },
     {
       "tag": "forge:eggs"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiesdelight:shakshouka"
   }

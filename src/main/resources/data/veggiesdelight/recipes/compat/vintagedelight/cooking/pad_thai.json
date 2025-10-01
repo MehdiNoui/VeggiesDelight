@@ -13,7 +13,7 @@
   },
   "ingredients": [
     {
-      "item": "veggiesdelight:bellpepper"
+      "tag": "forge:crops/garlic"
     },
     {
       "item": "farmersdelight:raw_pasta"

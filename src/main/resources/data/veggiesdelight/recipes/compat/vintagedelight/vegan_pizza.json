@@ -5,29 +5,25 @@
       "modid": "vintagedelight"
     }
   ],
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "BAD",
-    "CEC"
-  ],
-  "key": {
-    "C": {
+  "ingredients": [
+    {
       "tag": "forge:dough"
     },
-    "E": {
+    {
       "item": "farmersdelight:tomato_sauce"
     },
-    "A": {
+    {
       "tag": "forge:vegetables"
     },
-    "B": {
+    {
       "tag": "forge:crops/onion"
     },
-    "D": {
+    {
       "item": "vintagedelight:ghost_pepper"
     }
-  },
+  ],
   "result": {
     "item": "veggiesdelight:vegan_pizza"
   }

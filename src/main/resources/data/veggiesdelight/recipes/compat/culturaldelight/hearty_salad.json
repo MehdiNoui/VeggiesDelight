@@ -8,17 +8,22 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "culturaldelights:avocados"
+      "tag": "forge:crops/tomato"
     },
     {
       "tag": "culturaldelights:avocados"
     },
     {
-      "tag": "forge:bread"
+      "tag": "forge:crops/corn"
+    },
+    {
+      "item": "veggiesdelight:turnip"
+    },
+    {
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "culturaldelights:avocado_toast",
-    "count": 4
+    "item": "culturaldelights:hearty_salad"
   }
 }

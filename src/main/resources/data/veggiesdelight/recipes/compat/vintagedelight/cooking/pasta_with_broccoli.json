@@ -6,26 +6,24 @@
     }
   ],
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 1.0,
   "container": {
     "item": "minecraft:bowl"
   },
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
-      "item": "vintagedelight:ghost_pepper"
+      "tag": "forge:crops/broccoli"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "forge:pasta"
     },
     {
-      "item": "farmersdelight:tomato"
-    },
-    {
-      "tag": "forge:eggs"
+      "tag": "forge:cheese"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "veggiesdelight:shakshouka"
+    "item": "veggiesdelight:pasta_with_broccoli"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corn_delight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/turnip"
+    },
+    {
+      "tag": "forge:grain"
+    },
+    {
+      "tag": "forge:crops/corn"
+    },
+    [
+      {
+        "tag": "forge:raw_bacon"
+      },
+      {
+        "tag": "forge:raw_beef"
+      },
+      {
+        "tag": "forge:raw_chicken"
+      },
+      {
+        "tag": "forge:raw_fishes"
+      },
+      {
+        "tag": "forge:raw_mutton"
+      },
+      {
+        "tag": "forge:raw_pork"
+      }
+    ]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "veggiesdelight:turnip_cake"
+  }
+}

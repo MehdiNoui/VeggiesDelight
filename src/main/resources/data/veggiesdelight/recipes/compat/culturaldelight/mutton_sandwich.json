@@ -8,17 +8,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "culturaldelights:avocados"
-    },
-    {
-      "tag": "culturaldelights:avocados"
-    },
-    {
       "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:cooked_mutton"
+    },
+    {
+      "tag": "forge:cooked_eggs"
+    },
+    {
+      "item": "veggiesdelight:turnip"
     }
   ],
   "result": {
-    "item": "culturaldelights:avocado_toast",
-    "count": 4
+    "item": "culturaldelights:mutton_sandwich",
+    "count": 1
   }
 }

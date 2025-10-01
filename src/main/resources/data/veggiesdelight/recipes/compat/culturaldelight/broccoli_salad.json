@@ -6,19 +6,22 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
-      "tag": "culturaldelights:avocados"
+      "tag": "forge:crops/broccoli"
+    },
+    {
+      "tag": "forge:crops/tomato"
     },
     {
       "tag": "culturaldelights:avocados"
     },
     {
-      "tag": "forge:bread"
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "culturaldelights:avocado_toast",
-    "count": 4
+    "item": "veggiesdelight:broccoli_salad"
   }
 }

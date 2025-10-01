@@ -7,7 +7,7 @@
   ],
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 1.0,
+  "experience": 2.0,
   "container": {
     "item": "minecraft:bowl"
   },
@@ -16,16 +16,19 @@
       "item": "vintagedelight:ghost_pepper"
     },
     {
-      "item": "farmersdelight:onion"
+      "item": "vintagedelight:ghost_pepper"
+    },
+    {
+      "tag": "forge:crops/garlic"
     },
     {
       "item": "farmersdelight:tomato"
     },
     {
-      "tag": "forge:eggs"
+      "item": "farmersdelight:minced_beef"
     }
   ],
   "result": {
-    "item": "veggiesdelight:shakshouka"
+    "item": "vintagedelight:ghostly_chili"
   }
 }

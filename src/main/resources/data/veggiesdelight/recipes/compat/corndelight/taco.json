@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corn_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:tortilla"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "item": "veggiesdelight:smoked_bellpepper"
+    },
+    [
+      {
+        "tag": "forge:cooked_chicken"
+      },
+      {
+        "tag": "forge:cooked_pork"
+      },
+      {
+        "tag": "forge:cooked_beef"
+      },
+      {
+        "tag": "forge:cooked_mutton"
+      }
+    ]
+  ],
+  "result": {
+    "item": "corn_delight:taco"
+  }
+}

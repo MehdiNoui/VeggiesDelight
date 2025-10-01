@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corn_delight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "corn_delight:cornbread"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "item": "veggiesdelight:baked_sweet_potato"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "item": "corn_delight:cornbread_stuffing"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

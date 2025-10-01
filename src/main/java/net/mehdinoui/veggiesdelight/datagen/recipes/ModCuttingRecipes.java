@@ -79,7 +79,7 @@ public class ModCuttingRecipes {
                 .build(consumer,new ResourceLocation(VeggiesDelight.MOD_ID, "cutting/sweet_potato_pie_slice"));
         CuttingBoardRecipeBuilder.cuttingRecipe(
                         Ingredient.of(ModItems.VEGAN_PIZZA.get()),
-                        Ingredient.of(ForgeTags.TOOLS_KNIVES), ModItems.VEGAN_PIZZA.get(),4)
+                        Ingredient.of(ForgeTags.TOOLS_KNIVES), ModItems.VEGAN_PIZZA_SLICE.get(),4)
                 .build(consumer,new ResourceLocation(VeggiesDelight.MOD_ID, "cutting/vegan_pizza_slice"));
         // Vegetables
         CuttingBoardRecipeBuilder.cuttingRecipe(

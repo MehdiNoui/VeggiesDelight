@@ -6,23 +6,22 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
-      "item": "culturaldelights:tortilla"
+      "tag": "forge:bread"
     },
     {
-      "tag": "c:crops/onion"
+      "tag": "culturaldelights:smoked_regular_eggplants"
     },
     {
-      "tag": "c:foods/cooked_chicken"
+      "tag": "c:foods/leafy_green"
     },
     {
-      "item": "veggiesdelight:smoked_bellpepper"
+      "tag": "c:crops/tomato"
     }
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:chicken_fajitas_wrap"
+    "id": "culturaldelights:eggplant_burger"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "corn_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/tortilla"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    {
+      "item": "veggiesdelight:smoked_bellpepper"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+      {
+        "tag": "c:foods/cooked_chicken"
+      },
+      {
+        "tag": "c:foods/cooked_pork"
+      },
+      {
+        "tag": "c:foods/cooked_beef"
+      },
+      {
+        "tag": "c:foods/cooked_mutton"
+      }
+    ]
+  }
+  ],
+  "result": {
+    "id": "corn_delight:taco"
+  }
+}

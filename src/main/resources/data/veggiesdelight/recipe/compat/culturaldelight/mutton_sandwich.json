@@ -6,23 +6,22 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
-      "item": "culturaldelights:tortilla"
+      "tag": "c:foods/bread"
     },
     {
-      "tag": "c:crops/onion"
+      "tag": "culturaldelights:cooked_muttons"
     },
     {
-      "tag": "c:foods/cooked_chicken"
+      "tag": "c:foods/cooked_egg"
     },
     {
-      "item": "veggiesdelight:smoked_bellpepper"
+      "item": "veggiesdelight:turnip"
     }
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:chicken_fajitas_wrap"
+    "id": "culturaldelights:mutton_sandwich"
   }
 }

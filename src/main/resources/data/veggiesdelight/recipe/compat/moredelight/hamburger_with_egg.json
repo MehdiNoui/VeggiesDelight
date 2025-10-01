@@ -2,27 +2,27 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "culturaldelights"
+      "modid": "moredelight"
     }
   ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
     {
-      "item": "culturaldelights:tortilla"
+      "tag": "c:foods/bread"
     },
     {
-      "tag": "c:crops/onion"
+      "item": "veggiesdelight:cooked_cauliflower_patty"
     },
     {
-      "tag": "c:foods/cooked_chicken"
+      "tag": "c:foods/cooked_egg"
     },
     {
-      "item": "veggiesdelight:smoked_bellpepper"
+      "tag": "c:foods/leafy_green"
     }
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:chicken_fajitas_wrap"
+    "id": "moredelight:hamburger_with_egg"
   }
 }

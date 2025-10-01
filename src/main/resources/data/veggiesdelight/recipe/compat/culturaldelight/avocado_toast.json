@@ -2,23 +2,23 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "culturaldelight"
+      "modid": "culturaldelights"
     }
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "culturaldelights:avocados"
+      "tag": "culturaldelights:avocados"
     },
     {
-      "item": "culturaldelights:avocados"
+      "tag": "culturaldelights:avocados"
     },
     {
       "tag": "c:foods/bread"
     }
   ],
   "result": {
-    "id": "culturaldelights:avocado_toast",
-    "count": 4
+    "count": 4,
+    "id": "culturaldelights:avocado_toast"
   }
 }

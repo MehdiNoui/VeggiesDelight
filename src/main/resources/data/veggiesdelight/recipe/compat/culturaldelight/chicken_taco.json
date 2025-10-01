@@ -6,23 +6,28 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
       "item": "culturaldelights:tortilla"
     },
     {
-      "tag": "c:crops/onion"
+      "tag": "culturaldelights:cooked_chickens"
+    },
+	{
+      "tag": "c:crops/garlic"
     },
     {
-      "tag": "c:foods/cooked_chicken"
+      "item": "farmersdelight:tomato_sauce"
     },
     {
-      "item": "veggiesdelight:smoked_bellpepper"
+      "tag": "c:crops/bellpepper"
+    },
+    {
+      "item": "culturaldelights:corn_cob"
     }
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:chicken_fajitas_wrap"
+    "id": "culturaldelights:chicken_taco"
   }
 }

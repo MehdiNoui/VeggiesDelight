@@ -21,8 +21,8 @@
       "item": "veggiesdelight:smoked_bellpepper"
     }
   ],
-  "result":{
-    "id": "veggiesdelight:chicken_fajitas_wrap",
-    "count": 1
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:chicken_fajitas_wrap"
   }
 }

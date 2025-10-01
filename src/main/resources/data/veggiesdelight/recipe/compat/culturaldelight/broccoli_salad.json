@@ -9,20 +9,20 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "culturaldelights:tortilla"
+      "tag": "c:crops/broccoli"
     },
     {
-      "tag": "c:crops/onion"
+      "tag": "c:crops/tomato"
     },
     {
-      "tag": "c:foods/cooked_chicken"
+      "tag": "culturaldelights:avocados"
     },
     {
-      "item": "veggiesdelight:smoked_bellpepper"
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:chicken_fajitas_wrap"
+    "id": "veggiesdelight:broccoli_salad"
   }
 }

@@ -68,11 +68,7 @@ public class ModBlocks {
 
     // Wild Crops
     public static final DeferredBlock<Block> WILD_BELLPEPPERS = BLOCKS.register("wild_bellpeppers",
-            () -> new BushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM).noCollission().noOcclusion()) {
-                @Override
-                protected MapCodec<? extends BushBlock> codec() {
-                    return null;
-                }
+            () -> new FlowerBlock(MobEffects.LUCK, 5, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM).noCollission().noOcclusion()) {
                 @Override
                 protected boolean mayPlaceOn(BlockState state, BlockGetter worldIn, BlockPos pos) {
                     return super.mayPlaceOn(state, worldIn, pos)
@@ -96,11 +92,7 @@ public class ModBlocks {
             () -> new FlowerBlock(MobEffects.LUCK, 5,
                     BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM).noCollission().noOcclusion()));
     public static final DeferredBlock<Block> WILD_TURNIPS = BLOCKS.register("wild_turnips",
-            () -> new BushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM).noCollission().noOcclusion()) {
-                @Override
-                protected MapCodec<? extends BushBlock> codec() {
-                    return null;
-                }
+            () -> new FlowerBlock(MobEffects.LUCK, 5, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM).noCollission().noOcclusion()) {
                 @Override
                 protected boolean mayPlaceOn(BlockState state, BlockGetter worldIn, BlockPos pos) {
                     return super.mayPlaceOn(state, worldIn, pos)

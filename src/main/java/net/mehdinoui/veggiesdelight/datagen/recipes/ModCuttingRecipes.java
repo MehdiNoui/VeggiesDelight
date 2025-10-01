@@ -3,21 +3,14 @@ package net.mehdinoui.veggiesdelight.datagen.recipes;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.registry.ModItems;
-import net.mehdinoui.veggiesdelight.tag.VDForgeTags;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
-import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
-import vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
-import vectorwing.farmersdelight.data.builder.CookingPotRecipeBuilder;
 import vectorwing.farmersdelight.data.builder.CuttingBoardRecipeBuilder;
 
 import java.util.function.Consumer;
-
-import static vectorwing.farmersdelight.data.recipe.CookingRecipes.MEDIUM_EXP;
-import static vectorwing.farmersdelight.data.recipe.CookingRecipes.NORMAL_COOKING;
 
 public class ModCuttingRecipes {
     public static void register(Consumer<FinishedRecipe> consumer) {

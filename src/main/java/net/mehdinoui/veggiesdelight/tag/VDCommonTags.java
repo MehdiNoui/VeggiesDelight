@@ -41,7 +41,7 @@ public class VDCommonTags {
     public static final TagKey<Item> FOODS_SWEET_POTATO = commonItemTag("foods/sweet_potato");
     public static final TagKey<Item> FOODS_TURNIP = commonItemTag("foods/turnip");
     public static final TagKey<Item> FOODS_ZUCCHINI = commonItemTag("foods/zucchini");
-    public static final TagKey<Item> FOODS_POTATOES = commonItemTag("foods/potatoes");
+
     // Storage Item Blocks
     // Storage Blocks
     public static final TagKey<Item> STORAGE_ITEM_BLOCKS_BELLPEPPER = commonItemTag("storage_blocks/bellpepper");

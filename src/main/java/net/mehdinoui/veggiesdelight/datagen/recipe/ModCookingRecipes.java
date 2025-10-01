@@ -64,7 +64,7 @@ public class ModCookingRecipes {
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/cauliflower_soup")));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.FISH_AND_CHIPS.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(VDCommonTags.FOODS_POTATOES)
+                .addIngredient(Tags.Items.CROPS_POTATO)
                 .addIngredient(CommonTags.FOODS_SAFE_RAW_FISH)
                 .addIngredient(Tags.Items.EGGS)
                 .unlockedByAnyIngredient(Items.COD,Items.SALMON)
@@ -81,7 +81,7 @@ public class ModCookingRecipes {
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.MASHED_POTATOES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(VDCommonTags.CROPS_SWEET_POTATO)
-                .addIngredient(VDCommonTags.FOODS_POTATOES)
+                .addIngredient(Tags.Items.CROPS_POTATO)
                 .addIngredient(CommonTags.FOODS_MILK)
                 .unlockedByAnyIngredient(Items.POTATO,ModItems.SWEET_POTATO.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
@@ -107,7 +107,7 @@ public class ModCookingRecipes {
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/potato_noodles")));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.ROASTED_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(VDCommonTags.FOODS_POTATOES)
+                .addIngredient(Tags.Items.CROPS_POTATO)
                 .addIngredient(Items.CARROT)
                 .addIngredient(CommonTags.CROPS_ONION)
                 .addIngredient(CommonTags.CROPS_TOMATO)
@@ -193,9 +193,9 @@ public class ModCookingRecipes {
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/garlic_stuffed_mushrooms")));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.POTATO_NOODLE.get(), 3, FAST_COOKING, SMALL_EXP)
-                .addIngredient(VDCommonTags.FOODS_POTATOES)
-                .addIngredient(VDCommonTags.FOODS_POTATOES)
-                .addIngredient(VDCommonTags.FOODS_POTATOES)
+                .addIngredient(Tags.Items.CROPS_POTATO)
+                .addIngredient(Tags.Items.CROPS_POTATO)
+                .addIngredient(Tags.Items.CROPS_POTATO)
                 .unlockedByAnyIngredient(Items.POTATO,ModItems.SWEET_POTATO.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/potato_noodle")));

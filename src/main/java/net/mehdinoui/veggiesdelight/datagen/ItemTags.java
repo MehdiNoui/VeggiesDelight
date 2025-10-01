@@ -64,10 +64,6 @@ public class ItemTags extends ItemTagsProvider {
         tag(CommonTags.FOODS_DOUGH).add(ModItems.SWEET_POTATO_DOUGH.get());
 
         tag(CommonTags.FOODS_LEAFY_GREEN).add(ModItems.DANDELION_LEAF.get());
-        tag(VDCommonTags.FOODS_POTATOES).add(
-                Items.POTATO,
-                ModItems.SWEET_POTATO.get()
-        );
     }
     protected void registerMinecraftTags() {
         // Animals food
@@ -213,6 +209,8 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.ZUCCHINI.get(),
                 ModItems.ZUCCHINI_SLICE.get()
         );
+
+        tag(Tags.Items.CROPS_POTATO).add(ModItems.SWEET_POTATO.get());
 
         tag(Tags.Items.DRINKS_JUICE).add(
                 ModItems.CARROT_JUICE.get(),

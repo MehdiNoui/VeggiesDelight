@@ -4,13 +4,13 @@
   "experience": 0.35,
   "ingredients": [
     {
-      "tag": "c:foods/potatoes"
+      "tag": "c:crops/potato"
     },
     {
-      "tag": "c:foods/potatoes"
+      "tag": "c:crops/potato"
     },
     {
-      "tag": "c:foods/potatoes"
+      "tag": "c:crops/potato"
     }
   ],
   "recipe_book_tab": "misc",

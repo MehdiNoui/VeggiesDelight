@@ -18,7 +18,7 @@ import static net.minecraft.advancements.critereon.InventoryChangeTrigger.Trigge
 public class ModBasicRecipes {
     public static void register(RecipeOutput output) {
         shapefulRecipes(output);
-        shapelessRecipes(output);;
+        shapelessRecipes(output);
     }
     public static void shapefulRecipes(RecipeOutput output){
         // Crates

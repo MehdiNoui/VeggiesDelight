@@ -4,13 +4,13 @@
   "experience": 0.35,
   "ingredients": [
     {
-      "tag": "forge:potatoes"
+      "tag": "forge:vegetables/potato"
     },
     {
-      "tag": "forge:potatoes"
+      "tag": "forge:vegetables/potato"
     },
     {
-      "tag": "forge:potatoes"
+      "tag": "forge:vegetables/potato"
     }
   ],
   "recipe_book_tab": "misc",

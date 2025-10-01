@@ -39,8 +39,6 @@ public class VDForgeTags {
     public static final TagKey<Item> CROPS_ZUCCHINI = forgeItemTag("crops/zucchini");
     // Dough
     public static final TagKey<Item> DOUGH_SWEET_POTATO = forgeItemTag("dough/sweet_potato");
-    // Potatoes
-    public static final TagKey<Item> POTATOES = forgeItemTag("potatoes");
     // Salad Ingredients
     public static final TagKey<Item> SALAD_INGREDIENTS_DANDELION = forgeItemTag("salad_ingredients/dandelion");
     // Seeds

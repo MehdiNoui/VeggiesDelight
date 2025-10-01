@@ -56,10 +56,6 @@ public class ItemTags extends ItemTagsProvider {
         tag(ForgeTags.SALAD_INGREDIENTS).addTag(VDForgeTags.SALAD_INGREDIENTS_DANDELION);
         tag(VDForgeTags.SALAD_INGREDIENTS_DANDELION).add(ModItems.DANDELION_LEAF.get());
 
-        tag(VDForgeTags.POTATOES).add(
-                Items.POTATO,
-                ModItems.SWEET_POTATO.get()
-        );
 
         tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_BELLPEPPER);
         tag(VDForgeTags.SEEDS_BELLPEPPER).add(ModItems.BELLPEPPER_SEEDS.get());
@@ -92,6 +88,7 @@ public class ItemTags extends ItemTagsProvider {
         tag(VDForgeTags.VEGETABLES_GARLIC).add(ModItems.GARLIC_CLOVE.get());
         tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_SWEET_POTATO);
         tag(VDForgeTags.VEGETABLES_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
+        tag(ForgeTags.VEGETABLES_POTATO).add(ModItems.SWEET_POTATO.get());
         tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_TURNIP);
         tag(VDForgeTags.VEGETABLES_TURNIP).add(ModItems.TURNIP.get());
         tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_ZUCCHINI);

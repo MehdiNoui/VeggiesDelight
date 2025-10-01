@@ -61,7 +61,7 @@ public class ModCookingRecipes {
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/cauliflower_soup"));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.FISH_AND_CHIPS.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(VDForgeTags.POTATOES)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
                 .addIngredient(ForgeTags.RAW_FISHES)
                 .addIngredient(ForgeTags.EGGS)
                 .unlockedByAnyIngredient(Items.COD,Items.SALMON)
@@ -78,7 +78,7 @@ public class ModCookingRecipes {
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.MASHED_POTATOES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(VDForgeTags.CROPS_SWEET_POTATO)
-                .addIngredient(VDForgeTags.POTATOES)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
                 .addIngredient(ForgeTags.MILK)
                 .unlockedByAnyIngredient(Items.POTATO,ModItems.SWEET_POTATO.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
@@ -104,7 +104,7 @@ public class ModCookingRecipes {
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/potato_noodles"));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.ROASTED_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(VDForgeTags.POTATOES)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
                 .addIngredient(Items.CARROT)
                 .addIngredient(ForgeTags.CROPS_ONION)
                 .addIngredient(ForgeTags.CROPS_TOMATO)
@@ -190,9 +190,9 @@ public class ModCookingRecipes {
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/garlic_stuffed_mushrooms"));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.POTATO_NOODLE.get(), 3, FAST_COOKING, SMALL_EXP)
-                .addIngredient(VDForgeTags.POTATOES)
-                .addIngredient(VDForgeTags.POTATOES)
-                .addIngredient(VDForgeTags.POTATOES)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
                 .unlockedByAnyIngredient(Items.POTATO,ModItems.SWEET_POTATO.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/potato_noodle"));

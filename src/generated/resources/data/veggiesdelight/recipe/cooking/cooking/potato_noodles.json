@@ -13,7 +13,15 @@
       "item": "veggiesdelight:potato_noodle"
     },
     {
-      "tag": "c:crops/onion"
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:crops/garlic"
+        },
+        {
+          "tag": "c:crops/onion"
+        }
+      ]
     }
   ],
   "recipe_book_tab": "meals",

@@ -53,10 +53,6 @@ public class CarrotCakeBlock extends CakeBlock {
             assert props != null;
             player.getFoodData().eat(props.getNutrition(), props.getSaturationModifier());
 
-            if (world instanceof Level level) {
-                level.playSound((Player)null, pos, SoundEvents.GENERIC_EAT, SoundSource.PLAYERS, 0.8F, 0.8F);
-            }
-
             int bites = state.getValue(BITES);
             world.gameEvent(player, GameEvent.EAT, pos);
             if (bites < 6) {

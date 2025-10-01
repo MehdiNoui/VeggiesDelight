@@ -8,7 +8,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "veggiesdelight:cauliflower_bread"
+      "tag": "forge:bread"
     }
   ],
   "result": [

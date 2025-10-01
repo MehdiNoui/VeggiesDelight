@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "minecraft:potato"
+      "tag": "forge:potatoes"
     },
     {
       "item": "minecraft:carrot"

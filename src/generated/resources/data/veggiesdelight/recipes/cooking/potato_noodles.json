@@ -12,9 +12,14 @@
     {
       "item": "veggiesdelight:potato_noodle"
     },
-    {
-      "tag": "forge:crops/onion"
-    }
+    [
+      {
+        "tag": "forge:crops/garlic"
+      },
+      {
+        "tag": "forge:crops/onion"
+      }
+    ]
   ],
   "recipe_book_tab": "meals",
   "result": {

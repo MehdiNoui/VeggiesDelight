@@ -95,13 +95,16 @@ public class ModCookingRecipes {
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.POTATO_NOODLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(ModItems.POTATO_NOODLE.get())
                 .addIngredient(ModItems.POTATO_NOODLE.get())
-                .addIngredient(ForgeTags.CROPS_ONION)
+                .addIngredient(Ingredient.fromValues(Stream.of(
+                                new Ingredient.TagValue(VDForgeTags.CROPS_GARLIC),
+                                new Ingredient.TagValue(ForgeTags.CROPS_ONION)
+                        )))
                 .unlockedByItems("has_noodle",ModItems.POTATO_NOODLE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/potato_noodles"));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.ROASTED_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(Items.POTATO)
+                .addIngredient(VDForgeTags.POTATOES)
                 .addIngredient(Items.CARROT)
                 .addIngredient(ForgeTags.CROPS_ONION)
                 .addIngredient(ForgeTags.CROPS_TOMATO)

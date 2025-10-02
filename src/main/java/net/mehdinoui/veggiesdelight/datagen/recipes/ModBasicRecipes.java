@@ -95,12 +95,21 @@ public class ModBasicRecipes {
                 .unlockedBy("has_slice", hasItems( ModItems.SWEET_POTATO_PIE_SLICE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"sweet_potato_pie_from_slices"));
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(), 1)
+                .pattern("abc")
+                .pattern("xOx")
+                .define('a', VDForgeTags.CROPS_BELLPEPPER)
+                .define('b', ForgeTags.VEGETABLES)
+                .define('c', ForgeTags.CROPS_ONION)
+                .define('x', ForgeTags.DOUGH)
+                .define('O', vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
+                .unlockedBy("has_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegan_pizza"));
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(), 1)
                 .pattern("##")
                 .pattern("##")
                 .define('#', ModItems.VEGAN_PIZZA_SLICE.get())
                 .unlockedBy("has_slice", hasItems( ModItems.VEGAN_PIZZA_SLICE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegan_pizza_from_slices"));
-
     }
     public static void shapelessRecipes(Consumer<FinishedRecipe> consumer){
         // Bowled Food Recipes
@@ -272,14 +281,6 @@ public class ModBasicRecipes {
                 .requires(ModItems.CARROT_CAKE_SLICE.get())
                 .unlockedBy("has_slice", hasItems( ModItems.CARROT_CAKE_SLICE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"carrot_cake_from_slices"));
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(),1)
-                .requires(ForgeTags.DOUGH)
-                .requires(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
-                .requires(ForgeTags.VEGETABLES)
-                .requires(ForgeTags.CROPS_ONION)
-                .requires(ModItems.BELLPEPPER.get())
-                .unlockedBy("has_tomato_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
-                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegan_pizza"));
 
         // Seeds
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BELLPEPPER_SEEDS.get(),1)

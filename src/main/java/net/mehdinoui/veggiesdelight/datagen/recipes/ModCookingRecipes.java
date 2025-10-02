@@ -61,8 +61,8 @@ public class ModCookingRecipes {
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/cauliflower_soup"));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.FISH_AND_CHIPS.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(ForgeTags.VEGETABLES_POTATO)
                 .addIngredient(ForgeTags.RAW_FISHES)
+                .addIngredient(ForgeTags.VEGETABLES_POTATO)
                 .addIngredient(ForgeTags.EGGS)
                 .unlockedByAnyIngredient(Items.COD,Items.SALMON)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)

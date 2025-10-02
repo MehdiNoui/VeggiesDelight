@@ -94,6 +94,16 @@ public class ModBasicRecipes {
                 .unlockedBy("has_slice", hasItems( ModItems.SWEET_POTATO_PIE_SLICE.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"sweet_potato_pie_from_slices"));
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(), 1)
+                .pattern("abc")
+                .pattern("xOx")
+                .define('a', VDCommonTags.CROPS_BELLPEPPER)
+                .define('b', Tags.Items.FOODS_VEGETABLE)
+                .define('c', CommonTags.CROPS_ONION)
+                .define('x', CommonTags.FOODS_DOUGH)
+                .define('O', vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
+                .unlockedBy("has_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
+                .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"vegan_pizza"));
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(), 1)
                 .pattern("##")
                 .pattern("##")
                 .define('#', ModItems.VEGAN_PIZZA_SLICE.get())
@@ -271,14 +281,6 @@ public class ModBasicRecipes {
                 .requires(ModItems.CARROT_CAKE_SLICE.get())
                 .unlockedBy("has_slice", hasItems( ModItems.CARROT_CAKE_SLICE.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"carrot_cake_from_slices"));
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGAN_PIZZA.get(),1)
-                .requires(CommonTags.FOODS_DOUGH)
-                .requires(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
-                .requires(Tags.Items.FOODS_VEGETABLE)
-                .requires(CommonTags.CROPS_ONION)
-                .requires(ModItems.BELLPEPPER.get())
-                .unlockedBy("has_tomato_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
-                .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"vegan_pizza"));
 
         // Seeds
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BELLPEPPER_SEEDS.get(),1)

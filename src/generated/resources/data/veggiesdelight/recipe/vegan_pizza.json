@@ -1,22 +1,26 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    {
-      "tag": "c:foods/dough"
-    },
-    {
+  "key": {
+    "O": {
       "item": "farmersdelight:tomato_sauce"
     },
-    {
+    "a": {
+      "tag": "c:crops/bellpepper"
+    },
+    "b": {
       "tag": "c:foods/vegetable"
     },
-    {
+    "c": {
       "tag": "c:crops/onion"
     },
-    {
-      "item": "veggiesdelight:bellpepper"
+    "x": {
+      "tag": "c:foods/dough"
     }
+  },
+  "pattern": [
+    "abc",
+    "xOx"
   ],
   "result": {
     "count": 1,

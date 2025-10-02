@@ -64,8 +64,8 @@ public class ModCookingRecipes {
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/cauliflower_soup")));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.FISH_AND_CHIPS.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(Tags.Items.CROPS_POTATO)
                 .addIngredient(CommonTags.FOODS_SAFE_RAW_FISH)
+                .addIngredient(Tags.Items.CROPS_POTATO)
                 .addIngredient(Tags.Items.EGGS)
                 .unlockedByAnyIngredient(Items.COD,Items.SALMON)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)

@@ -7,10 +7,10 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "c:crops/potato"
+      "tag": "c:foods/safe_raw_fish"
     },
     {
-      "tag": "c:foods/safe_raw_fish"
+      "tag": "c:crops/potato"
     },
     {
       "tag": "c:eggs"

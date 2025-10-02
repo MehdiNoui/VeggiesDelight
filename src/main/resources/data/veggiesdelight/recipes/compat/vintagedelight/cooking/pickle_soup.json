@@ -16,11 +16,16 @@
       "item": "minecraft:carrot"
     },
     {
-      "tag": "forge:potatoes"
+      "tag": "forge:vegetables/potato"
     },
-    {
-      "tag": "forge:crops/turnip"
-    },
+    [
+      {
+        "tag": "forge:crops/turnip"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
     {
       "tag": "forge:salad_ingredients"
     }

@@ -7,17 +7,17 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:raw_fishes"
+      "tag": "forge:crops/broccoli"
     },
     {
-      "tag": "forge:vegetables/potato"
+      "tag": "forge:crops/broccoli"
     },
     {
-      "tag": "forge:eggs"
+      "tag": "forge:cheese"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "veggiesdelight:fish_and_chips"
+    "item": "veggiesdelight:broccoli_soup"
   }
 }

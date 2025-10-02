@@ -9,13 +9,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "veggiesdelight:roasted_garlic_clove"
+      "tag": "forge:bread"
     },
     {
-      "item": "moredelight:toast"
+      "item": "veggiesdelight:cooked_cauliflower_patty"
     }
   ],
-  "result":{
-    "item":"veggiesdelight:garlic_bread"
+  "result": {
+    "count": 1,
+    "item": "moredelight:simple_hamburger"
   }
 }

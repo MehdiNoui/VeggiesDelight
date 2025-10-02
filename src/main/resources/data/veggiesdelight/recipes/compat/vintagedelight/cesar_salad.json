@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:cesar_salad"
+  }
+}

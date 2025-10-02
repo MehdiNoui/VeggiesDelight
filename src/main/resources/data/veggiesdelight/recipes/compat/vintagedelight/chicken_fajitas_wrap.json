@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "tag": "forge:cooked_chicken"
+    },
+    {
+      "item": "veggiesdelight:smoked_bellpepper"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:chicken_fajitas_wrap"
+  }
+}

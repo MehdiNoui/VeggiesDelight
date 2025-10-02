@@ -17,9 +17,14 @@
     {
       "tag": "forge:crops/onion"
     },
-    {
-      "item": "vintagedelight:ghost_pepper"
-    }
+    [
+      {
+        "item": "vintagedelight:ghost_pepper"
+      },
+      {
+        "tag": "forge:cheese"
+      }
+    ]
   ],
   "result": {
     "item": "veggiesdelight:uncooked_mhadjeb",

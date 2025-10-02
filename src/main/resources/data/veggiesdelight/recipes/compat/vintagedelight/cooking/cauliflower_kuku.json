@@ -7,17 +7,20 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:raw_fishes"
+      "item": "veggiesdelight:cauliflower"
     },
     {
-      "tag": "forge:vegetables/potato"
+      "tag": "forge:crops/onion"
     },
     {
-      "tag": "forge:eggs"
+      "tag": "forge:crops/garlic"
+    },
+    {
+        "tag": "forge:cheese"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "veggiesdelight:fish_and_chips"
+    "item": "veggiesdelight:cauliflower_kuku"
   }
 }

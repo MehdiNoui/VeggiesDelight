@@ -2,26 +2,32 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "culturaldelights"
+      "modid": "vintagedelight"
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "forge:bread"
     },
     {
-      "tag": "culturaldelights:smoked_regular_eggplants"
+      "item": "veggiesdelight:cooked_cauliflower_patty"
     },
     {
       "tag": "forge:salad_ingredients"
     },
     {
       "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:cheese"
     }
   ],
   "result": {
-    "item": "culturaldelights:eggplant_burger",
-    "count": 1
+    "item": "vintagedelight:cheese_burger"
   }
 }

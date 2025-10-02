@@ -7,17 +7,17 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:raw_fishes"
+      "tag": "forge:crops/garlic"
     },
     {
-      "tag": "forge:vegetables/potato"
+      "tag": "forge:cooked_chicken"
     },
     {
-      "tag": "forge:eggs"
+      "tag": "forge:cheese"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "veggiesdelight:fish_and_chips"
+    "item": "veggiesdelight:garlic_chicken_stew"
   }
 }

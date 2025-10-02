@@ -13,14 +13,19 @@
     {
       "tag": "forge:cooked_chicken"
     },
-    {
+    [
+      {
       "tag": "forge:crops/garlic"
-    },
+      },
+      {
+      "tag": "forge:crops/onion"
+      }
+    ],
     {
       "item": "farmersdelight:tomato_sauce"
     },
     {
-      "tag": "forge:crops/bellpepper"
+      "item": "veggiesdelight:smoked_bellpepper"
     },
     {
       "tag": "forge:crops/corn"

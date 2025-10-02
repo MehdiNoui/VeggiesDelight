@@ -13,14 +13,19 @@
     {
       "tag": "culturaldelights:cooked_chickens"
     },
-	{
-      "tag": "c:crops/garlic"
-    },
+    [
+	  {
+        "tag": "c:crops/garlic"
+      },
+      {
+        "tag": "c:crops/onion"
+      }
+    ],
     {
       "item": "farmersdelight:tomato_sauce"
     },
     {
-      "tag": "c:crops/bellpepper"
+      "item": "veggiesdelight:smoked_bellpepper"
     },
     {
       "item": "culturaldelights:corn_cob"

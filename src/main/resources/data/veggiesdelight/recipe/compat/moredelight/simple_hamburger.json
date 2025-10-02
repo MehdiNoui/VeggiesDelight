@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "moredelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "veggiesdelight:cooked_cauliflower_patty"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moredelight:simple_hamburger"
+  }
+}

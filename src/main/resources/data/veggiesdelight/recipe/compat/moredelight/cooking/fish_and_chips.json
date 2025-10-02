@@ -13,10 +13,10 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "moredelight:diced_potatoes"
+      "tag": "c:foods/safe_raw_fish"
     },
     {
-      "tag": "c:foods/safe_raw_fish"
+      "item": "moredelight:diced_potatoes"
     },
     {
       "tag": "c:eggs"

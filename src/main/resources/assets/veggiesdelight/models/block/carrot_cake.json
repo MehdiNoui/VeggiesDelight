@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.6",
+	"render_type": "minecraft:cutout",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "veggiesdelight:block/carrot_cake_carrot_base",

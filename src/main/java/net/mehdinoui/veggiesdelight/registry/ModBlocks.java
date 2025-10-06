@@ -1,6 +1,7 @@
 package net.mehdinoui.veggiesdelight.registry;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.block.custom.StuffedBellpeppersBlock;
 import net.mehdinoui.veggiesdelight.block.custom.crops.*;
 import net.mehdinoui.veggiesdelight.block.custom.CarrotCakeBlock;
 import net.mehdinoui.veggiesdelight.block.custom.DandelionBlock;
@@ -66,6 +67,8 @@ public class ModBlocks {
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.BEETROOT_BROWNIE));
     public static final RegistryObject<Block> CARROT_CAKE = BLOCKS.register("carrot_cake",
             () -> new CarrotCakeBlock(Block.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> STUFFED_BELLPEPPERS_BLOCK = BLOCKS.register("stuffed_bellpeppers_block",
+            () -> new StuffedBellpeppersBlock(Block.Properties.copy(Blocks.CAKE), ModItems.STUFFED_BELLPEPPER,true));
 
     // Wild Flowers
     public static final RegistryObject<Block> MATURE_DANDELION = BLOCKS.register("mature_dandelion",

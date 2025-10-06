@@ -39,12 +39,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CACCIATORE);
         simpleItem(ModItems.SHAKSHOUKA);
         simpleItem(ModItems.SMOKED_BELLPEPPER);
-        simpleItem(ModItems.STUFFED_BELLPEPPERS);
+        simpleItem(ModItems.STUFFED_BELLPEPPERS_BLOCK);
         simpleItem(ModItems.UNCOOKED_MHADJEB);
         simpleItem(ModItems.MHADJEB);
         simpleItem(ModItems.VEGAN_PIZZA);
         simpleItem(ModItems.VEGAN_PIZZA_SLICE);
         simpleItem(ModItems.CHICKEN_FAJITAS_WRAP);
+        simpleItem(ModItems.STUFFED_BELLPEPPER);
 
         simpleItem(ModItems.BROCCOLI);
         simpleItem(ModItems.BROCCOLI_SEEDS);

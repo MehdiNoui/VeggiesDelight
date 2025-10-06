@@ -38,8 +38,8 @@ public class ModFoods {
     public static final FoodProperties SHAKSHOUKA = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties STUFFED_BELLPEPPERS = new FoodProperties.Builder().
-            nutrition(16).saturationMod(0.8f)
+    public static final FoodProperties STUFFED_BELLPEPPER = new FoodProperties.Builder().
+            nutrition(8).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
     public static final FoodProperties UNCOOKED_MHADJEB = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.4F).build();

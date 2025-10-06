@@ -112,8 +112,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PASTA_WITH_BROCCOLI.get());
                         output.accept(ModItems.ROASTED_VEGETABLES.get());
                         output.accept(ModItems.SHAKSHOUKA.get());
-                        output.accept(ModItems.STUFFED_BELLPEPPERS.get());
                         output.accept(ModItems.STUFFED_ZUCCHINIS.get());
+
+                        // Feasts
+                        output.accept(ModItems.STUFFED_BELLPEPPERS_BLOCK.get());
+                        output.accept(ModItems.STUFFED_BELLPEPPER.get());
 
                         // Wild Plants
                         output.accept(ModItems.MATURE_DANDELION.get());

@@ -127,7 +127,7 @@ public class ModCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/shakshouka"));
 
-        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.STUFFED_BELLPEPPERS.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.STUFFED_BELLPEPPERS_BLOCK.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(ModItems.BELLPEPPER.get())
                 .addIngredient(ModItems.BELLPEPPER.get())
                 .addIngredient(ModItems.BELLPEPPER.get())

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "veggiesdelight:item/stuffed_bellpeppers"
+    "layer0": "veggiesdelight:item/stuffed_bellpeppers_block"
   }
 }

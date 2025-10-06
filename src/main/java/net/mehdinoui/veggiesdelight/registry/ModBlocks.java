@@ -69,6 +69,9 @@ public class ModBlocks {
             () -> new CarrotCakeBlock(Block.Properties.copy(Blocks.CAKE)));
     public static final RegistryObject<Block> STUFFED_BELLPEPPERS_BLOCK = BLOCKS.register("stuffed_bellpeppers_block",
             () -> new StuffedBellpeppersBlock(Block.Properties.copy(Blocks.CAKE), ModItems.STUFFED_BELLPEPPER,true));
+    public static final RegistryObject<Block> ZUCCHINI_QUICHE = BLOCKS.register("zucchini_quiche",
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.ZUCCHINI_QUICHE_SLICE));
+
 
     // Wild Flowers
     public static final RegistryObject<Block> MATURE_DANDELION = BLOCKS.register("mature_dandelion",

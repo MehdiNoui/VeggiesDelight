@@ -114,7 +114,7 @@ public class ModFoods {
             nutrition(10).saturationMod(0.6f)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT.get(),BRIEF_DURATION,0),1.0f).build();
     public static final FoodProperties SWEET_POTATO_PIE_SLICE = new FoodProperties.Builder().
-            nutrition(5).saturationMod(0.4f).fast().build();
+            nutrition(5).saturationMod(0.4f).build();
     public static final FoodProperties POTATO_NOODLE = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.2f).build();
     public static final FoodProperties POTATO_NOODLES = new FoodProperties.Builder().
@@ -133,7 +133,7 @@ public class ModFoods {
             .build();
     public static final FoodProperties SWEET_POTATO_CUPCAKE = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.5f).fast()
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 0), 1.0F)
             .build();
 
     // TURNIP RELATED FOOD
@@ -161,6 +161,9 @@ public class ModFoods {
             nutrition(10).saturationMod(0.7f).build();
     public static final FoodProperties ZUCCHINI_SLICE = new FoodProperties.Builder().
             nutrition(2).saturationMod(0.1f).build();
+    public static final FoodProperties ZUCCHINI_QUICHE_SLICE = new FoodProperties.Builder().
+            nutrition(6).saturationMod(0.5f).build();
+
 
     // Drinks
     public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().

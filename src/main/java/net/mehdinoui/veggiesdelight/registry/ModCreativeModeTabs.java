@@ -72,6 +72,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MHADJEB.get());
                         output.accept(ModItems.VEGAN_PIZZA.get());
                         output.accept(ModItems.VEGAN_PIZZA_SLICE.get());
+                        output.accept(ModItems.ZUCCHINI_QUICHE.get());
+                        output.accept(ModItems.ZUCCHINI_QUICHE_SLICE.get());
                         output.accept(ModItems.ZUCCHINI_SANDWICH.get());
 
                         // Drinks

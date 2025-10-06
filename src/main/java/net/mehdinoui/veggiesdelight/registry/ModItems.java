@@ -54,6 +54,8 @@ public class ModItems {
             ()->new BlockItem(ModBlocks.CARROT_CAKE.get(), basicItem().stacksTo(1)));
     public static final RegistryObject<Item> SWEET_POTATO_PIE = ITEMS.register("sweet_potato_pie",
             () -> new BlockItem(ModBlocks.SWEET_POTATO_PIE.get(), basicItem()));
+    public static final RegistryObject<Item> ZUCCHINI_QUICHE = ITEMS.register("zucchini_quiche",
+            () -> new BlockItem(ModBlocks.ZUCCHINI_QUICHE.get(), basicItem()));
     public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
             () -> new BlockItem(ModBlocks.VEGAN_PIZZA.get(), basicItem()));
 
@@ -206,6 +208,9 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI_SLICE)));
     public static final RegistryObject<Item> STUFFED_ZUCCHINIS = ITEMS.register("stuffed_zucchinis",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.STUFFED_ZUCCHINIS), true));
+    public static final RegistryObject<Item> ZUCCHINI_QUICHE_SLICE = ITEMS.register("zucchini_quiche_slice",
+            ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI_QUICHE_SLICE)));
+
 
     // Misc
     public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",

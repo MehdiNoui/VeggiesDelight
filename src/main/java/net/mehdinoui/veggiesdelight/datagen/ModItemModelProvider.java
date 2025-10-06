@@ -99,6 +99,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ZUCCHINI_SANDWICH);
         simpleItem(ModItems.ZUCCHINI_SLICE);
         simpleItem(ModItems.ZUCCHINI_SEEDS);
+        simpleItem(ModItems.ZUCCHINI_QUICHE);
+        simpleItem(ModItems.ZUCCHINI_QUICHE_SLICE);
 
         simpleItem(ModItems.BEETROOT_BROWNIE_TRAY);
         simpleItem(ModItems.BEETROOT_BROWNIE);

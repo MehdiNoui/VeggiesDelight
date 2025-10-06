@@ -123,11 +123,13 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.DANDELION_JUICE.get(),
                 ModItems.TURNIP_WATER.get()
         );
+        tag(ModTags.FEASTS).add(
+                ModItems.STUFFED_BELLPEPPERS_BLOCK.get()
+        );
         tag(ModTags.MEALS).add(
                 // Bell pepper
                 ModItems.CACCIATORE.get(),
                 ModItems.SHAKSHOUKA.get(),
-                ModItems.STUFFED_BELLPEPPERS.get(),
                 // Broccoli
                 ModItems.BROCCOLI_SOUP.get(),
                 ModItems.PASTA_WITH_BROCCOLI.get(),

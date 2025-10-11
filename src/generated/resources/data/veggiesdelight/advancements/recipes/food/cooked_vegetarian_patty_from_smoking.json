@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cooked_cauliflower_patty": {
+    "has_cooked_vegetarian_patty": {
       "conditions": {
         "items": [
           {
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "veggiesdelight:cooked_cauliflower_patty_from_campfire_cooking"
+        "recipe": "veggiesdelight:cooked_vegetarian_patty_from_smoking"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cooked_cauliflower_patty",
+      "has_cooked_vegetarian_patty",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "veggiesdelight:cooked_cauliflower_patty_from_campfire_cooking"
+      "veggiesdelight:cooked_vegetarian_patty_from_smoking"
     ]
   },
   "sends_telemetry_event": false

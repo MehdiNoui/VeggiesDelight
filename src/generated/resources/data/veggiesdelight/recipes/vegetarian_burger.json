@@ -9,13 +9,13 @@
       "tag": "forge:crops/cabbage"
     },
     {
-      "item": "veggiesdelight:cooked_cauliflower_patty"
+      "item": "veggiesdelight:cooked_vegetarian_patty"
     },
     {
       "tag": "forge:crops/tomato"
     }
   ],
   "result": {
-    "item": "veggiesdelight:cauliflower_burger"
+    "item": "veggiesdelight:vegetarian_burger"
   }
 }

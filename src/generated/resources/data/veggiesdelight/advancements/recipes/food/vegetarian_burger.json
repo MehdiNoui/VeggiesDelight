@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "veggiesdelight:cauliflower_patty"
+              "veggiesdelight:cooked_vegetarian_patty"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "veggiesdelight:cauliflower_burger"
+        "recipe": "veggiesdelight:vegetarian_burger"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "veggiesdelight:cauliflower_burger"
+      "veggiesdelight:vegetarian_burger"
     ]
   },
   "sends_telemetry_event": false

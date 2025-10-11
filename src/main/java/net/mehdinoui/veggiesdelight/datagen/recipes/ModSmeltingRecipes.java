@@ -62,10 +62,10 @@ public class ModSmeltingRecipes {
                 0.35F, 200,
                 "bread", ModItems.SWEET_POTATO_DOUGH.get());
         cookingTriplet(consumer,
-                Ingredient.of(ModItems.CAULIFLOWER_PATTY.get()),
-                ModItems.COOKED_CAULIFLOWER_PATTY.get(),
+                Ingredient.of(ModItems.RAW_VEGETARIAN_PATTY.get()),
+                ModItems.COOKED_VEGETARIAN_PATTY.get(),
                 0.35F, 200,
-                "cooked_cauliflower_patty", ModItems.CAULIFLOWER_PATTY.get());
+                "cooked_cauliflower_patty", ModItems.RAW_VEGETARIAN_PATTY.get());
         cookingTriplet(consumer,
                 Ingredient.of(ModItems.UNCOOKED_MHADJEB.get()),
                 ModItems.MHADJEB.get(),

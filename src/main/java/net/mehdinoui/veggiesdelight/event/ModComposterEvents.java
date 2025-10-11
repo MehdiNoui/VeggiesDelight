@@ -46,7 +46,7 @@ public class ModComposterEvents {
             ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_PIE_SLICE.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.CARROT_CAKE_SLICE.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.POTATO_NOODLE.get(), 0.85F);
-            ComposterBlock.COMPOSTABLES.put(ModItems.CAULIFLOWER_PATTY.get(), 0.85F);
+            ComposterBlock.COMPOSTABLES.put(ModItems.RAW_VEGETARIAN_PATTY.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.UNCOOKED_MHADJEB.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_DOUGH.get(), 0.85F);
             ComposterBlock.COMPOSTABLES.put(ModItems.SWEET_POTATO_CUPCAKE.get(), 0.85F);

@@ -139,10 +139,6 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.ROASTED_CAULIFLOWER_FLORET)));
     public static final RegistryObject<Item> CAULIFLOWER_BREAD = ITEMS.register("cauliflower_bread",
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BREAD)));
-    public static final RegistryObject<Item> CAULIFLOWER_PATTY = ITEMS.register("cauliflower_patty",
-            ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_PATTY)));
-    public static final RegistryObject<Item> COOKED_CAULIFLOWER_PATTY = ITEMS.register("cooked_cauliflower_patty",
-            ()->new Item(new Item.Properties().food(ModFoods.COOKED_CAULIFLOWER_PATTY)));
     public static final RegistryObject<Item> CAULIFLOWER_SOUP = ITEMS.register("cauliflower_soup",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
     public static final RegistryObject<Item> CAULIFLOWER_BURGER = ITEMS.register("cauliflower_burger",
@@ -234,5 +230,9 @@ public class ModItems {
             ()-> new Item(new Item.Properties().food(ModFoods.CARROT_CAKE_SLICE)));
     public static final RegistryObject<Item> LASAGNA_SLICE = ITEMS.register("lasagna_slice",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.LASAGNA_SLICE), true));
+    public static final RegistryObject<Item> RAW_VEGETARIAN_PATTY = ITEMS.register("raw_vegetarian_patty",
+            ()->new Item(new Item.Properties().food(ModFoods.RAW_VEGETARIAN_PATTY)));
+    public static final RegistryObject<Item> COOKED_VEGETARIAN_PATTY = ITEMS.register("cooked_vegetarian_patty",
+            ()->new Item(new Item.Properties().food(ModFoods.COOKED_VEGETARIAN_PATTY)));
 
 }

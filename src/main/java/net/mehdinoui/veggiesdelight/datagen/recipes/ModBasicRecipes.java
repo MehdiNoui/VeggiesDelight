@@ -10,9 +10,12 @@ import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.Tags;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
 
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 import static net.minecraft.advancements.critereon.InventoryChangeTrigger.TriggerInstance.hasItems;
 
@@ -171,9 +174,9 @@ public class ModBasicRecipes {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CAULIFLOWER_BURGER.get(),1)
                 .requires(ForgeTags.BREAD)
                 .requires(ForgeTags.CROPS_CABBAGE)
-                .requires(ModItems.COOKED_CAULIFLOWER_PATTY.get())
+                .requires(ModItems.COOKED_VEGETARIAN_PATTY.get())
                 .requires(ForgeTags.CROPS_TOMATO)
-                .unlockedBy("has_patty", hasItems(ModItems.CAULIFLOWER_PATTY.get()))
+                .unlockedBy("has_patty", hasItems(ModItems.COOKED_VEGETARIAN_PATTY.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"cauliflower_burger"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CHICKEN_FAJITAS_WRAP.get(),1)
                 .requires(ForgeTags.DOUGH)
@@ -218,10 +221,17 @@ public class ModBasicRecipes {
                 .requires(ModItems.CAULIFLOWER.get())
                 .unlockedBy("has_cauliflower", hasItems(ModItems.CAULIFLOWER.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"cauliflower_florets"));
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CAULIFLOWER_PATTY.get(),1)
-                .requires(ModItems.CAULIFLOWER_FLORET.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_VEGETARIAN_PATTY.get(),1)
+                .requires(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(VDForgeTags.CROPS_CAULIFLOWER),
+                        new Ingredient.TagValue(Tags.Items.CROPS_POTATO),
+                        new Ingredient.TagValue(VDForgeTags.CROPS_ZUCCHINI)
+                )))
                 .requires(ForgeTags.EGGS)
-                .unlockedBy("has_cauliflower_florets", hasItems(ModItems.CAULIFLOWER_FLORET.get()))
+                .unlockedBy("has_egg", hasItems(Items.EGG))
+                .unlockedBy("has_potato", hasItems(Items.POTATO))
+                .unlockedBy("has_cauliflower", hasItems(ModItems.CAULIFLOWER.get()))
+                .unlockedBy("has_zucchini", hasItems(ModItems.ZUCCHINI.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"cauliflower_patty"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SWEET_POTATO_DOUGH.get(),3)
                 .requires(VDForgeTags.CROPS_SWEET_POTATO)

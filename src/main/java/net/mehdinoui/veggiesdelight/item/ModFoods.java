@@ -68,10 +68,6 @@ public class ModFoods {
             nutrition(2).saturationMod(0.3f).fast().build();
     public static final FoodProperties CAULIFLOWER_BREAD = new FoodProperties.Builder().
             nutrition(6).saturationMod(0.6f).build();
-    public static final FoodProperties CAULIFLOWER_PATTY = new FoodProperties.Builder().
-            nutrition(3).saturationMod(0.3f).build();
-    public static final FoodProperties COOKED_CAULIFLOWER_PATTY = new FoodProperties.Builder().
-            nutrition(5).saturationMod(0.6f).build();
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f).fast()
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
@@ -198,4 +194,9 @@ public class ModFoods {
     public static final FoodProperties LASAGNA_SLICE = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.7f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties RAW_VEGETARIAN_PATTY = new FoodProperties.Builder().
+            nutrition(3).saturationMod(0.3f).build();
+    public static final FoodProperties COOKED_VEGETARIAN_PATTY = new FoodProperties.Builder().
+            nutrition(5).saturationMod(0.6f).build();
+
 }

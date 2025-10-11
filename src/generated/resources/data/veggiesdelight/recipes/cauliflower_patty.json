@@ -2,14 +2,22 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "veggiesdelight:cauliflower_floret"
-    },
+    [
+      {
+        "tag": "forge:crops/cauliflower"
+      },
+      {
+        "tag": "forge:crops/potato"
+      },
+      {
+        "tag": "forge:crops/zucchini"
+      }
+    ],
     {
       "tag": "forge:eggs"
     }
   ],
   "result": {
-    "item": "veggiesdelight:cauliflower_patty"
+    "item": "veggiesdelight:raw_vegetarian_patty"
   }
 }

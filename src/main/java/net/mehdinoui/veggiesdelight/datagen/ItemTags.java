@@ -124,6 +124,7 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.TURNIP_WATER.get()
         );
         tag(ModTags.FEASTS).add(
+                ModItems.LASAGNA_PAN.get(),
                 ModItems.STUFFED_BELLPEPPERS_BLOCK.get()
         );
         tag(ModTags.MEALS).add(
@@ -133,6 +134,7 @@ public class ItemTags extends ItemTagsProvider {
                 // Broccoli
                 ModItems.BROCCOLI_SOUP.get(),
                 ModItems.PASTA_WITH_BROCCOLI.get(),
+                ModItems.STEAK_AND_BROCCOLI.get(),
                 // Cauliflower
                 ModItems.CAULIFLOWER_KUKU.get(),
                 ModItems.CAULIFLOWER_SOUP.get(),
@@ -149,7 +151,10 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.TURNIP_BEEF_STEW.get(),
                 ModItems.TURNIP_CAKE.get(),
                 // Zucchini
-                ModItems.STUFFED_ZUCCHINIS.get()
+                ModItems.STUFFED_ZUCCHINIS.get(),
+                // Misc
+                ModItems.LASAGNA_SLICE.get(),
+                ModItems.RICE_AND_VEGETABLES.get()
         );
         tag(ModTags.WILD_CROPS_ITEM).add(
                 ModItems.WILD_BELLPEPPERS.get(),

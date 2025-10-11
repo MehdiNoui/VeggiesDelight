@@ -45,6 +45,7 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.TURNIP_CRATE.get(), basicItem()));
     public static final RegistryObject<Item> ZUCCHINI_CRATE = ITEMS.register("zucchini_crate",
             () -> new BlockItem(ModBlocks.ZUCCHINI_CRATE.get(), basicItem()));
+
     // Misc Blocks
     public static final RegistryObject<Item> BEETROOT_BROWNIE_TRAY = ITEMS.register("beetroot_brownie_tray",
             () -> new BlockItem(ModBlocks.BEETROOT_BROWNIE_TRAY.get(), basicItem()));
@@ -58,6 +59,8 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.ZUCCHINI_QUICHE.get(), basicItem()));
     public static final RegistryObject<Item> VEGAN_PIZZA = ITEMS.register("vegan_pizza",
             () -> new BlockItem(ModBlocks.VEGAN_PIZZA.get(), basicItem()));
+    public static final RegistryObject<Item> LASAGNA_PAN = ITEMS.register("lasagna_pan",
+            () -> new BlockItem(ModBlocks.LASAGNA_PAN.get(), basicItem()));
 
     // Wild Flowers
     public static final RegistryObject<Item> MATURE_DANDELION = ITEMS.register("mature_dandelion",
@@ -229,4 +232,7 @@ public class ModItems {
             ()-> new Item(new Item.Properties().food(ModFoods.BEETROOT_BROWNIE)));
     public static final RegistryObject<Item> CARROT_CAKE_SLICE = ITEMS.register("carrot_cake_slice",
             ()-> new Item(new Item.Properties().food(ModFoods.CARROT_CAKE_SLICE)));
+    public static final RegistryObject<Item> LASAGNA_SLICE = ITEMS.register("lasagna_slice",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.LASAGNA_SLICE), true));
+
 }

@@ -1,11 +1,8 @@
 package net.mehdinoui.veggiesdelight.registry;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.block.custom.StuffedBellpeppersBlock;
+import net.mehdinoui.veggiesdelight.block.custom.*;
 import net.mehdinoui.veggiesdelight.block.custom.crops.*;
-import net.mehdinoui.veggiesdelight.block.custom.CarrotCakeBlock;
-import net.mehdinoui.veggiesdelight.block.custom.DandelionBlock;
-import net.mehdinoui.veggiesdelight.block.custom.PizzaBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.level.BlockGetter;
@@ -16,6 +13,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.block.FeastBlock;
 import vectorwing.farmersdelight.common.block.PieBlock;
 
 
@@ -71,6 +69,8 @@ public class ModBlocks {
             () -> new StuffedBellpeppersBlock(Block.Properties.copy(Blocks.CAKE), ModItems.STUFFED_BELLPEPPER,true));
     public static final RegistryObject<Block> ZUCCHINI_QUICHE = BLOCKS.register("zucchini_quiche",
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.ZUCCHINI_QUICHE_SLICE));
+    public static final RegistryObject<Block> LASAGNA_PAN = BLOCKS.register("lasagna_pan",
+            () -> new LasagnaPanBlock(Block.Properties.copy(Blocks.CAKE), ModItems.LASAGNA_SLICE, true));
 
 
     // Wild Flowers

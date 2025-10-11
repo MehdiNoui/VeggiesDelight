@@ -195,4 +195,7 @@ public class ModFoods {
     public static final FoodProperties ROASTED_VEGETABLES = new FoodProperties.Builder().
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
-    }
+    public static final FoodProperties LASAGNA_SLICE = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.7f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+}

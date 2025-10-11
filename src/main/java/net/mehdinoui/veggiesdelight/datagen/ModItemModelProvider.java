@@ -112,6 +112,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DANDELION_AND_EGGS);
         simpleItem(ModItems.CARROT_CAKE);
         simpleItem(ModItems.CARROT_CAKE_SLICE);
+        simpleItem(ModItems.LASAGNA_PAN);
+        simpleItem(ModItems.LASAGNA_SLICE);
 
         // Blocks
         simpleBlock(ModBlocks.BELLPEPPER_CRATE);

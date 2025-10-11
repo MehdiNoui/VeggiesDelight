@@ -65,7 +65,7 @@ public class ModSmeltingRecipes {
                 Ingredient.of(ModItems.RAW_VEGETARIAN_PATTY.get()),
                 ModItems.COOKED_VEGETARIAN_PATTY.get(),
                 0.35F, 200,
-                "cooked_cauliflower_patty", ModItems.RAW_VEGETARIAN_PATTY.get());
+                "cooked_vegetarian_patty", ModItems.RAW_VEGETARIAN_PATTY.get());
         cookingTriplet(consumer,
                 Ingredient.of(ModItems.UNCOOKED_MHADJEB.get()),
                 ModItems.MHADJEB.get(),

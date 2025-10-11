@@ -141,8 +141,6 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BREAD)));
     public static final RegistryObject<Item> CAULIFLOWER_SOUP = ITEMS.register("cauliflower_soup",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_SOUP), true));
-    public static final RegistryObject<Item> CAULIFLOWER_BURGER = ITEMS.register("cauliflower_burger",
-            ()->new Item(new Item.Properties().food(ModFoods.CAULIFLOWER_BURGER)));
     public static final RegistryObject<Item> CAULIFLOWER_KUKU = ITEMS.register("cauliflower_kuku",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.CAULIFLOWER_KUKU), true));
 
@@ -234,5 +232,6 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.RAW_VEGETARIAN_PATTY)));
     public static final RegistryObject<Item> COOKED_VEGETARIAN_PATTY = ITEMS.register("cooked_vegetarian_patty",
             ()->new Item(new Item.Properties().food(ModFoods.COOKED_VEGETARIAN_PATTY)));
-
+    public static final RegistryObject<Item> VEGETARIAN_BURGER = ITEMS.register("vegetarian_burger",
+            ()->new Item(new Item.Properties().food(ModFoods.VEGETARIAN_BURGER)));
 }

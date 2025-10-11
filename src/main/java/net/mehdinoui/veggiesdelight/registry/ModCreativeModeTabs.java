@@ -64,7 +64,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CAULIFLOWER_BREAD.get());
                         output.accept(ModItems.RAW_VEGETARIAN_PATTY.get());
                         output.accept(ModItems.COOKED_VEGETARIAN_PATTY.get());
-                        output.accept(ModItems.CAULIFLOWER_BURGER.get());
+                        output.accept(ModItems.VEGETARIAN_BURGER.get());
                         output.accept(ModItems.CHICKEN_FAJITAS_WRAP.get());
                         output.accept(ModItems.GARLIC_BREAD.get());
                         output.accept(ModItems.GARLIC_STUFFED_MUSHROOMS.get());

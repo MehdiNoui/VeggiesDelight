@@ -71,7 +71,7 @@ public class ModFoods {
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f).fast()
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties CAULIFLOWER_BURGER = new FoodProperties.Builder().
+    public static final FoodProperties VEGETARIAN_BURGER = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CAULIFLOWER_KUKU = new FoodProperties.Builder().

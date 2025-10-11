@@ -171,13 +171,13 @@ public class ModBasicRecipes {
                 .requires(ForgeTags.GRAIN_WHEAT)
                 .unlockedBy("has_wheat", hasItems(Items.WHEAT))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"cauliflower_bread"));
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CAULIFLOWER_BURGER.get(),1)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGETARIAN_BURGER.get(),1)
                 .requires(ForgeTags.BREAD)
                 .requires(ForgeTags.CROPS_CABBAGE)
                 .requires(ModItems.COOKED_VEGETARIAN_PATTY.get())
                 .requires(ForgeTags.CROPS_TOMATO)
                 .unlockedBy("has_patty", hasItems(ModItems.COOKED_VEGETARIAN_PATTY.get()))
-                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"cauliflower_burger"));
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegetarian_burger"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CHICKEN_FAJITAS_WRAP.get(),1)
                 .requires(ForgeTags.DOUGH)
                 .requires(ForgeTags.CROPS_ONION)
@@ -232,7 +232,7 @@ public class ModBasicRecipes {
                 .unlockedBy("has_potato", hasItems(Items.POTATO))
                 .unlockedBy("has_cauliflower", hasItems(ModItems.CAULIFLOWER.get()))
                 .unlockedBy("has_zucchini", hasItems(ModItems.ZUCCHINI.get()))
-                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"cauliflower_patty"));
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegetarian_patty"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SWEET_POTATO_DOUGH.get(),3)
                 .requires(VDForgeTags.CROPS_SWEET_POTATO)
                 .requires(VDForgeTags.CROPS_SWEET_POTATO)

@@ -50,7 +50,6 @@
   "item.veggiesdelight.pasta_with_broccoli": "Pasta With Broccoli",
 
   "item.veggiesdelight.cauliflower_bread": "Cauliflower Bread",
-  "item.veggiesdelight.cauliflower_burger": "Cauliflower Burger",
   "item.veggiesdelight.cauliflower_floret": "Cauliflower Floret",
   "item.veggiesdelight.cauliflower_kuku": "Cauliflower Kuku",
   "item.veggiesdelight.cauliflower_soup": "Cauliflower Soup",
@@ -68,8 +67,6 @@
   "item.veggiesdelight.garlic_rice_with_cauliflower": "Garlic Rice With Cauliflower",
   "item.veggiesdelight.garlic_stuffed_mushrooms": "Garlic Stuffed Mushrooms",
   "item.veggiesdelight.roasted_garlic_clove": "Roasted Garlic Clove",
-  "item.veggiesdelight.raw_vegetarian_patty": "Raw Vegetarian Patty",
-  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
 
   "item.veggiesdelight.baked_sweet_potato": "Baked Sweet Potato",
   "item.veggiesdelight.mashed_potatoes": "Mashed Potatoes",
@@ -102,6 +99,9 @@
   "item.veggiesdelight.roasted_vegetables": "Roasted Vegetables",
   "block.veggiesdelight.lasagna_pan": "Lasagna Pan",
   "item.veggiesdelight.lasagna_slice": "Lasagna Slice",
+  "item.veggiesdelight.raw_vegetarian_patty": "Raw Vegetarian Patty",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
+  "item.veggiesdelight.vegetarian_burger": "Vegetarian Burger",
 
 
   "veggiesdelight.advancement.root": "Veggies Delight",

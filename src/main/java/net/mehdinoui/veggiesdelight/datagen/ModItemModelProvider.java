@@ -59,7 +59,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROASTED_CAULIFLOWER_FLORET);
         simpleItem(ModItems.CAULIFLOWER_BREAD);
         simpleItem(ModItems.CAULIFLOWER_SOUP);
-        simpleItem(ModItems.CAULIFLOWER_BURGER);
+        simpleItem(ModItems.VEGETARIAN_BURGER);
         simpleItem(ModItems.CAULIFLOWER_KUKU);
 
         simpleItem(ModItems.GARLIC);
@@ -114,7 +114,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LASAGNA_SLICE);
         simpleItem(ModItems.RAW_VEGETARIAN_PATTY);
         simpleItem(ModItems.COOKED_VEGETARIAN_PATTY);
-
 
         // Blocks
         simpleBlock(ModBlocks.BELLPEPPER_CRATE);

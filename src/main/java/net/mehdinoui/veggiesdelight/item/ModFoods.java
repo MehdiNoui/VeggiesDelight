@@ -60,6 +60,10 @@ public class ModFoods {
     public static final FoodProperties PASTA_WITH_BROCCOLI = new FoodProperties.Builder().
             nutrition(12).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties STEAK_AND_BROCCOLI = new FoodProperties.Builder().
+            nutrition(16).saturationMod(0.9f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
+
 
     // CAULIFLOWER RELATED FOOD
      public static final FoodProperties CAULIFLOWER_FLORET = new FoodProperties.Builder().
@@ -145,14 +149,23 @@ public class ModFoods {
             nutrition(6).saturationMod(0.6f)
             .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 100, 0), 1.0F)
             .build();
+    public static final FoodProperties TURNIP_MUTTON_SKEWER = new FoodProperties.Builder().
+            nutrition(7).saturationMod(0.5f).build();
+
 
     // ZUCCHINI RELATED FOOD
+    public static final FoodProperties COLESLAW = new FoodProperties.Builder().
+            nutrition(10).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F)
+            .build();
     public static final FoodProperties ROASTED_ZUCCHINI = new FoodProperties.Builder().
             nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties STUFFED_ZUCCHINIS = new FoodProperties.Builder().
             nutrition(16).saturationMod(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F)
             .build();
+    public static final FoodProperties STUFFED_ZUCCHINI_BOAT = new FoodProperties.Builder().
+            nutrition(10).saturationMod(0.6f).build();
     public static final FoodProperties ZUCCHINI_SANDWICH = new FoodProperties.Builder().
             nutrition(10).saturationMod(0.7f).build();
     public static final FoodProperties ZUCCHINI_SLICE = new FoodProperties.Builder().
@@ -198,5 +211,8 @@ public class ModFoods {
             nutrition(3).saturationMod(0.3f).build();
     public static final FoodProperties COOKED_VEGETARIAN_PATTY = new FoodProperties.Builder().
             nutrition(5).saturationMod(0.6f).build();
-
+    public static final FoodProperties VEGETABLES_WRAP = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.7f).build();
+    public static final FoodProperties RICE_AND_VEGETABLES = new FoodProperties.Builder().
+            nutrition(12).saturationMod(0.6f).build();
 }

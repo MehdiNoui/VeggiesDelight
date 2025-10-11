@@ -51,6 +51,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BROCCOLI_SEEDS);
         simpleItem(ModItems.BROCCOLI_SALAD);
         simpleItem(ModItems.BROCCOLI_SOUP);
+        simpleItem(ModItems.STEAK_AND_BROCCOLI);
         simpleItem(ModItems.PASTA_WITH_BROCCOLI);
 
         simpleItem(ModItems.CAULIFLOWER);
@@ -59,7 +60,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROASTED_CAULIFLOWER_FLORET);
         simpleItem(ModItems.CAULIFLOWER_BREAD);
         simpleItem(ModItems.CAULIFLOWER_SOUP);
-        simpleItem(ModItems.VEGETARIAN_BURGER);
         simpleItem(ModItems.CAULIFLOWER_KUKU);
 
         simpleItem(ModItems.GARLIC);
@@ -90,10 +90,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TURNIP_CAKE);
         simpleItem(ModItems.TURNIP_SALAD);
         simpleItem(ModItems.TURNIP_WATER);
+        simpleItem(ModItems.TURNIP_MUTTON_SKEWER);
 
         simpleItem(ModItems.ZUCCHINI);
+        simpleItem(ModItems.COLESLAW);
         simpleItem(ModItems.ROASTED_ZUCCHINI);
         simpleItem(ModItems.STUFFED_ZUCCHINIS);
+        simpleItem(ModItems.STUFFED_ZUCCHINI_BOAT);
         simpleItem(ModItems.ZUCCHINI_SANDWICH);
         simpleItem(ModItems.ZUCCHINI_SLICE);
         simpleItem(ModItems.ZUCCHINI_SEEDS);
@@ -114,6 +117,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LASAGNA_SLICE);
         simpleItem(ModItems.RAW_VEGETARIAN_PATTY);
         simpleItem(ModItems.COOKED_VEGETARIAN_PATTY);
+        simpleItem(ModItems.VEGETARIAN_BURGER);
+        simpleItem(ModItems.VEGETABLES_WRAP);
+        simpleItem(ModItems.RICE_AND_VEGETABLES);
 
         // Blocks
         simpleBlock(ModBlocks.BELLPEPPER_CRATE);

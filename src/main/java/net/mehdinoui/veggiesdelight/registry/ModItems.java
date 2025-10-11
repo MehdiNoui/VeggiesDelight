@@ -25,6 +25,9 @@ public class ModItems {
     public static Item.Properties bottleItem(FoodProperties food) {
         return new Item.Properties().food(food).craftRemainder(Items.GLASS_BOTTLE).stacksTo(32);
     }
+    public static Item.Properties stickItem(FoodProperties food) {
+        return new Item.Properties().food(food).craftRemainder(Items.STICK).stacksTo(64);
+    }
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
@@ -129,6 +132,9 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.BROCCOLI_SOUP), true));
     public static final RegistryObject<Item> PASTA_WITH_BROCCOLI = ITEMS.register("pasta_with_broccoli",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.PASTA_WITH_BROCCOLI), true));
+    public static final RegistryObject<Item> STEAK_AND_BROCCOLI = ITEMS.register("steak_and_broccoli",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.STEAK_AND_BROCCOLI),  true));
+
 
     // Cauliflower
     public static final RegistryObject<Item> CAULIFLOWER = ITEMS.register("cauliflower",
@@ -189,12 +195,16 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.TURNIP_BEEF_STEW), true));
     public static final RegistryObject<Item> TURNIP_CAKE = ITEMS.register("turnip_cake",
             ()->new Item(new Item.Properties().food(ModFoods.TURNIP_CAKE)));
-    public static final RegistryObject<Item> TURNIP_SALAD= ITEMS.register("turnip_salad",
+    public static final RegistryObject<Item> TURNIP_SALAD = ITEMS.register("turnip_salad",
             ()->new ConsumableItem(bowlFoodItem(ModFoods.TURNIP_SALAD), true));
-    public static final RegistryObject<Item> TURNIP_WATER= ITEMS.register("turnip_water",
+    public static final RegistryObject<Item> TURNIP_WATER = ITEMS.register("turnip_water",
             ()->new DrinkableItem(bottleItem(ModFoods.TURNIP_WATER),true));
+    public static final RegistryObject<Item> TURNIP_MUTTON_SKEWER = ITEMS.register("turnip_mutton_skewer",
+            ()->new ConsumableItem(stickItem(ModFoods.TURNIP_MUTTON_SKEWER)));
 
     // Zucchini
+    public static final RegistryObject<Item> COLESLAW = ITEMS.register("coleslaw",
+            ()->new ConsumableItem(bowlFoodItem(ModFoods.COLESLAW), true));
     public static final RegistryObject<Item> ZUCCHINI = ITEMS.register("zucchini",
             ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI)));
     public static final RegistryObject<Item> ROASTED_ZUCCHINI = ITEMS.register("roasted_zucchini",
@@ -207,7 +217,8 @@ public class ModItems {
             ()->new ConsumableItem(bowlFoodItem(ModFoods.STUFFED_ZUCCHINIS), true));
     public static final RegistryObject<Item> ZUCCHINI_QUICHE_SLICE = ITEMS.register("zucchini_quiche_slice",
             ()->new Item(new Item.Properties().food(ModFoods.ZUCCHINI_QUICHE_SLICE)));
-
+    public static final RegistryObject<Item> STUFFED_ZUCCHINI_BOAT = ITEMS.register("stuffed_zucchini_boat",
+            ()->new Item(new Item.Properties().food(ModFoods.STUFFED_ZUCCHINI_BOAT)));
 
     // Misc
     public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",
@@ -234,4 +245,9 @@ public class ModItems {
             ()->new Item(new Item.Properties().food(ModFoods.COOKED_VEGETARIAN_PATTY)));
     public static final RegistryObject<Item> VEGETARIAN_BURGER = ITEMS.register("vegetarian_burger",
             ()->new Item(new Item.Properties().food(ModFoods.VEGETARIAN_BURGER)));
+    public static final RegistryObject<Item> RICE_AND_VEGETABLES = ITEMS.register("rice_and_vegetables",
+            ()-> new ConsumableItem(bowlFoodItem(ModFoods.RICE_AND_VEGETABLES), true));
+    public static final RegistryObject<Item> VEGETABLES_WRAP = ITEMS.register("vegetables_wrap",
+            ()->new Item(new Item.Properties().food(ModFoods.VEGETABLES_WRAP)));
+
 }

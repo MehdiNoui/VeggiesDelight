@@ -5,16 +5,16 @@
     "O": {
       "item": "farmersdelight:pie_crust"
     },
-    "a": {
+    "p": {
       "item": "veggiesdelight:baked_sweet_potato"
     },
-    "x": {
+    "s": {
       "item": "minecraft:sugar"
     }
   },
   "pattern": [
-    "aaa",
-    "xOx"
+    "ppp",
+    "sOs"
   ],
   "result": {
     "item": "veggiesdelight:sweet_potato_pie"

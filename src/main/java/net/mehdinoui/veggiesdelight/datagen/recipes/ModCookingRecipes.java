@@ -5,6 +5,7 @@ import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.Tags;
 import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
 import vectorwing.farmersdelight.data.builder.CookingPotRecipeBuilder;
@@ -84,6 +85,29 @@ public class ModCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/mashed_potatoes"));
 
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.LASAGNA_PAN.get(), 1, SLOW_COOKING, LARGE_EXP, Items.BOWL)
+                .addIngredient(ForgeTags.DOUGH)
+                .addIngredient(ForgeTags.DOUGH)
+                .addIngredient(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
+                .addIngredient(ForgeTags.MILK)
+                .addIngredient(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(ForgeTags.RAW_BACON),
+                        new Ingredient.TagValue(ForgeTags.RAW_BEEF),
+                        new Ingredient.TagValue(ForgeTags.RAW_CHICKEN),
+                        new Ingredient.TagValue(ForgeTags.RAW_MUTTON),
+                        new Ingredient.TagValue(ForgeTags.RAW_PORK)
+                )))
+                .addIngredient(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(VDForgeTags.CROPS_BELLPEPPER),
+                        new Ingredient.TagValue(Tags.Items.CROPS_CARROT),
+                        new Ingredient.TagValue(ForgeTags.CROPS_ONION),
+                        new Ingredient.TagValue(VDForgeTags.CROPS_ZUCCHINI)
+                )))
+                .unlockedByItems("has_sauce",vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(consumer,new ResourceLocation("veggiesdelight", "cooking/lasagna_pan"));
+
+
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.PASTA_WITH_BROCCOLI.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(VDForgeTags.CROPS_BROCCOLI)
                 .addIngredient(ForgeTags.PASTA)
@@ -102,6 +126,16 @@ public class ModCookingRecipes {
                 .unlockedByItems("has_noodle",ModItems.POTATO_NOODLE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/potato_noodles"));
+
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.RICE_AND_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
+                .addIngredient(ForgeTags.GRAIN_RICE)
+                .addIngredient(Tags.Items.CROPS_CARROT)
+                .addIngredient(ForgeTags.CROPS_ONION)
+                .addIngredient(VDForgeTags.CROPS_ZUCCHINI)
+                .addIngredient(ForgeTags.VEGETABLES)
+                .unlockedByItems("has_rice",ModItems.ZUCCHINI.get())
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(consumer,new ResourceLocation("veggiesdelight", "cooking/rice_and_vegetables"));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.ROASTED_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(ForgeTags.VEGETABLES_POTATO)

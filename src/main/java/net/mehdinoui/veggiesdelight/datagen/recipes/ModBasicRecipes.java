@@ -9,6 +9,7 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.Tags;
@@ -75,15 +76,33 @@ public class ModBasicRecipes {
                 .define('#', ModItems.ZUCCHINI.get())
                 .unlockedBy("has_zucchini", hasItems(ModItems.ZUCCHINI.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"zucchini_crate"));
+
         // Pies and stuff
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SWEET_POTATO_PIE.get(), 1)
-                .pattern("aaa")
-                .pattern("xOx")
-                .define('a', ModItems.BAKED_SWEET_POTATO.get())
-                .define('x', Items.SUGAR)
+                .pattern("ppp")
+                .pattern("sOs")
+                .define('p', ModItems.BAKED_SWEET_POTATO.get())
+                .define('s', Items.SUGAR)
                 .define('O', vectorwing.farmersdelight.common.registry.ModItems.PIE_CRUST.get())
                 .unlockedBy("has_pie_crust", hasItems(vectorwing.farmersdelight.common.registry.ModItems.PIE_CRUST.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"sweet_potato_pie"));
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.ZUCCHINI_QUICHE.get(), 1)
+                .pattern("zzz")
+                .pattern("aOm")
+                .define('z', ModItems.ROASTED_ZUCCHINI.get())
+                .define('a', Items.SUGAR)
+                .define('m', Ingredient.fromValues(Stream.of(
+                                new Ingredient.TagValue(ForgeTags.COOKED_MUTTON),
+                                new Ingredient.TagValue(ForgeTags.COOKED_CHICKEN),
+                                new Ingredient.TagValue(ForgeTags.COOKED_BEEF),
+                                new Ingredient.TagValue(ForgeTags.COOKED_PORK),
+                                new Ingredient.TagValue(ForgeTags.COOKED_BACON)
+                        )))
+                .define('O', vectorwing.farmersdelight.common.registry.ModItems.PIE_CRUST.get())
+                .unlockedBy("has_pie_crust", hasItems(vectorwing.farmersdelight.common.registry.ModItems.PIE_CRUST.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"zucchini_quiche"));
+
+
         // Pies from slices
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.BEETROOT_BROWNIE_TRAY.get(), 1)
                 .pattern("##")
@@ -113,6 +132,12 @@ public class ModBasicRecipes {
                 .define('#', ModItems.VEGAN_PIZZA_SLICE.get())
                 .unlockedBy("has_slice", hasItems( ModItems.VEGAN_PIZZA_SLICE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegan_pizza_from_slices"));
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.ZUCCHINI_QUICHE.get(), 1)
+                .pattern("##")
+                .pattern("##")
+                .define('#', ModItems.ZUCCHINI_QUICHE_SLICE.get())
+                .unlockedBy("has_slice", hasItems( ModItems.ZUCCHINI_QUICHE_SLICE.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"zucchini_quiche_from_slices"));
     }
     public static void shapelessRecipes(Consumer<FinishedRecipe> consumer){
         // Bowled Food Recipes
@@ -123,6 +148,14 @@ public class ModBasicRecipes {
                 .requires(Items.BOWL)
                 .unlockedBy("has_bowl", hasItems(Items.BOWL))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"broccoli_salad"));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.COLESLAW.get(),1)
+                .requires(VDForgeTags.CROPS_ZUCCHINI)
+                .requires(Tags.Items.CROPS_POTATO)
+                .requires(Tags.Items.CROPS_CARROT)
+                .requires(ForgeTags.CROPS_CABBAGE)
+                .requires(Items.BOWL)
+                .unlockedBy("has_bowl", hasItems(Items.BOWL))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"coleslaw"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CESAR_SALAD.get(),1)
                 .requires(ForgeTags.CROPS_CABBAGE)
                 .requires(ForgeTags.BREAD)
@@ -156,6 +189,13 @@ public class ModBasicRecipes {
                 .requires(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get())
                 .unlockedBy("has_rice", hasItems(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"garlic_rice_with_cauliflower"));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.STEAK_AND_BROCCOLI.get(),1)
+                .requires(Items.COOKED_BEEF)
+                .requires(VDForgeTags.CROPS_BROCCOLI)
+                .requires(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get())
+                .requires(Items.BOWL)
+                .unlockedBy("has_rice", hasItems(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"steak_and_broccoli"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.TURNIP_SALAD.get(),1)
                 .requires(ForgeTags.SALAD_INGREDIENTS)
                 .requires(VDForgeTags.CROPS_TURNIP)
@@ -201,12 +241,43 @@ public class ModBasicRecipes {
                 .requires(ModItems.ROASTED_GARLIC_CLOVE.get())
                 .unlockedBy("has_roasted_garlic_clove", hasItems(ModItems.ROASTED_GARLIC_CLOVE.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"garlic_bread"));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.TURNIP_MUTTON_SKEWER.get(),1)
+                .requires(ForgeTags.COOKED_MUTTON)
+                .requires(VDForgeTags.CROPS_TURNIP)
+                .requires(Items.STICK)
+                .unlockedBy("has_turnip", hasItems(ModItems.TURNIP.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"turnip_mutton_skewer"));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.STUFFED_ZUCCHINI_BOAT.get(),1)
+                .requires(ModItems.ROASTED_ZUCCHINI.get())
+                .requires(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(ForgeTags.COOKED_MUTTON),
+                        new Ingredient.TagValue(ForgeTags.COOKED_CHICKEN),
+                        new Ingredient.TagValue(ForgeTags.COOKED_BEEF)
+                )))
+                .requires(ForgeTags.MILK)
+                .unlockedBy("has_roasted_zucchini", hasItems(ModItems.ROASTED_ZUCCHINI.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"stuffed_zucchini_boat"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SWEET_POTATO_CUPCAKE.get(),3)
                 .requires(ModItems.SWEET_POTATO_DOUGH.get())
                 .requires(ForgeTags.EGGS)
                 .requires(ForgeTags.MILK)
                 .unlockedBy("has_sweet_potato_dough", hasItems(ModItems.SWEET_POTATO_DOUGH.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"sweet_potato_cupcakes"));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGETABLES_WRAP.get(),1)
+                .requires(ForgeTags.DOUGH)
+                .requires(ForgeTags.CROPS_ONION)
+                .requires(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(VDForgeTags.CROPS_BROCCOLI),
+                        new Ingredient.TagValue(ForgeTags.SALAD_INGREDIENTS)
+                )))
+                .requires(Ingredient.fromValues(Stream.of(
+                        new Ingredient.ItemValue(new ItemStack(ModItems.SMOKED_BELLPEPPER.get())),
+                        new Ingredient.ItemValue(new ItemStack(ModItems.ROASTED_ZUCCHINI.get())),
+                        new Ingredient.TagValue(Tags.Items.MUSHROOMS)
+                )))
+                .requires(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get())
+                .unlockedBy("has_rice", hasItems(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get()))
+                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"vegetable_wrap"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.ZUCCHINI_SANDWICH.get(),1)
                 .requires(ForgeTags.BREAD)
                 .requires(VDForgeTags.CROPS_ZUCCHINI)

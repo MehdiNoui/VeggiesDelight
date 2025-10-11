@@ -1,0 +1,57 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    [
+      {
+        "tag": "forge:raw_bacon"
+      },
+      {
+        "tag": "forge:raw_beef"
+      },
+      {
+        "tag": "forge:raw_chicken"
+      },
+      {
+        "tag": "forge:raw_mutton"
+      },
+      {
+        "tag": "forge:raw_pork"
+      }
+    ],
+    [
+      {
+        "tag": "forge:crops/bellpepper"
+      },
+      {
+        "tag": "forge:crops/carrot"
+      },
+      {
+        "tag": "forge:crops/onion"
+      },
+      {
+        "tag": "forge:crops/zucchini"
+      }
+    ]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "veggiesdelight:lasagna_pan"
+  }
+}

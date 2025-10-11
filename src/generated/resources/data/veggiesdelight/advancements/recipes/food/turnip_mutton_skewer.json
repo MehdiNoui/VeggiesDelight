@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "veggiesdelight:turnip_mutton_skewer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turnip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "veggiesdelight:turnip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_turnip",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "veggiesdelight:turnip_mutton_skewer"
+    ]
+  },
+  "sends_telemetry_event": false
+}

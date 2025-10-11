@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    [
+      {
+        "tag": "forge:crops/broccoli"
+      },
+      {
+        "tag": "forge:salad_ingredients"
+      }
+    ],
+    [
+      {
+        "item": "veggiesdelight:smoked_bellpepper"
+      },
+      {
+        "item": "veggiesdelight:roasted_zucchini"
+      },
+      {
+        "tag": "forge:mushrooms"
+      }
+    ],
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:vegetables_wrap"
+  }
+}

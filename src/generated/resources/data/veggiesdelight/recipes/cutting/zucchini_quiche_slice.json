@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:zucchini_quiche"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "veggiesdelight:zucchini_quiche_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

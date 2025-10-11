@@ -4,6 +4,7 @@
     "veggiesdelight:shakshouka",
     "veggiesdelight:broccoli_soup",
     "veggiesdelight:pasta_with_broccoli",
+    "veggiesdelight:steak_and_broccoli",
     "veggiesdelight:cauliflower_kuku",
     "veggiesdelight:cauliflower_soup",
     "veggiesdelight:dandelion_and_eggs",
@@ -14,6 +15,8 @@
     "veggiesdelight:potato_noodles",
     "veggiesdelight:turnip_beef_stew",
     "veggiesdelight:turnip_cake",
-    "veggiesdelight:stuffed_zucchinis"
+    "veggiesdelight:stuffed_zucchinis",
+    "veggiesdelight:lasagna_slice",
+    "veggiesdelight:rice_and_vegetables"
   ]
 }

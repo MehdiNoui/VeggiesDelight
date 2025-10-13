@@ -34,6 +34,7 @@ public class ModCompostablesDataMap extends DataMapProvider {
                 .add(ModItems.SWEET_POTATO.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.TURNIP.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.ZUCCHINI.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
+                .add(ModItems.MATURE_DANDELION.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.WILD_BELLPEPPERS.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.WILD_BROCCOLI.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.WILD_CAULIFLOWERS.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
@@ -41,22 +42,22 @@ public class ModCompostablesDataMap extends DataMapProvider {
                 .add(ModItems.WILD_SWEET_POTATOES.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.WILD_TURNIPS.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 .add(ModItems.WILD_ZUCCHINIS.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
-                .add(ModItems.MATURE_DANDELION.get().asItem().builtInRegistryHolder(), new Compostable(0.65F), false)
                 // 85% chance
                 .add(ModItems.BEETROOT_BROWNIE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
-                .add(ModItems.VEGAN_PIZZA_SLICE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
-                .add(ModItems.SWEET_POTATO_PIE_SLICE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
                 .add(ModItems.CARROT_CAKE_SLICE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
+                .add(ModItems.SWEET_POTATO_PIE_SLICE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
+                .add(ModItems.VEGAN_PIZZA_SLICE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
+                .add(ModItems.ZUCCHINI_QUICHE_SLICE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false) // Added missing item
                 .add(ModItems.POTATO_NOODLE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
-                .add(ModItems.CAULIFLOWER_PATTY.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
-                .add(ModItems.UNCOOKED_MHADJEB.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
-                .add(ModItems.SWEET_POTATO_DOUGH.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
+                .add(ModItems.RAW_VEGETARIAN_PATTY.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
                 .add(ModItems.SWEET_POTATO_CUPCAKE.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
+                .add(ModItems.SWEET_POTATO_DOUGH.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
+                .add(ModItems.UNCOOKED_MHADJEB.get().asItem().builtInRegistryHolder(), new Compostable(0.85F), false)
                 // 100% chance
-                .add(ModItems.VEGAN_PIZZA.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false)
-                .add(ModItems.SWEET_POTATO_PIE.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false)
                 .add(ModItems.BEETROOT_BROWNIE_TRAY.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false)
-                .add(ModItems.CARROT_CAKE.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false);
-
+                .add(ModItems.CARROT_CAKE.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false)
+                .add(ModItems.SWEET_POTATO_PIE.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false)
+                .add(ModItems.VEGAN_PIZZA.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false)
+                .add(ModItems.ZUCCHINI_QUICHE.get().asItem().builtInRegistryHolder(), new Compostable(1.0F), false); // Added missing item
     }
 }

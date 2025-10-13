@@ -30,9 +30,6 @@
     "veggiesdelight:cauliflower_floret": {
       "chance": 0.3
     },
-    "veggiesdelight:cauliflower_patty": {
-      "chance": 0.85
-    },
     "veggiesdelight:cauliflower_seeds": {
       "chance": 0.3
     },
@@ -49,6 +46,9 @@
       "chance": 0.65
     },
     "veggiesdelight:potato_noodle": {
+      "chance": 0.85
+    },
+    "veggiesdelight:raw_vegetarian_patty": {
       "chance": 0.85
     },
     "veggiesdelight:sweet_potato": {
@@ -104,6 +104,12 @@
     },
     "veggiesdelight:zucchini": {
       "chance": 0.65
+    },
+    "veggiesdelight:zucchini_quiche": {
+      "chance": 1.0
+    },
+    "veggiesdelight:zucchini_quiche_slice": {
+      "chance": 0.85
     },
     "veggiesdelight:zucchini_seeds": {
       "chance": 0.3

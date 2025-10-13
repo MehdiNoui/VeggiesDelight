@@ -6,7 +6,7 @@
       "item": "farmersdelight:pie_crust"
     },
     "a": {
-      "item": "minecraft:sugar"
+      "tag": "c:foods/milk"
     },
     "m": [
       {

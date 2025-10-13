@@ -113,14 +113,12 @@ public class ItemTags extends ItemTagsProvider {
         );
         tag(net.minecraft.tags.ItemTags.PIG_FOOD).add(
                 ModItems.BELLPEPPER.get(),
-                ModItems.BROCCOLI.get(),
                 ModItems.CAULIFLOWER.get(),
                 ModItems.CAULIFLOWER_FLORET.get(),
                 ModItems.SWEET_POTATO.get(),
                 ModItems.TURNIP.get(),
                 ModItems.ZUCCHINI.get(),
-                ModItems.ZUCCHINI_SLICE.get(),
-                ModItems.DANDELION_LEAF.get()
+                ModItems.ZUCCHINI_SLICE.get()
         );
         tag(net.minecraft.tags.ItemTags.RABBIT_FOOD).add(
                 ModItems.DANDELION_LEAF.get(),

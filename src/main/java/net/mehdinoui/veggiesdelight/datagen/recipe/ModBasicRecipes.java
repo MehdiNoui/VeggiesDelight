@@ -89,7 +89,7 @@ public class ModBasicRecipes {
                 .pattern("zzz")
                 .pattern("aOm")
                 .define('z', ModItems.ROASTED_ZUCCHINI.get())
-                .define('a', Items.SUGAR)
+                .define('a', CommonTags.FOODS_MILK)
                 .define('m', Ingredient.fromValues(Stream.of(
                         new Ingredient.TagValue(CommonTags.FOODS_COOKED_MUTTON),
                         new Ingredient.TagValue(CommonTags.FOODS_COOKED_CHICKEN),

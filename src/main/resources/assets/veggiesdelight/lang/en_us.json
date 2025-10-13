@@ -24,6 +24,7 @@
   "block.veggiesdelight.turnip_crate": "Turnip Crate",
   "block.veggiesdelight.zucchini_crate": "Zucchini Crate",
 
+  "block.veggiesdelight.mature_dandelion": "Mature Dandelion",
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_broccoli": "Wild Broccoli",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
@@ -31,7 +32,6 @@
   "block.veggiesdelight.wild_sweet_potatoes": "Wild Sweet Potatoes",
   "block.veggiesdelight.wild_turnips": "Wild Turnips",
   "block.veggiesdelight.wild_zucchinis": "Wild Zucchinis",
-  "block.veggiesdelight.mature_dandelion": "Mature Dandelion",
 
 
   "item.veggiesdelight.cacciatore": "Cacciatore",
@@ -94,21 +94,21 @@
   "block.veggiesdelight.zucchini_quiche": "Zucchini Quiche",
   "item.veggiesdelight.zucchini_quiche_slice": "Zucchini Quiche Slice",
 
-
   "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
   "block.veggiesdelight.beetroot_brownie_tray": "Beetroot Brownie Tray",
   "block.veggiesdelight.carrot_cake": "Carrot Cake",
   "item.veggiesdelight.carrot_cake_slice": "Carrot Cake Slice",
   "item.veggiesdelight.carrot_juice": "Carrot Juice",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
   "item.veggiesdelight.fish_and_chips": "Fish And Chips",
-  "item.veggiesdelight.roasted_vegetables": "Roasted Vegetables",
   "block.veggiesdelight.lasagna_pan": "Lasagna Pan",
   "item.veggiesdelight.lasagna_slice": "Lasagna Slice",
   "item.veggiesdelight.raw_vegetarian_patty": "Raw Vegetarian Patty",
-  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
-  "item.veggiesdelight.vegetarian_burger": "Vegetarian Burger",
+  "item.veggiesdelight.roasted_vegetables": "Roasted Vegetables",
   "item.veggiesdelight.rice_and_vegetables": "Rice And Vegetables",
   "item.veggiesdelight.vegetables_wrap": "Vegetables Wrap",
+  "item.veggiesdelight.vegetarian_burger": "Vegetarian Burger",
+
 
   "veggiesdelight.advancement.root": "Veggies Delight",
   "veggiesdelight.advancement.root.desc": "Go get your veggies!",

@@ -24,6 +24,7 @@
   "block.veggiesdelight.turnip_crate": "Ящик репы",
   "block.veggiesdelight.zucchini_crate": "Ящик цукини",
 
+  "block.veggiesdelight.mature_dandelion": "Спелый одуванчик",
   "block.veggiesdelight.wild_bellpeppers": "Дикий болгарский перец",
   "block.veggiesdelight.wild_broccoli": "Дикая брокколи",
   "block.veggiesdelight.wild_cauliflowers": "Дикая цветная капуста",
@@ -31,7 +32,6 @@
   "block.veggiesdelight.wild_sweet_potatoes": "Дикий батат",
   "block.veggiesdelight.wild_turnips": "Дикая репа",
   "block.veggiesdelight.wild_zucchinis": "Дикий цукини",
-  "block.veggiesdelight.mature_dandelion": "Спелый одуванчик",
 
 
   "item.veggiesdelight.cacciatore": "Каччиаторе",
@@ -48,15 +48,13 @@
   "item.veggiesdelight.broccoli_salad": "Салат из брокколи",
   "item.veggiesdelight.broccoli_soup": "Суп из брокколи",
   "item.veggiesdelight.pasta_with_broccoli": "Паста с брокколи",
+  "item.veggiesdelight.steak_and_broccoli": "Steak And Broccoli",
 
   "item.veggiesdelight.cauliflower_bread": "Хлеб из цветной капусты",
-  "item.veggiesdelight.cauliflower_burger": "Бургер с цветной капустой",
   "item.veggiesdelight.cauliflower_floret": "Соцветия цветной капусты",
   "item.veggiesdelight.cauliflower_kuku": "???",
-  "item.veggiesdelight.cauliflower_patty": "Котлета из цветной капусты",
   "item.veggiesdelight.cauliflower_soup": "Суп из цветной капусты",
-  "item.veggiesdelight.cooked_cauliflower_patty": "Котлета из вареной цветной капусты",
-  "item.veggiesdelight.fried_cauliflower_floret": "Жареные соцветия цветной капусты",
+  "item.veggiesdelight.roasted_cauliflower_floret": "Roasted Cauliflower Floret",
 
   "item.veggiesdelight.dandelion_and_eggs": "Зелень одуванчика с яичницей",
   "item.veggiesdelight.dandelion_juice": "Сок из одуванчика",
@@ -83,21 +81,33 @@
 
   "item.veggiesdelight.turnip_beef_stew": "Тушёная говядина с репой",
   "item.veggiesdelight.turnip_cake": "Пирог с репой",
+  "item.veggiesdelight.turnip_mutton_skewer": "Turnip Mutton Skewer",
   "item.veggiesdelight.turnip_salad": "Салат из репы",
   "item.veggiesdelight.turnip_water": "Вода с репой",
 
+  "item.veggiesdelight.coleslaw": "Coleslaw",
   "item.veggiesdelight.roasted_zucchini": "Жареный цукини",
+  "item.veggiesdelight.stuffed_zucchini_boat": "Stuffed Zucchini Boat",
+  "item.veggiesdelight.stuffed_zucchinis": "Фаршированый цукини",
   "item.veggiesdelight.zucchini_sandwich": "Сэндвич с цукини",
   "item.veggiesdelight.zucchini_slice": "Кусочек цукини",
-  "item.veggiesdelight.stuffed_zucchinis": "Фаршированый цукини",
+  "block.veggiesdelight.zucchini_quiche": "Zucchini Quiche",
+  "item.veggiesdelight.zucchini_quiche_slice": "Zucchini Quiche Slice",
 
   "item.veggiesdelight.beetroot_brownie": "Свекольный брауни",
   "block.veggiesdelight.beetroot_brownie_tray": "Лоток с брауни из свёклы",
   "block.veggiesdelight.carrot_cake": "Морковный пирог",
   "item.veggiesdelight.carrot_cake_slice": "Кусочек морковного пирога",
   "item.veggiesdelight.carrot_juice": "Морковный сок",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
   "item.veggiesdelight.fish_and_chips": "Рыба с жареным картофелем",
+  "block.veggiesdelight.lasagna_pan": "Lasagna Pan",
+  "item.veggiesdelight.lasagna_slice": "Lasagna Slice",
+  "item.veggiesdelight.raw_vegetarian_patty": "Raw Vegetarian Patty",
   "item.veggiesdelight.roasted_vegetables": "Запеченные овощи",
+  "item.veggiesdelight.rice_and_vegetables": "Rice And Vegetables",
+  "item.veggiesdelight.vegetables_wrap": "Vegetables Wrap",
+  "item.veggiesdelight.vegetarian_burger": "Vegetarian Burger",
 
 
   "veggiesdelight.advancement.root": "Овощной восторг",

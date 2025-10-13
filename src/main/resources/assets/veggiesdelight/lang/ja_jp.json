@@ -24,6 +24,7 @@
   "block.veggiesdelight.turnip_crate": "Turnip Crate",
   "block.veggiesdelight.zucchini_crate": "Zucchini Crate",
 
+  "block.veggiesdelight.mature_dandelion": "成熟したタンポポ",
   "block.veggiesdelight.wild_bellpeppers": "野生のパプリカ",
   "block.veggiesdelight.wild_broccoli": "Wild Broccoli",
   "block.veggiesdelight.wild_cauliflowers": "野生のカリフラワー",
@@ -31,7 +32,6 @@
   "block.veggiesdelight.wild_sweet_potatoes": "野生のさつまいも",
   "block.veggiesdelight.wild_turnips": "Wild Turnips",
   "block.veggiesdelight.wild_zucchinis": "Wild Zucchinis",
-  "block.veggiesdelight.mature_dandelion": "成熟したタンポポ",
 
 
   "item.veggiesdelight.cacciatore": "鶏肉の狩り人風煮込み",
@@ -48,15 +48,13 @@
   "item.veggiesdelight.broccoli_salad": "Broccoli Salad",
   "item.veggiesdelight.broccoli_soup": "Broccoli Soup",
   "item.veggiesdelight.pasta_with_broccoli": "Pasta With Broccoli",
+  "item.veggiesdelight.steak_and_broccoli": "Steak And Broccoli",
 
   "item.veggiesdelight.cauliflower_bread": "カリフラワーブレッド",
-  "item.veggiesdelight.cauliflower_burger": "カリフラワーバーガー",
   "item.veggiesdelight.cauliflower_floret": "カリフラワーの小房",
   "item.veggiesdelight.cauliflower_kuku": "Cauliflower Kuku",
-  "item.veggiesdelight.cauliflower_patty": "未調理のカリフラワーハンバーグ",
   "item.veggiesdelight.cauliflower_soup": "カリフラワースープ",
-  "item.veggiesdelight.cooked_cauliflower_patty": "カリフラワーハンバーグ",
-  "item.veggiesdelight.fried_cauliflower_floret": "揚げたカリフラワーの小房",
+  "item.veggiesdelight.roasted_cauliflower_floret": "Roasted Cauliflower Floret",
 
   "item.veggiesdelight.dandelion_and_eggs": "タンポポの葉と卵のサラダ",
   "item.veggiesdelight.dandelion_juice": "タンポポジュース",
@@ -83,21 +81,33 @@
 
   "item.veggiesdelight.turnip_beef_stew": "Turnip Beef Stew",
   "item.veggiesdelight.turnip_cake": "Turnip Cake",
+  "item.veggiesdelight.turnip_mutton_skewer": "Turnip Mutton Skewer",
   "item.veggiesdelight.turnip_salad": "Turnip Salad",
   "item.veggiesdelight.turnip_water": "Turnip Water",
 
+  "item.veggiesdelight.coleslaw": "Coleslaw",
   "item.veggiesdelight.roasted_zucchini": "Roasted Zucchini",
+  "item.veggiesdelight.stuffed_zucchini_boat": "Stuffed Zucchini Boat",
+  "item.veggiesdelight.stuffed_zucchinis": "Stuffed Zucchinis",
   "item.veggiesdelight.zucchini_sandwich": "Zucchini Sandwich",
   "item.veggiesdelight.zucchini_slice": "Zucchini Slice",
-  "item.veggiesdelight.stuffed_zucchinis": "Stuffed Zucchinis",
+  "block.veggiesdelight.zucchini_quiche": "Zucchini Quiche",
+  "item.veggiesdelight.zucchini_quiche_slice": "Zucchini Quiche Slice",
 
   "item.veggiesdelight.beetroot_brownie": "ビーツブラウニー",
   "block.veggiesdelight.beetroot_brownie_tray": "ビーツブラウニーの型焼き",
   "block.veggiesdelight.carrot_cake": "キャロットケーキ",
   "item.veggiesdelight.carrot_cake_slice": "キャロットケーキ",
   "item.veggiesdelight.carrot_juice": "ニンジンジュース",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
   "item.veggiesdelight.fish_and_chips": "フィッシュ＆チップス",
+  "block.veggiesdelight.lasagna_pan": "Lasagna Pan",
+  "item.veggiesdelight.lasagna_slice": "Lasagna Slice",
+  "item.veggiesdelight.raw_vegetarian_patty": "Raw Vegetarian Patty",
   "item.veggiesdelight.roasted_vegetables": "焼き野菜の盛り合わせ",
+  "item.veggiesdelight.rice_and_vegetables": "Rice And Vegetables",
+  "item.veggiesdelight.vegetables_wrap": "Vegetables Wrap",
+  "item.veggiesdelight.vegetarian_burger": "Vegetarian Burger",
 
 
   "veggiesdelight.advancement.root": "Veggies Delight",

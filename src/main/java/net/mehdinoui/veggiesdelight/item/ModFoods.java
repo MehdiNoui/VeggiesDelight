@@ -38,8 +38,8 @@ public class ModFoods {
     public static final FoodProperties SHAKSHOUKA = new FoodProperties.Builder().
             nutrition(10).saturationModifier(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT, MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties STUFFED_BELLPEPPERS = new FoodProperties.Builder().
-            nutrition(16).saturationModifier(0.8f)
+    public static final FoodProperties STUFFED_BELLPEPPER = new FoodProperties.Builder().
+            nutrition(8).saturationModifier(0.6f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, LONG_DURATION, 0), 1.0F).build();
     public static final FoodProperties UNCOOKED_MHADJEB = new FoodProperties.Builder().
             nutrition(6).saturationModifier(0.4F).build();
@@ -60,6 +60,10 @@ public class ModFoods {
     public static final FoodProperties PASTA_WITH_BROCCOLI = new FoodProperties.Builder().
             nutrition(12).saturationModifier(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties STEAK_AND_BROCCOLI = new FoodProperties.Builder().
+            nutrition(16).saturationModifier(0.9f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, LONG_DURATION, 0), 1.0F).build();
+
 
     // CAULIFLOWER RELATED FOOD
     public static final FoodProperties CAULIFLOWER_FLORET = new FoodProperties.Builder().
@@ -68,14 +72,10 @@ public class ModFoods {
             nutrition(2).saturationModifier(0.3f).fast().build();
     public static final FoodProperties CAULIFLOWER_BREAD = new FoodProperties.Builder().
             nutrition(6).saturationModifier(0.6f).build();
-    public static final FoodProperties CAULIFLOWER_PATTY = new FoodProperties.Builder().
-            nutrition(3).saturationModifier(0.3f).build();
-    public static final FoodProperties COOKED_CAULIFLOWER_PATTY = new FoodProperties.Builder().
-            nutrition(5).saturationModifier(0.6f).build();
     public static final FoodProperties CAULIFLOWER_SOUP = new FoodProperties.Builder().
             nutrition(10).saturationModifier(0.7f).fast()
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT, MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties CAULIFLOWER_BURGER = new FoodProperties.Builder().
+    public static final FoodProperties VEGETARIAN_BURGER = new FoodProperties.Builder().
             nutrition(12).saturationModifier(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, BRIEF_DURATION, 0), 1.0F).build();
     public static final FoodProperties CAULIFLOWER_KUKU = new FoodProperties.Builder().
@@ -114,7 +114,7 @@ public class ModFoods {
             nutrition(10).saturationModifier(0.6f)
             .effect(()-> new MobEffectInstance(ModEffects.COMFORT,BRIEF_DURATION,0),1.0f).build();
     public static final FoodProperties SWEET_POTATO_PIE_SLICE = new FoodProperties.Builder().
-            nutrition(5).saturationModifier(0.4f).fast().build();
+            nutrition(5).saturationModifier(0.4f).build();
     public static final FoodProperties POTATO_NOODLE = new FoodProperties.Builder().
             nutrition(4).saturationModifier(0.2f).build();
     public static final FoodProperties POTATO_NOODLES = new FoodProperties.Builder().
@@ -133,7 +133,7 @@ public class ModFoods {
             .build();
     public static final FoodProperties SWEET_POTATO_CUPCAKE = new FoodProperties.Builder().
             nutrition(6).saturationModifier(0.5f).fast()
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, BRIEF_DURATION, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 0), 1.0F)
             .build();
 
     // TURNIP RELATED FOOD
@@ -149,18 +149,30 @@ public class ModFoods {
             nutrition(6).saturationModifier(0.6f)
             .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 100, 0), 1.0F)
             .build();
+    public static final FoodProperties TURNIP_MUTTON_SKEWER = new FoodProperties.Builder().
+            nutrition(7).saturationModifier(0.5f).build();
+
 
     // ZUCCHINI RELATED FOOD
+    public static final FoodProperties COLESLAW = new FoodProperties.Builder().
+            nutrition(10).saturationModifier(0.6f)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT, MEDIUM_DURATION, 0), 1.0F)
+            .build();
     public static final FoodProperties ROASTED_ZUCCHINI = new FoodProperties.Builder().
             nutrition(4).saturationModifier(0.4f).build();
     public static final FoodProperties STUFFED_ZUCCHINIS = new FoodProperties.Builder().
             nutrition(16).saturationModifier(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, LONG_DURATION, 0), 1.0F)
             .build();
+    public static final FoodProperties STUFFED_ZUCCHINI_BOAT = new FoodProperties.Builder().
+            nutrition(10).saturationModifier(0.6f).build();
     public static final FoodProperties ZUCCHINI_SANDWICH = new FoodProperties.Builder().
             nutrition(10).saturationModifier(0.7f).build();
     public static final FoodProperties ZUCCHINI_SLICE = new FoodProperties.Builder().
             nutrition(2).saturationModifier(0.1f).build();
+    public static final FoodProperties ZUCCHINI_QUICHE_SLICE = new FoodProperties.Builder().
+            nutrition(6).saturationModifier(0.5f).build();
+
 
     // Drinks
     public static final FoodProperties CARROT_JUICE = new FoodProperties.Builder().
@@ -192,4 +204,15 @@ public class ModFoods {
     public static final FoodProperties ROASTED_VEGETABLES = new FoodProperties.Builder().
             nutrition(16).saturationModifier(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, LONG_DURATION, 0), 1.0F).build();
+    public static final FoodProperties LASAGNA_SLICE = new FoodProperties.Builder().
+            nutrition(12).saturationModifier(0.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, MEDIUM_DURATION, 0), 1.0F).build();
+    public static final FoodProperties RAW_VEGETARIAN_PATTY = new FoodProperties.Builder().
+            nutrition(3).saturationModifier(0.3f).build();
+    public static final FoodProperties COOKED_VEGETARIAN_PATTY = new FoodProperties.Builder().
+            nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties VEGETABLES_WRAP = new FoodProperties.Builder().
+            nutrition(12).saturationModifier(0.7f).build();
+    public static final FoodProperties RICE_AND_VEGETABLES = new FoodProperties.Builder().
+            nutrition(12).saturationModifier(0.6f).build();
 }

@@ -2,9 +2,7 @@ package net.mehdinoui.veggiesdelight.registry;
 
 import com.mojang.serialization.MapCodec;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
-import net.mehdinoui.veggiesdelight.block.custom.CarrotCakeBlock;
-import net.mehdinoui.veggiesdelight.block.custom.DandelionBlock;
-import net.mehdinoui.veggiesdelight.block.custom.PizzaBlock;
+import net.mehdinoui.veggiesdelight.block.custom.*;
 import net.mehdinoui.veggiesdelight.block.custom.crops.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffects;
@@ -65,6 +63,12 @@ public class ModBlocks {
             () -> new PieBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.BEETROOT_BROWNIE));
     public static final DeferredBlock<Block> CARROT_CAKE = BLOCKS.register("carrot_cake",
             () -> new CarrotCakeBlock(Block.Properties.ofFullCopy(Blocks.CAKE)));
+    public static final DeferredBlock<Block> STUFFED_BELLPEPPERS_BLOCK = BLOCKS.register("stuffed_bellpeppers_block",
+            () -> new StuffedBellpeppersBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.STUFFED_BELLPEPPER,true));
+    public static final DeferredBlock<Block> ZUCCHINI_QUICHE = BLOCKS.register("zucchini_quiche",
+            () -> new PieBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.ZUCCHINI_QUICHE_SLICE));
+    public static final DeferredBlock<Block> LASAGNA_PAN = BLOCKS.register("lasagna_pan",
+            () -> new LasagnaPanBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ModItems.LASAGNA_SLICE, true));
 
     // Wild Crops
     public static final DeferredBlock<Block> WILD_BELLPEPPERS = BLOCKS.register("wild_bellpeppers",

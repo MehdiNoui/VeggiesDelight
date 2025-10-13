@@ -19,7 +19,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CACCIATORE.get());
         basicItem(ModItems.SHAKSHOUKA.get());
         basicItem(ModItems.SMOKED_BELLPEPPER.get());
-        basicItem(ModItems.STUFFED_BELLPEPPERS.get());
+        basicItem(ModItems.STUFFED_BELLPEPPER.get());
+        basicItem(ModItems.STUFFED_BELLPEPPERS_BLOCK.get());
         basicItem(ModItems.UNCOOKED_MHADJEB.get());
         basicItem(ModItems.MHADJEB.get());
         basicItem(ModItems.VEGAN_PIZZA.get());
@@ -31,16 +32,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BROCCOLI_SALAD.get());
         basicItem(ModItems.BROCCOLI_SOUP.get());
         basicItem(ModItems.PASTA_WITH_BROCCOLI.get());
+        basicItem(ModItems.STEAK_AND_BROCCOLI.get());
 
         basicItem(ModItems.CAULIFLOWER.get());
         basicItem(ModItems.CAULIFLOWER_SEEDS.get());
         basicItem(ModItems.CAULIFLOWER_FLORET.get());
         basicItem(ModItems.ROASTED_CAULIFLOWER_FLORET.get());
         basicItem(ModItems.CAULIFLOWER_BREAD.get());
-        basicItem(ModItems.CAULIFLOWER_PATTY.get());
-        basicItem(ModItems.COOKED_CAULIFLOWER_PATTY.get());
         basicItem(ModItems.CAULIFLOWER_SOUP.get());
-        basicItem(ModItems.CAULIFLOWER_BURGER.get());
         basicItem(ModItems.CAULIFLOWER_KUKU.get());
 
         basicItem(ModItems.GARLIC.get());
@@ -71,13 +70,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TURNIP_CAKE.get());
         basicItem(ModItems.TURNIP_SALAD.get());
         basicItem(ModItems.TURNIP_WATER.get());
+        basicItem(ModItems.TURNIP_MUTTON_SKEWER.get());
 
         basicItem(ModItems.ZUCCHINI.get());
+        basicItem(ModItems.COLESLAW.get());
         basicItem(ModItems.ROASTED_ZUCCHINI.get());
         basicItem(ModItems.STUFFED_ZUCCHINIS.get());
+        basicItem(ModItems.STUFFED_ZUCCHINI_BOAT.get());
         basicItem(ModItems.ZUCCHINI_SANDWICH.get());
         basicItem(ModItems.ZUCCHINI_SLICE.get());
         basicItem(ModItems.ZUCCHINI_SEEDS.get());
+        basicItem(ModItems.ZUCCHINI_QUICHE.get());
+        basicItem(ModItems.ZUCCHINI_QUICHE_SLICE.get());
 
         basicItem(ModItems.BEETROOT_BROWNIE_TRAY.get());
         basicItem(ModItems.BEETROOT_BROWNIE.get());
@@ -89,6 +93,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DANDELION_AND_EGGS.get());
         basicItem(ModItems.CARROT_CAKE.get());
         basicItem(ModItems.CARROT_CAKE_SLICE.get());
+        basicItem(ModItems.LASAGNA_PAN.get());
+        basicItem(ModItems.LASAGNA_SLICE.get());
+        basicItem(ModItems.RAW_VEGETARIAN_PATTY.get());
+        basicItem(ModItems.COOKED_VEGETARIAN_PATTY.get());
+        basicItem(ModItems.VEGETARIAN_BURGER.get());
+        basicItem(ModItems.VEGETABLES_WRAP.get());
+        basicItem(ModItems.RICE_AND_VEGETABLES.get());
 
         // Blocks
         simpleBlockItem(ModBlocks.BELLPEPPER_CRATE.get());

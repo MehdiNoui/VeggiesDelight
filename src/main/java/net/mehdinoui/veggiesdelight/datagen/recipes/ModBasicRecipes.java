@@ -90,7 +90,7 @@ public class ModBasicRecipes {
                 .pattern("zzz")
                 .pattern("aOm")
                 .define('z', ModItems.ROASTED_ZUCCHINI.get())
-                .define('a', Items.SUGAR)
+                .define('a', ForgeTags.MILK)
                 .define('m', Ingredient.fromValues(Stream.of(
                                 new Ingredient.TagValue(ForgeTags.COOKED_MUTTON),
                                 new Ingredient.TagValue(ForgeTags.COOKED_CHICKEN),

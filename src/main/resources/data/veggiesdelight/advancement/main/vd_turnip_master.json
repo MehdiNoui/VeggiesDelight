@@ -31,10 +31,16 @@
     "C": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "items": ["veggiesdelight:turnip_salad"] }]
+        "items": [{ "items": ["veggiesdelight:turnip_mutton_skewer"] }]
       }
     },
     "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:turnip_salad"] }]
+      }
+    },
+    "E": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{ "items": ["veggiesdelight:turnip_water"] }]
@@ -42,7 +48,7 @@
     }
   },
   "requirements": [
-    ["A"], ["B"], ["C"], ["D"]
+    ["A"], ["B"], ["C"], ["D"], ["E"]
   ],
   "rewards": {
     "experience": 300

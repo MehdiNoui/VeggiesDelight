@@ -19,32 +19,38 @@
     "A": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "items": ["veggiesdelight:roasted_zucchini"] }]
+        "items": [{ "items": ["veggiesdelight:coleslaw"] }]
       }
     },
     "B": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "items": ["veggiesdelight:zucchini_sandwich"] }]
+        "items": [{ "items": ["veggiesdelight:stuffed_zucchini_boat"] }]
       }
     },
     "C": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "items": ["veggiesdelight:zucchini_slice"] }]
+        "items": [{ "items": ["veggiesdelight:stuffed_zucchinis"] }]
       }
     },
     "D": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "items": ["veggiesdelight:stuffed_zucchinis"] }]
+        "items": [{ "items": ["veggiesdelight:zucchini_sandwich"] }]
+      }
+    },
+    "E": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:zucchini_quiche"] }]
       }
     }
   },
   "requirements": [
-    ["A"], ["B"], ["C"], ["D"]
+    ["A"], ["B"], ["C"], ["D"], ["E"]
   ],
   "rewards": {
-    "experience": 250
+    "experience": 300
   }
 }

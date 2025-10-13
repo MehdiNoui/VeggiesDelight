@@ -19,76 +19,42 @@
     "A": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:roasted_garlic_clove"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:fermented_garlic_honey"] }]
       }
     },
     "B": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:garlic_chicken_stew"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:garlic_baked_cod"] }]
       }
     },
     "C": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:garlic_rice_with_cauliflower"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:garlic_bread"] }]
       }
     },
     "D": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:garlic_baked_cod"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:garlic_chicken_stew"] }]
       }
     },
     "E": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:fermented_garlic_honey"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:garlic_rice_with_cauliflower"] }]
       }
     },
     "F": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:garlic_bread"]
-          }
-        ]
-      }
-    },
-    "G": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:garlic_stuffed_mushrooms"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:garlic_stuffed_mushrooms"] }]
       }
     }
   },
   "requirements": [
-    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"], ["G"]
+    ["A"], ["B"], ["C"], ["D"], ["E"], ["F"]
   ],
   "rewards": {
     "experience": 300

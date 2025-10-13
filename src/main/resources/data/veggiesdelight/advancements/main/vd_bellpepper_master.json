@@ -19,76 +19,42 @@
     "A": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:cacciatore"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:cacciatore"] }]
       }
     },
     "B": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:shakshouka"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:chicken_fajitas_wrap"] }]
       }
     },
     "C": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:stuffed_bellpeppers"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:mhadjeb"] }]
       }
     },
     "D": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:mhadjeb"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:shakshouka"] }]
       }
     },
     "E": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:smoked_bellpepper"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:stuffed_bellpeppers_block"] }]
       }
     },
     "F": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:vegan_pizza"]
-          }
-        ]
-      }
-    },
-    "G": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["veggiesdelight:chicken_fajitas_wrap"]
-          }
-        ]
+        "items": [{ "items": ["veggiesdelight:vegan_pizza"] }]
       }
     }
   },
   "requirements": [
-    ["A"],["B"],["C"],["D"],["E"],["F"],["G"]
+    ["A"],["B"],["C"],["D"],["E"],["F"]
   ],
   "rewards": {
     "experience": 300

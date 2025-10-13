@@ -33,10 +33,16 @@
       "conditions": {
         "items": [{ "items": ["veggiesdelight:pasta_with_broccoli"] }]
       }
+    },
+    "D": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["veggiesdelight:steak_and_broccoli"] }]
+      }
     }
   },
   "requirements": [
-    ["A"], ["B"], ["C"]
+    ["A"], ["B"], ["C"], ["D"]
   ],
   "rewards": {
     "experience": 300

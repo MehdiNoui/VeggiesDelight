@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "m": [
+      {
+        "tag": "c:foods/cooked_mutton"
+      },
+      {
+        "tag": "c:foods/cooked_chicken"
+      },
+      {
+        "tag": "c:foods/cooked_beef"
+      },
+      {
+        "tag": "c:foods/cooked_pork"
+      },
+      {
+        "tag": "c:foods/cooked_bacon"
+      }
+    ],
+    "z": {
+      "item": "veggiesdelight:roasted_zucchini"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "aOm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:zucchini_quiche"
+  }
+}

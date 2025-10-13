@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sweet_dough": {
+    "has_sauce": {
       "conditions": {
         "items": [
           {
-            "items": "veggiesdelight:sweet_potato_dough"
+            "items": "farmersdelight:tomato_sauce"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "veggiesdelight:cooking/cooking/sweet_potato_pancakes"
+        "recipe": "veggiesdelight:cooking/cooking/lasagna_pan"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sweet_dough"
+      "has_sauce"
     ]
   ],
   "rewards": {
     "recipes": [
-      "veggiesdelight:cooking/cooking/sweet_potato_pancakes"
+      "veggiesdelight:cooking/cooking/lasagna_pan"
     ]
   }
 }

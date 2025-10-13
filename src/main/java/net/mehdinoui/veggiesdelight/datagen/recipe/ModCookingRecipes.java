@@ -12,7 +12,6 @@ import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.tag.CommonTags;
 import vectorwing.farmersdelight.data.builder.CookingPotRecipeBuilder;
 
-import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 import static vectorwing.farmersdelight.data.recipe.CookingRecipes.SMALL_EXP;
@@ -87,6 +86,29 @@ public class ModCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/mashed_potatoes")));
 
+        // Re-added LASAGNA_PAN (was missing in the latest provided code)
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.LASAGNA_PAN.get(), 1, SLOW_COOKING, LARGE_EXP, Items.BOWL)
+                .addIngredient(CommonTags.FOODS_DOUGH)
+                .addIngredient(CommonTags.FOODS_DOUGH)
+                .addIngredient(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
+                .addIngredient(CommonTags.FOODS_MILK)
+                .addIngredient(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(CommonTags.FOODS_RAW_BACON),
+                        new Ingredient.TagValue(CommonTags.FOODS_RAW_BEEF),
+                        new Ingredient.TagValue(CommonTags.FOODS_RAW_CHICKEN),
+                        new Ingredient.TagValue(CommonTags.FOODS_RAW_MUTTON),
+                        new Ingredient.TagValue(CommonTags.FOODS_RAW_PORK)
+                )))
+                .addIngredient(Ingredient.fromValues(Stream.of(
+                        new Ingredient.TagValue(VDCommonTags.CROPS_BELLPEPPER),
+                        new Ingredient.TagValue(Tags.Items.CROPS_CARROT),
+                        new Ingredient.TagValue(CommonTags.CROPS_ONION),
+                        new Ingredient.TagValue(VDCommonTags.CROPS_ZUCCHINI)
+                )))
+                .unlockedByItems("has_sauce",vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/lasagna_pan")));
+
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.PASTA_WITH_BROCCOLI.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(VDCommonTags.CROPS_BROCCOLI)
                 .addIngredient(CommonTags.FOODS_PASTA)
@@ -105,6 +127,16 @@ public class ModCookingRecipes {
                 .unlockedByItems("has_noodle",ModItems.POTATO_NOODLE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/potato_noodles")));
+
+         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.RICE_AND_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
+                .addIngredient(CommonTags.CROPS_RICE)
+                .addIngredient(Tags.Items.CROPS_CARROT)
+                .addIngredient(CommonTags.CROPS_ONION)
+                .addIngredient(VDCommonTags.CROPS_ZUCCHINI)
+                .addIngredient(Tags.Items.FOODS_VEGETABLE)
+                 .unlockedByItems("has_rice",  vectorwing.farmersdelight.common.registry.ModItems.RICE.get())
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/rice_and_vegetables")));
 
         CookingPotRecipeBuilder.cookingPotRecipe(ModItems.ROASTED_VEGETABLES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(Tags.Items.CROPS_POTATO)
@@ -130,7 +162,7 @@ public class ModCookingRecipes {
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/shakshouka")));
 
-        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.STUFFED_BELLPEPPERS.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItems.STUFFED_BELLPEPPERS_BLOCK.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
                 .addIngredient(ModItems.BELLPEPPER.get())
                 .addIngredient(ModItems.BELLPEPPER.get())
                 .addIngredient(ModItems.BELLPEPPER.get())
@@ -204,7 +236,7 @@ public class ModCookingRecipes {
                 .addIngredient(ModItems.SWEET_POTATO_DOUGH.get())
                 .addIngredient(Items.HONEY_BOTTLE)
                 .addIngredient(CommonTags.FOODS_MILK)
-                .unlockedByItems("has_sweet_dough",ModItems.SWEET_POTATO_PANCAKES.get())
+                .unlockedByItems("has_sweet_dough",ModItems.SWEET_POTATO_DOUGH.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(output,String.valueOf(ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cooking/sweet_potato_pancakes")));
     }

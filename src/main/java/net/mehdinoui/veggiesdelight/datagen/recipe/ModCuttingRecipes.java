@@ -72,6 +72,12 @@ public class ModCuttingRecipes {
                         Ingredient.of(ModItems.VEGAN_PIZZA.get()),
                         Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.VEGAN_PIZZA_SLICE.get(),4)
                 .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/vegan_pizza_slice"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.ZUCCHINI_QUICHE.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.ZUCCHINI_QUICHE_SLICE.get(),4)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/zucchini_quiche_slice"));
+
+
         // Vegetables
         CuttingBoardRecipeBuilder.cuttingRecipe(
                         Ingredient.of(ModItems.CAULIFLOWER.get()),

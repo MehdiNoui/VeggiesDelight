@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:roasted_zucchini"
+    },
+    [
+      {
+        "tag": "c:foods/cooked_mutton"
+      },
+      {
+        "tag": "c:foods/cooked_chicken"
+      },
+      {
+        "tag": "c:foods/cooked_beef"
+      }
+    ],
+    {
+      "tag": "c:foods/milk"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:stuffed_zucchini_boat"
+  }
+}

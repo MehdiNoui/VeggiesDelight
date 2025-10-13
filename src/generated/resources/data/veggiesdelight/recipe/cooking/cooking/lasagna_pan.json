@@ -1,0 +1,65 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:foods/raw_bacon"
+        },
+        {
+          "tag": "c:foods/raw_beef"
+        },
+        {
+          "tag": "c:foods/raw_chicken"
+        },
+        {
+          "tag": "c:foods/raw_mutton"
+        },
+        {
+          "tag": "c:foods/raw_pork"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:crops/bellpepper"
+        },
+        {
+          "tag": "c:crops/carrot"
+        },
+        {
+          "tag": "c:crops/onion"
+        },
+        {
+          "tag": "c:crops/zucchini"
+        }
+      ]
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "veggiesdelight:lasagna_pan"
+  }
+}

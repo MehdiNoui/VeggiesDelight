@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sweet_dough": {
+    "has_patty": {
       "conditions": {
         "items": [
           {
-            "items": "veggiesdelight:sweet_potato_dough"
+            "items": "veggiesdelight:cooked_vegetarian_patty"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "veggiesdelight:cooking/cooking/sweet_potato_pancakes"
+        "recipe": "veggiesdelight:vegetarian_burger"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sweet_dough"
+      "has_patty"
     ]
   ],
   "rewards": {
     "recipes": [
-      "veggiesdelight:cooking/cooking/sweet_potato_pancakes"
+      "veggiesdelight:vegetarian_burger"
     ]
   }
 }

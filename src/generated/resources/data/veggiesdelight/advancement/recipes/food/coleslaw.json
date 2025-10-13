@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_patty": {
+    "has_bowl": {
       "conditions": {
         "items": [
           {
-            "items": "veggiesdelight:cooked_vegetarian_patty"
+            "items": "minecraft:bowl"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "veggiesdelight:cauliflower_burger"
+        "recipe": "veggiesdelight:coleslaw"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_patty"
+      "has_bowl"
     ]
   ],
   "rewards": {
     "recipes": [
-      "veggiesdelight:cauliflower_burger"
+      "veggiesdelight:coleslaw"
     ]
   }
 }

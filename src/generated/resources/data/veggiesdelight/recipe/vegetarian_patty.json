@@ -2,9 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "veggiesdelight:cauliflower_floret"
-    },
+    [
+      {
+        "tag": "c:crops/cauliflower"
+      },
+      {
+        "tag": "c:crops/potato"
+      },
+      {
+        "tag": "c:crops/zucchini"
+      }
+    ],
     {
       "tag": "c:crops/grain"
     }

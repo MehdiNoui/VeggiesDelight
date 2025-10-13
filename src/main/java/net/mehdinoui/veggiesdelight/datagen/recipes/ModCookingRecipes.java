@@ -133,7 +133,7 @@ public class ModCookingRecipes {
                 .addIngredient(ForgeTags.CROPS_ONION)
                 .addIngredient(VDForgeTags.CROPS_ZUCCHINI)
                 .addIngredient(ForgeTags.VEGETABLES)
-                .unlockedByItems("has_rice",ModItems.ZUCCHINI.get())
+                .unlockedByItems("has_rice",vectorwing.farmersdelight.common.registry.ModItems.RICE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/rice_and_vegetables"));
 
@@ -235,7 +235,7 @@ public class ModCookingRecipes {
                 .addIngredient(ModItems.SWEET_POTATO_DOUGH.get())
                 .addIngredient(Items.HONEY_BOTTLE)
                 .addIngredient(ForgeTags.MILK)
-                .unlockedByItems("has_sweet_dough",ModItems.SWEET_POTATO_PANCAKES.get())
+                .unlockedByItems("has_sweet_dough",ModItems.SWEET_POTATO_DOUGH.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MISC)
                 .build(consumer,new ResourceLocation("veggiesdelight", "cooking/sweet_potato_pancakes"));
     }

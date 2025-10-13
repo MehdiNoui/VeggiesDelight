@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "a": {
+      "tag": "forge:cheese"
+    },
+    "m": [
+      {
+        "tag": "forge:cooked_mutton"
+      },
+      {
+        "tag": "forge:cooked_chicken"
+      },
+      {
+        "tag": "forge:cooked_beef"
+      },
+      {
+        "tag": "forge:cooked_pork"
+      },
+      {
+        "tag": "forge:cooked_bacon"
+      }
+    ],
+    "z": {
+      "item": "veggiesdelight:roasted_zucchini"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "aOm"
+  ],
+  "result": {
+    "item": "veggiesdelight:zucchini_quiche"
+  },
+  "show_notification": true
+}

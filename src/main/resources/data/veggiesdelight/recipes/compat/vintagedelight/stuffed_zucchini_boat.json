@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiesdelight:roasted_zucchini"
+    },
+    [
+      {
+        "tag": "forge:cooked_mutton"
+      },
+      {
+        "tag": "forge:cooked_chicken"
+      },
+      {
+        "tag": "forge:cooked_beef"
+      }
+    ],
+    {
+      "tag": "forge:cheese"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:stuffed_zucchini_boat"
+  }
+}

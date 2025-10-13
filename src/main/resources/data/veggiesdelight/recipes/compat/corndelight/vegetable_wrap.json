@@ -1,0 +1,43 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corn_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "corn_delight:tortilla"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    [
+      {
+        "tag": "forge:crops/broccoli"
+      },
+      {
+        "tag": "forge:salad_ingredients"
+      }
+    ],
+    [
+      {
+        "item": "veggiesdelight:smoked_bellpepper"
+      },
+      {
+        "item": "veggiesdelight:roasted_zucchini"
+      },
+      {
+        "tag": "forge:mushrooms"
+      }
+    ],
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "veggiesdelight:vegetables_wrap"
+  }
+}

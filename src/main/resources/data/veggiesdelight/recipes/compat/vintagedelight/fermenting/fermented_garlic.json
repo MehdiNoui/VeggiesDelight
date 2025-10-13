@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "type": "vintagedelight:fermenting",
+  "ingredients": [
+    { "item": "veggiesdelight:garlic_clove" },
+    { "item": "veggiesdelight:garlic_clove" },
+    { "item": "veggiesdelight:garlic_clove" },
+    { "item": "veggiesdelight:garlic_clove" },
+    { "item": "minecraft:honey_bottle"  }
+  ],
+  "output": {
+    "item": "veggiesdelight:fermented_garlic_honey",
+    "count": 1
+  },
+  "processingTime": 600
+}
+

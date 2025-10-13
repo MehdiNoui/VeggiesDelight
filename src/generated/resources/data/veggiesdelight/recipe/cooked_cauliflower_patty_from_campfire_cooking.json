@@ -4,10 +4,10 @@
   "cookingtime": 600,
   "experience": 0.35,
   "ingredient": {
-    "item": "veggiesdelight:cauliflower_patty"
+    "item": "veggiesdelight:raw_vegetarian_patty"
   },
   "result": {
     "count": 1,
-    "id": "veggiesdelight:cooked_cauliflower_patty"
+    "id": "veggiesdelight:cooked_vegetarian_patty"
   }
 }

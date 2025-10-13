@@ -6,11 +6,11 @@
       "item": "veggiesdelight:cauliflower_floret"
     },
     {
-      "tag": "c:eggs"
+      "tag": "c:crops/grain"
     }
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:cauliflower_patty"
+    "id": "veggiesdelight:raw_vegetarian_patty"
   }
 }

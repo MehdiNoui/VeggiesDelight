@@ -9,7 +9,7 @@
       "tag": "c:crops/cabbage"
     },
     {
-      "item": "veggiesdelight:cooked_cauliflower_patty"
+      "item": "veggiesdelight:cooked_vegetarian_patty"
     },
     {
       "tag": "c:crops/tomato"
@@ -17,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "veggiesdelight:cauliflower_burger"
+    "id": "veggiesdelight:vegetarian_burger"
   }
 }

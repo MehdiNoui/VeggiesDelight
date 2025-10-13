@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,servings=0": { "model": "veggiesdelight:block/stuffed_bellpeppers_leftover", "y": 0 },
+    "facing=south,servings=0": { "model": "veggiesdelight:block/stuffed_bellpeppers_leftover", "y": 180 },
+    "facing=west,servings=0": { "model": "veggiesdelight:block/stuffed_bellpeppers_leftover", "y": 180 },
+    "facing=east,servings=0": { "model": "veggiesdelight:block/stuffed_bellpeppers_leftover", "y": 0 },
+
+    "facing=north,servings=1": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage2", "y": 0 },
+    "facing=south,servings=1": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage2", "y": 180 },
+    "facing=west,servings=1": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage2", "y": 180 },
+    "facing=east,servings=1": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage2", "y": 0 },
+
+    "facing=north,servings=2": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage1", "y": 0 },
+    "facing=south,servings=2": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage1", "y": 180 },
+    "facing=west,servings=2": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage1", "y": 180 },
+    "facing=east,servings=2": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage1", "y": 0 },
+
+    "facing=north,servings=3": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage0", "y": 0 },
+    "facing=south,servings=3": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage0", "y": 180 },
+    "facing=west,servings=3": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage0", "y": 180 },
+    "facing=east,servings=3": { "model": "veggiesdelight:block/stuffed_bellpeppers_stage0", "y": 0 }
+  }
+}

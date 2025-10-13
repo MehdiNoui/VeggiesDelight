@@ -24,6 +24,7 @@
   "block.veggiesdelight.turnip_crate": "Turnip Crate",
   "block.veggiesdelight.zucchini_crate": "Zucchini Crate",
 
+  "block.veggiesdelight.mature_dandelion": "Mature Dandelion",
   "block.veggiesdelight.wild_bellpeppers": "Wild Bell Peppers",
   "block.veggiesdelight.wild_broccoli": "Wild Broccoli",
   "block.veggiesdelight.wild_cauliflowers": "Wild Cauliflowers",
@@ -31,7 +32,6 @@
   "block.veggiesdelight.wild_sweet_potatoes": "Wild Sweet Potatoes",
   "block.veggiesdelight.wild_turnips": "Wild Turnips",
   "block.veggiesdelight.wild_zucchinis": "Wild Zucchinis",
-  "block.veggiesdelight.mature_dandelion": "Mature Dandelion",
 
 
   "item.veggiesdelight.cacciatore": "Cacciatore",
@@ -39,7 +39,8 @@
   "item.veggiesdelight.mhadjeb": "Mhadjeb",
   "item.veggiesdelight.shakshouka": "Shakshouka",
   "item.veggiesdelight.smoked_bellpepper": "Smoked Bell Pepper",
-  "item.veggiesdelight.stuffed_bellpeppers": "Stuffed Bell Peppers",
+  "block.veggiesdelight.stuffed_bellpeppers_block": "Stuffed Bell Peppers",
+  "item.veggiesdelight.stuffed_bellpepper": "Stuffed Bell Pepper",
   "item.veggiesdelight.uncooked_mhadjeb": "Uncooked Mhadjeb",
   "block.veggiesdelight.vegan_pizza": "Vegan Pizza",
   "item.veggiesdelight.vegan_pizza_slice": "Vegan Pizza Slice",
@@ -47,14 +48,12 @@
   "item.veggiesdelight.broccoli_salad": "Broccoli Salad",
   "item.veggiesdelight.broccoli_soup": "Broccoli Soup",
   "item.veggiesdelight.pasta_with_broccoli": "Pasta With Broccoli",
+  "item.veggiesdelight.steak_and_broccoli": "Steak And Broccoli",
 
   "item.veggiesdelight.cauliflower_bread": "Cauliflower Bread",
-  "item.veggiesdelight.cauliflower_burger": "Cauliflower Burger",
   "item.veggiesdelight.cauliflower_floret": "Cauliflower Floret",
   "item.veggiesdelight.cauliflower_kuku": "Cauliflower Kuku",
-  "item.veggiesdelight.cauliflower_patty": "Cauliflower Patty",
   "item.veggiesdelight.cauliflower_soup": "Cauliflower Soup",
-  "item.veggiesdelight.cooked_cauliflower_patty": "Cooked Cauliflower Patty",
   "item.veggiesdelight.roasted_cauliflower_floret": "Roasted Cauliflower Floret",
 
   "item.veggiesdelight.dandelion_and_eggs": "Dandelion Greens And Eggs",
@@ -82,21 +81,33 @@
 
   "item.veggiesdelight.turnip_beef_stew": "Turnip Beef Stew",
   "item.veggiesdelight.turnip_cake": "Turnip Cake",
+  "item.veggiesdelight.turnip_mutton_skewer": "Turnip Mutton Skewer",
   "item.veggiesdelight.turnip_salad": "Turnip Salad",
   "item.veggiesdelight.turnip_water": "Turnip Water",
 
+  "item.veggiesdelight.coleslaw": "Coleslaw",
   "item.veggiesdelight.roasted_zucchini": "Roasted Zucchini",
+  "item.veggiesdelight.stuffed_zucchini_boat": "Stuffed Zucchini Boat",
+  "item.veggiesdelight.stuffed_zucchinis": "Stuffed Zucchinis",
   "item.veggiesdelight.zucchini_sandwich": "Zucchini Sandwich",
   "item.veggiesdelight.zucchini_slice": "Zucchini Slice",
-  "item.veggiesdelight.stuffed_zucchinis": "Stuffed Zucchinis",
+  "block.veggiesdelight.zucchini_quiche": "Zucchini Quiche",
+  "item.veggiesdelight.zucchini_quiche_slice": "Zucchini Quiche Slice",
 
   "item.veggiesdelight.beetroot_brownie": "Beetroot Brownie",
   "block.veggiesdelight.beetroot_brownie_tray": "Beetroot Brownie Tray",
   "block.veggiesdelight.carrot_cake": "Carrot Cake",
   "item.veggiesdelight.carrot_cake_slice": "Carrot Cake Slice",
   "item.veggiesdelight.carrot_juice": "Carrot Juice",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Cooked Vegetarian Patty",
   "item.veggiesdelight.fish_and_chips": "Fish And Chips",
+  "block.veggiesdelight.lasagna_pan": "Lasagna Pan",
+  "item.veggiesdelight.lasagna_slice": "Lasagna Slice",
+  "item.veggiesdelight.raw_vegetarian_patty": "Raw Vegetarian Patty",
   "item.veggiesdelight.roasted_vegetables": "Roasted Vegetables",
+  "item.veggiesdelight.rice_and_vegetables": "Rice And Vegetables",
+  "item.veggiesdelight.vegetables_wrap": "Vegetables Wrap",
+  "item.veggiesdelight.vegetarian_burger": "Vegetarian Burger",
 
 
   "veggiesdelight.advancement.root": "Veggies Delight",

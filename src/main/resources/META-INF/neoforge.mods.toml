@@ -1,31 +1,33 @@
-modLoader="javafml" #mandatory
-loaderVersion="${loader_version_range}" #mandatory
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
 license="${mod_license}"
-###########
-[[mods]] #mandatory
-modId="veggiesdelight"
-version="${file.jarVersion}"
-displayName="Veggies Delight"
-authors="${mod_authors}"
-description='''${mod_description}'''
-###########
-[[dependencies.veggiesdelight]] #optional
-    modId="neoforge" #mandatory
-    type="required" #mandatory
-    versionRange="[${neo_version},)" #mandatory
+logoFile="logo.png"
+
+[[mods]]
+    modId="veggiesdelight"
+    version="${mod_version}"
+    displayName="Veggies Delight"
+    authors="${mod_authors}"
+    description='''${mod_description}'''
+
+[[dependencies.veggiesdelight]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
     ordering="NONE"
     side="BOTH"
-###########
+
 [[dependencies.veggiesdelight]]
     modId="minecraft"
     type="required"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
-###########
+
 [[dependencies.veggiesdelight]]
-modId="farmersdelight"
-mandatory=true
-versionRange="[1.2.3,)"
-ordering="NONE"
-side="BOTH"
+    modId="farmersdelight"
+    type="required"
+    mandatory=true
+    versionRange="[1.2.3,)"
+    ordering="AFTER"
+    side="BOTH"

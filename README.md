@@ -1,25 +1,32 @@
+**📜About**
 
-Installation information
-=======
+Veggies Delight is an add-on for Farmer's Delight that introduces a variety of new vegetables and dishes to the game.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+**🌾Features**
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Adds 7 new vegetables:
+- Bell pepper, Broccoli, Cauliflower, Garlic, Sweet potato, Turnip and Zucchini.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Adds Dandelion Leaf (Foraging food).
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+Adds Depot Houses to village: a new structure where it serves as a storage area for various goods.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+As well as other stuff. Refer to my project on **CURSEFORGE** or **MODRINTH**.
+
+**Contributing :**
+
+We welcome contributions! If you'd like to contribute, please fork the repository and create a pull request. Be sure to follow the project's coding standards and provide detailed information on the changes you've made.
+
+**Bugs and Issues :**
+
+If you encounter any issues or have suggestions, please report them on the GitHub Issues page.
+
+**License :**
+
+This mod is licensed under the MIT License.
+
+**Credits :**
+
+Developer: Mehdi Noui.
+
+Special thanks to Farmer's Delight developers.

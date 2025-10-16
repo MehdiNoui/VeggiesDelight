@@ -33,12 +33,12 @@ repositories {
     }
     maven {
         name = "Cursemaven"
-        url "https://www.cursemaven.com"
+        url = "https://www.cursemaven.com"
         content {
             includeGroup "curse.maven"
         }
     }
-    maven { url "https://maven.ryanliptak.com/" }
+    maven { url = "https://maven.ryanliptak.com/" }
 }
 
 base {

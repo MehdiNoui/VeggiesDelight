@@ -14,6 +14,9 @@
       }
     ],
     {
+      "tag": "c:crops/onion"
+    },
+    {
       "tag": "c:crops/grain"
     }
   ],

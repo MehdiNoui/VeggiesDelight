@@ -298,6 +298,7 @@ public class ModBasicRecipes {
                         new Ingredient.TagValue(Tags.Items.CROPS_POTATO),
                         new Ingredient.TagValue(VDForgeTags.CROPS_ZUCCHINI)
                 )))
+                .requires(ForgeTags.CROPS_ONION)
                 .requires(ForgeTags.GRAIN)
                 .unlockedBy("has_potato", hasItems(Items.POTATO))
                 .unlockedBy("has_cauliflower", hasItems(ModItems.CAULIFLOWER.get()))

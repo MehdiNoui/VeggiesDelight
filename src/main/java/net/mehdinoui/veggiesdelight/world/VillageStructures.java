@@ -25,7 +25,7 @@ public class VillageStructures
         }
         Registry<StructureTemplatePool> templatePools = event.getServer().registryAccess().registry(Registries.TEMPLATE_POOL).get();
         Registry<StructureProcessorList> processorLists = event.getServer().registryAccess().registry(Registries.PROCESSOR_LIST).get();
-
+        // -- Villages
         // Vanilla Villages
         if (Configuration.GENERATE_VANILLA_VS.get()) {
             // Plains Village
@@ -66,12 +66,12 @@ public class VillageStructures
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/adobe/adobe_houses_layer_1_back"),
-                        "veggiesdelight:village/houses/adobe_depot_house", 40);
+                        "veggiesdelight:village/houses/adobe_depot_house", 4);
                 // Coconut Village
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/coconut/houses"),
-                        "veggiesdelight:village/houses/coconut_depot_house", 3);
+                        "veggiesdelight:village/houses/coconut_depot_house", 4);
                 // Cypress Village
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
@@ -92,6 +92,16 @@ public class VillageStructures
                         templatePools, processorLists,
                         new ResourceLocation("windswept:village/frozen/houses"),
                         "veggiesdelight:village/houses/frozen_depot_house", 4);
+            }
+        }
+        // -- Others
+        // Explorify Compat
+        if (ModList.get().isLoaded("explorify")) {
+            if (Configuration.GENERATE_COMPAT_DARK_FOREST_SETTLEMENT_VS.get()) {
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("explorify:dark_forest_settlement/house"),
+                        "veggiesdelight:dark_forest_settlement/house/dark_forest_settlement_depot_house", 4);
             }
         }
     }

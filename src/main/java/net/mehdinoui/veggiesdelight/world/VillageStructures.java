@@ -84,6 +84,16 @@ public class VillageStructures
                         "veggiesdelight:village/houses/wisteria_depot_house", 4);
             }
         }
+        // Windswept Villages Compat
+        if (ModList.get().isLoaded("windswept")) {
+            if (Configuration.GENERATE_COMPAT_WINDSWEPT_VS.get()) {
+                // Frozen Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("windswept:village/frozen/houses"),
+                        "veggiesdelight:village/houses/frozen_depot_house", 4);
+            }
+        }
     }
 
     public static void addBuildingToPool(Registry<StructureTemplatePool> templatePoolRegistry, Registry<StructureProcessorList> processorListRegistry, ResourceLocation poolRL, String nbtPieceRL, int weight) {

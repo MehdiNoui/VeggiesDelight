@@ -56,7 +56,7 @@ public class VillageStructures
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("atmospheric:village/scrubland/houses"),
-                        "veggiesdelight:village/houses/scrubland_depot_house", 4);
+                        "veggiesdelight:compat/atmospheric/village/houses/scrubland_depot_house", 4);
             }
         }
         // Nature's Spirit Villages Compat
@@ -66,22 +66,22 @@ public class VillageStructures
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/adobe/adobe_houses_layer_1_back"),
-                        "veggiesdelight:village/houses/adobe_depot_house", 4);
+                        "veggiesdelight:compat/natures_spirit/village/houses/adobe_depot_house", 4);
                 // Coconut Village
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/coconut/houses"),
-                        "veggiesdelight:village/houses/coconut_depot_house", 4);
+                        "veggiesdelight:compat/natures_spirit/village/houses/coconut_depot_house", 4);
                 // Cypress Village
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/cypress/houses"),
-                        "veggiesdelight:village/houses/cypress_depot_house", 4);
+                        "veggiesdelight:compat/natures_spirit/village/houses/cypress_depot_house", 4);
                 // Wisteria Village
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/wisteria/houses"),
-                        "veggiesdelight:village/houses/wisteria_depot_house", 4);
+                        "veggiesdelight:compat/natures_spirit/village/houses/wisteria_depot_house", 4);
             }
         }
         // Windswept Villages Compat
@@ -91,7 +91,7 @@ public class VillageStructures
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("windswept:village/frozen/houses"),
-                        "veggiesdelight:village/houses/frozen_depot_house", 4);
+                        "veggiesdelight:compat/windswept/village/houses/frozen_depot_house", 4);
             }
         }
         // -- Others
@@ -101,7 +101,7 @@ public class VillageStructures
                 VillageStructures.addBuildingToPool(
                         templatePools, processorLists,
                         new ResourceLocation("explorify:dark_forest_settlement/house"),
-                        "veggiesdelight:dark_forest_settlement/house/dark_forest_settlement_depot_house", 4);
+                        "veggiesdelight:compat/explorify/village/houses/settlement_depot_house", 3);
             }
         }
     }

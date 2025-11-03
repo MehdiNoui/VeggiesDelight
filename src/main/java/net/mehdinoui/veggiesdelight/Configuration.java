@@ -50,7 +50,7 @@ public class Configuration {
                 .comment("Enable generation of Veggies Delight structures in Nature's Spirit villages")
                 .define("generateNatureSpiritVillageStructures", true);
             GENERATE_COMPAT_REPURPOSED_STRUCTURES_VS = BUILDER
-                .comment("Enable generation of Veggies Delight structures in Repurposed villages")
+                .comment("Enable generation of Veggies Delight structures in Repurposed Structures villages")
                 .define("generateRepurposedStructuresVillageStructures", true);
 
             GENERATE_COMPAT_WINDSWEPT_VS = BUILDER

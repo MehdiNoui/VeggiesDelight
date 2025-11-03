@@ -39,7 +39,7 @@ public class VillageStructures
             // Taiga Village
             VillageStructures.addBuildingToPool(templatePools, processorLists,
                     new ResourceLocation("minecraft:village/taiga/houses"),
-                    "veggiesdelight:village/houses/taiga_depot_house", 5);
+                    "veggiesdelight:village/houses/taiga_depot_house", 4);
             // Savanna Village
             VillageStructures.addBuildingToPool(templatePools, processorLists,
                     new ResourceLocation("minecraft:village/savanna/houses"),
@@ -82,6 +82,66 @@ public class VillageStructures
                         templatePools, processorLists,
                         new ResourceLocation("natures_spirit:village/wisteria/houses"),
                         "veggiesdelight:compat/natures_spirit/village/houses/wisteria_depot_house", 4);
+            }
+        }
+        // Repurposed Structures Villages Compat
+        if (ModList.get().isLoaded("repurposed_structures")) {
+            if (Configuration.GENERATE_COMPAT_REPURPOSED_STRUCTURES_VS.get()) {
+                // Badlands Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/badlands/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/badlands_depot_house", 4);
+                // Bamboo Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/bamboo/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/bamboo_depot_house", 4);
+                // Birch Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/birch/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/birch_depot_house", 5);
+                // Cherry Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/cherry/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/cherry_depot_house", 4);
+                // Dark Forest Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/dark_forest/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/dark_forest_depot_house", 5);
+                // Giant Taiga Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/giant_taiga/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/giant_taiga_depot_house", 5);
+                // Jungle Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/jungle/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/jungle_depot_house", 4);
+                // Mountain Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/mountain/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/mountain_depot_house", 4);
+                // Mushroom Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/mushroom/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/mushroom_depot_house", 4);
+                // Oak Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/oak/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/oak_depot_house", 5);
+                // Swamp Village
+                VillageStructures.addBuildingToPool(
+                        templatePools, processorLists,
+                        new ResourceLocation("repurposed_structures:villages/swamp/houses"),
+                        "veggiesdelight:compat/repurposed_structures/village/houses/swamp_depot_house", 4);
             }
         }
         // Windswept Villages Compat

@@ -7,7 +7,7 @@
 		"top": "veggiesdelight:block/carrot_cake_top",
 		"particle": "veggiesdelight:block/carrot_cake_side",
 		"side": "veggiesdelight:block/carrot_cake_side",
-		"inside": "veggiesdelight:block/carrot_cake_inner"
+		"inside": "veggiesdelight:block/carrot_cake_top"
 	},
 	"elements": [
 		{

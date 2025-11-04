@@ -5,7 +5,7 @@
     "1": "veggiesdelight:block/beetroot_brownie_side",
     "2": "veggiesdelight:block/beetroot_brownie_inner",
     "3": "veggiesdelight:block/beetroot_brownie_top",
-    "particle": "veggiesdelight:block/beetroot_brownie_inner"
+    "particle": "veggiesdelight:block/beetroot_brownie_top"
   },
   "elements": [
     {

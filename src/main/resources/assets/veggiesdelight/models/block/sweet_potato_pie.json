@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "veggiesdelight:block/pie_bottom",
-		"1": "veggiesdelight:block/pie_side",
+		"0": "farmersdelight:block/pie_bottom",
+		"1": "farmersdelight:block/pie_side",
 		"3": "veggiesdelight:block/sweet_potato_pie_top",
 		"particle": "veggiesdelight:block/sweet_potato_pie_top"
 	},

@@ -7,7 +7,7 @@
 		"3": "veggiesdelight:block/lasagna_pan_top",
 		"4": "veggiesdelight:block/lasagna_pan_sides",
 		"5": "farmersdelight:block/tray_top",
-		"particle": "farmersdelight:block/tray_bottom"
+		"particle": "veggiesdelight:block/lasagna_block"
 	},
 	"elements": [
 		{

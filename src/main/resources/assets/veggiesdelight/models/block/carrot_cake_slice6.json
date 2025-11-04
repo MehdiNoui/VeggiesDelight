@@ -6,7 +6,7 @@
     "bottom": "veggiesdelight:block/carrot_cake_bottom",
     "top": "veggiesdelight:block/carrot_cake_top",
     "side": "veggiesdelight:block/carrot_cake_side",
-    "inside": "veggiesdelight:block/carrot_cake_inner"
+    "inside": "veggiesdelight:block/carrot_cake_top"
   },
   "elements": [
     {   "from": [ 13, 0, 1 ],

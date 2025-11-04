@@ -1,0 +1,145 @@
+{
+  "creativetab.veggiesdelight_tab": "Көкөніс қуанышы",
+
+  "item.veggiesdelight.bellpepper": "Тәтті бұрыш",
+  "item.veggiesdelight.broccoli": "Брокколи",
+  "item.veggiesdelight.cauliflower": "Түсті орамжапырақ",
+  "item.veggiesdelight.dandelion_leaf": "Бақбақ жапырағы",
+  "item.veggiesdelight.garlic": "Сарымсақ",
+  "item.veggiesdelight.sweet_potato": "Тәтті картоп",
+  "item.veggiesdelight.turnip": "Шалқан",
+  "item.veggiesdelight.zucchini": "Кәді",
+
+  "item.veggiesdelight.bellpepper_seeds": "Тәтті бұрыш дәні",
+  "item.veggiesdelight.broccoli_seeds": "Брокколи дәні",
+  "item.veggiesdelight.cauliflower_seeds": "Түсті орамжапырақ дәні",
+  "item.veggiesdelight.turnip_seeds": "Шалқан дәні",
+  "item.veggiesdelight.zucchini_seeds": "Кәді дәні",
+
+  "block.veggiesdelight.bellpepper_crate": "Тәтті бұрыш жәшігі",
+  "block.veggiesdelight.broccoli_crate": "Брокколи жәшігі",
+  "block.veggiesdelight.cauliflower_crate": "Түсті орамжапырақ жәшігі",
+  "block.veggiesdelight.garlic_crate": "Сарымсақ жәшігі",
+  "block.veggiesdelight.sweet_potato_crate": "Тәтті картоп жәшігі",
+  "block.veggiesdelight.turnip_crate": "Шалқан жәшігі",
+  "block.veggiesdelight.zucchini_crate": "Кәді жәшігі",
+
+  "block.veggiesdelight.mature_dandelion": "Піскен бақбақ",
+  "block.veggiesdelight.wild_bellpeppers": "Жабайы тәтті бұрыш",
+  "block.veggiesdelight.wild_broccoli": "Жабайы брокколи",
+  "block.veggiesdelight.wild_cauliflowers": "Жабайы түсті орамжапырақ",
+  "block.veggiesdelight.wild_garlic": "Жабайы сарымсақ",
+  "block.veggiesdelight.wild_sweet_potatoes": "Жабайы тәтті картоп",
+  "block.veggiesdelight.wild_turnips": "Жабайы шалқан",
+  "block.veggiesdelight.wild_zucchinis": "Жабайы кәді",
+
+
+  "item.veggiesdelight.cacciatore": "Каччаторе",
+  "item.veggiesdelight.chicken_fajitas_wrap": "Тауық фахитасы орамасы",
+  "item.veggiesdelight.mhadjeb": "Махаджеб",
+  "item.veggiesdelight.shakshouka": "Шакшука",
+  "item.veggiesdelight.smoked_bellpepper": "Сүрленген тәтті бұрыш",
+  "block.veggiesdelight.stuffed_bellpeppers_block": "Толтырылған тәтті бұрыш",
+  "item.veggiesdelight.stuffed_bellpepper": "Толтырылған тәтті бұрыш",
+  "item.veggiesdelight.uncooked_mhadjeb": "Піспеген махаджеб",
+  "block.veggiesdelight.vegan_pizza": "Вегандық пицца",
+  "item.veggiesdelight.vegan_pizza_slice": "Вегандық пицца тілімі",
+
+  "item.veggiesdelight.broccoli_salad": "Брокколи салат",
+  "item.veggiesdelight.broccoli_soup": "Брокколи сорпа",
+  "item.veggiesdelight.pasta_with_broccoli": "Брокколимен кеспе",
+  "item.veggiesdelight.steak_and_broccoli": "Стейк пен брокколи",
+
+  "item.veggiesdelight.cauliflower_bread": "Түсті орамжапырақ нан",
+  "item.veggiesdelight.cauliflower_floret": "Түсті орамжапырақ гүлі",
+  "item.veggiesdelight.cauliflower_kuku": "Түсті орамжапырақ куку",
+  "item.veggiesdelight.cauliflower_soup": "Түсті орамжапырақ сорпа",
+  "item.veggiesdelight.roasted_cauliflower_floret": "Қуырылған түсті орамжапырақ гүлі",
+  
+  "item.veggiesdelight.dandelion_and_eggs": "Бақбақ пен жұмыртқа",
+  "item.veggiesdelight.dandelion_juice": "Бақбақ шырыны",
+
+  "item.veggiesdelight.cesar_salad": "Цезарь салаты",
+  "item.veggiesdelight.fermented_garlic_honey": "Ашытылған сарымсақты бал",
+  "item.veggiesdelight.garlic_baked_cod": "Сарымсақпен піскен сетінек",
+  "item.veggiesdelight.garlic_bread": "Сарымсақты нан",
+  "item.veggiesdelight.garlic_chicken_stew": "Сарымсақты тауық бұқтырмасы",
+  "item.veggiesdelight.garlic_clove": "Сарымсақ түйірі",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "Түсті орамжапырақпен сарымсақты күріш",
+  "item.veggiesdelight.garlic_stuffed_mushrooms": "Сарымсақпен толтырылған саңырауқұлақтар",
+  "item.veggiesdelight.roasted_garlic_clove": "Қуырылған сарымсақ түйірі",
+
+  "item.veggiesdelight.baked_sweet_potato": "Піскен тәтті картоп",
+  "item.veggiesdelight.mashed_potatoes": "Картоп пюресі",
+  "item.veggiesdelight.potato_noodle": "Картоп кеспесі",
+  "item.veggiesdelight.potato_noodles": "Картоп кеспелері",
+  "item.veggiesdelight.sweet_potato_cupcake": "Тәтті картоп кексі",
+  "item.veggiesdelight.sweet_potato_dough": "Тәтті картоп қамыры",
+  "item.veggiesdelight.sweet_potato_pancakes": "Тәтті картоп құймақтары",
+  "block.veggiesdelight.sweet_potato_pie": "Тәтті картоп қаусырмасы",
+  "item.veggiesdelight.sweet_potato_pie_slice": "Тәтті картоп қаусырма тілімі",
+
+  "item.veggiesdelight.turnip_beef_stew": "Шалқанды сиыр еті бұқтырмасы",
+  "item.veggiesdelight.turnip_cake": "Шалқан торты",
+  "item.veggiesdelight.turnip_mutton_skewer": "Шалқанды қой еті кәуабы",
+  "item.veggiesdelight.turnip_salad": "Шалқан салаты",
+  "item.veggiesdelight.turnip_water": "Шалқан суы",
+
+  "item.veggiesdelight.coleslaw": "Орамжапырақ салаты",
+  "item.veggiesdelight.roasted_zucchini": "Қуырылған кәді",
+  "item.veggiesdelight.stuffed_zucchini_boat": "Толтырылған кәді",
+  "item.veggiesdelight.stuffed_zucchinis": "Толтырылған кәділер",
+  "item.veggiesdelight.zucchini_sandwich": "Кәді сэндвичі",
+  "item.veggiesdelight.zucchini_slice": "Кәді тілімі",
+  "block.veggiesdelight.zucchini_quiche": "Кәді киші",
+  "item.veggiesdelight.zucchini_quiche_slice": "Кәді киш тілімі",
+
+  "item.veggiesdelight.beetroot_brownie": "Қызылша браунисі",
+  "block.veggiesdelight.beetroot_brownie_tray": "Қызылша браунисі науасы",
+  "block.veggiesdelight.carrot_cake": "Сәбіз торты",
+  "item.veggiesdelight.carrot_cake_slice": "Сәбіз торт тілімі",
+  "item.veggiesdelight.carrot_juice": "Сәбіз шырыны",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Піскен вегетариандық котлет",
+  "item.veggiesdelight.fish_and_chips": "Балық пен картоп",
+  "block.veggiesdelight.lasagna_pan": "Лазанья табасы",
+  "item.veggiesdelight.lasagna_slice": "Лазанья тілімі",
+  "item.veggiesdelight.raw_vegetarian_patty": "Шикі вегетариандық котлет",
+  "item.veggiesdelight.roasted_vegetables": "Қуырылған көкөністер",
+  "item.veggiesdelight.rice_and_vegetables": "Күріш пен көкөністер",
+  "item.veggiesdelight.vegetables_wrap": "Көкөніс орамасы",
+  "item.veggiesdelight.vegetarian_burger": "Вегетариандық бургер",
+
+
+  "veggiesdelight.advancement.root": "Көкөніс қуанышы",
+  "veggiesdelight.advancement.root.desc": "Барып көкөністеріңді жина!",
+
+  "veggiesdelight.advancement.r_first_veggie": "Салтанатты салат",
+  "veggiesdelight.advancement.r_first_veggie.desc": "Алғашқы көкөнісіңді жина",
+
+  "veggiesdelight.advancement.r_fruit_veggie": "Мынау жеміс пе?",
+  "veggiesdelight.advancement.r_fruit_veggie.desc": "Арамызда қасқыр бар",
+
+  "veggiesdelight.advancement.r_all_veggies": "Барлығын жина",
+  "veggiesdelight.advancement.r_all_veggies.desc": "Барлық жаңа көкөністерді жинап шық",
+
+  "veggiesdelight.advancement.vd_bellpepper_master": "90° Бұрыш",
+  "veggiesdelight.advancement.vd_bellpepper_master.desc": "Тәтті бұрыштан жасалатын барлық тағамды дайында",
+
+  "veggiesdelight.advancement.vd_broccoli_master": "Салауатты Өмір Салты",
+  "veggiesdelight.advancement.vd_broccoli_master.desc": "Брокколиден жасалатын барлық тағамды дайында",
+
+  "veggiesdelight.advancement.vd_cauliflower_master": "Қырыққабаттандырылмағандықтарыңыздан",
+  "veggiesdelight.advancement.vd_cauliflower_master.desc": "Түсті орамжапырақтан жасалатын барлық тағамды дайында",
+
+  "veggiesdelight.advancement.vd_garlic_master": "Сарымсақ иісі",
+  "veggiesdelight.advancement.vd_garlic_master.desc": "Сарымсақтан жасалатын барлық тағамды дайында",
+
+  "veggiesdelight.advancement.vd_sweet_potato_master": "Тәтті жеңіс",
+  "veggiesdelight.advancement.vd_sweet_potato_master.desc": "Тәтті картоптан жасалатын барлық тағамды дайында",
+
+  "veggiesdelight.advancement.vd_turnip_master": "Ертегідегі шалқан",
+  "veggiesdelight.advancement.vd_turnip_master.desc": "Шалқаннан жасалатын барлық тағамды дайында",
+
+  "veggiesdelight.advancement.vd_zucchini_master": "Кәдімгідей кәді",
+  "veggiesdelight.advancement.vd_zucchini_master.desc": "Кәдіден жасалатын барлық тағамды дайында"
+}

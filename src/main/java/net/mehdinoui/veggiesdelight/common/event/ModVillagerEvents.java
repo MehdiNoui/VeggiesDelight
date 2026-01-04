@@ -5,20 +5,70 @@ import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.common.registry.ModItems;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.world.entity.npc.Villager;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.BasicItemListing;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import net.neoforged.neoforge.event.village.WandererTradesEvent;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableSet;
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @EventBusSubscriber(modid = VeggiesDelight.MOD_ID)
 public class ModVillagerEvents {
+    @SubscribeEvent
+    public static <Map> void onCommonSetup(FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            // Villager Wanted Items
+            Set<Item> wantedItems = new HashSet<>(Villager.WANTED_ITEMS);
+            wantedItems.addAll(List.of(
+                    ModItems.CAULIFLOWER_BREAD.get(),
+                    ModItems.BELLPEPPER.get(),
+                    ModItems.BELLPEPPER_SEEDS.get(),
+                    ModItems.BROCCOLI.get(),
+                    ModItems.BROCCOLI_SEEDS.get(),
+                    ModItems.CAULIFLOWER.get(),
+                    ModItems.CAULIFLOWER_SEEDS.get(),
+                    ModItems.GARLIC.get(),
+                    ModItems.GARLIC_CLOVE.get(),
+                    ModItems.SWEET_POTATO.get(),
+                    ModItems.TURNIP.get(),
+                    ModItems.TURNIP_SEEDS.get(),
+                    ModItems.ZUCCHINI.get(),
+                    ModItems.ZUCCHINI_SLICE.get()
+            ));
+            Villager.WANTED_ITEMS = ImmutableSet.copyOf(wantedItems);
+
+            // Food Points
+            HashMap<Item, Integer> newFoodPoints = new HashMap<>();
+            // Bread equivalents get 4 points
+            newFoodPoints.put(ModItems.CAULIFLOWER_BREAD.get(), 4);
+            // Raw veggies get 1 point
+            newFoodPoints.put(ModItems.BELLPEPPER.get(), 1);
+            newFoodPoints.put(ModItems.BROCCOLI.get(), 1);
+            newFoodPoints.put(ModItems.CAULIFLOWER.get(), 1);
+            newFoodPoints.put(ModItems.GARLIC.get(), 1);
+            newFoodPoints.put(ModItems.GARLIC_CLOVE.get(), 1);
+            newFoodPoints.put(ModItems.SWEET_POTATO.get(), 1);
+            newFoodPoints.put(ModItems.TURNIP.get(), 1);
+            newFoodPoints.put(ModItems.ZUCCHINI.get(), 1);
+            newFoodPoints.put(ModItems.ZUCCHINI_SLICE.get(), 1);
+            newFoodPoints.putAll(Villager.FOOD_POINTS);
+            Villager.FOOD_POINTS = ImmutableMap.copyOf(newFoodPoints);
+        });
+    }
+
     @SubscribeEvent
     public static void onVillagerTrades(VillagerTradesEvent event) {
         if (Configuration.ENABLE_VILLAGER_TRADES.get()) {

@@ -1,0 +1,145 @@
+{
+  "creativetab.veggiesdelight_tab": "Veggies Delight",
+
+  "item.veggiesdelight.bellpepper": "Paprika",
+  "item.veggiesdelight.broccoli": "Brokkoli",
+  "item.veggiesdelight.cauliflower": "Blumenkohl",
+  "item.veggiesdelight.dandelion_leaf": "Löwenzahnblatt",
+  "item.veggiesdelight.garlic": "Knoblauch",
+  "item.veggiesdelight.sweet_potato": "Süßkartoffel",
+  "item.veggiesdelight.turnip": "Rübe",
+  "item.veggiesdelight.zucchini": "Zucchini",
+
+  "item.veggiesdelight.bellpepper_seeds": "Paprikasamen",
+  "item.veggiesdelight.broccoli_seeds": "Brokkolisamen",
+  "item.veggiesdelight.cauliflower_seeds": "Blumenkohlsamen",
+  "item.veggiesdelight.turnip_seeds": "Rübensamen",
+  "item.veggiesdelight.zucchini_seeds": "Zucchinisamen",
+
+  "block.veggiesdelight.bellpepper_crate": "Paprikakiste",
+  "block.veggiesdelight.broccoli_crate": "Brokkolikiste",
+  "block.veggiesdelight.cauliflower_crate": "Blumenkohlkiste",
+  "block.veggiesdelight.garlic_crate": "Knoblauchkiste",
+  "block.veggiesdelight.sweet_potato_crate": "Süßkartoffelkiste",
+  "block.veggiesdelight.turnip_crate": "Rübenkiste",
+  "block.veggiesdelight.zucchini_crate": "Zucchinikiste",
+
+  "block.veggiesdelight.mature_dandelion": "Reifer Löwenzahn",
+  "block.veggiesdelight.wild_bellpeppers": "Wilde Paprikas",
+  "block.veggiesdelight.wild_broccoli": "Wilder Brokkoli",
+  "block.veggiesdelight.wild_cauliflowers": "Wilder Blumenkohl",
+  "block.veggiesdelight.wild_garlic": "Wilder Knoblauch",
+  "block.veggiesdelight.wild_sweet_potatoes": "Wilde Süßkartoffeln",
+  "block.veggiesdelight.wild_turnips": "Wilde Rüben",
+  "block.veggiesdelight.wild_zucchinis": "Wilde Zucchinis",
+
+
+  "item.veggiesdelight.cacciatore": "Cacciatore",
+  "item.veggiesdelight.chicken_fajitas_wrap": "Hähnchen-Fajitas-Wrap",
+  "item.veggiesdelight.mhadjeb": "Mhadjeb",
+  "item.veggiesdelight.shakshouka": "Shakshouka",
+  "item.veggiesdelight.smoked_bellpepper": "Geräucherte Paprika",
+  "block.veggiesdelight.stuffed_bellpeppers_block": "Gefüllte Paprikas",
+  "item.veggiesdelight.stuffed_bellpepper": "Gefüllte Paprikas",
+  "item.veggiesdelight.uncooked_mhadjeb": "Ungekochter Mhadjeb",
+  "block.veggiesdelight.vegan_pizza": "Vegane Pizza",
+  "item.veggiesdelight.vegan_pizza_slice": "Veganes Pizzastück",
+
+  "item.veggiesdelight.broccoli_salad": "Broccolisalat",
+  "item.veggiesdelight.broccoli_soup": "Broccolisuppe",
+  "item.veggiesdelight.pasta_with_broccoli": "Nudeln mit Brokkoli",
+  "item.veggiesdelight.steak_and_broccoli": "Steak und Brokkoli",
+
+  "item.veggiesdelight.cauliflower_bread": "Blumenkohlbrot",
+  "item.veggiesdelight.cauliflower_floret": "Blumenkohlröschen",
+  "item.veggiesdelight.cauliflower_kuku": "Blumenkohl-Kuku",
+  "item.veggiesdelight.cauliflower_soup": "Blumenkohlsuppe",
+  "item.veggiesdelight.roasted_cauliflower_floret": "Geröstete Blumenkohlröschen",
+
+  "item.veggiesdelight.dandelion_and_eggs": "Löwenzahnblätter und Eier",
+  "item.veggiesdelight.dandelion_juice": "Löwenzahnsaft",
+
+  "item.veggiesdelight.cesar_salad": "Cäsarsalat",
+  "item.veggiesdelight.fermented_garlic_honey": "Fermentierter Knoblauchhonig",
+  "item.veggiesdelight.garlic_baked_cod": "Knoblauch-gebackener Kabeljau",
+  "item.veggiesdelight.garlic_bread": "Knoblauchbrot",
+  "item.veggiesdelight.garlic_chicken_stew": "Knoblauch-Hühnchen-Eintopf",
+  "item.veggiesdelight.garlic_clove": "Knoblauchzehe",
+  "item.veggiesdelight.garlic_rice_with_cauliflower": "Knoblauchreis mit Blumenkohl",
+  "item.veggiesdelight.garlic_stuffed_mushrooms": "Mit Knoblauch gefüllte Champignons",
+  "item.veggiesdelight.roasted_garlic_clove": "Geröstete Knoblauchzehe",
+
+  "item.veggiesdelight.baked_sweet_potato": "Gebackene Süßkartoffel",
+  "item.veggiesdelight.mashed_potatoes": "Kartoffelpüree",
+  "item.veggiesdelight.potato_noodle": "Kartoffelnudel",
+  "item.veggiesdelight.potato_noodles": "Kartoffelnudeln",
+  "item.veggiesdelight.sweet_potato_cupcake": "Süßkartoffel-Cupcake",
+  "item.veggiesdelight.sweet_potato_dough": "Süßkartoffelteig",
+  "item.veggiesdelight.sweet_potato_pancakes": "Süßkartoffel-Pfannkuchen",
+  "block.veggiesdelight.sweet_potato_pie": "Süßkartoffelkuchen",
+  "item.veggiesdelight.sweet_potato_pie_slice": "Süßkartoffelkuchenstück",
+
+  "item.veggiesdelight.turnip_beef_stew": "Rübeneintopf mit Rindfleisch",
+  "item.veggiesdelight.turnip_cake": "Rübentorte",
+  "item.veggiesdelight.turnip_mutton_skewer": "Rübenspieß mit Hammelfleisch",
+  "item.veggiesdelight.turnip_salad": "Rübensalat",
+  "item.veggiesdelight.turnip_water": "Rübenwasser",
+
+  "item.veggiesdelight.coleslaw": "Krautsalat",
+  "item.veggiesdelight.roasted_zucchini": "Geröstete Zucchini",
+  "item.veggiesdelight.stuffed_zucchini_boat": "Gefülltes Zucchini-Boot",
+  "item.veggiesdelight.stuffed_zucchinis": "Gefüllte Zucchinis",
+  "item.veggiesdelight.zucchini_sandwich": "Zucchini-Sandwich",
+  "item.veggiesdelight.zucchini_slice": "Zucchinischeibe",
+  "block.veggiesdelight.zucchini_quiche": "Zucchini-Quiche",
+  "item.veggiesdelight.zucchini_quiche_slice": "Zucchini-Quiche-Stück",
+
+  "item.veggiesdelight.beetroot_brownie": "Rote-Bete-Brownie",
+  "block.veggiesdelight.beetroot_brownie_tray": "Rote-Bete-Brownie-Blech",
+  "block.veggiesdelight.carrot_cake": "Karottenkuchen",
+  "item.veggiesdelight.carrot_cake_slice": "Karottenkuchenstück",
+  "item.veggiesdelight.carrot_juice": "Karottensaft",
+  "item.veggiesdelight.cooked_vegetarian_patty": "Gekochtes vegetarisches Patty",
+  "item.veggiesdelight.fish_and_chips": "Fish And Chips",
+  "block.veggiesdelight.lasagna_pan": "Lasagneform",
+  "item.veggiesdelight.lasagna_slice": "Lasagne-Stück",
+  "item.veggiesdelight.raw_vegetarian_patty": "Rohes vegetarisches Patty",
+  "item.veggiesdelight.roasted_vegetables": "Geröstetes Gemüse",
+  "item.veggiesdelight.rice_and_vegetables": "Reis und Gemüse",
+  "item.veggiesdelight.vegetables_wrap": "Veggie-Wrap",
+  "item.veggiesdelight.vegetarian_burger": "Vegetarischer Burger",
+
+
+  "veggiesdelight.advancement.root": "Veggies Delight",
+  "veggiesdelight.advancement.root.desc": "Geh und hol dir dein Gemüse!",
+
+  "veggiesdelight.advancement.r_first_veggie": "Auf die Blätter, fertig, los!",
+  "veggiesdelight.advancement.r_first_veggie.desc": "Sammel dein erstes Gemüse",
+
+  "veggiesdelight.advancement.r_fruit_veggie": "Ist das nicht eine Frucht?",
+  "veggiesdelight.advancement.r_fruit_veggie.desc": "Ein Verräter ist unter uns...",
+
+  "veggiesdelight.advancement.r_all_veggies": "Komm' schnapp' sie dir. ",
+  "veggiesdelight.advancement.r_all_veggies.desc": "Sammel alle Gemüsesorten",
+
+  "veggiesdelight.advancement.vd_bellpepper_master": "Dr. Pepper",
+  "veggiesdelight.advancement.vd_bellpepper_master.desc": "Bereite jedes Gericht zu, das Paprika enthält",
+
+  "veggiesdelight.advancement.vd_broccoli_master": "Brokkoli-Chef",
+  "veggiesdelight.advancement.vd_broccoli_master.desc": "Bereite jedes Gericht zu, das Brokkoli enthält",
+
+  "veggiesdelight.advancement.vd_cauliflower_master": "Blumenkohl Meister",
+  "veggiesdelight.advancement.vd_cauliflower_master.desc": "Bereite jedes Gericht zu, das Blumenkohl enthält",
+
+  "veggiesdelight.advancement.vd_garlic_master": "Knoblauch Lehrling",
+  "veggiesdelight.advancement.vd_garlic_master.desc": "Bereite jedes Gericht zu, das Knoblauch enthält",
+
+  "veggiesdelight.advancement.vd_sweet_potato_master": "Süßer Sieg",
+  "veggiesdelight.advancement.vd_sweet_potato_master.desc": "Bereite jedes Gericht zu, das Süßkartoffeln enthält",
+
+  "veggiesdelight.advancement.vd_turnip_master": "Alles Rübe!",
+  "veggiesdelight.advancement.vd_turnip_master.desc": "Bereite jedes Gericht zu, das Rüben enthält",
+
+  "veggiesdelight.advancement.vd_zucchini_master": "Zucchini‑Zenit",
+  "veggiesdelight.advancement.vd_zucchini_master.desc": "Bereite jedes Gericht zu, das Zucchini enthält"
+}

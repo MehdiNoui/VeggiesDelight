@@ -1,0 +1,96 @@
+package net.mehdinoui.veggiesdelight.data.recipe;
+
+import net.mehdinoui.veggiesdelight.VeggiesDelight;
+import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
+import net.mehdinoui.veggiesdelight.common.registry.ModItems;
+import net.minecraft.data.recipes.RecipeOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import vectorwing.farmersdelight.common.tag.CommonTags;
+import vectorwing.farmersdelight.data.builder.CuttingBoardRecipeBuilder;
+
+public class ModCuttingRecipes {
+    public static void register(RecipeOutput output) {
+        // Flowers
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.MATURE_DANDELION.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.DANDELION_LEAF.get(),3)
+                .addResult(Items.YELLOW_DYE,2)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/mature_dandelion"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_BELLPEPPERS.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.BELLPEPPER_SEEDS.get(),1)
+                .addResultWithChance(Items.GREEN_DYE,0.5f,1)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_bellpeppers"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_BROCCOLI.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.BROCCOLI_SEEDS.get(),1)
+                .addResultWithChance(Items.GREEN_DYE,0.5f,1)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_broccoli"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_CAULIFLOWERS.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.CAULIFLOWER_SEEDS.get(),1)
+                .addResultWithChance(Items.LIME_DYE,0.5f,1)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_cauliflower"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_GARLIC.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.GARLIC_CLOVE.get(),1)
+                .addResult(Items.WHITE_DYE)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_garlic"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_SWEET_POTATOES.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.SWEET_POTATO.get(),1)
+                .addResultWithChance(Items.MAGENTA_DYE,0.5f,1)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_sweet_potatoes"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_TURNIPS.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.TURNIP_SEEDS.get(),1)
+                .addResultWithChance(Items.MAGENTA_DYE,0.5f,1)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_turnip"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModBlocks.WILD_ZUCCHINIS.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.ZUCCHINI_SEEDS.get(),1)
+                .addResult(Items.YELLOW_DYE,1)
+                .addResultWithChance(ModItems.ZUCCHINI.get(),0.2f,1)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/wild_zucchini"));
+
+        // Slices
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.BEETROOT_BROWNIE_TRAY.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.BEETROOT_BROWNIE.get(),4)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/beetroot_brownie"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.CARROT_CAKE.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.CARROT_CAKE_SLICE.get(),7)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/carrot_cake_slice"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.SWEET_POTATO_PIE.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.SWEET_POTATO_PIE_SLICE.get(),4)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/sweet_potato_pie_slice"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.VEGAN_PIZZA.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.VEGAN_PIZZA_SLICE.get(),4)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/vegan_pizza_slice"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.ZUCCHINI_QUICHE.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.ZUCCHINI_QUICHE_SLICE.get(),4)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/zucchini_quiche_slice"));
+
+
+        // Vegetables
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.CAULIFLOWER.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.CAULIFLOWER_FLORET.get(),2)
+                .addResult(ModItems.CAULIFLOWER_SEEDS.get())
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/cauliflower_floret_from_cutting"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.GARLIC.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.GARLIC_CLOVE.get(),3)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/garlic_clove_from_cutting"));
+        CuttingBoardRecipeBuilder.cuttingRecipe(
+                        Ingredient.of(ModItems.ZUCCHINI.get()),
+                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.ZUCCHINI_SLICE.get(),2)
+                .build(output,ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID, "cutting/zucchini_slice"));
+    }
+}

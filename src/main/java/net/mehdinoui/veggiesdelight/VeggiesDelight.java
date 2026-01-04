@@ -1,9 +1,9 @@
 package net.mehdinoui.veggiesdelight;
 
-import net.mehdinoui.veggiesdelight.registry.ModBlocks;
-import net.mehdinoui.veggiesdelight.registry.ModItems;
-import net.mehdinoui.veggiesdelight.registry.ModCreativeModeTabs;
-import net.mehdinoui.veggiesdelight.world.VillageStructures;
+import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
+import net.mehdinoui.veggiesdelight.common.registry.ModItems;
+import net.mehdinoui.veggiesdelight.common.registry.ModCreativeModeTabs;
+import net.mehdinoui.veggiesdelight.common.world.VillageStructures;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;

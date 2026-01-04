@@ -1,10 +1,10 @@
 package net.mehdinoui.veggiesdelight;
 
 import com.mojang.logging.LogUtils;
-import net.mehdinoui.veggiesdelight.registry.ModBlocks;
-import net.mehdinoui.veggiesdelight.registry.ModItems;
-import net.mehdinoui.veggiesdelight.registry.ModCreativeModeTabs;
-import net.mehdinoui.veggiesdelight.world.VillageStructures;
+import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
+import net.mehdinoui.veggiesdelight.common.registry.ModItems;
+import net.mehdinoui.veggiesdelight.common.registry.ModCreativeModeTabs;
+import net.mehdinoui.veggiesdelight.common.world.VillageStructures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;

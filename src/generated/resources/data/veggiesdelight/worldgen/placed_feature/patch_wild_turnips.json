@@ -2,8 +2,8 @@
   "feature": "veggiesdelight:patch_wild_turnips",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 20
+      "type": "veggiesdelight:configurable_rarity_filter",
+      "config_key": "turnips"
     },
     {
       "type": "minecraft:in_square"
@@ -14,10 +14,6 @@
     },
     {
       "type": "minecraft:biome"
-    },
-    {
-      "type": "farmersdelight:biome_tag",
-      "tag": "minecraft:is_overworld"
     }
   ]
 }

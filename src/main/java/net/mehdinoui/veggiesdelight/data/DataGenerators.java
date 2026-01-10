@@ -45,5 +45,7 @@ public class DataGenerators {
                         ModSmeltingRecipes.register(consumer);
                     }
                 });
+        // WorldGen
+        generator.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
     }
 }

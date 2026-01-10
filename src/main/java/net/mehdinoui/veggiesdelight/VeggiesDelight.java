@@ -1,9 +1,7 @@
 package net.mehdinoui.veggiesdelight;
 
 import com.mojang.logging.LogUtils;
-import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
-import net.mehdinoui.veggiesdelight.common.registry.ModItems;
-import net.mehdinoui.veggiesdelight.common.registry.ModCreativeModeTabs;
+import net.mehdinoui.veggiesdelight.common.registry.*;
 import net.mehdinoui.veggiesdelight.common.world.VillageStructures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +22,7 @@ public class VeggiesDelight {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModPlacementModifiers.register(modEventBus);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Configuration.CONFIG);
 

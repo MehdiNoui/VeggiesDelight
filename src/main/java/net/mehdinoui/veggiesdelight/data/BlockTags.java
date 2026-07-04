@@ -2,13 +2,13 @@ package net.mehdinoui.veggiesdelight.data;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
-import net.mehdinoui.veggiesdelight.common.tag.VDForgeTags;
+import net.mehdinoui.veggiesdelight.common.tag.VDCommonTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
-import vectorwing.farmersdelight.common.tag.ForgeTags;
+import vectorwing.farmersdelight.common.tag.CommonTags;
 import vectorwing.farmersdelight.common.tag.ModTags;
 
 import javax.annotation.Nullable;
@@ -20,25 +20,25 @@ public class BlockTags extends BlockTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
-        this.registerForgeTags();
+        this.registerCommonTags();
         this.registerMinecraftTags();
         this.registerFarmersDelightTags();
     }
-    protected void registerForgeTags() {
-        tag(ForgeTags.MINEABLE_WITH_KNIFE).add(
+    protected void registerCommonTags() {
+        tag(CommonTags.Blocks.MINEABLE_WITH_KNIFE).add(
                 ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
                 ModBlocks.CARROT_CAKE.get(),
                 ModBlocks.SWEET_POTATO_PIE.get(),
                 ModBlocks.VEGAN_PIZZA.get(),
                 ModBlocks.ZUCCHINI_QUICHE.get()
         );
-        tag(VDForgeTags.STORAGE_BLOCKS_BELLPEPPER).add(ModBlocks.BELLPEPPER_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_BROCCOLI).add(ModBlocks.BROCCOLI_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_CAULIFLOWER).add(ModBlocks.CAULIFLOWER_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_GARLIC).add(ModBlocks.GARLIC_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_SWEET_POTATO).add(ModBlocks.SWEET_POTATO_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_TURNIP).add(ModBlocks.TURNIP_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_BELLPEPPER).add(ModBlocks.BELLPEPPER_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_BROCCOLI).add(ModBlocks.BROCCOLI_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_CAULIFLOWER).add(ModBlocks.CAULIFLOWER_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_GARLIC).add(ModBlocks.GARLIC_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_SWEET_POTATO).add(ModBlocks.SWEET_POTATO_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_TURNIP).add(ModBlocks.TURNIP_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
     }
     protected void registerMinecraftTags(){
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE).add(
@@ -80,13 +80,13 @@ public class BlockTags extends BlockTagsProvider {
         );
     }
     protected void registerFarmersDelightTags(){
-        tag(ModTags.MINEABLE_WITH_KNIFE).add(
+        tag(ModTags.Blocks.MINEABLE_WITH_KNIFE).add(
                 ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
                 ModBlocks.CARROT_CAKE.get(),
                 ModBlocks.SWEET_POTATO_PIE.get(),
                 ModBlocks.VEGAN_PIZZA.get()
         );
-        tag(ModTags.WILD_CROPS).add(
+        tag(ModTags.Blocks.WILD_CROPS).add(
                 ModBlocks.WILD_BELLPEPPERS.get(),
                 ModBlocks.WILD_BROCCOLI.get(),
                 ModBlocks.WILD_CAULIFLOWERS.get(),

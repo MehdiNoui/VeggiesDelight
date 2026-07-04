@@ -7,7 +7,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
-public class VDForgeTags {
+public class VDCommonTags {
     private static TagKey<Block> forgeBlockTag(String path) {
         return BlockTags.create(new ResourceLocation("forge", path));
     }

@@ -2,7 +2,7 @@ package net.mehdinoui.veggiesdelight.data;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.common.registry.ModItems;
-import net.mehdinoui.veggiesdelight.common.tag.VDForgeTags;
+import net.mehdinoui.veggiesdelight.common.tag.VDCommonTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import vectorwing.farmersdelight.common.tag.ForgeTags;
+import vectorwing.farmersdelight.common.tag.CommonTags;
 import vectorwing.farmersdelight.common.tag.ModTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -22,76 +22,76 @@ public class ItemTags extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
-        this.registerForgeTags();
+        this.registerCommonTags();
         this.registerMinecraftTags();
         this.registerFarmersDelightTags();
     }
-    protected void registerForgeTags() {
-        tag(ForgeTags.BREAD).addTag(VDForgeTags.BREAD_CAULIFLOWER);
-        tag(VDForgeTags.BREAD_CAULIFLOWER).add(ModItems.CAULIFLOWER_BREAD.get());
+    protected void registerCommonTags() {
+        tag(CommonTags.Items.BREAD).addTag(VDCommonTags.BREAD_CAULIFLOWER);
+        tag(VDCommonTags.BREAD_CAULIFLOWER).add(ModItems.CAULIFLOWER_BREAD.get());
 
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_BELLPEPPER);
-        tag(VDForgeTags.CROPS_BELLPEPPER).add(ModItems.BELLPEPPER.get());
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_BROCCOLI);
-        tag(VDForgeTags.CROPS_BROCCOLI).add(ModItems.BROCCOLI.get());
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_CAULIFLOWER);
-        tag(VDForgeTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
-        tag(VDForgeTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER_FLORET.get());
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_GARLIC);
-        tag(VDForgeTags.CROPS_GARLIC).add(ModItems.GARLIC.get());
-        tag(VDForgeTags.CROPS_GARLIC).add(ModItems.GARLIC_CLOVE.get());
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_SWEET_POTATO);
-        tag(VDForgeTags.CROPS_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_TURNIP);
-        tag(VDForgeTags.CROPS_TURNIP).add(ModItems.TURNIP.get());
-        tag(ForgeTags.CROPS).addTag(VDForgeTags.CROPS_ZUCCHINI);
-        tag(VDForgeTags.CROPS_ZUCCHINI).add(ModItems.ZUCCHINI.get());
-        tag(VDForgeTags.CROPS_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_BELLPEPPER);
+        tag(VDCommonTags.CROPS_BELLPEPPER).add(ModItems.BELLPEPPER.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_BROCCOLI);
+        tag(VDCommonTags.CROPS_BROCCOLI).add(ModItems.BROCCOLI.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_CAULIFLOWER);
+        tag(VDCommonTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
+        tag(VDCommonTags.CROPS_CAULIFLOWER).add(ModItems.CAULIFLOWER_FLORET.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_GARLIC);
+        tag(VDCommonTags.CROPS_GARLIC).add(ModItems.GARLIC.get());
+        tag(VDCommonTags.CROPS_GARLIC).add(ModItems.GARLIC_CLOVE.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_SWEET_POTATO);
+        tag(VDCommonTags.CROPS_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_TURNIP);
+        tag(VDCommonTags.CROPS_TURNIP).add(ModItems.TURNIP.get());
+        tag(CommonTags.Items.CROPS).addTag(VDCommonTags.CROPS_ZUCCHINI);
+        tag(VDCommonTags.CROPS_ZUCCHINI).add(ModItems.ZUCCHINI.get());
+        tag(VDCommonTags.CROPS_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
 
-        tag(ForgeTags.DOUGH).addTag(VDForgeTags.DOUGH_SWEET_POTATO);
-        tag(VDForgeTags.DOUGH_SWEET_POTATO).add(ModItems.SWEET_POTATO_DOUGH.get());
+        tag(CommonTags.Items.DOUGH).addTag(VDCommonTags.DOUGH_SWEET_POTATO);
+        tag(VDCommonTags.DOUGH_SWEET_POTATO).add(ModItems.SWEET_POTATO_DOUGH.get());
 
-        tag(ForgeTags.SALAD_INGREDIENTS).addTag(VDForgeTags.SALAD_INGREDIENTS_DANDELION);
-        tag(VDForgeTags.SALAD_INGREDIENTS_DANDELION).add(ModItems.DANDELION_LEAF.get());
+        tag(CommonTags.Items.SALAD_INGREDIENTS).addTag(VDCommonTags.SALAD_INGREDIENTS_DANDELION);
+        tag(VDCommonTags.SALAD_INGREDIENTS_DANDELION).add(ModItems.DANDELION_LEAF.get());
 
 
-        tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_BELLPEPPER);
-        tag(VDForgeTags.SEEDS_BELLPEPPER).add(ModItems.BELLPEPPER_SEEDS.get());
-        tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_BROCCOLI);
-        tag(VDForgeTags.SEEDS_BROCCOLI).add(ModItems.BROCCOLI_SEEDS.get());
-        tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_CAULIFLOWER);
-        tag(VDForgeTags.SEEDS_CAULIFLOWER).add(ModItems.CAULIFLOWER_SEEDS.get());
-        tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_TURNIP);
-        tag(VDForgeTags.SEEDS_TURNIP).add(ModItems.TURNIP_SEEDS.get());
-        tag(ForgeTags.SEEDS).addTag(VDForgeTags.SEEDS_ZUCCHINI);
-        tag(VDForgeTags.SEEDS_ZUCCHINI).add(ModItems.ZUCCHINI_SEEDS.get());
+        tag(CommonTags.Items.SEEDS).addTag(VDCommonTags.SEEDS_BELLPEPPER);
+        tag(VDCommonTags.SEEDS_BELLPEPPER).add(ModItems.BELLPEPPER_SEEDS.get());
+        tag(CommonTags.Items.SEEDS).addTag(VDCommonTags.SEEDS_BROCCOLI);
+        tag(VDCommonTags.SEEDS_BROCCOLI).add(ModItems.BROCCOLI_SEEDS.get());
+        tag(CommonTags.Items.SEEDS).addTag(VDCommonTags.SEEDS_CAULIFLOWER);
+        tag(VDCommonTags.SEEDS_CAULIFLOWER).add(ModItems.CAULIFLOWER_SEEDS.get());
+        tag(CommonTags.Items.SEEDS).addTag(VDCommonTags.SEEDS_TURNIP);
+        tag(VDCommonTags.SEEDS_TURNIP).add(ModItems.TURNIP_SEEDS.get());
+        tag(CommonTags.Items.SEEDS).addTag(VDCommonTags.SEEDS_ZUCCHINI);
+        tag(VDCommonTags.SEEDS_ZUCCHINI).add(ModItems.ZUCCHINI_SEEDS.get());
 
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_BELLPEPPER).add(ModItems.BELLPEPPER_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_BROCCOLI).add(ModItems.BROCCOLI_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_CAULIFLOWER).add(ModItems.CAULIFLOWER_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_GARLIC).add(ModItems.GARLIC_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_SWEET_POTATO).add(ModItems.SWEET_POTATO_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_TURNIP).add(ModItems.TURNIP_CRATE.get());
-        tag(VDForgeTags.STORAGE_BLOCKS_ITEM_ZUCCHINI).add(ModItems.ZUCCHINI_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_BELLPEPPER).add(ModItems.BELLPEPPER_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_BROCCOLI).add(ModItems.BROCCOLI_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_CAULIFLOWER).add(ModItems.CAULIFLOWER_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_GARLIC).add(ModItems.GARLIC_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_SWEET_POTATO).add(ModItems.SWEET_POTATO_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_TURNIP).add(ModItems.TURNIP_CRATE.get());
+        tag(VDCommonTags.STORAGE_BLOCKS_ITEM_ZUCCHINI).add(ModItems.ZUCCHINI_CRATE.get());
 
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_BELLPEPPER);
-        tag(VDForgeTags.VEGETABLES_BELLPEPPER).add(ModItems.BELLPEPPER.get());
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_BROCCOLI);
-        tag(VDForgeTags.VEGETABLES_BROCCOLI).add(ModItems.BROCCOLI.get());
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_CAULIFLOWER);
-        tag(VDForgeTags.VEGETABLES_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
-        tag(VDForgeTags.VEGETABLES_CAULIFLOWER).add(ModItems.CAULIFLOWER_FLORET.get());
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_GARLIC);
-        tag(VDForgeTags.VEGETABLES_GARLIC).add(ModItems.GARLIC.get());
-        tag(VDForgeTags.VEGETABLES_GARLIC).add(ModItems.GARLIC_CLOVE.get());
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_SWEET_POTATO);
-        tag(VDForgeTags.VEGETABLES_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
-        tag(ForgeTags.VEGETABLES_POTATO).add(ModItems.SWEET_POTATO.get());
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_TURNIP);
-        tag(VDForgeTags.VEGETABLES_TURNIP).add(ModItems.TURNIP.get());
-        tag(ForgeTags.VEGETABLES).addTag(VDForgeTags.VEGETABLES_ZUCCHINI);
-        tag(VDForgeTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI.get());
-        tag(VDForgeTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_BELLPEPPER);
+        tag(VDCommonTags.VEGETABLES_BELLPEPPER).add(ModItems.BELLPEPPER.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_BROCCOLI);
+        tag(VDCommonTags.VEGETABLES_BROCCOLI).add(ModItems.BROCCOLI.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_CAULIFLOWER);
+        tag(VDCommonTags.VEGETABLES_CAULIFLOWER).add(ModItems.CAULIFLOWER.get());
+        tag(VDCommonTags.VEGETABLES_CAULIFLOWER).add(ModItems.CAULIFLOWER_FLORET.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_GARLIC);
+        tag(VDCommonTags.VEGETABLES_GARLIC).add(ModItems.GARLIC.get());
+        tag(VDCommonTags.VEGETABLES_GARLIC).add(ModItems.GARLIC_CLOVE.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_SWEET_POTATO);
+        tag(VDCommonTags.VEGETABLES_SWEET_POTATO).add(ModItems.SWEET_POTATO.get());
+        tag(CommonTags.Items.VEGETABLES_POTATO).add(ModItems.SWEET_POTATO.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_TURNIP);
+        tag(VDCommonTags.VEGETABLES_TURNIP).add(ModItems.TURNIP.get());
+        tag(CommonTags.Items.VEGETABLES).addTag(VDCommonTags.VEGETABLES_ZUCCHINI);
+        tag(VDCommonTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI.get());
+        tag(VDCommonTags.VEGETABLES_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
 
     }
     protected void registerMinecraftTags() {
@@ -116,16 +116,16 @@ public class ItemTags extends ItemTagsProvider {
         );
     }
     protected void registerFarmersDelightTags(){
-        tag(ModTags.DRINKS).add(
+        tag(ModTags.Items.DRINKS).add(
                 ModItems.CARROT_JUICE.get(),
                 ModItems.DANDELION_JUICE.get(),
                 ModItems.TURNIP_WATER.get()
         );
-        tag(ModTags.FEASTS).add(
+        tag(ModTags.Items.FEASTS).add(
                 ModItems.LASAGNA_PAN.get(),
                 ModItems.STUFFED_BELLPEPPERS_BLOCK.get()
         );
-        tag(ModTags.MEALS).add(
+        tag(ModTags.Items.MEALS).add(
                 // Bell pepper
                 ModItems.CACCIATORE.get(),
                 ModItems.SHAKSHOUKA.get(),
@@ -154,7 +154,7 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.LASAGNA_SLICE.get(),
                 ModItems.RICE_AND_VEGETABLES.get()
         );
-        tag(ModTags.WILD_CROPS_ITEM).add(
+        tag(ModTags.Items.WILD_CROPS).add(
                 ModItems.WILD_BELLPEPPERS.get(),
                 ModItems.WILD_BROCCOLI.get(),
                 ModItems.WILD_CAULIFLOWERS.get(),

@@ -2,6 +2,7 @@ package net.mehdinoui.veggiesdelight.data;
 
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
+import net.mehdinoui.veggiesdelight.common.registry.ModItems;
 import net.mehdinoui.veggiesdelight.common.tag.VDCommonTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -25,13 +26,6 @@ public class BlockTags extends BlockTagsProvider {
         this.registerFarmersDelightTags();
     }
     protected void registerCommonTags() {
-        tag(CommonTags.Blocks.MINEABLE_WITH_KNIFE).add(
-                ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
-                ModBlocks.CARROT_CAKE.get(),
-                ModBlocks.SWEET_POTATO_PIE.get(),
-                ModBlocks.VEGAN_PIZZA.get(),
-                ModBlocks.ZUCCHINI_QUICHE.get()
-        );
         tag(VDCommonTags.STORAGE_BLOCKS_BELLPEPPER).add(ModBlocks.BELLPEPPER_CRATE.get());
         tag(VDCommonTags.STORAGE_BLOCKS_BROCCOLI).add(ModBlocks.BROCCOLI_CRATE.get());
         tag(VDCommonTags.STORAGE_BLOCKS_CAULIFLOWER).add(ModBlocks.CAULIFLOWER_CRATE.get());
@@ -48,7 +42,15 @@ public class BlockTags extends BlockTagsProvider {
                 ModBlocks.GARLIC_CRATE.get(),
                 ModBlocks.SWEET_POTATO_CRATE.get(),
                 ModBlocks.TURNIP_CRATE.get(),
-                ModBlocks.ZUCCHINI_CRATE.get()
+                ModBlocks.ZUCCHINI_CRATE.get(),
+
+                ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
+                ModBlocks.SWEET_POTATO_PIE.get(),
+                ModBlocks.VEGAN_PIZZA.get(),
+                ModBlocks.ZUCCHINI_QUICHE.get(),
+
+                ModBlocks.LASAGNA_PAN.get(),
+                ModBlocks.STUFFED_BELLPEPPERS_BLOCK.get()
         );
         tag(net.minecraft.tags.BlockTags.CROPS).add(
                 ModBlocks.BELLPEPPER_CROP.get(),
@@ -80,11 +82,19 @@ public class BlockTags extends BlockTagsProvider {
         );
     }
     protected void registerFarmersDelightTags(){
+        tag(ModTags.Blocks.FEASTS).add(
+                ModBlocks.LASAGNA_PAN.get(),
+                ModBlocks.STUFFED_BELLPEPPERS_BLOCK.get()
+        );
         tag(ModTags.Blocks.MINEABLE_WITH_KNIFE).add(
                 ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
                 ModBlocks.CARROT_CAKE.get(),
                 ModBlocks.SWEET_POTATO_PIE.get(),
                 ModBlocks.VEGAN_PIZZA.get()
+        );
+        tag(ModTags.Blocks.PIES).add(
+                ModBlocks.SWEET_POTATO_PIE.get(),
+                ModBlocks.ZUCCHINI_QUICHE.get()
         );
         tag(ModTags.Blocks.WILD_CROPS).add(
                 ModBlocks.WILD_BELLPEPPERS.get(),

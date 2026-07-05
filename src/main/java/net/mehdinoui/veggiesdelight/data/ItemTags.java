@@ -154,6 +154,34 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.LASAGNA_SLICE.get(),
                 ModItems.RICE_AND_VEGETABLES.get()
         );
+        tag(ModTags.Items.PIES).add(
+                ModItems.SWEET_POTATO_PIE.get(),
+                ModItems.ZUCCHINI_QUICHE.get()
+        );
+        tag(ModTags.Items.SNACKS).add(
+                ModItems.CAULIFLOWER_BREAD.get(),
+                ModItems.GARLIC_BREAD.get(),
+                ModItems.GARLIC_STUFFED_MUSHROOMS.get(),
+                ModItems.TURNIP_MUTTON_SKEWER.get(),
+                ModItems.CHICKEN_FAJITAS_WRAP.get(),
+                ModItems.VEGETABLES_WRAP.get(),
+                ModItems.VEGETARIAN_BURGER.get(),
+                ModItems.ZUCCHINI_SANDWICH.get(),
+                ModItems.MHADJEB.get(),
+                ModItems.VEGAN_PIZZA.get(),
+                ModItems.VEGAN_PIZZA_SLICE.get(),
+                ModItems.ZUCCHINI_QUICHE_SLICE.get(),
+                ModItems.STUFFED_ZUCCHINI_BOAT.get()
+        );
+        tag(ModTags.Items.SWEETS).add(
+                ModItems.BEETROOT_BROWNIE_TRAY.get(),
+                ModItems.BEETROOT_BROWNIE.get(),
+                ModItems.CARROT_CAKE.get(),
+                ModItems.CARROT_CAKE_SLICE.get(),
+                ModItems.SWEET_POTATO_PIE_SLICE.get(),
+                ModItems.SWEET_POTATO_CUPCAKE.get(),
+                ModItems.SWEET_POTATO_PANCAKES.get()
+        );
         tag(ModTags.Items.WILD_CROPS).add(
                 ModItems.WILD_BELLPEPPERS.get(),
                 ModItems.WILD_BROCCOLI.get(),

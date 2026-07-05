@@ -3,11 +3,9 @@ package net.mehdinoui.veggiesdelight.data.recipes;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.common.registry.ModItems;
+import net.mehdinoui.veggiesdelight.common.registry.ModRecipeSerializers;
 import net.mehdinoui.veggiesdelight.common.tag.VDCommonTags;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -23,7 +21,9 @@ import static net.minecraft.advancements.critereon.InventoryChangeTrigger.Trigge
 public class ModBasicRecipes {
     public static void register(Consumer<FinishedRecipe> consumer) {
         shapefulRecipes(consumer);
-        shapelessRecipes(consumer);;
+        shapelessRecipes(consumer);
+        SpecialRecipeBuilder.special(ModRecipeSerializers.SWEET_POTATO_DOUGH.get())
+                .save(consumer, VeggiesDelight.MOD_ID + ":sweet_potato_dough_from_water");
     }
     public static void shapefulRecipes(Consumer<FinishedRecipe> consumer){
         // Crates
@@ -311,13 +311,6 @@ public class ModBasicRecipes {
                 .requires(CommonTags.Items.EGGS)
                 .unlockedBy("has_sweet_potato", hasItems(ModItems.SWEET_POTATO.get()))
                 .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"sweet_potato_dough_from_eggs"));
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SWEET_POTATO_DOUGH.get(),3)
-                .requires(VDCommonTags.CROPS_SWEET_POTATO)
-                .requires(VDCommonTags.CROPS_SWEET_POTATO)
-                .requires(CommonTags.Items.GRAIN_WHEAT)
-                .requires(CommonTags.Items.BUCKETS_WATER)
-                .unlockedBy("has_sweet_potato", hasItems(ModItems.SWEET_POTATO.get()))
-                .save(consumer, new ResourceLocation(VeggiesDelight.MOD_ID,"sweet_potato_dough_from_water"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.UNCOOKED_MHADJEB.get(),2)
                 .requires(CommonTags.Items.DOUGH)
                 .requires(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())

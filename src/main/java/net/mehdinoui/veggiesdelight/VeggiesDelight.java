@@ -23,6 +23,7 @@ public class VeggiesDelight {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModPlacementModifiers.register(modEventBus);
+        ModRecipeSerializers.register(modEventBus);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Configuration.CONFIG);
 

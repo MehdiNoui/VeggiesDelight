@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cross",
+  "parent": "farmersdelight:block/template_crop_cross",
   "textures": {
     "cross": "veggiesdelight:block/zucchini_stage2"
   },

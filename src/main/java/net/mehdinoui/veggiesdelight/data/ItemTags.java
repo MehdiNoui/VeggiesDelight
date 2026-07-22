@@ -59,9 +59,9 @@ public class ItemTags extends ItemTagsProvider {
         tag(VDCommonTags.FOODS_ZUCCHINI).add(ModItems.ZUCCHINI.get());
         tag(VDCommonTags.FOODS_ZUCCHINI).add(ModItems.ZUCCHINI_SLICE.get());
 
-        tag(CommonTags.FOODS_DOUGH).add(ModItems.SWEET_POTATO_DOUGH.get());
+        tag(CommonTags.Items.FOODS_DOUGH).add(ModItems.SWEET_POTATO_DOUGH.get());
 
-        tag(CommonTags.FOODS_LEAFY_GREEN).add(ModItems.DANDELION_LEAF.get());
+        tag(CommonTags.Items.FOODS_LEAFY_GREEN).add(ModItems.DANDELION_LEAF.get());
     }
     protected void registerMinecraftTags() {
         // Animals food
@@ -152,12 +152,12 @@ public class ItemTags extends ItemTagsProvider {
         );
     }
     protected void registerFarmersDelightTags(){
-        tag(ModTags.DRINKS).add(
+        tag(ModTags.Items.DRINKS).add(
                 ModItems.CARROT_JUICE.get(),
                 ModItems.DANDELION_JUICE.get(),
                 ModItems.TURNIP_WATER.get()
         );
-        tag(ModTags.MEALS).add(
+        tag(ModTags.Items.MEALS).add(
                 // Bell pepper
                 ModItems.CACCIATORE.get(),
                 ModItems.SHAKSHOUKA.get(),
@@ -185,12 +185,12 @@ public class ItemTags extends ItemTagsProvider {
                 // Misc
                 ModItems.RICE_AND_VEGETABLES.get()
         );
-        tag(ModTags.FEASTS).add(
+        tag(ModTags.Items.FEASTS).add(
                 ModItems.LASAGNA_PAN.get(),
                 ModItems.STUFFED_BELLPEPPERS_BLOCK.get()
         );
         // Wild Crops
-        tag(ModTags.WILD_CROPS_ITEM).add(
+        tag(ModTags.Items.WILD_CROPS).add(
                 ModItems.WILD_BELLPEPPERS.get(),
                 ModItems.WILD_BROCCOLI.get(),
                 ModItems.WILD_CAULIFLOWERS.get(),

@@ -28,7 +28,7 @@ public class BlockTags extends BlockTagsProvider {
     }
 
     protected void registerCommonTags() {
-        tag(CommonTags.MINEABLE_WITH_KNIFE).add(
+        tag(CommonTags.Blocks.MINEABLE_WITH_KNIFE).add(
                 ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
                 ModBlocks.CARROT_CAKE.get(),
                 ModBlocks.SWEET_POTATO_PIE.get(),
@@ -44,14 +44,14 @@ public class BlockTags extends BlockTagsProvider {
         tag(VDCommonTags.STORAGE_BLOCKS_ZUCCHINI).add(ModBlocks.ZUCCHINI_CRATE.get());
     }
     protected void registerFarmersDelightTags(){
-        tag(ModTags.MINEABLE_WITH_KNIFE).add(
+        tag(ModTags.Blocks.MINEABLE_WITH_KNIFE).add(
                 ModBlocks.BEETROOT_BROWNIE_TRAY.get(),
                 ModBlocks.CARROT_CAKE.get(),
                 ModBlocks.SWEET_POTATO_PIE.get(),
                 ModBlocks.VEGAN_PIZZA.get(),
                 ModBlocks.ZUCCHINI_QUICHE.get()
         );
-        tag(ModTags.WILD_CROPS).add(
+        tag(ModTags.Blocks.WILD_CROPS).add(
                 ModBlocks.WILD_BELLPEPPERS.get(),
                 ModBlocks.WILD_BROCCOLI.get(),
                 ModBlocks.WILD_CAULIFLOWERS.get(),

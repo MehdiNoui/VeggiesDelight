@@ -1,9 +1,6 @@
 package net.mehdinoui.veggiesdelight;
 
-import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
-import net.mehdinoui.veggiesdelight.common.registry.ModItems;
-import net.mehdinoui.veggiesdelight.common.registry.ModCreativeModeTabs;
-import net.mehdinoui.veggiesdelight.common.registry.ModPlacementModifiers;
+import net.mehdinoui.veggiesdelight.common.registry.*;
 import net.mehdinoui.veggiesdelight.common.world.VillageStructures;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -23,6 +20,7 @@ public class VeggiesDelight
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModPlacementModifiers.register(modEventBus);
+        ModRecipeSerializers.register(modEventBus);
         modContainer.registerConfig(ModConfig.Type.COMMON, Configuration.CONFIG);
 
         EVENT_BUS.addListener(VillageStructures::addNewVillageBuilding);

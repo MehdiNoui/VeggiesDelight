@@ -3,11 +3,9 @@ package net.mehdinoui.veggiesdelight.data.recipe;
 import net.mehdinoui.veggiesdelight.VeggiesDelight;
 import net.mehdinoui.veggiesdelight.common.registry.ModBlocks;
 import net.mehdinoui.veggiesdelight.common.registry.ModItems;
+import net.mehdinoui.veggiesdelight.common.crafting.SweetPotatoDoughRecipe;
 import net.mehdinoui.veggiesdelight.common.tag.VDCommonTags;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -23,6 +21,8 @@ public class ModBasicRecipes {
     public static void register(RecipeOutput output) {
         shapefulRecipes(output);
         shapelessRecipes(output);
+        SpecialRecipeBuilder.special(SweetPotatoDoughRecipe::new)
+                .save(output, VeggiesDelight.MOD_ID + ":sweet_potato_dough_from_water");
     }
     public static void shapefulRecipes(RecipeOutput output){
         // Crates
@@ -309,13 +309,6 @@ public class ModBasicRecipes {
                 .requires(Tags.Items.EGGS)
                 .unlockedBy("has_sweet_potato", hasItems(ModItems.SWEET_POTATO.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"sweet_potato_dough_from_eggs"));
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SWEET_POTATO_DOUGH.get(),3)
-                .requires(VDCommonTags.CROPS_SWEET_POTATO)
-                .requires(VDCommonTags.CROPS_SWEET_POTATO)
-                .requires(Items.WHEAT)
-                .requires(Tags.Items.BUCKETS_WATER)
-                .unlockedBy("has_sweet_potato", hasItems(ModItems.SWEET_POTATO.get()))
-                .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"sweet_potato_dough_from_water"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.UNCOOKED_MHADJEB.get(),2)
                 .requires(CommonTags.Items.FOODS_DOUGH)
                 .requires(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())

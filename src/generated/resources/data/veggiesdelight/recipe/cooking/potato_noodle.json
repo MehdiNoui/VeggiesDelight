@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/potato"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "veggiesdelight:potato_noodle"
+  }
+}

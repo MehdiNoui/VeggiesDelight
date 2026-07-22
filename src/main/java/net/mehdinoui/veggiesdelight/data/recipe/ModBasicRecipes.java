@@ -89,13 +89,13 @@ public class ModBasicRecipes {
                 .pattern("zzz")
                 .pattern("aOm")
                 .define('z', ModItems.ROASTED_ZUCCHINI.get())
-                .define('a', CommonTags.FOODS_MILK)
+                .define('a', Tags.Items.DRINKS_MILK)
                 .define('m', Ingredient.fromValues(Stream.of(
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_MUTTON),
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_CHICKEN),
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_BEEF),
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_PORK),
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_BACON)
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_MUTTON),
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_CHICKEN),
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_BEEF),
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_PORK),
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_BACON)
                 )))
                 .define('O', vectorwing.farmersdelight.common.registry.ModItems.PIE_CRUST.get())
                 .unlockedBy("has_pie_crust", hasItems(vectorwing.farmersdelight.common.registry.ModItems.PIE_CRUST.get()))
@@ -119,8 +119,8 @@ public class ModBasicRecipes {
                 .pattern("xOx")
                 .define('a', VDCommonTags.CROPS_BELLPEPPER)
                 .define('b', Tags.Items.FOODS_VEGETABLE)
-                .define('c', CommonTags.CROPS_ONION)
-                .define('x', CommonTags.FOODS_DOUGH)
+                .define('c', CommonTags.Items.CROPS_ONION)
+                .define('x', CommonTags.Items.FOODS_DOUGH)
                 .define('O', vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
                 .unlockedBy("has_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"vegan_pizza"));
@@ -141,8 +141,8 @@ public class ModBasicRecipes {
         // Bowled Food Recipes
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.BROCCOLI_SALAD.get(),1)
                 .requires(VDCommonTags.CROPS_BROCCOLI)
-                .requires(CommonTags.CROPS_TOMATO)
-                .requires(CommonTags.CROPS_ONION)
+                .requires(CommonTags.Items.CROPS_TOMATO)
+                .requires(CommonTags.Items.CROPS_ONION)
                 .requires(Items.BOWL)
                 .unlockedBy("has_bowl", hasItems(Items.BOWL))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"broccoli_salad"));
@@ -150,33 +150,33 @@ public class ModBasicRecipes {
                 .requires(VDCommonTags.CROPS_ZUCCHINI)
                 .requires(Tags.Items.CROPS_POTATO)
                 .requires(Tags.Items.CROPS_CARROT)
-                .requires(CommonTags.CROPS_CABBAGE)
+                .requires(CommonTags.Items.CROPS_CABBAGE)
                 .requires(Items.BOWL)
                 .unlockedBy("has_bowl", hasItems(Items.BOWL))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"coleslaw"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CESAR_SALAD.get(),1)
-                .requires(CommonTags.CROPS_CABBAGE)
+                .requires(CommonTags.Items.CROPS_CABBAGE)
                 .requires(Tags.Items.FOODS_BREAD)
                 .requires(VDCommonTags.CROPS_GARLIC)
                 .requires(Items.BOWL)
-                .requires(CommonTags.CROPS_TOMATO)
+                .requires(CommonTags.Items.CROPS_TOMATO)
                 .unlockedBy("has_bowl", hasItems(Items.BOWL))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"cesar_salad"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.DANDELION_AND_EGGS.get(),1)
                 .requires(ModItems.DANDELION_LEAF.get())
                 .requires(ModItems.DANDELION_LEAF.get())
-                .requires(CommonTags.FOODS_COOKED_EGG)
+                .requires(CommonTags.Items.FOODS_COOKED_EGG)
                 .requires(Items.BOWL)
-                .requires(CommonTags.FOODS_COOKED_EGG)
-                .requires(CommonTags.FOODS_COOKED_EGG)
+                .requires(CommonTags.Items.FOODS_COOKED_EGG)
+                .requires(CommonTags.Items.FOODS_COOKED_EGG)
                 .unlockedBy("has_dandelion", hasItems(ModItems.DANDELION_LEAF.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"dandelion_and_eggs"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.GARLIC_BAKED_COD.get(),1)
-                .requires(CommonTags.FOODS_COOKED_COD)
+                .requires(CommonTags.Items.FOODS_COOKED_COD)
                 .requires(ModItems.ROASTED_GARLIC_CLOVE.get())
                 .requires(ModItems.ROASTED_GARLIC_CLOVE.get())
                 .requires(Items.BOWL)
-                .requires(CommonTags.CROPS_ONION)
+                .requires(CommonTags.Items.CROPS_ONION)
                 .unlockedBy("has_fish", hasItems(Items.COD))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"garlic_baked_cod"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.GARLIC_RICE_WITH_CAULIFLOWER.get(),1)
@@ -195,7 +195,7 @@ public class ModBasicRecipes {
                 .unlockedBy("has_rice", hasItems(vectorwing.farmersdelight.common.registry.ModItems.COOKED_RICE.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"steak_and_broccoli"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.TURNIP_SALAD.get(),1)
-                .requires(CommonTags.FOODS_LEAFY_GREEN)
+                .requires(CommonTags.Items.FOODS_LEAFY_GREEN)
                 .requires(VDCommonTags.CROPS_TURNIP)
                 .requires(Items.BOWL)
                 .unlockedBy("has_bowl", hasItems(Items.BOWL))
@@ -211,15 +211,15 @@ public class ModBasicRecipes {
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"cauliflower_bread"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGETARIAN_BURGER.get(),1)
                 .requires(Tags.Items.FOODS_BREAD)
-                .requires(CommonTags.CROPS_CABBAGE)
+                .requires(CommonTags.Items.CROPS_CABBAGE)
                 .requires(ModItems.COOKED_VEGETARIAN_PATTY.get())
-                .requires(CommonTags.CROPS_TOMATO)
+                .requires(CommonTags.Items.CROPS_TOMATO)
                 .unlockedBy("has_patty", hasItems(ModItems.COOKED_VEGETARIAN_PATTY.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"vegetarian_burger")); // Corrected ID from cauliflower_burger
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CHICKEN_FAJITAS_WRAP.get(),1)
-                .requires(CommonTags.FOODS_DOUGH)
-                .requires(CommonTags.CROPS_ONION)
-                .requires(CommonTags.FOODS_COOKED_CHICKEN)
+                .requires(CommonTags.Items.FOODS_DOUGH)
+                .requires(CommonTags.Items.CROPS_ONION)
+                .requires(CommonTags.Items.FOODS_COOKED_CHICKEN)
                 .requires(ModItems.SMOKED_BELLPEPPER.get())
                 .unlockedBy("has_bellpepper", hasItems(ModItems.BELLPEPPER.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"chicken_fajitas_wrap"));
@@ -240,7 +240,7 @@ public class ModBasicRecipes {
                 .unlockedBy("has_roasted_garlic_clove", hasItems(ModItems.ROASTED_GARLIC_CLOVE.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"garlic_bread"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.TURNIP_MUTTON_SKEWER.get(),1) // Added missing Turnip Mutton Skewer
-                .requires(CommonTags.FOODS_COOKED_MUTTON)
+                .requires(CommonTags.Items.FOODS_COOKED_MUTTON)
                 .requires(VDCommonTags.CROPS_TURNIP)
                 .requires(Items.STICK)
                 .unlockedBy("has_turnip", hasItems(ModItems.TURNIP.get()))
@@ -248,25 +248,25 @@ public class ModBasicRecipes {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.STUFFED_ZUCCHINI_BOAT.get(),1) // Added missing Stuffed Zucchini Boat
                 .requires(ModItems.ROASTED_ZUCCHINI.get())
                 .requires(Ingredient.fromValues(Stream.of(
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_MUTTON),
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_CHICKEN),
-                        new Ingredient.TagValue(CommonTags.FOODS_COOKED_BEEF)
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_MUTTON),
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_CHICKEN),
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_COOKED_BEEF)
                 )))
-                .requires(CommonTags.FOODS_MILK)
+                .requires(Tags.Items.DRINKS_MILK)
                 .unlockedBy("has_roasted_zucchini", hasItems(ModItems.ROASTED_ZUCCHINI.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"stuffed_zucchini_boat"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SWEET_POTATO_CUPCAKE.get(),3)
                 .requires(ModItems.SWEET_POTATO_DOUGH.get())
                 .requires(Tags.Items.EGGS)
-                .requires(CommonTags.FOODS_MILK)
+                .requires(Tags.Items.DRINKS_MILK)
                 .unlockedBy("has_sweet_potato_dough", hasItems(ModItems.SWEET_POTATO_DOUGH.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"sweet_potato_cupcakes"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.VEGETABLES_WRAP.get(),1) // Added missing Vegetables Wrap
-                .requires(CommonTags.FOODS_DOUGH)
-                .requires(CommonTags.CROPS_ONION)
+                .requires(CommonTags.Items.FOODS_DOUGH)
+                .requires(CommonTags.Items.CROPS_ONION)
                 .requires(Ingredient.fromValues(Stream.of(
                         new Ingredient.TagValue(VDCommonTags.CROPS_BROCCOLI),
-                        new Ingredient.TagValue(CommonTags.FOODS_LEAFY_GREEN)
+                        new Ingredient.TagValue(CommonTags.Items.FOODS_LEAFY_GREEN)
                 )))
                 .requires(Ingredient.fromValues(Stream.of(
                         new Ingredient.ItemValue(new ItemStack(ModItems.SMOKED_BELLPEPPER.get())),
@@ -279,8 +279,8 @@ public class ModBasicRecipes {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.ZUCCHINI_SANDWICH.get(),1)
                 .requires(Tags.Items.FOODS_BREAD)
                 .requires(VDCommonTags.CROPS_ZUCCHINI)
-                .requires(CommonTags.FOODS_LEAFY_GREEN)
-                .requires(CommonTags.CROPS_TOMATO)
+                .requires(CommonTags.Items.FOODS_LEAFY_GREEN)
+                .requires(CommonTags.Items.CROPS_TOMATO)
                 .unlockedBy("has_zucchini", hasItems(ModItems.ZUCCHINI.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"zucchini_sandwich"));
 
@@ -296,8 +296,8 @@ public class ModBasicRecipes {
                         new Ingredient.TagValue(Tags.Items.CROPS_POTATO),
                         new Ingredient.TagValue(VDCommonTags.CROPS_ZUCCHINI)
                 )))
-                .requires(CommonTags.CROPS_ONION)
-                .requires(CommonTags.CROPS_GRAIN)
+                .requires(CommonTags.Items.CROPS_ONION)
+                .requires(CommonTags.Items.CROPS_GRAIN)
                 .unlockedBy("has_potato", hasItems(Items.POTATO))
                 .unlockedBy("has_cauliflower", hasItems(ModItems.CAULIFLOWER.get()))
                 .unlockedBy("has_zucchini", hasItems(ModItems.ZUCCHINI.get()))
@@ -317,9 +317,9 @@ public class ModBasicRecipes {
                 .unlockedBy("has_sweet_potato", hasItems(ModItems.SWEET_POTATO.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"sweet_potato_dough_from_water"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.UNCOOKED_MHADJEB.get(),2)
-                .requires(CommonTags.FOODS_DOUGH)
+                .requires(CommonTags.Items.FOODS_DOUGH)
                 .requires(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get())
-                .requires(CommonTags.CROPS_ONION)
+                .requires(CommonTags.Items.CROPS_ONION)
                 .requires(VDCommonTags.CROPS_BELLPEPPER)
                 .unlockedBy("has_tomato_sauce", hasItems(vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE.get()))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"uncooked_mhadjeb"));
@@ -339,9 +339,9 @@ public class ModBasicRecipes {
                 .unlockedBy("has_beetroot", hasItems(Items.BEETROOT))
                 .save(output, ResourceLocation.fromNamespaceAndPath(VeggiesDelight.MOD_ID,"beetroot_brownie_tray"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CARROT_CAKE.get(),1)
-                .requires(CommonTags.FOODS_MILK)
-                .requires(CommonTags.FOODS_MILK)
-                .requires(CommonTags.FOODS_MILK)
+                .requires(Tags.Items.DRINKS_MILK)
+                .requires(Tags.Items.DRINKS_MILK)
+                .requires(Tags.Items.DRINKS_MILK)
                 .requires(Items.SUGAR)
                 .requires(Tags.Items.EGGS)
                 .requires(Items.WHEAT)

@@ -19,7 +19,7 @@ public class DandelionBlock extends FlowerBlock implements BonemealableBlock{
     }
     @Override
     public boolean isValidBonemealTarget(LevelReader levelReader, BlockPos blockPos, BlockState blockState) {
-        return false;
+        return true;
     }
     @Override
     public boolean isBonemealSuccess(Level level, RandomSource randomSource, BlockPos blockPos, BlockState blockState) {

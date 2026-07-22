@@ -157,6 +157,10 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.DANDELION_JUICE.get(),
                 ModItems.TURNIP_WATER.get()
         );
+        tag(ModTags.Items.FEASTS).add(
+                ModItems.LASAGNA_PAN.get(),
+                ModItems.STUFFED_BELLPEPPERS_BLOCK.get()
+        );
         tag(ModTags.Items.MEALS).add(
                 // Bell pepper
                 ModItems.CACCIATORE.get(),
@@ -183,13 +187,39 @@ public class ItemTags extends ItemTagsProvider {
                 // Zucchini
                 ModItems.STUFFED_ZUCCHINIS.get(),
                 // Misc
+                ModItems.LASAGNA_SLICE.get(),
                 ModItems.RICE_AND_VEGETABLES.get()
         );
-        tag(ModTags.Items.FEASTS).add(
-                ModItems.LASAGNA_PAN.get(),
-                ModItems.STUFFED_BELLPEPPERS_BLOCK.get()
+        tag(ModTags.Items.PIES).add(
+                ModItems.SWEET_POTATO_PIE.get(),
+                ModItems.SWEET_POTATO_PIE_SLICE.get(),
+                ModItems.ZUCCHINI_QUICHE.get(),
+                ModItems.ZUCCHINI_SLICE.get()
         );
-        // Wild Crops
+        tag(ModTags.Items.SNACKS).add(
+                ModItems.CAULIFLOWER_BREAD.get(),
+                ModItems.GARLIC_BREAD.get(),
+                ModItems.GARLIC_STUFFED_MUSHROOMS.get(),
+                ModItems.TURNIP_MUTTON_SKEWER.get(),
+                ModItems.CHICKEN_FAJITAS_WRAP.get(),
+                ModItems.VEGETABLES_WRAP.get(),
+                ModItems.VEGETARIAN_BURGER.get(),
+                ModItems.ZUCCHINI_SANDWICH.get(),
+                ModItems.MHADJEB.get(),
+                ModItems.VEGAN_PIZZA.get(),
+                ModItems.VEGAN_PIZZA_SLICE.get(),
+                ModItems.ZUCCHINI_QUICHE_SLICE.get(),
+                ModItems.STUFFED_ZUCCHINI_BOAT.get()
+        );
+        tag(ModTags.Items.SWEETS).add(
+                ModItems.BEETROOT_BROWNIE_TRAY.get(),
+                ModItems.BEETROOT_BROWNIE.get(),
+                ModItems.CARROT_CAKE.get(),
+                ModItems.CARROT_CAKE_SLICE.get(),
+                ModItems.SWEET_POTATO_PIE_SLICE.get(),
+                ModItems.SWEET_POTATO_CUPCAKE.get(),
+                ModItems.SWEET_POTATO_PANCAKES.get()
+        );
         tag(ModTags.Items.WILD_CROPS).add(
                 ModItems.WILD_BELLPEPPERS.get(),
                 ModItems.WILD_BROCCOLI.get(),
@@ -238,7 +268,7 @@ public class ItemTags extends ItemTagsProvider {
         tag(Tags.Items.FOODS_EDIBLE_WHEN_PLACED).add(ModItems.SWEET_POTATO_PIE.get());
         tag(Tags.Items.FOODS_EDIBLE_WHEN_PLACED).add(ModItems.VEGAN_PIZZA.get());
 
-        tag(Tags.Items.FOODS_PIE).add(ModItems.BEETROOT_BROWNIE_TRAY.get());
+        tag(Tags.Items.FOODS_PIE).add(ModItems.ZUCCHINI_QUICHE.get());
         tag(Tags.Items.FOODS_PIE).add(ModItems.SWEET_POTATO_PIE.get());
 
         tag(Tags.Items.SEEDS).add(
